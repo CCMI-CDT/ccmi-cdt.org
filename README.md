@@ -1,4 +1,6 @@
-## A collaboration between University College London and Imperial College London
+## CCMI-CDT
+
+### A collaboration between University College London and Imperial College London
 
 #### The programme will provide......
 
