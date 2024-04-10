@@ -1,2 +1,14 @@
+---
+title: Programme structure
+layout: pages-themes/cayman@v0.2.0
+filename: Programme.md
+---
+
+name: ccmi-cdt.io
+remote_theme: pages-themes/cayman@v0.2.0
+title: CCMI-CDT 
+description: EPSRC Centre for Doctoral Training in Collaborative Computational Modelling at the Interface
+background-image: https://github.com/UCL-ARC/ccmi-cdt.io/blob/main/logo%20test.png
+
 ## Programme Structure
 ## The X year programme will enable you to embark...
