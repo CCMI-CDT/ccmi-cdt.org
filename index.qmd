@@ -1,0 +1,10 @@
+---
+title: "EPSRC Centre for Doctoral Training in Collaborative Computational Modelling at the Interface (CCMI)"
+---
+
+This is the developing website for the CCMI CDT. 
+
+CCMI is a collaboration between [University College London](https://ucl.ac.uk) and [Imperial College London](https://imperial.ac.uk), led by
+the [UCL Advanced Research Computing Centre (ARC)](https://www.ucl.ac.uk/advanced-research-computing/advanced-research-computing-centre).
+
+Please visit again soon to find out more about CCMI and its activities.
