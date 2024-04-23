@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ccmi-cdt.org/about.html</loc>
-    <lastmod>2024-04-14T12:25:10.882Z</lastmod>
+    <loc>https://ccmi-cdt.org/index.html</loc>
+    <lastmod>2024-04-23T13:56:28.229Z</lastmod>
   </url>
   <url>
-    <loc>https://ccmi-cdt.org/index.html</loc>
-    <lastmod>2024-04-14T12:25:10.882Z</lastmod>
+    <loc>https://ccmi-cdt.org/training.html</loc>
+    <lastmod>2024-04-23T13:56:28.297Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ccmi-cdt.org/team.html</loc>
+    <lastmod>2024-04-23T13:56:28.297Z</lastmod>
   </url>
 </urlset>

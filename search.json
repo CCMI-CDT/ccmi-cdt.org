@@ -1,16 +1,23 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "This site is in development. For further information about CCMI please contact Prof Timo Betcke."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "EPSRC Centre for Doctoral Training in Collaborative Computational Modelling at the Interface (CCMI)",
     "section": "",
-    "text": "This is the developing website for the CCMI CDT.\nCCMI is a collaboration between University College London and Imperial College London, led by the UCL Advanced Research Computing Centre (ARC).\nPlease visit again soon to find out more about CCMI and its activities."
+    "text": "CCMI is a collaboration between University College London and Imperial College London to offer a novel and innovative PhD training programme at the interface of computational modelling, data sciences, and research software engineering.\n\n\n\n\nStudents will join world-class research groups across UCL and Imperial, and will benefit from a bespoke training programme around research software engineering and its applications in the computational and data sciences.\n\n\n\n\n\n\n\nKey facts\n\nA fully funded 4 year PhD programme at either UCL or Imperial College.\nFirst intake starting in Sept. 2025 (call for applications to start in autumn 2024).\nA bespoke cohort training programme consisting of dedicated block workshops, software weeks, summer schools, and many other activities.\nResearch opportunities across computational mathematics, scientific algorithms, high-performance computing, research software engineering, data sciences, and applications.\nExternal partners ranging from innovative SMEs to world-leading HPC labs."
+  },
+  {
+    "objectID": "training.html",
+    "href": "training.html",
+    "title": "The CCMI Training Programme",
+    "section": "",
+    "text": "The CCMI graduate training programme rests on three pillars\n\nA four year research thesis on the interface of computational sciences, research software engineering, and data sciences.\nCollaborative interface working groups, which are week long block events that combine topical overviews, research discussions, software exploration, and discovery of new ideas.\nA software journey that involves active collaboration in open-source projects, close collaboration with external partners, regular software weeks, sprint sessions, industry talks on software engineering, and many other activities.\n\nThe four year research thesis will lead to a PhD degree from either UCL or Imperial College. Thesis topics will be advertised as part of the application process to the CDT and students apply directly onto a given topic. Most thesis topics are in collaboration with the UCL Departments of Mathematics, Statistics, and Computer Science, and the Imperial Departments of Mathematics, and Computing. Some thesis topics may involve other departments or external partners.\nCollaborative interface working groups (CIWGs) deliver the core topical training programme that every CCCMI student goes through. It will be delivered in the form of cohort based week long working groups. These working groups cover an introduction to research topics, research and software landscape overviews, exploration of current research challenges, and a discovery phase for future trends and open challenges. In contrast to traditional lectures these working groups are centered around learning how to be an effective researcher and will contain significant student lead components.\nThe software journey has been designed to give every CDT student training to become a world class research software engineer. Students will collaborate on a diverse range of open-source software projects, some suggested by students themselves, others by academics or industrial partners. Students will learn how to focus ideas, develop minimum viable products, pitch ideas to stakeholders, and collaborate as teams. This will be supported by a dedicated termly software week with software sprints, progress talks, external seminars delivered by partners, and other activities."
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Leadership Team",
+    "section": "",
+    "text": "Prof Timo Betcke is Centre Director. He is Professor of Computational Mathematics at UCL.\n\nHomepage (same as Github)\nGithub\nOrcid\n\n\n\n\n\n\n\n\n\n\nProf Colin Cotter is Co-Lead for the CDT. He is Professor of Computational Mathematics at Imperial College.\n\nHomepage\nGithub\nOrcid\n\n\n\n\n\n\n\n\n\n\nProf Marta Betcke is Co-Director for Research and Partnership. She is Professor of Scientific Computing at UCL.\n\nHomepage\nOrcid\n\n\n\n\n\n\n\n\n\n\nProf Ruth Misener is Co-Director for Research and Partnership. She is Professor in Computational Optimisation at Imperial College.\n\nHomepage\nGithub\nOrcid\n\n\n\n\n\n\n\n\n\n\nDr Dante Kalise is Co-Director for Training. He is a Reader in Computational Optimisation and Control at Imperial College.\n\nHomepage\nOrcid"
   }
 ]
