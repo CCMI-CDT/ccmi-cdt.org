@@ -90,6 +90,28 @@ Prof Ruth Misener is *Co-Director for Research and Partnership*. She is Professo
 
 :::
 
+</br>
+
+:::: {.columns}
+
+::: {.column #vcenter width="20%"}
+![](static/guillas.jpg) 
+:::
+
+::: {.column #vcenter width="5%"}
+:::
+
+::: {.column #vcenter width="45%"}
+Prof Serge Guillas is *Co-Director for Training*. He is the Met Office Joint Chair in Data Sciences for Weather and Climate at UCL.
+
+- [Homepage](https://profiles.ucl.ac.uk/3850-serge-guillas)
+- [Orcid](https://orcid.org/0000-0002-3910-3408)
+
+:::
+
+::::
+
+
 ::::
 
 </br>
@@ -112,3 +134,49 @@ Dr Dante Kalise is *Co-Director for Training*. He is a Reader in Computational O
 :::
 
 ::::
+
+
+</br>
+
+:::: {.columns}
+
+::: {.column #vcenter width="20%"}
+![](static/ni.jpg) 
+:::
+
+::: {.column #vcenter width="5%"}
+:::
+
+::: {.column #vcenter width="45%"}
+Prof Hao Ni is *Co-Director for Admissions*. She is Professor of Mathematics at UCL and a Turing Fellow at the Alan Turing Institute.
+
+- [Homepage](https://profiles.ucl.ac.uk/56579-hao-ni)
+- [Github](https://github.com/hello0630)
+- [Orcid](https://orcid.org/0000-0001-5485-4376)
+
+:::
+
+::::
+
+</br>
+
+:::: {.columns}
+
+::: {.column #vcenter width="20%"}
+![](static/shahrezaei.jpg) 
+:::
+
+::: {.column #vcenter width="5%"}
+:::
+
+::: {.column #vcenter width="45%"}
+Dr Vahid Shahrezaei is *Co-Director for Admissions*. He is a Reader in Biomathematics at Imperial College.
+
+- [Homepage](https://www.imperial.ac.uk/people/v.shahrezaei)
+- [Orcid](https://orcid.org/0000-0002-4013-5458)
+
+:::
+
+::::
+
+</br>

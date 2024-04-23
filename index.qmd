@@ -48,3 +48,4 @@ a bespoke training programme around research software engineering and its applic
   computing, research software engineering, data sciences, and applications.
 - External partners ranging from innovative SMEs to world-leading HPC labs.
  
+</br>
