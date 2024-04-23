@@ -1,0 +1,114 @@
+---
+title: "Leadership Team"
+---
+
+
+:::: {.columns}
+
+::: {.column #vcenter width="20%"}
+![](static/betcke.png) 
+:::
+
+::: {.column #vcenter width="5%"}
+:::
+
+::: {.column #vcenter width="45%"}
+Prof Timo Betcke is *Centre Director*. He is Professor of Computational Mathematics at UCL.
+
+- [Homepage](https://profiles.ucl.ac.uk/31216-timo-betcke) (same as Github)
+- [Github](https://github.com/tbetcke)
+- [Orcid](https://orcid.org/0000-0002-3323-2110)
+
+
+
+:::
+
+::::
+
+<br>
+
+:::: {.columns}
+
+::: {.column #vcenter width="20%"}
+![](static/cotter.jpg) 
+:::
+
+::: {.column #vcenter width="5%"}
+:::
+
+::: {.column #vcenter width="45%"}
+Prof Colin Cotter is *Co-Lead* for the CDT. He is Professor of Computational Mathematics at Imperial College.
+
+- [Homepage](https://www.imperial.ac.uk/people/colin.cotter)
+- [Github](https://github.com/colinjcotter)
+- [Orcid](https://orcid.org/0000-0001-7962-8324)
+
+
+:::
+
+::::
+
+</br>
+
+
+:::: {.columns}
+
+::: {.column #vcenter width="20%"}
+![](static/mbetcke.jpg) 
+:::
+
+::: {.column #vcenter width="5%"}
+:::
+
+::: {.column #vcenter width="45%"}
+Prof Marta Betcke is *Co-Director for Research and Partnership*. She is Professor of Scientific Computing at UCL.
+
+- [Homepage](https://sites.google.com/site/mbetcke/)
+- [Orcid](https://orcid.org/0000-0003-3818-2121)
+
+:::
+
+::::
+
+</br>
+
+:::: {.columns}
+
+::: {.column #vcenter width="20%"}
+![](static/misener.jpg) 
+:::
+
+::: {.column #vcenter width="5%"}
+:::
+
+::: {.column #vcenter width="45%"}
+Prof Ruth Misener is *Co-Director for Research and Partnership*. She is Professor in Computational Optimisation at Imperial College.
+
+- [Homepage](http://wp.doc.ic.ac.uk/rmisener/)
+- [Github](https://github.com/cog-imperial)
+- [Orcid](https://orcid.org/0000-0001-5612-5417)
+
+:::
+
+::::
+
+</br>
+
+:::: {.columns}
+
+::: {.column #vcenter width="20%"}
+![](static/kalise.jpg) 
+:::
+
+::: {.column #vcenter width="5%"}
+:::
+
+::: {.column #vcenter width="45%"}
+Dr Dante Kalise is *Co-Director for Training*. He is a Reader in Computational Optimisation and Control at Imperial College.
+
+- [Homepage](https://www.dkalise.net)
+- [Orcid](https://orcid.org/0000-0003-2327-1957)
+
+:::
+
+::::

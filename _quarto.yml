@@ -1,20 +1,27 @@
 project:
   type: website
 
+resources:
+  - "static/*"
+
 website:
   title: "CCMI"
   description: "EPSRC Centre for Doctoral Training in Colllaborative Compuational Modelling at the Interface"
   navbar:
     background: primary
+    logo: static/ccmi_rounded_colour.png
     search: true
     left:
       - text: Home
         file: index.qmd
-      - about.qmd
+      - text: Training Programme
+        file: training.qmd
+      - text: Leadership Team 
+        file: team.qmd
 
 format:
   html:
-    theme: flatly
+    theme: morph
     css: styles.css
     toc: true
 

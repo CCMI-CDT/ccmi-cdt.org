@@ -1,0 +1,28 @@
+---
+title: "The CCMI Training Programme"
+---
+
+The CCMI graduate training programme rests on three pillars
+
+- A four year research thesis on the interface of computational sciences, research software engineering, and data sciences.
+- Collaborative interface working groups, which are week long block events that combine topical overviews, research discussions, software exploration, and discovery of new ideas.
+- A software journey that involves active collaboration in open-source projects, close collaboration with external partners, regular software weeks, sprint sessions, industry talks on software engineering, and many other activities.
+
+
+The four year **research thesis** will lead to a PhD degree from either UCL or Imperial College. Thesis topics will be advertised as part of the application
+process to the CDT and students apply directly onto a given topic. Most thesis topics are in collaboration with the
+UCL Departments of Mathematics, Statistics, and Computer Science, and the Imperial Departments of Mathematics, and Computing. Some thesis topics may involve
+other departments or external partners.
+
+**Collaborative interface working groups (CIWGs)** deliver the core topical training programme that every CCCMI student goes through. 
+It will be delivered in the form of cohort based week long working groups. These working groups cover an introduction to research topics,
+research and software landscape overviews, exploration of current research challenges, and a discovery phase for future trends and open challenges.
+In contrast to traditional lectures these working groups are centered around learning *how to be an effective researcher* and will contain significant
+student lead components.
+
+The **software journey** has been designed to give every CDT student training to become a world class research software engineer. Students will collaborate on a
+diverse range of open-source software projects, some suggested by students themselves, others by academics or industrial partners. Students will learn how to focus
+ideas, develop minimum viable products, pitch ideas to stakeholders, and collaborate as teams. This will be supported by a dedicated termly software week
+with software sprints, progress talks, external seminars delivered by partners, and other activities.
+
+

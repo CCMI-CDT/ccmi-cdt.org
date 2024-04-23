@@ -2,9 +2,49 @@
 title: "EPSRC Centre for Doctoral Training in Collaborative Computational Modelling at the Interface (CCMI)"
 ---
 
-This is the developing website for the CCMI CDT. 
 
-CCMI is a collaboration between [University College London](https://ucl.ac.uk) and [Imperial College London](https://imperial.ac.uk), led by
-the [UCL Advanced Research Computing Centre (ARC)](https://www.ucl.ac.uk/advanced-research-computing/advanced-research-computing-centre).
+:::: {.columns}
 
-Please visit again soon to find out more about CCMI and its activities.
+::: {.column #vcenter width="50%"}
+![](static/ucl_cloisters.jpg) 
+:::
+
+::: {.column #vcenter width="5%"}
+:::
+
+::: {.column #vcenter width="45%"}
+CCMI is a collaboration between University College London and Imperial College London to offer
+a novel and innovative PhD training programme at the interface of computational modelling, data sciences, and research software engineering.
+
+:::
+
+::::
+
+
+:::: {.columns}
+
+::: {.column #vcenter width="45%"}
+Students will join world-class research groups across UCL and Imperial, and will benefit from
+a bespoke training programme around research software engineering and its applications in the computational and data sciences.  
+:::
+
+::: {.column #vcenter width="5%"}
+:::
+
+::: {.column #vcenter width="50%"}
+
+![](static/imperial.jpg) 
+:::
+
+::::
+
+# Key facts
+
+- A fully funded 4 year PhD programme at either UCL or Imperial College.
+- First intake starting in Sept. 2025 (call for applications to start in autumn 2024).
+- A bespoke cohort training programme consisting of dedicated block workshops, software weeks,
+  summer schools, and many other activities.
+- Research opportunities across computational mathematics, scientific algorithms, high-performance
+  computing, research software engineering, data sciences, and applications.
+- External partners ranging from innovative SMEs to world-leading HPC labs.
+ 
