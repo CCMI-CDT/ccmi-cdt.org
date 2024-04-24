@@ -1,0 +1,33 @@
+---
+title: "Inaugural Partner Workshop"
+---
+
+Our first partner workshop is taking place 25 April 2025 at
+Imperial College London.
+
+**Location**: Imperial South Kensington Campus, Skempton 64 64A & 64B
+
+## Schedule
+
+- 09:30 – 10:15 Networking
+- 10:15 - 10:30 CCMI Intro, Timo Betcke \& Colin Cotter
+- 10:30 - 10:45 GAMS, Michael Bussieck
+- 10:45 – 11:00 FICO, Tristan Gally
+- 11:00 – 11:15 DataSparq, Jeremy Bradley
+- 11:15 – 11:35 SLB, Joshua Knowles
+- 11:35 – 11:50 McLaren, Julien Hoessler
+- 11:50 – 12:05 Graphcore, Andrew Fitzgibbon
+- 12:05 – 12:20 DELL, Paul Brook
+- 12:30 - 13:30 **Lunch**
+- 13:30 - 14:20 **Poster Session**
+- 14:20 – 14:30	RFI, Mark Basham
+- 14:30 – 14:40	Crick, James Briscoe
+- 14:40 – 14:50	ATI, Martin O’Reilly
+- 14:50 – 15:00	BASF, Rosona Eldred	
+- 15:00 – 15:10	Gurobi, Lindsay Montanari
+- 15:10 – 15:20	SURF, Marco Verdicchio
+- 15:20 – 15:30	Enthought, Alexandre Chabot-Leclerc 
+- 15:30 – 15:40	Rapiscan, William Thompson
+- 15:40 – 16:00	Summary, Marta Betcke/Ruth Misener
+
+</br>

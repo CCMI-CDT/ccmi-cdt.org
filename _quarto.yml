@@ -49,6 +49,8 @@ website:
         file: index.qmd
       - text: Training Programme
         file: training.qmd
+      - text: Partner Workshop
+        file: partner_workshop.qmd
       - text: Leadership Team 
         file: team.qmd
 
