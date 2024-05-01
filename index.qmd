@@ -1,51 +1,81 @@
 ---
-title: "EPSRC Centre for Doctoral Training in Collaborative Computational Modelling at the Interface (CCMI)"
+title: EPSRC Centre for Doctoral Training in Collaborative Computational Modelling at the Interface (CCMI)
+# lightbox: true
+format:
+  html:
+    page-layout: full
+    template-partials:
+      - templates/partials/title-block.html
+
+listing:
+  - id: blog
+    template: templates/blog-section.ejs
+    contents: blog/blog.yml
+  - id: key-facts__list
+    template: templates/key-facts-area.ejs
+    contents: templates/key-facts.yml
+        
+
+gallery-images:
+    image1:
+        image: static/ucl_cloisters.jpg
+        text: CCMI is a collaboration between University College London and Imperial College London to offer a novel and innovative PhD training programme at the interface of computational modelling, data sciences, and research software engineering.
+    image2: 
+        image: static/imperial.jpg
+        text: Students will join world-class research groups across UCL and Imperial, and will benefit from a bespoke training programme around research software engineering and its applications in the computational and data sciences.
+
+
 ---
 
+<div class="container-fluid justify-content-evenly d-flex flex-row-reverse column-gap-5 column-page">
+<div id="blog">
+</div>
 
-:::: {.columns}
+<section id="gallery">
+<div id="introCarousel" class="carousel slide">
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#introCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+<button type="button" data-bs-target="#introCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+</div>
+<div class="carousel-inner">
+<div class="carousel-item active">
+![]({{< meta gallery-images.image1.image >}}){.d-block .w-100 group="intro-gallery" fig-alt="UCL Cloisters"}
+<div class="carousel-caption d-none d-md-block">
+<p>{{< meta gallery-images.image1.text >}}</p>
+</div>
+</div>
+<div class="carousel-item">
+![]({{< meta gallery-images.image2.image >}}){.d-block .w-100 group="intro-gallery" fig-alt="Imperial College" width=50%}
+<div class="carousel-caption d-none d-md-block">
+<p>{{< meta gallery-images.image2.text >}}</p>
+</div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#introCarousel" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#introCarousel" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<span class="visually-hidden">Next</span>
+</button>
+</div>
+</section>
+</div>
 
-::: {.column #vcenter width="50%"}
-![](static/ucl_cloisters.jpg) 
-:::
+<div class="d-flex justify-content-center mt-2">
+<button type="button" class="btn btn-outline-dark">
+<i class="bi bi-chevron-down"></i>
+</button>
+</div>
 
-::: {.column #vcenter width="5%"}
-:::
+<section id="key-facts" class="column-page">
+<h1 class="key-facts__heading">KEY FACTS</h1>
 
-::: {.column #vcenter width="45%"}
-CCMI is a collaboration between University College London and Imperial College London to offer
-a novel and innovative PhD training programme at the interface of computational modelling, data sciences, and research software engineering.
+<div id="key-facts__list">
 
-:::
+</div>
+</section>
 
-::::
-
-
-:::: {.columns}
-
-::: {.column #vcenter width="45%"}
-Students will join world-class research groups across UCL and Imperial, and will benefit from
-a bespoke training programme around research software engineering and its applications in the computational and data sciences.  
-:::
-
-::: {.column #vcenter width="5%"}
-:::
-
-::: {.column #vcenter width="50%"}
-
-![](static/imperial.jpg) 
-:::
-
-::::
-
-# Key facts
-
-- A fully funded 4 year PhD programme at either UCL or Imperial College.
-- First intake starting in Sept. 2025 (call for applications to start in autumn 2024).
-- A bespoke cohort training programme consisting of dedicated block workshops, software weeks,
-  summer schools, and many other activities.
-- Research opportunities across computational mathematics, scientific algorithms, high-performance
-  computing, research software engineering, data sciences, and applications.
-- External partners ranging from innovative SMEs to world-leading HPC labs.
  
 </br>
