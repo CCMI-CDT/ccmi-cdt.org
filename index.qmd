@@ -63,7 +63,7 @@ gallery-images:
 </section>
 </div>
 
-<div class="d-flex justify-content-center mt-2 mb-2">
+<div class="d-flex justify-content-center column-page page-full my-2">
 <button type="button" class="btn button--nav-down">
 <i class="bi bi-chevron-down"></i>
 </button>
@@ -80,7 +80,7 @@ gallery-images:
 
 
 <section id="interest" class="column-page page-full">
-<h1 class="d-flex justify-content-center display-1">Interested?</h1>
+<h1 class="d-flex justify-content-center display-1 fw-bolder">Interested?</h1>
 <div class="d-flex flex-column justify-content-center align-items-center row-gap-4">
 <button type="button" class="btn btn-outline-info my-3 w-50" id="btn--signup">
 <span class="display-6">Sign Up Now</span>
@@ -96,5 +96,9 @@ Read About Our Software
 </div>
 
 </section>
+<section id="current-events" class="column-page page-full">
+
+</section>
+
  
 </br>

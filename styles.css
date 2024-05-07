@@ -1,12 +1,16 @@
 /* css styles */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 /* elements */
 body {
 	box-sizing: border-box;
+	font-family: Montserrat;
 }
 
 header#title-block-header {
-	width: 80vw;
+	width: 75vw;
 	justify-self: center;
+	font-size: 2rem;
 }
 
 /* IDs */
@@ -39,6 +43,7 @@ header#title-block-header {
 	.key-facts__heading {
 		color: white;
 		margin-inline-start: 10vw;
+		font-weight: 600;
 	}
 
 	#listing-key-facts__list {
@@ -66,12 +71,15 @@ header#title-block-header {
 
 #btn--signup {
 	font-size: 2rem;
-	font-weight: 900;
 	transition: background 0.5s ease;
 
 	&:hover {
 		background: #add2a1e2;
 		color: #3f723f;
+
+		> span {
+			font-weight: 600;
+		}
 	}
 }
 #btn-outline--custom {
@@ -82,6 +90,18 @@ header#title-block-header {
 }
 
 /* classes */
+
+.nav-link {
+	color: rgba(240, 248, 255, 0.855);
+	&.active {
+		color: rgba(240, 248, 255, 1) !important;
+		text-decoration: underline rgba(240, 248, 255, 0.855);
+	}
+}
+.navbar-title {
+	color: #ecf3fa;
+}
+
 .vcenter {
 	vertical-align: middle;
 }
@@ -91,23 +111,18 @@ h1.title {
 	@media only screen and (max-width: 951px) {
 		text-align: center;
 	}
-}
-.title__part-1 {
-	@media only screen and (max-width: 951px) {
-		margin-left: auto;
+	.title__part-2 {
+		padding-left: 18vw;
+		font-size: 60%;
+		@media only screen and (max-width: 951px) {
+			padding-left: 0;
+		}
 	}
-}
-.title__part-2 {
-	padding-left: 18vw;
-	font-size: 60%;
-	@media only screen and (max-width: 951px) {
-		margin-left: auto;
-	}
-}
-.title__part-3 {
-	padding-left: 10vw;
-	@media only screen and (max-width: 951px) {
-		margin-left: auto;
+	.title__part-3 {
+		padding-left: 10vw;
+		@media only screen and (max-width: 951px) {
+			padding-left: 0;
+		}
 	}
 }
 
@@ -118,7 +133,6 @@ h1.title {
 }
 
 .button--nav-down {
-	/* From https://css.glass */
 	background: rgba(149, 181, 225, 0.49);
 	border-radius: 16px;
 	/* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */

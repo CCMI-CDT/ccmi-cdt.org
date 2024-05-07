@@ -15,7 +15,7 @@ website:
     ![](static/ccmi_square_colour_text.png){height="60"}
 
     :::
-    
+
     ::: {.column width="10%"}
 
     :::
@@ -29,8 +29,8 @@ website:
     ::: {.column width="10%"}
 
     :::
-    
-    ::: {.column width="40%"}
+
+    ::: {.column }
 
     [CCMI is a collaboration between UCL and Imperial College, funded by EPSRC.]{style="color:black"}\
     [Contact: t.betcke@ucl.ac.uk]{style="color:black"}
@@ -41,7 +41,7 @@ website:
 
     ::::
   navbar:
-    background: primary
+    background: darkblue
     logo: static/ccmi_rounded_colour.png
     search: true
     left:
@@ -51,16 +51,16 @@ website:
         file: training.qmd
       - text: Partner Workshop
         file: partner_workshop.qmd
-      - text: Leadership Team 
+      - text: Leadership Team
         file: team.qmd
 
 format:
   html:
     theme: morph
     css: styles.css
-    toc: true
+    toc: false
+    smooth-scrolling: true
+    font-family: sans-serif
 
 execute:
   freeze: auto
-  
-
