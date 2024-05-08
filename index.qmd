@@ -9,11 +9,14 @@ format:
 
 listing:
   - id: blog
-    template: templates/blog-section.ejs
+    template: templates/partials/blog-section.ejs
     contents: blog/blog.yml
   - id: key-facts__list
-    template: templates/key-facts-area.ejs
+    template: templates/partials/key-facts-area.ejs
     contents: templates/key-facts.yml
+  - id: current-events
+    template: templates/partials/events-section.ejs
+    contents: events/events.yml
         
 
 gallery-images:
@@ -37,7 +40,9 @@ gallery-images:
 <button type="button" data-bs-target="#introCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 <button type="button" data-bs-target="#introCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
 </div>
+
 <div class="carousel-inner">
+
 <div class="carousel-item active">
 ![]({{< meta gallery-images.image1.image >}}){.d-block .w-100 group="intro-gallery" fig-alt="UCL Cloisters"}
 <div class="carousel-caption d-none d-md-block">
@@ -50,7 +55,9 @@ gallery-images:
 <p>{{< meta gallery-images.image2.text >}}</p>
 </div>
 </div>
+
 </div>
+
 <button class="carousel-control-prev" type="button" data-bs-target="#introCarousel" data-bs-slide="prev">
 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 <span class="visually-hidden">Previous</span>
@@ -59,6 +66,7 @@ gallery-images:
 <span class="carousel-control-next-icon" aria-hidden="true"></span>
 <span class="visually-hidden">Next</span>
 </button>
+
 </div>
 </section>
 </div>
@@ -96,9 +104,9 @@ Read About Our Software
 </div>
 
 </section>
-<section id="current-events" class="column-page page-full">
+<div id="current-events" class="column-page mt-5 d-flex align-items-center text-center flex-column">
 
-</section>
+</div>
 
  
 </br>
