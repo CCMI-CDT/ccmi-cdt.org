@@ -113,6 +113,7 @@ header#title-block-header {
 	&.active {
 		color: rgba(240, 248, 255, 1) !important;
 		text-decoration: underline rgba(240, 248, 255, 0.855);
+		text-underline-offset: 8px;
 	}
 }
 .navbar-title {
@@ -159,4 +160,32 @@ h1.title {
 	backdrop-filter: blur(3.4px);
 	-webkit-backdrop-filter: blur(3.4px);
 	border: 1px solid rgba(94, 105, 120, 0.27);
+}
+
+.wave-background {
+	background-image: url("static/assets/gradient-waves.svg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 60vh;
+	padding-bottom: 2vh;
+
+	h3,
+	h5 {
+		color: #192d83;
+	}
+	.btn--contact {
+		color: #283c95;
+		background: rgba(255, 255, 255, 0.31);
+		border-radius: 16px;
+		box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+		backdrop-filter: blur(2.2px);
+		-webkit-backdrop-filter: blur(4.2px);
+		border: 1px solid rgba(255, 255, 255, 0.3);
+
+		&:hover {
+			background-color: rgba(255, 255, 255, 0.91);
+			box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+		}
+	}
 }

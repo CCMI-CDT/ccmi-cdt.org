@@ -1,6 +1,6 @@
 ---
 title: EPSRC Centre for Doctoral Training in Collaborative Computational Modelling at the Interface (CCMI)
-# lightbox: true
+
 format:
   html:
     page-layout: full
@@ -105,6 +105,10 @@ Read About Our Software
 
 </section>
 <div id="current-events" class="column-page mt-5 d-flex align-items-center text-center flex-column">
+
+</div>
+
+<div class="d-flex column-page page-full">
 
 </div>
 
