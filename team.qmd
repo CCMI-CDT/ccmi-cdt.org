@@ -6,7 +6,7 @@ title: "Leadership Team"
 :::: {.columns}
 
 ::: {.column #vcenter width="20%"}
-![](static/betcke.png) 
+![](static/people/betcke.png) 
 :::
 
 ::: {.column #vcenter width="5%"}
@@ -30,7 +30,7 @@ Prof Timo Betcke is *Centre Director*. He is Professor of Computational Mathemat
 :::: {.columns}
 
 ::: {.column #vcenter width="20%"}
-![](static/cotter.jpg) 
+![](static/people/cotter.jpg) 
 :::
 
 ::: {.column #vcenter width="5%"}
@@ -54,7 +54,7 @@ Prof Colin Cotter is *Co-Lead* for the CDT. He is Professor of Computational Mat
 :::: {.columns}
 
 ::: {.column #vcenter width="20%"}
-![](static/mbetcke.jpg) 
+![](static/people/mbetcke.jpg) 
 :::
 
 ::: {.column #vcenter width="5%"}
@@ -75,7 +75,7 @@ Prof Marta Betcke is *Co-Director for Research and Partnership*. She is Professo
 :::: {.columns}
 
 ::: {.column #vcenter width="20%"}
-![](static/misener.jpg) 
+![](static/people/misener.jpg) 
 :::
 
 ::: {.column #vcenter width="5%"}
@@ -95,7 +95,7 @@ Prof Ruth Misener is *Co-Director for Research and Partnership*. She is Professo
 :::: {.columns}
 
 ::: {.column #vcenter width="20%"}
-![](static/guillas.jpg) 
+![](static/people/guillas.jpg) 
 :::
 
 ::: {.column #vcenter width="5%"}
@@ -119,7 +119,7 @@ Prof Serge Guillas is *Co-Director for Training*. He is the Met Office Joint Cha
 :::: {.columns}
 
 ::: {.column #vcenter width="20%"}
-![](static/kalise.jpg) 
+![](static/people/kalise.jpg) 
 :::
 
 ::: {.column #vcenter width="5%"}
@@ -141,7 +141,7 @@ Dr Dante Kalise is *Co-Director for Training*. He is a Reader in Computational O
 :::: {.columns}
 
 ::: {.column #vcenter width="20%"}
-![](static/ni.jpg) 
+![](static/people/ni.jpg) 
 :::
 
 ::: {.column #vcenter width="5%"}
@@ -163,7 +163,7 @@ Prof Hao Ni is *Co-Director for Admissions*. She is Professor of Mathematics at 
 :::: {.columns}
 
 ::: {.column #vcenter width="20%"}
-![](static/shahrezaei.jpg) 
+![](static/people/shahrezaei.jpg) 
 :::
 
 ::: {.column #vcenter width="5%"}

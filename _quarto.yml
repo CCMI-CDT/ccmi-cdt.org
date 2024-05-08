@@ -12,7 +12,7 @@ website:
 
     ::: {.column width="20%"}
 
-    ![](static/ccmi_square_colour_text.png){height="60"}
+    ![](static/assets/ccmi_square_colour_text.png){height="60"}
 
     :::
 
@@ -22,7 +22,7 @@ website:
 
     ::: {.column width="20%"}
 
-    ![](static/ukri_logo.png){height="60"}
+    ![](static/assets/ukri_logo.png){height="60"}
 
     :::
 
@@ -42,7 +42,7 @@ website:
     ::::
   navbar:
     background: darkblue
-    logo: static/ccmi_rounded_colour.png
+    logo: static/assets/ccmi_rounded_colour.png
     search: true
     left:
       - text: Home
