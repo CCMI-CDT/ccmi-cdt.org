@@ -1,0 +1,45 @@
+```{=html}
+<h2 class="display-6">Current Events</h2>
+
+<div id="eventsCarousel" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+
+    <div class="carousel-inner mx-3">
+
+        <% let count = 0; %>
+        <% for (const item of items) { %>
+            <% if (count < 5) { %>
+                <div class="carousel-item my-3 <% if (count = 1) { %> active <% } %>">
+                    <div class="card">
+                        <div class="card-body pb-5 px-3">
+                            <h4 class="card-title mt-0"><%- item.title %></h4>
+                            <small><%- item.dates %></small>
+                            <div class="d-flex justify-content-center">
+                            <p class="card-text w-75 "><%- item.summary %></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <% count++; %>
+            <% } else { %>
+                <% break; %>
+            <% } %>
+        <% } %>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#eventsCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#eventsCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+```
