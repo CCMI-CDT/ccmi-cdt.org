@@ -6,11 +6,12 @@ format:
     page-layout: full
     template-partials:
       - templates/partials/title-block.html
+    anchor-sections: false
 
 listing:
   - id: blog
     template: templates/partials/blog-section.ejs
-    contents: blog/blog.yml
+    contents: blog/posts
   - id: key-facts__list
     template: templates/partials/key-facts-area.ejs
     contents: templates/key-facts.yml
