@@ -1,8 +1,13 @@
 ---
-title: "My blog post"
-author: "name"
-date: "date in dd/mm/yyyy"
+title: "title of the post"
+author: "your name"
+date: "08/05/2024"
+filename: "name without extension"
 summary: "this is the blurb to be previewed on the site before they click on the full post"
----
-This is a test post yadda ydadadadyaydvaidvajdsvjqvdwej
 
+---
+<!-- Please copy this template into the posts folder and rename as appropriate -->
+<br>
+<!-- enter post content here -->
+
+testing content render
