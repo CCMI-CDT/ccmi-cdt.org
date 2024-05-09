@@ -13,15 +13,32 @@ website:
     background: darkblue
     logo: static/assets/ccmi_rounded_colour.png
     search: true
-    left:
+    right:
       - text: Home
         file: index.qmd
-      - text: Training Programme
-        file: training.qmd
-      - text: Partner Workshop
-        file: partner_workshop.qmd
-      - text: Leadership Team
-        file: team.qmd
+      - text: Events
+        menu:
+          - text: Events Page
+            file: events/events.qmd
+          - text: Partner Workshop
+            file: partner_workshop.qmd
+
+      - text: About
+        menu:
+          - text: Training Programme
+            file: training.qmd
+          - text: Our Leadership Team
+            file: team.qmd
+
+      - text: Get in touch
+        menu:
+          - text: Apply
+            href: /#interest
+          - text: Contact Us
+            href: /#contact-us
+
+      - text: Blog
+        file: blog/blog_list.qmd
 
 format:
   html:
