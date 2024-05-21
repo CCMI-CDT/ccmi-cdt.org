@@ -1,45 +1,46 @@
 ```{=html}
-<h2 class="display-6 ps-5">Our Events</h2>
+<h2 class="mt-0"><a href="events/events.qmd">Events</a></h2>
+<div class="card border-dark">
+    <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
 
-<div id="eventsCarousel" class="carousel slide">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    </div>
+        <div class="carousel-inner">
 
-    <div class="carousel-inner mx-3">
-
-        <% let count = 0; %>
-        <% for (const item of items) { %>
-            <% if (count < 5) { %>
-                <div class="carousel-item my-3 <% if (count = 1) { %> active <% } %>">
-                    <div class="card">
-                        <div class="card-body pb-5 px-3">
-                            <h4 class="card-title mt-0"><%- item.title %></h4>
-                            <small><%- item.dates %></small>
-                            <div class="d-flex justify-content-center mt-2">
-                            <p class="card-text w-75 "><%- item.summary %></p>
+            <% let count = 0; %>
+            <% for (const item of items) { %>
+                <% if (count < 3) { %>
+                    <div class="carousel-item <% if (count = 1) { %> active <% } %>">
+                        <div class="card pb-2">
+                            <div class="card-body text-center px-3">
+                                <h4 class="card-title my-0">
+                                    <a href="blog/posts/<%- item.filename %>"><%- item.title %></a> </h4>
+                                <small class="mt-0"><%- item.dates %></small>
+                                    <hr class="card-divider" />
+                                <div class="card-text "><%- item.summary %></div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <% count++; %>
-            <% } else { %>
-                <% break; %>
+                    <% count++; %>
+                <% } else { %>
+                    <% break; %>
+                <% } %>
             <% } %>
-        <% } %>
 
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#eventsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#eventsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
 
-    <button class="carousel-control-prev" type="button" data-bs-target="#eventsCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#eventsCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
 </div>
-
-
 ```

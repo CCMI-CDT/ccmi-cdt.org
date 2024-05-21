@@ -14,7 +14,8 @@ header#title-block-header {
 }
 
 /* IDs */
-#listing-blog {
+#listing-blog,
+#listing-current-events {
 	width: 25vw;
 	max-width: 27vw;
 	height: fit-content;
@@ -22,6 +23,10 @@ header#title-block-header {
 	background-color: #b3c0d1;
 	padding: 1.5rem;
 	border-radius: 5px;
+
+	a {
+		text-decoration: none;
+	}
 
 	.card-divider {
 		border-top: 1px solid var(--bs-primary-text-emphasis);
@@ -94,15 +99,6 @@ header#title-block-header {
 	&:hover {
 		color: white;
 		background-color: rgb(75, 124, 148);
-	}
-}
-
-#eventsCarousel .card {
-	background-color: #3b22a8dd;
-	color: #f9f8d8;
-
-	.anchorjs-link {
-		color: #f9f8d8da;
 	}
 }
 
@@ -186,6 +182,24 @@ h1.title {
 		&:hover {
 			background-color: rgba(255, 255, 255, 0.91);
 			box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+		}
+	}
+}
+
+.post-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
+	grid-column-gap: 0.75rem;
+	grid-row-gap: 0.25rem;
+
+	a {
+		text-decoration: none;
+	}
+
+	.card {
+		transition: background-color 0.3s ease;
+		&:hover {
+			background-color: #b3c0d1;
 		}
 	}
 }

@@ -1,5 +1,5 @@
 ---
-title: EPSRC Centre for Doctoral Training in Collaborative Computational Modelling at the Interface (CCMI)
+title: Doctoral Training in Collaborative Computational Modelling at the Interface (CCMI) at EPSRC
 
 format:
   html:
@@ -32,11 +32,19 @@ gallery-images:
 ---
 
 <div class="container-fluid justify-content-evenly d-flex flex-row-reverse column-gap-5 column-page page-full">
+<div>
 <div id="blog">
 </div>
+<br>
+<div id="current-events">
+
+</div>
+</div>
+
+
 
 <section id="gallery">
-<div id="introCarousel" class="carousel slide">
+<div id="introCarousel" class="carousel slide" data-bs-ride="carousel">
 <div class="carousel-indicators">
 <button type="button" data-bs-target="#introCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 <button type="button" data-bs-target="#introCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
