@@ -94,16 +94,19 @@ gallery-images:
 <section id="interest" class="column-page page-full">
 <h1 class="d-flex justify-content-center display-1 fw-bolder">Interested?</h1>
 <div class="d-flex flex-column justify-content-center align-items-center row-gap-4">
-<button type="button" class="btn btn-outline-info my-3 w-50" id="btn--signup">
+<a href="https://forms.office.com/e/jtppRJCiRz" type="button" class="btn btn-outline-info my-3 w-50" id="btn--signup">
 <span class="display-6">Sign Up Now</span>
-</button>
+</a>
 <div class="d-flex justify-content-evenly w-75">
-<button type="button" class="btn btn-outline-light " id="btn-outline--custom">
+<div>
+<a type="button" class="btn btn-outline-light " id="btn-outline--custom">
 Read About Our Research
-</button>
-<button type="button" class="btn btn-outline-light " id="btn-outline--custom">
+</a>
+</div>
+<div>
+<a type="button" class="btn btn-outline-light " id="btn-outline--custom">
 Read About Our Software
-</button>
+</a></div>
 </div>
 </div>
 
