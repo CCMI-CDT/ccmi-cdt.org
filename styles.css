@@ -12,9 +12,24 @@ header#title-block-header {
 }
 
 /* IDs */
+#index-wrapper {
+	/* doing this here instead of with bs classes for the mediaquery */
+	display: flex;
+	flex-direction: row-reverse;
+
+	@media only screen and (max-width: 951px) {
+		flex-direction: column-reverse;
+	}
+}
+
 #blog-events-wrapper {
 	z-index: 2;
 	width: 30vw;
+
+	@media only screen and (max-width: 951px) {
+		width: 100%;
+		z-index: 1;
+	}
 }
 #listing-blog,
 #listing-current-events {
@@ -42,12 +57,45 @@ header#title-block-header {
 
 #gallery {
 	position: absolute;
+	max-width: fit-content;
 
 	.carousel-item {
 		max-height: 90vh;
 		> img {
 			object-fit: cover;
 		}
+
+		@media only screen and (max-width: 951px) {
+			height: 50vh;
+		}
+	}
+
+	.carousel-caption {
+		background-color: rgba(32, 31, 31, 0.529);
+		backdrop-filter: blur(2.3px);
+		-webkit-backdrop-filter: blur(2.3px);
+		color: white;
+		padding: 10px;
+		width: 50%;
+		border-radius: 5px;
+		margin-bottom: 20%;
+
+		@media only screen and (max-width: 951px) {
+			margin-bottom: auto;
+			width: auto;
+		}
+	}
+
+	.carousel-indicators {
+		@media only screen and (min-width: 951px) {
+			right: unset;
+			margin-left: 35%;
+		}
+	}
+
+	@media only screen and (max-width: 951px) {
+		position: unset;
+		width: 100%;
 	}
 }
 #key-facts {
@@ -113,6 +161,10 @@ header#title-block-header {
 	}
 }
 
+#contact-us {
+	margin-bottom: 10vh;
+}
+
 #listing-team {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(24vw, 1fr));
@@ -171,21 +223,6 @@ h1.title {
 	}
 }
 
-.carousel-caption {
-	background-color: rgba(32, 31, 31, 0.529);
-	backdrop-filter: blur(2.3px);
-	-webkit-backdrop-filter: blur(2.3px);
-	color: white;
-	padding: 10px;
-	width: 50%;
-	border-radius: 5px;
-	margin-bottom: 20%;
-}
-.carousel-indicators {
-	right: unset;
-	margin-left: 35%;
-}
-
 .wave-background {
 	background-image: url("static/assets/gradient-waves.svg");
 	background-size: cover;
@@ -208,8 +245,8 @@ h1.title {
 		border: 1px solid rgba(255, 255, 255, 0.3);
 
 		&:hover {
-			background-color: rgba(255, 255, 255, 0.91);
-			box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+			background-color: rgba(255, 255, 255, 0.81);
+			box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
 		}
 	}
 }

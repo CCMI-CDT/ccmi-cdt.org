@@ -31,7 +31,7 @@ gallery-images:
 
 ---
 
-<div class="container-fluid px-0 d-flex flex-row-reverse column-page page-full">
+<div class="container-fluid px-0 column-page page-full" id="index-wrapper">
 
 <div id="blog-events-wrapper">
 <div id="blog">
@@ -54,13 +54,13 @@ gallery-images:
 
 <div class="carousel-item active">
 ![]({{< meta gallery-images.image1.image >}}){.d-block .w-100 group="intro-gallery" fig-alt="UCL Quad"}
-<div class="carousel-caption d-none d-md-block">
+<div class="carousel-caption d-none d-sm-block">
 <p>{{< meta gallery-images.image1.text >}}</p>
 </div>
 </div>
 <div class="carousel-item">
 ![]({{< meta gallery-images.image2.image >}}){.d-block .w-100 group="intro-gallery" fig-alt="Imperial College"}
-<div class="carousel-caption d-none d-md-block">
+<div class="carousel-caption d-none d-sm-block">
 <p>{{< meta gallery-images.image2.text >}}</p>
 </div>
 </div>
@@ -81,7 +81,7 @@ gallery-images:
 </div>
 
 
-<section id="key-facts" class="column-page page-full">
+<section id="key-facts" class="column-page page-full pt-3">
 <h1 class="key-facts__heading display-1">KEY FACTS</h1>
 
 <div id="key-facts__list">
@@ -108,13 +108,5 @@ Read About Our Software
 </div>
 
 </section>
-<div id="current-events" class="column-page mt-5 d-flex align-items-center text-center flex-column">
-
-</div>
-
-<div class="d-flex column-page page-full">
-
-</div>
 
  
-</br>
