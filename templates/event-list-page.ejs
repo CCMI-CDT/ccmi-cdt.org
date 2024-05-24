@@ -1,7 +1,7 @@
 ```{=html}
 <div class="post-container">
 <% for (const item of items) { %>
-        <div class="card border-dark">
+        <div class="card border-dark" <%= metadataAttrs(item) %>>
             <div class="card-body">
                 <h4 class="card-title mt-0"><%- item.title %></h4>
                 <small><%- item.dates %></small>
