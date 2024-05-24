@@ -102,6 +102,23 @@ header#title-block-header {
 	}
 }
 
+#listing-team {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(24vw, 1fr));
+	gap: 1vw;
+	justify-content: center;
+	align-items: center;
+	justify-items: center;
+
+	.card {
+		max-width: 25vw;
+	}
+	.team-image {
+		max-height: 50vh;
+		object-fit: cover;
+	}
+}
+
 /* classes */
 
 .nav-link {
