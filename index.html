@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CCMI - EPSRC Centre for Doctoral Training in Collaborative Computational Modelling at the Interface (CCMI)</title>
+<title>Doctoral Training in Collaborative Computational Modelling at the Interface (CCMI) at EPSRC – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,10 +30,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./static/assets/ccmi_rounded_colour.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -66,9 +68,125 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-blog .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-resources','listing-website','listing-format','listing-execute','listing-language','listing-title','listing-author','listing-date','listing-summary','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-resources","listing-website","listing-format","listing-execute","listing-language","listing-title","listing-author","listing-date","listing-summary","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-blog'] = new List('listing-blog', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-key-facts__list .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-facts',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-facts"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-key-facts__list'] = new List('listing-key-facts__list', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-current-events .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-dates','listing-summary','listing-description',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: ["listing-title","listing-dates","listing-summary","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-current-events'] = new List('listing-current-events', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Doctoral Training in Collaborative Computational Modelling at the Interface (CCMI) at EPSRC – CCMI">
+<meta property="og:site_name" content="CCMI">
 </head>
 
 <body class="nav-fixed">
@@ -79,122 +197,413 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./static/ccmi_rounded_colour.png" alt="" class="navbar-logo">
+    <img src="./static/assets/ccmi_rounded_colour.png" alt="" class="navbar-logo">
     </a>
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">CCMI</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./training.html"> 
-<span class="menu-text">Training Programme</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-events" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Events</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-events">    
+        <li>
+    <a class="dropdown-item" href="./events/events.html">
+ <span class="dropdown-text">Events Page</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./partner_workshop.html"> 
-<span class="menu-text">Partner Workshop</span></a>
+        <li>
+    <a class="dropdown-item" href="./partner_workshop.html">
+ <span class="dropdown-text">Partner Workshop</span></a>
   </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="./training.html">
+ <span class="dropdown-text">Training Programme</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./team.html">
+ <span class="dropdown-text">Our Leadership Team</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-get-in-touch" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Get in touch</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-get-in-touch">    
+        <li>
+    <a class="dropdown-item" href="./#interest">
+ <span class="dropdown-text">Apply</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./#contact-us">
+ <span class="dropdown-text">Contact Us</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link" href="./team.html"> 
-<span class="menu-text">Leadership Team</span></a>
+    <a class="nav-link" href="./blog/blog_list.html"> 
+<span class="menu-text">Blog</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#key-facts" id="toc-key-facts" class="nav-link active" data-scroll-target="#key-facts">Key facts</a></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full column-body" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">EPSRC Centre for Doctoral Training in Collaborative Computational Modelling at the Interface (CCMI)</h1>
-</div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
+<header id="title-block-header" class="column-page page-full">
+	<h1 class="title display-6 display-7">
+		<div class="title__part-1">Collaborative Computational Modelling at the Interface </div>
+		<div>
+		<span class="title__part-2"> at the </span>
+		<span class="title__part-3">EPSRC Centre for Doctoral Training </span>
+			
+		</div>
+	</h1>
 </header>
 
 
-<div class="columns">
-<div id="vcenter" class="column" style="width:50%;">
-<p><img src="static/ucl_cloisters.jpg" class="img-fluid"></p>
-</div><div id="vcenter" class="column" style="width:5%;">
+<div id="index-wrapper" class="container-fluid px-0 column-page page-full">
+<div id="blog-events-wrapper">
+<div id="listing-blog" class="quarto-listing quarto-listing-container-custom">
+<h2 class="mt-0"><a href="./blog/blog_list.html">Blog Posts</a></h2>
 
-</div><div id="vcenter" class="column" style="width:45%;">
-<p>CCMI is a collaboration between University College London and Imperial College London to offer a novel and innovative PhD training programme at the interface of computational modelling, data sciences, and research software engineering.</p>
+<div class="card border-dark">
+    <div id="blogCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            
+            
+                
+                    <div class="carousel-item  active ">
+                    <div class="card pb-2">
+                        <div class="card-body">
+                            <h4 class="card-title mt-0">            
+                                <a href="./blog/posts/blogpost1.html">New homepage.</a></h4>
+                            <hr class="card-divider">
+                            <div class="card-text">Our new homepage is now live.</div>
+                        </div>
+                    </div>
+                </div>
+                    
+                
+            
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#blogCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#blogCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    
+    </div>
+<div class="listing-no-matching d-none">
+No matching items
 </div>
 </div>
-<div class="columns">
-<div id="vcenter" class="column" style="width:45%;">
-<p>Students will join world-class research groups across UCL and Imperial, and will benefit from a bespoke training programme around research software engineering and its applications in the computational and data sciences.</p>
-</div><div id="vcenter" class="column" style="width:5%;">
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="pipeline-listing-key-facts__list">
 
-</div><div id="vcenter" class="column" style="width:50%;">
-<p><img src="static/imperial.jpg" class="img-fluid"></p>
+    
+        <div class="card border-light p-2">
+        <div class="card-body p-1">
+            <p class="card-text">CCMI offers a fully funded 4 year PhD programme at either UCL or Imperial College</p>
+        </div>
+    </div>
+    
+        <div class="card border-light p-2">
+        <div class="card-body p-1">
+            <p class="card-text">We offer a bespoke cohort training programme consisting of dedicated block workshops, software weeks, summer schools, and many other activities</p>
+        </div>
+    </div>
+    
+        <div class="card border-light p-2">
+        <div class="card-body p-1">
+            <p class="card-text">The first intake starts in Sept. 2025 (call for applications to start in autumn 2024)</p>
+        </div>
+    </div>
+    
+        <div class="card border-light p-2">
+        <div class="card-body p-1">
+            <p class="card-text">We will provide research opportunities across computational mathematics, scientific algorithms, high-performance computing, research software engineering, data sciences, and applications</p>
+        </div>
+    </div>
+    
+        <div class="card border-light p-2">
+        <div class="card-body p-1">
+            <p class="card-text">We have external partners ranging from innovative SMEs to world-leading HPC labs</p>
+        </div>
+    </div>
+    
+
+<div class="listing-no-matching d-none">
+No matching items
 </div>
 </div>
-<section id="key-facts" class="level1">
-<h1>Key facts</h1>
-<ul>
-<li>A fully funded 4 year PhD programme at either UCL or Imperial College.</li>
-<li>First intake starting in Sept.&nbsp;2025 (call for applications to start in autumn 2024).</li>
-<li>A bespoke cohort training programme consisting of dedicated block workshops, software weeks, summer schools, and many other activities.</li>
-<li>Research opportunities across computational mathematics, scientific algorithms, high-performance computing, research software engineering, data sciences, and applications.</li>
-<li>External partners ranging from innovative SMEs to world-leading HPC labs.</li>
-</ul>
-<p><br></p>
+<div class="hidden quarto-markdown-envelope-contents" data-render-id="pipeline-listing-current-events">
+<h2 class="mt-0"><a href="./events/events.html">Events</a></h2>
+<div class="card border-dark">
+    <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
 
+        <div class="carousel-inner">
 
+            
+            
+                
+                    <div class="carousel-item  active ">
+                        <div class="card pb-2">
+                            <div class="card-body text-center px-3">
+                                <h4 class="card-title my-0">
+                                    <a href="blog/posts/">Networking with UKAEA</a> </h4>
+                                <small class="mt-0">10 September 2024</small>
+                                    <hr class="card-divider">
+                                <div class="card-text ">A networking opportunity to discuss collaborative research projects between UKAEA and the CCMI CDT.</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                
+            
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#eventsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#eventsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+<br>
+<div id="listing-current-events" class="quarto-listing quarto-listing-container-custom">
+<h2 class="mt-0"><a href="./events/events.html">Events</a></h2>
+<div class="card border-dark">
+    <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner">
+
+            
+            
+                
+                    <div class="carousel-item  active ">
+                        <div class="card pb-2">
+                            <div class="card-body text-center px-3">
+                                <h4 class="card-title my-0">
+                                    <a href="blog/posts/">Networking with UKAEA</a> </h4>
+                                <small class="mt-0">10 September 2024</small>
+                                    <hr class="card-divider">
+                                <div class="card-text ">A networking opportunity to discuss collaborative research projects between UKAEA and the CCMI CDT.</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                
+            
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#eventsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#eventsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</div>
+<section id="gallery">
+<div id="introCarousel" class="carousel slide" data-bs-ride="carousel">
+<div class="carousel-indicators">
+<button type="button" data-bs-target="#introCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+</button>
+<button type="button" data-bs-target="#introCarousel" data-bs-slide-to="1" aria-label="Slide 2">
+</button>
+</div>
+<div class="carousel-inner">
+<div class="carousel-item active">
+<img src="static/ucl_quad.jpg" class="d-block w-100 img-fluid" data-group="intro-gallery" alt="UCL Quad">
+<div class="carousel-caption d-none d-sm-block">
+<p>
+</p><p>CCMI is a collaboration between University College London and Imperial College London to offer a novel and innovative PhD training programme at the interface of computational modelling, data sciences, and research software engineering.</p>
+<p></p>
+</div>
+</div>
+<div class="carousel-item">
+<img src="static/imperial.jpg" class="d-block w-100 img-fluid" data-group="intro-gallery" alt="Imperial College">
+<div class="carousel-caption d-none d-sm-block">
+<p>
+</p><p>Students will join world-class research groups across UCL and Imperial, and will benefit from a bespoke training programme around research software engineering and its applications in the computational and data sciences.</p>
+<p></p>
+</div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#introCarousel" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#introCarousel" data-bs-slide="next">
+<span class="carousel-control-next-icon d-none d-sm-block" aria-hidden="true"></span> <span class="visually-hidden">Next</span>
+</button>
+</div>
+</section>
+</div>
+<section id="key-facts" class="column-page page-full pt-3">
+<h1 class="key-facts__heading display-1">
+KEY FACTS
+</h1>
+<div id="listing-key-facts__list" class="quarto-listing quarto-listing-container-custom">
+
+    
+        <div class="card border-light p-2">
+        <div class="card-body p-1">
+            <p class="card-text">CCMI offers a fully funded 4 year PhD programme at either UCL or Imperial College</p>
+        </div>
+    </div>
+    
+        <div class="card border-light p-2">
+        <div class="card-body p-1">
+            <p class="card-text">We offer a bespoke cohort training programme consisting of dedicated block workshops, software weeks, summer schools, and many other activities</p>
+        </div>
+    </div>
+    
+        <div class="card border-light p-2">
+        <div class="card-body p-1">
+            <p class="card-text">The first intake starts in Sept. 2025 (call for applications to start in autumn 2024)</p>
+        </div>
+    </div>
+    
+        <div class="card border-light p-2">
+        <div class="card-body p-1">
+            <p class="card-text">We will provide research opportunities across computational mathematics, scientific algorithms, high-performance computing, research software engineering, data sciences, and applications</p>
+        </div>
+    </div>
+    
+        <div class="card border-light p-2">
+        <div class="card-body p-1">
+            <p class="card-text">We have external partners ranging from innovative SMEs to world-leading HPC labs</p>
+        </div>
+    </div>
+    
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320" id="section-wave">
+<path fill="#d9e3f1" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,192C384,224,480,256,576,245.3C672,235,768,181,864,176C960,171,1056,213,1152,240C1248,267,1344,277,1392,282.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+</svg>
+</section>
+<section id="interest" class="column-page page-full">
+<h1 class="d-flex justify-content-center display-1 fw-bolder">
+Interested?
+</h1>
+<div class="d-flex flex-column justify-content-center align-items-center row-gap-4">
+<a href="https://forms.office.com/e/i2jpkQu0Lm" type="button" class="btn btn-outline-info my-3 w-50" id="btn--signup"> <span class="display-6">Sign Up Now</span> </a>
+<div class="d-flex justify-content-evenly w-75">
+<div>
+<p><a type="button" class="btn btn-outline-light " id="btn-outline--custom"> Read About Our Research </a></p>
+</div>
+<div>
+<a type="button" class="btn btn-outline-light " id="btn-outline--custom"> Read About Our Software </a>
+</div>
+</div>
+</div>
 </section>
 
-<div class="columns">
-<div class="column" style="width:20%;">
-<p><img src="static/ccmi_square_colour_text.png" height="60"></p>
-</div><div class="column" style="width:10%;">
+</main> <!-- /main -->
+<div class="column-page page-full mt-5 wave-background d-flex flex-column align-items-center justify-content-end">
+	<div id="contact-us" class="pt-3 d-flex flex-column align-items-center">
+		<h3>Feel free to drop us a line with questions or feedback!</h3>
+		<a href="mailto:t.betcke@ucl.ac.uk?subject=CCMI%20Question&amp;body=Hello,%20I%20saw%20your%20website%20and..." class="btn btn--contact mt-2">
+			Contact Us</a>
+	</div>
+	<div class="footer__info w-100 text-center">
+		<h5>
+			CCMI is a collaboration between UCL and Imperial College, funded by
+			<a href="https://www.ukri.org/councils/epsrc/">EPSRC</a>.
+		</h5>
+		<div class="d-flex flex-row justify-content-evenly align-items-center mt-4">
+			<a href="https://www.ukri.org/who-we-are/epsrc/">
+				<img src="./static/assets/ukri_logo.png" width="200" href="https://www.ukri.org/who-we-are/epsrc/"></a>
+			<img src="./static/assets/ccmi_square_colour_text.png" width="200">
 
-</div><div class="column" style="width:20%;">
-<p><img src="static/ukri_logo.png" height="60"></p>
-</div><div class="column" style="width:10%;">
-
-</div><div class="column" style="width:40%;">
-<p><span style="color:black">CCMI is a collaboration between UCL and Imperial College, funded by EPSRC.</span><br>
-<span style="color:black">Contact: t.betcke@ucl.ac.uk</span></p>
+			<a href="https://www.imperial.ac.uk/">
+				<svg xmlns="http://www.w3.org/2000/svg" width="150" height="19.48" viewbox="0 0 177.3 19.48">
+					<polygon points="73.53 0 73.53 19.47 86.19 19.47 86.19 16.07 77.23 16.07 77.23 11.2 85.41 11.2 85.41 7.89 77.23 7.89 77.23 3.41 86.19 3.41 86.19 0 73.53 0" fill="#fff"></polygon>
+					<path d="M58.15,3.14H55.42V9.71h2.73c2.13,0,3.7-1,3.7-3.28s-1.57-3.29-3.7-3.29m.19,9.71H55.42v6.62h-3.7V0h6.62c4.16,0,7.4,1.88,7.4,6.43s-3.27,6.42-7.4,6.42" fill="#fff"></path>
+					<polygon points="118.32 0 118.32 3.41 122.89 3.41 122.89 16.07 118.32 16.07 118.32 19.47 131.17 19.47 131.17 16.07 126.59 16.07 126.59 3.41 131.17 3.41 131.17 0 118.32 0" fill="#fff"></polygon>
+					<path d="M105.9,6c0,2.34-1.36,3.08-3.7,3.08H99.09v-6h3.11c2.54,0,3.7.94,3.7,2.89m3.9,0c0-4.55-3.12-6-7.21-6h-7.2V19.47h3.7v-7.2h3.62l3.77,7.22h4.1l-4.18-8A5.53,5.53,0,0,0,109.8,6" fill="#fff"></path>
+					<path d="M147.4,3.45l2.66,8.6h-5.32ZM145,0l-6.43,19.47h3.9l1.33-4.28H151l1.33,4.28h3.89L149.84,0Z" fill="#fff"></path>
+					<polygon points="164.62 0 164.62 19.47 177.3 19.47 177.3 16.07 168.31 16.07 168.31 0 164.62 0" fill="#fff"></polygon>
+					<polygon points="37.05 0 32.38 11.45 27.7 0 22.45 0 22.45 19.47 25.95 19.47 25.95 4.91 30.43 15.19 30.63 15.19 34.13 15.19 34.33 15.19 38.8 4.91 38.8 19.47 42.31 19.47 42.31 0 37.05 0" fill="#fff"></polygon>
+					<polygon points="0 0 0 3.41 4.58 3.41 4.58 16.07 0 16.07 0 19.47 12.85 19.47 12.85 16.07 8.28 16.07 8.28 3.41 12.85 3.41 12.85 0 0 0" fill="#fff"></polygon>
+				</svg>
+			</a>
+			<a href="https://www.ucl.ac.uk/mathematical-physical-sciences/news/2024/mar/ucl-receives-ps54m-boost-doctoral-training-engineering-and-physical-sciences">
+				<img src="./static/assets/UCL_logo.png" alt="UCL Logo white" width="150"></a>
+			<!-- I have requested another white logo but have yet to hear back -->
+		</div>
+	</div>
 </div>
-</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -215,13 +624,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -230,18 +632,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -273,7 +664,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp("https:\/\/ccmi-cdt\.org");
@@ -281,7 +694,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

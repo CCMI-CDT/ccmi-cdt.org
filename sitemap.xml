@@ -1,19 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://ccmi-cdt.org/partner_workshop.html</loc>
-    <lastmod>2024-04-24T17:37:50.870Z</lastmod>
+    <loc>https://ccmi-cdt.org/team.html</loc>
+    <lastmod>2024-09-06T08:33:36.052Z</lastmod>
   </url>
   <url>
-    <loc>https://ccmi-cdt.org/team.html</loc>
-    <lastmod>2024-04-24T17:37:50.950Z</lastmod>
+    <loc>https://ccmi-cdt.org/events/events.html</loc>
+    <lastmod>2024-09-06T08:33:36.012Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ccmi-cdt.org/blog/blog_list.html</loc>
+    <lastmod>2024-09-06T08:33:36.012Z</lastmod>
   </url>
   <url>
     <loc>https://ccmi-cdt.org/training.html</loc>
-    <lastmod>2024-04-24T17:37:50.950Z</lastmod>
+    <lastmod>2024-09-06T08:33:36.052Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ccmi-cdt.org/partner_workshop.html</loc>
+    <lastmod>2024-09-06T08:33:36.012Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ccmi-cdt.org/blog/blogpost_template.html</loc>
+    <lastmod>2024-09-06T08:33:36.012Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ccmi-cdt.org/blog/posts/blogpost1.html</loc>
+    <lastmod>2024-09-06T08:33:36.012Z</lastmod>
   </url>
   <url>
     <loc>https://ccmi-cdt.org/index.html</loc>
-    <lastmod>2024-04-24T17:37:50.870Z</lastmod>
+    <lastmod>2024-09-06T08:33:36.012Z</lastmod>
   </url>
 </urlset>
