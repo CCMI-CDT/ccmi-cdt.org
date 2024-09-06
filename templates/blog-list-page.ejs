@@ -1,0 +1,16 @@
+```{=html}
+<h2 class="mt-0">Posts</h2>
+<div class="post-container">
+<% for (const item of items) { %>
+        <div class="card border-dark" <%= metadataAttrs(item) %>>
+            <a href="posts/<%- item.filename %>">
+            <div class="card-body">
+                <h4 class="card-title mt-0"><%- item.title %></h4>
+                <hr class="card-divider" />
+                <p class="card-text"><%- item.summary %></p>
+            </div>
+            </a>    
+        </div>
+<% } %>
+</div>
+```

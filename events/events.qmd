@@ -1,0 +1,15 @@
+---
+title: Events
+format:
+    html:
+        anchor-sections: false
+
+listing:
+  - id: event-list
+    template: ../templates/event-list-page.ejs
+    contents: events.yml
+    sort: "date desc"
+    categories: false
+---
+<div id="event-list column-page">
+</div>

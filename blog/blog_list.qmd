@@ -1,0 +1,15 @@
+---
+title: CCMI Blog
+format:
+    html:
+        anchor-sections: false
+
+listing:
+  - id: blog-list
+    template: ../templates/blog-list-page.ejs
+    contents: posts
+    sort: "date desc"
+    categories: true
+---
+<div id="blog-list column-page">
+</div>

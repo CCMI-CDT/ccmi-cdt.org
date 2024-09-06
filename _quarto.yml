@@ -7,60 +7,48 @@ resources:
 website:
   title: "CCMI"
   description: "EPSRC Centre for Doctoral Training in Colllaborative Compuational Modelling at the Interface"
-  body-footer: |
-    :::: {.columns}
+  favicon: static/assets/ccmi_rounded_colour.png
+  open-graph: true
 
-    ::: {.column width="20%"}
-
-    ![](static/ccmi_square_colour_text.png){height="60"}
-
-    :::
-    
-    ::: {.column width="10%"}
-
-    :::
-
-    ::: {.column width="20%"}
-
-    ![](static/ukri_logo.png){height="60"}
-
-    :::
-
-    ::: {.column width="10%"}
-
-    :::
-    
-    ::: {.column width="40%"}
-
-    [CCMI is a collaboration between UCL and Imperial College, funded by EPSRC.]{style="color:black"}\
-    [Contact: t.betcke@ucl.ac.uk]{style="color:black"}
-
-    :::
-
-
-
-    ::::
   navbar:
-    background: primary
-    logo: static/ccmi_rounded_colour.png
+    background: darkblue
+    logo: static/assets/ccmi_rounded_colour.png
     search: true
-    left:
+    right:
       - text: Home
         file: index.qmd
-      - text: Training Programme
-        file: training.qmd
-      - text: Partner Workshop
-        file: partner_workshop.qmd
-      - text: Leadership Team 
-        file: team.qmd
+      - text: Events
+        menu:
+          - text: Events Page
+            file: events/events.qmd
+          - text: Partner Workshop
+            file: partner_workshop.qmd
+
+      - text: About
+        menu:
+          - text: Training Programme
+            file: training.qmd
+          - text: Our Leadership Team
+            file: team.qmd
+
+      - text: Get in touch
+        menu:
+          - text: Apply
+            href: /#interest
+          - text: Contact Us
+            href: /#contact-us
+
+      - text: Blog
+        file: blog/blog_list.qmd
 
 format:
   html:
     theme: morph
     css: styles.css
-    toc: true
+    toc: false
+    smooth-scrolling: true
+    font-family: sans-serif
+    include-after-body: "templates/footer.html"
 
 execute:
   freeze: auto
-  
-

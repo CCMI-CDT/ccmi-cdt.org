@@ -1,0 +1,21 @@
+```{=html}
+<% for (const item of items) { %>
+<div class="card mb-3">
+    <div class="row g-0">
+        <div class="col-md-2">
+        <img src="<%- item.image %>" class="img-fluid rounded-start team-image w-100" alt="image of <%- item.name %>">
+        </div>
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title"><%= (item.description) %></h5>
+                <a class="card-link" href="<%- item.homepage %>">Homepage</a>
+                <a class="card-link" href="<%- item.orcid %>">Orcid</a>
+                <% if (item.github) { %>
+                <a class="card-link" href="<%- item.github %>">GitHub</a>
+                <% } %>
+            </div>
+        </div>
+    </div>
+</div>
+<% } %>
+```

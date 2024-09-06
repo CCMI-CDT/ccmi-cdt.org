@@ -1,0 +1,14 @@
+---
+title: "New homepage."
+author: "Timo Betcke"
+date: "09/06/2024"
+summary: "Our new homepage is now live."
+categories: [Announcements]
+
+---
+<!-- Please copy this template into the posts folder and rename as appropriate -->
+<br>
+<!-- enter post content here -->
+
+Our brand-new homepage is now live. There may still be minor issues and features are
+continuously being added.

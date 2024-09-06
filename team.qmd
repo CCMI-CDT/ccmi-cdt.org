@@ -1,182 +1,62 @@
 ---
 title: "Leadership Team"
+format:
+  html:
+    page-layout: full
+    anchor-sections: false
+
+listing: 
+    - id: team
+      template: templates/partials/team-card.ejs
+      contents: 
+        - name: Prof Timo Betcke
+          description: <strong>Prof Timo Betcke</strong> is <em>Centre Director</em>. He is Professor of Computational Mathematics at UCL.
+          image: static/people/betcke.png
+          homepage: https://profiles.ucl.ac.uk/31216-timo-betcke
+          github: https://github.com/tbetcke
+          orcid: https://orcid.org/0000-0002-3323-2110
+        - name: Prof Colin Cotter
+          description: <strong>Prof Colin Cotter</strong> is <em>Co-Lead</em> for the CDT. He is Professor of Computational Mathematics at Imperial College.
+          image: static/people/cotter.jpg
+          homepage: https://www.imperial.ac.uk/people/colin.cotter
+          github: https://github.com/colinjcotter
+          orcid: https://orcid.org/0000-0001-7962-8324
+        - name: Prof Marta Betcke
+          description: <strong>Prof Marta Betcke</strong> is <em>Co-Director for Research and Partnership</em>. She is Professor of Scientific Computing at UCL.
+          image: static/people/mbetcke.jpg
+          homepage: https://sites.google.com/site/mbetcke/
+          orcid: https://orcid.org/0000-0003-3818-2121
+        - name: Prof Ruth Misener
+          description: <strong>Prof Ruth Misener</strong> is <em>Co-Director for Research and Partnership</em>. She is Professor in Computational Optimisation at Imperial College.
+          image: static/people/misener.jpg
+          homepage: http://wp.doc.ic.ac.uk/rmisener/
+          github: https://github.com/cog-imperial
+          orcid: https://orcid.org/0000-0001-5612-5417
+        - name:  Prof Serge Guillas
+          description: <strong>Prof Serge Guillas</strong> is <em>Co-Director for Training</em>. He is the Met Office Joint Chair in Data Sciences for Weather and Climate at UCL.
+          image: static/people/guillas.jpg
+          homepage: https://profiles.ucl.ac.uk/3850-serge-guillas
+          orcid: https://orcid.org/0000-0002-3910-3408
+        - name: Dr Dante Kalise
+          description: <strong>Dr Dante Kalise</strong> is <em>Co-Director for Training</em>. He is a Reader in Computational Optimisation and Control at Imperial College.
+          image: static/people/kalise.jpg
+          homepage: https://www.dkalise.net
+          orcid: https://orcid.org/0000-0003-2327-1957
+        - name: Prof Hao Ni
+          description: <strong>Prof Hao Ni</strong> is <em>Co-Director for Admissions</em>. She is Professor of Mathematics at UCL and a Turing Fellow at the Alan Turing Institute.
+          image: static/people/ni.jpg
+          homepage: https://profiles.ucl.ac.uk/56579-hao-ni
+          github: https://github.com/hello0630
+          orcid: https://orcid.org/0000-0001-5485-4376
+        - name: Dr Vahid Shahrezaei
+          description: <strong>Dr Vahid Shahrezaei</strong> is <em>Co-Director for Admissions</em>. He is a Reader in Biomathematics at Imperial College.
+          image: static/people/shahrezaei.jpg
+          homepage: https://www.imperial.ac.uk/people/v.shahrezaei
+          orcid: https://orcid.org/0000-0002-4013-5458
+        
 ---
 
-
-:::: {.columns}
-
-::: {.column #vcenter width="20%"}
-![](static/betcke.png) 
-:::
-
-::: {.column #vcenter width="5%"}
-:::
-
-::: {.column #vcenter width="45%"}
-Prof Timo Betcke is *Centre Director*. He is Professor of Computational Mathematics at UCL.
-
-- [Homepage](https://profiles.ucl.ac.uk/31216-timo-betcke) (same as Github)
-- [Github](https://github.com/tbetcke)
-- [Orcid](https://orcid.org/0000-0002-3323-2110)
-
-
-
-:::
-
-::::
-
-<br>
-
-:::: {.columns}
-
-::: {.column #vcenter width="20%"}
-![](static/cotter.jpg) 
-:::
-
-::: {.column #vcenter width="5%"}
-:::
-
-::: {.column #vcenter width="45%"}
-Prof Colin Cotter is *Co-Lead* for the CDT. He is Professor of Computational Mathematics at Imperial College.
-
-- [Homepage](https://www.imperial.ac.uk/people/colin.cotter)
-- [Github](https://github.com/colinjcotter)
-- [Orcid](https://orcid.org/0000-0001-7962-8324)
-
-
-:::
-
-::::
-
-</br>
-
-
-:::: {.columns}
-
-::: {.column #vcenter width="20%"}
-![](static/mbetcke.jpg) 
-:::
-
-::: {.column #vcenter width="5%"}
-:::
-
-::: {.column #vcenter width="45%"}
-Prof Marta Betcke is *Co-Director for Research and Partnership*. She is Professor of Scientific Computing at UCL.
-
-- [Homepage](https://sites.google.com/site/mbetcke/)
-- [Orcid](https://orcid.org/0000-0003-3818-2121)
-
-:::
-
-::::
-
-</br>
-
-:::: {.columns}
-
-::: {.column #vcenter width="20%"}
-![](static/misener.jpg) 
-:::
-
-::: {.column #vcenter width="5%"}
-:::
-
-::: {.column #vcenter width="45%"}
-Prof Ruth Misener is *Co-Director for Research and Partnership*. She is Professor in Computational Optimisation at Imperial College.
-
-- [Homepage](http://wp.doc.ic.ac.uk/rmisener/)
-- [Github](https://github.com/cog-imperial)
-- [Orcid](https://orcid.org/0000-0001-5612-5417)
-
-:::
-
-</br>
-
-:::: {.columns}
-
-::: {.column #vcenter width="20%"}
-![](static/guillas.jpg) 
-:::
-
-::: {.column #vcenter width="5%"}
-:::
-
-::: {.column #vcenter width="45%"}
-Prof Serge Guillas is *Co-Director for Training*. He is the Met Office Joint Chair in Data Sciences for Weather and Climate at UCL.
-
-- [Homepage](https://profiles.ucl.ac.uk/3850-serge-guillas)
-- [Orcid](https://orcid.org/0000-0002-3910-3408)
-
-:::
-
-::::
-
-
-::::
-
-</br>
-
-:::: {.columns}
-
-::: {.column #vcenter width="20%"}
-![](static/kalise.jpg) 
-:::
-
-::: {.column #vcenter width="5%"}
-:::
-
-::: {.column #vcenter width="45%"}
-Dr Dante Kalise is *Co-Director for Training*. He is a Reader in Computational Optimisation and Control at Imperial College.
-
-- [Homepage](https://www.dkalise.net)
-- [Orcid](https://orcid.org/0000-0003-2327-1957)
-
-:::
-
-::::
-
-
-</br>
-
-:::: {.columns}
-
-::: {.column #vcenter width="20%"}
-![](static/ni.jpg) 
-:::
-
-::: {.column #vcenter width="5%"}
-:::
-
-::: {.column #vcenter width="45%"}
-Prof Hao Ni is *Co-Director for Admissions*. She is Professor of Mathematics at UCL and a Turing Fellow at the Alan Turing Institute.
-
-- [Homepage](https://profiles.ucl.ac.uk/56579-hao-ni)
-- [Github](https://github.com/hello0630)
-- [Orcid](https://orcid.org/0000-0001-5485-4376)
-
-:::
-
-::::
-
-</br>
-
-:::: {.columns}
-
-::: {.column #vcenter width="20%"}
-![](static/shahrezaei.jpg) 
-:::
-
-::: {.column #vcenter width="5%"}
-:::
-
-::: {.column #vcenter width="45%"}
-Dr Vahid Shahrezaei is *Co-Director for Admissions*. He is a Reader in Biomathematics at Imperial College.
-
-- [Homepage](https://www.imperial.ac.uk/people/v.shahrezaei)
-- [Orcid](https://orcid.org/0000-0002-4013-5458)
-
-:::
-
-::::
-
-</br>
+<div class="column-body-outset page-full mx-2">
+<div id="team">
+</div>
+</div>
