@@ -1,13 +1,14 @@
 ---
-title: "title of the post"
-author: "your name"
-date: "08/05/2024"
-summary: "this is the blurb to be previewed on the site before they click on the full post"
-categories: [Application,test]
+title: "New homepage."
+author: "Timo Betcke"
+date: "09/06/2024"
+summary: "Our new homepage is now live."
+categories: [Announcements]
 
 ---
 <!-- Please copy this template into the posts folder and rename as appropriate -->
 <br>
 <!-- enter post content here -->
 
-testing content render
+Our brand-new homepage is now live. There may still be minor issues and features are
+continuously being added.
