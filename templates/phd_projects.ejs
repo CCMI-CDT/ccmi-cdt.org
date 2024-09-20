@@ -1,0 +1,18 @@
+```{=html}
+The following projects are advertised for 2025 entry into the CDT.
+<p>&nbsp</p>
+<div class="phd-project-container">
+<% for (const item of items) { %>
+        <div class="card border-dark" <%= metadataAttrs(item) %>>
+            <a href="entries/<%- item.filename %>">
+            <div class="card-body">
+                <h4 class="card-title mt-0"><%- item.title %></h4>
+                <p class="card-text"><%- item.institution %> <%- item.department %></p>
+                <hr class="card-divider" />
+                <p class="card-text"><%- item.summary %></p>
+            </div>
+            </a>    
+        </div>
+<% } %>
+</div>
+```

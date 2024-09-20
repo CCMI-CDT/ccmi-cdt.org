@@ -38,6 +38,9 @@ website:
           - text: Contact Us
             href: /#contact-us
 
+      - text: PhD Projects
+        file: phd_projects/phd_project_list.qmd
+
       - text: Blog
         file: blog/blog_list.qmd
 
