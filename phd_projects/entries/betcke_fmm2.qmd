@@ -1,7 +1,7 @@
 ---
 title: "Another PhD project"
-institution: UCL
-department: Mathematics, Advanced Research Computing
+institution: "UCL"
+department: "Mathematics, Advanced Research Computing"
 author: "Timo Betcke"
 date: "20/09/2024"
 summary: "Even more awesome FMM stuff"
