@@ -4,7 +4,6 @@ institution: "UCL"
 department: "Mathematics, Advanced Research Computing"
 author: "Timo Betcke"
 date: "20/09/2024"
-
 ---
 <!-- Please copy this template into the posts folder and rename as appropriate -->
 We are going to do cool work on fast multipole methods.
