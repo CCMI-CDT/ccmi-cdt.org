@@ -1,0 +1,23 @@
+---
+title: "Computational solution of inverse problems using large datasets of low rank"
+institution: "UCL"
+department: "Mathematics"
+author: "Timo Betcke"
+date: "23/09/2024"
+
+---
+## Project Description
+
+ A major challenge in computational science is how to use information from 
+ large datasets to improve computations of the large scale severly ill-posed problems 
+ that appear in inverse problems and data assimilation. Here we will explore how large 
+ datasets characterising different aspects of the solution can be used to improve approximation. 
+ The approach is to first use machine learning techniques to find a finite dimensional 
+ manifold characterising the dataset. Then we can apply recent stability results 
+ for inverse problems with solution in a finite dimensional space, 
+ and design finite element methods for which we prove rigorous error 
+ estimates up to perturbations of the data and the accuracy of the 
+ approximate manifold. Finally, we train neural networks to map from the manifold 
+ into the finite element solution space to obtain a reduced order model that can be used for the 
+ efficient iterative solution of the inverse problem. The project will give rise to three pieces of 
+ software that can be applied together or individually.
