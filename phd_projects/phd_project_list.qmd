@@ -1,0 +1,15 @@
+---
+title: PhD Projects
+format:
+    html:
+        anchor-sections: false
+
+listing:
+  - id: phd-project-list
+    template: ../templates/phd_projects.ejs
+    contents: entries
+    sort: "date desc"
+    categories: false
+---
+<div id="phd-project-list column-page">
+</div>
