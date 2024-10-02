@@ -1,0 +1,29 @@
+---
+title: "Numerical methods for PDEs in fractal domains"
+institution: "UCL"
+department: "Mathematics"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Prof David Hewett"
+
+---
+## Project Description
+
+ ### Existing background work
+
+PDEs are a fundamental tool in the mathematical modelling of physical processes, and obtaining accurate approximate numerical solutions to PDE problems is a key area within scientific computing. Many numerical methods are available, but most are designed for the case where the PDE is to be solved in a domain with a smooth boundary (typically, Lipschitz or smoother). However, many real-world problems involve domains with non-smooth boundaries, which may possess detail on multiple length scales. Fractals provide a mathematical model for such boundaries, and in this project the student will develop numerical methods for solving PDEs in domains with fractal boundaries. This is an exciting and emerging field, with lots of challenging open mathematical and computational questions to investigate. 
+
+The principal supervisor’s group have already made significant progress in the study of acoustic scattering problems involving fractal scatterers, via integral equation methods. They have investigated two main approaches: (i) conventional discretizations on a smoother “pre-fractal” approximation to the domain, and (ii) novel discretizations on the true fractal domain. Computationally, for approach (i) we used the open-source Bempp software of Timo Betcke on polygonal or polyhedral prefractal approximations, and for approach (ii) we developed our own open-source integral equations package called IFSIntegrals, implementing the novel numerical quadrature rules developed recently within the group for singular integration over fractal domains. So far our investigations have been limited to acoustic simulations, and mostly to problems with Dirichlet boundary conditions, but the results are very promising both theoretically and computationally.
+
+### Main objectives of the project
+
+The objectives of the project could include:
+-	extending the applicability of our integral equation methods to new PDEs (e.g. Maxwell equations) and/or new boundary conditions (e.g. Neumann, impedance)
+-	the development of novel discontinuous Galerkin (DG) methods on meshes with fractal elements
+-	the development of novel quadrature rules involving singular and/or oscillatory integrands over fractal domains
+-	the application of the developed methods to shape optimization problems relevant to the design of fractal wave 
+absorbers/reflectors/ transmitters. 
+
+### Details of Software/Data Deliverables
+
+The software deliverable would be an implementation of the numerical methods developed within the project. Depending on the nature of the methods developed, this might take the form of new modules within the Bempp or IFSIntegrals packages, which are written in Python/Rust and Julia respectively, or a standalone open-source code written in a language to be determined by the project team. The software would provide the numerical PDE community with a valuable tool with which to simulate PDEs in domains with fractal boundaries, which currently does not exist, opening up the prospect of simulating new and important problems in acoustic and electromagnetic scattering, metamaterial design and imaging technologies. 

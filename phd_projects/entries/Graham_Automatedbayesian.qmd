@@ -1,0 +1,39 @@
+---
+title: "Accelerated multi-level Bayesian calibration of expensive simulations on high performance computing systems"
+institution: "UCL"
+department: "Advanced Research Computing Centre"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Dr Matt Graham"
+
+---
+## Project Description
+
+ Bayesian methods for calibration, that is fitting the parameters of a model to data, often require a large number of model runs to adequately explore the model parameter space. This makes them infeasible to apply to computationally intensive simulations. A common approach in this setting is to fit a statistical _emulator_ to a limited number of model evaluations and use this as a proxy for the full model in an inference algorithm (Kennedy and O'Hagan, 2001; Rasmussen, 2003).
+
+A key issue in such approaches is the choice of points in the parameter space at which to evaluate the model at to form the data used to fit the emulator. Use of  Bayesian experimental design approaches, where the parameter values  are chosen to minimize the expected future uncertainty about the model output at each step (Kandasamy, Schneider and Póczos, 2015; Sinsbeck and Nowak, 2017; Acerbi, 2018; Oliveira, Ott, and Ramos, 2021), offer a principled approach for maximising the information we get about a model from a limited number of evaluations, and can be extended to evaluate batches of points at each iteration (Järvenpää et al., 2021) improving the opportunity for parallelisation.
+
+Emulator-based calibration methods often treat the model as a monolithic black box, however, in reality complex simulators typically have tuneable variables allowing a trade off between numerical accuracy and computational cost. Multi-level Monte Carlo methods (Henrich, 2001; Giles, 2015) offer one approach for exploiting this trade off, combining simulations at multiple level of fidelity to reduce computational cost while controlling error. A recent related idea in the field of _probabilistic numerics_, is to statistically model how numerical error varies with fidelity (Teymur et al., 2021) and use this to probabilistically extrapolate the behaviour at high fidelity.
+
+### Main objectives of the project
+
+ The aim of this project will be to develop emulator-driven calibration approaches which employ a batched Bayesian experimental design strategy to adaptively select both the parameters to simulate the model with and variables controlling model fidelity, with an objective of maximising information gain from the simulations within a limited computational budget. This will require creating joint statistical models of the model output, its numerical error and computational cost, and devising utility functions to optimize over which balance between information gain and computational cost.
+
+### Details of software/data deliverables
+
+The key output of the project will be a suite of open-source software tools allowing emulator-based calibration of expensive simulator models with adaptive control of both parameters simulations are run at and variables controlling model fidelity. A central aim will be to ensure the tools developed are suitable to be used at scale on high performance computing systems, for example allowing interacting with job schedulers to asynchronously dispatch simulations, using batched sequential design strategies that allow setting off multiple runs in parallel and minimizing communication overheads by performing as much processing in-situ on nodes as possible. Where possible the aim will be to build on (and contribute back to) existing open-source tools and packages.
+
+The proposed supervisory team has worked on developing and implementing related methodology in a fusion-energy modelling context in collaboration with UKAEA as part of the uncertainty quantification efforts of the ExCALIBUR fusion use-case project, [NEPTUNE](https://excalibur.ac.uk/projects/excalibur-fusion-use-case-project-neptune-neutrals-plasma-turbulence-numerics-for-the-exascale/), and this project would build upon this existing foundation, with prototype implementations in the packages [calibr](https://github.com/UCL/calibr) and [emul](https://github.com/UCL/emul)
+
+## References
+
+1. Kennedy, M. C. and O’Hagan, A. (2001). “Bayesian calibration of computer models.” Journal of the Royal Statistical Society: Series B (Statistical Methodology), 63(3): 425–464. MR1858398. doi: https://doi.org/10.1111/1467-9868.00294.
+2. Heinrich, S. (2001). Multilevel Monte Carlo methods. In _Large-Scale Scientific Computing: Third International Conference, LSSC 2001_ (pp. 58-67). Springer Berlin Heidelberg.
+3. Rasmussen, C. E. (2003). “Gaussian Processes to Speed up Hybrid Monte Carlo for Expensive Bayesian Integrals.” Bayesian Statistics 7, 651–659. MR2003529.
+4. Kandasamy, K., Schneider, J., and Póczos, B. (2015). “Bayesian active learning for posterior estimation.” In International Joint Conference on Artificial Intelligence, 3605–3611.
+5. Giles, M. B. (2015). Multilevel Monte Carlo methods. _Acta numerica_, _24_, 259-328.
+6. Sinsbeck, M. and Nowak, W. (2017). “Sequential Design of Computer Experiments for the Solution of Bayesian Inverse Problems.” SIAM/ASA Journal on Uncertainty Quantification, 5(1): 640–664. MR3679325. doi: https://doi.org/10.1137/15M1047659.
+7. Acerbi, L. (2018). “Variational Bayesian Monte Carlo.” In Advances in Neural Information Processing Systems 31 , 8223–8233.
+8. Järvenpää, M., Gutmann, M. U., Vehtari, A., & Marttinen, P. (2021). Parallel Gaussian process surrogate Bayesian inference with noisy likelihood evaluations. Bayesian Analysis. 16(1), 147-178.
+9. Oliveira, R., Ott, L., & Ramos, F. (2021). "No-regret approximate inference via Bayesian optimisation". In Uncertainty in Artificial Intelligence (pp. 2082-2092). PMLR.
+10. Teymur, O., Foley, C., Breen, P., Karvonen, T., & Oates, C. J. (2021). Black box probabilistic numerics. _Advances in Neural Information Processing Systems_, _34_, 23452-23464.

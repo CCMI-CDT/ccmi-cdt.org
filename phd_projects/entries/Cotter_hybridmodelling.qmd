@@ -1,0 +1,12 @@
+---
+title: "PDE-driven/data-driven hybrid modelling for data assimilation"
+institution: "Imperial"
+department: "Mathematics"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Prof Colin Cotter"
+
+---
+## Project Description
+
+ Data assimilation is the process of taking measurements from a system that is evolving in time (like the Earth's weather, or water levels on a river network, etc) and using them to update knowledge about the current state of that system, so that a model can be used to produce future predictions of it. The goal of this project is to develop, analyse and implement new methods for performing data assimilation when the model has errors in it (due to e.g. unresolved processes below the gridscale). In our approach, we will use a stochastic formulation for these errors, which must itself be learned from data, either from precomputed high resolution simulation, or updated online during the data assimilation process.

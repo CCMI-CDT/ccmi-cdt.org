@@ -1,0 +1,46 @@
+---
+title: "Accelerating parabolic Stochastic PDE solver via a weak adversarial network approach"
+institution: "UCL"
+department: "Mathematics"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Prof Hao Ni"
+
+---
+## Project Description
+
+ ### Existing background work
+
+
+Stochastic partial differential equations (SPDEs) are power mathematical tools to model random spatiotemporal dynamics, with broader applications ranging from weather forecasting to fluid dynamics.  Machine learning (ML)-based approaches are emerging as it can be used to effectively handle the curse of dimensionality of traditional numerical methods. It can lead to the high-performing SPDE solver with significant computational acceleration. Moreover, the generalization of physics- informed neural networks from PDEs to SPDEs may provide a novel family of neural networks for analysing noisy spatiotemporal data, which can be used to discover the hidden physics law and predict the future data evolution. 
+Most of ML algorithms for learning SPDEs fail into the supervised learning category, where the input and output pairs are “observable data” consisted of driving noise and the corresponding solution trajectories. These data are simulated by high quality numerical solver. One important aspect of improving ML algorithms is to design neural networks to better approximate the SPDE solution map [1 – 3]. Among them, our proposed Deep latent regularity network incorporates Regularity structure, a groundbreaking work on SPDEs by the Fields medallist Martin Hairer, to design neural networks. This model demonstrates superior performance in terms of accuracy and inferences time on various SPDEs such as the stochastic 2D Navier-Stokes equation. 
+
+
+### Main objectives of the project
+
+In this project, we address the challenge of learning solutions to SPDEs using only observable solution trajectory samples. This approach is crucial for realistically modeling spatio-temporal dynamics in real-world applications, like fluid dynamics, where the driving noise is often unobservable. Our primary goal is to develop an unsupervised learning method for solving parabolic stochastic PDEs. To this end, we explore the generalization of Weak Adversarial Networks (WANs) [4, 5] —originally an unsupervised method for learning PDE solutions inspired by their weak solution—to the case of SPDEs. To achieve the superior accuracy and efficiency, we will design the suitable physics-informed neural networks (such as DLR net [3] or neural SPDEs [2]), which are capable of effectively approximate the primal network for SPDE solution and the dual network for the weak solution.  
+ 
+The main objectives of the projects are two folds:
+
+- to design the unsupervised learning methodology for solving parabolic SPDEs based on WANs and establish the theoretical foundations for the proposed networks; 
+- o validate the effectiveness of the proposed model on a number of SPDE examples by benchmarking with the conventional SPDE solvers and state-of-the-art ML models.   
+
+### Details of Software/Data Deliverables
+
+The expected deliverables are outlined as follows:
+
+- Data: Simulate the numerical solutions of the SPDE examples, such as the dynamic model ϕ_1^4 in [1] and the stochastic 2D Navier-Stokes equation [2]. 
+- Codes: Implement the python toolbox using PyTorch for the proposed ML methods to solve parabolic SPDEs and conduct numerical experiments for model comparison.
+
+Reference
+
+[1].	Zhang, D., Guo, L. and Karniadakis, G.E., 2020. Learning in modal space: Solving time-dependent stochastic PDEs using physics-informed neural networks. SIAM Journal on Scientific Computing, 42(2), pp.A639-A665.
+
+[2].	Salvi, C., Lemercier, M. and Gerasimovics, A., 2022. Neural stochastic PDEs: Resolution-invariant learning of continuous spatiotemporal dynamics. Advances in Neural Information Processing Systems, 35, pp.1333-1344. 
+
+[3].	Gong, S., Hu, P., Meng, Q., Wang, Y., Zhu, R., Chen, B., Ma, Z., Ni, H. and Liu, T.Y., 2023, June. Deep latent regularity network for modeling stochastic partial differential equations. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 37, No. 6, pp. 7740-7747).
+
+[4].	[1] Zang, Y., Bao, G., Ye, X. and Zhou, H., 2020. Weak adversarial networks for high-dimensional partial differential equations. Journal of Computational Physics, 411, p.109409.
+
+[5].	[2] Oliva, P.V., Wu, Y., He, C. and Ni, H., 2022. Towards fast weak adversarial training to solve high dimensional parabolic partial differential equations using XNODE-WAN. Journal of Computational Physics, 463, p.111233.
+[6].	Chevyrev, Ilya, Andris Gerasimovics, and Hendrik Weber. "Feature engineering with regularity structures." arXiv preprint arXiv:2108.05879 (2021).

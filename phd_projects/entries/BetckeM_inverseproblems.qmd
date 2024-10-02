@@ -1,0 +1,46 @@
+---
+title: "All-at-once deep learning methods for nonlinear PDE based inverse problems"
+institution: "UCL"
+department: "Computer Science"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Prof Marta Betcke"
+
+---
+## Project Description
+
+ ### Existing background work
+
+In inverse problems (IPs) a natural role for deep learning (DL) is to encode prior information contained in the training set e.g. anatomical and pathological similarities between patients. Learned reconstruction methods realise this in different ways learning a prior/proximal operator for use within an optimisation scheme or a post-processing correction or a pseudo-inverse e.g. via an unrolled scheme (see [1] for an overview of such methods, [2] for methods with convergence guarantees, [3, 4] for examples our group’s work in the context of Photoacoustic tomography).
+While general PDE solvers are designed to work for all coefficients (in an appropriate function space), for the PDEs modelling the forward operator of a nonlinear IP we may have additional information about the distribution of the coefficients which can be used to improve performance. This idea underpins approaches based on unrolling of an iterative forward solver e.g., specifically in the context of solution of high frequency Helmholtz equation, GMRES with the net acting as a (flexible) parametric preconditioner [5], or iterates of a learned Born series [6], and more generic neural operators which directly construct a neural network approximation to the Green’s function of a linear PDE as a function of its coefficients (see e.g. [7,8,9]).
+
+### Main objectives of the project
+
+This project will combine both these strands of research. We will seek to optimise the forward solver’s performance for the coefficients on the manifold of the prior which is akin to adaptivity in classical PDE solvers and combine it optimally with the leaned prior into an all-at-once inversion procedure. 
+Possible approaches to construction of such an all-at-once framework include: 
+Unrolling and parametrisation of a nonlinear solver, e.g. Gauss-Newton, for minimising a regularised nonlinear data fitting functional. The Fréchet derivative of the nonlinear data term involves solution of the forward PDE and its adjoint which can be replaced by neural operators (or forward unrolling). The regularisation functional can be replaced with an input convex neural network, or for non-smooth priors, the prox of the regularisation functional can be replaced with a neural network. The whole assembly can then be jointly trained on the same training set following one of the training paradigms e.g. variational, fix point or adversarial. 
+Another formulation can be proposed based on a PDE constraint optimisation framework which opts to minimise the regularised linear data consistency term subject to PDE constraints. The first order optimality conditions contain the Fréchet derivative, the forward and adjoint PDE solves, and the derivative of the regularisation functional, which again can be parametrised similarly as described above and used e.g. as a direction within first order optimisation method.
+As a part of the project we will investigate and develop suitable neural network architectures e.g. for the forward/adjoint neural operator pairs, Fréchet derivatives, regularisation functionals or their proxes, and efficient training strategies. 
+
+### Details of Software/Data Deliverables
+
+The objective of the project is to spearhead the paradigm of hybrid learned and model based all-at-once methods paying equal attention to utilising available data sets to aid solution of both the forward and the inverse problem involved.
+To push the paradigm into the wider inverse problems community of researchers and practitioners a high-quality accompanying software package is necessary. Along the core functionality a.k.a. the all-at-once frameworks, the package will include implementations of state-of-the-art hybrid model and data based forward solvers interfacing to popular PDE software e.g., https://ngsolve.org/, https://fenicsproject.org/, http://www.k-wave.org/ to allow flexibility of the underlying PDEs and the method of their solution. We will include implementations of the state-of-the-art neural operators, learned and analytical proximal/regularisation operators and optimisation methods, and will investigate feasibility of interfacing to popular inverse problems packages such as ODL https://odlgroup.github.io/odl/. 
+
+[1] Arridge, Simon, Maass, Peter, Ozan, Öktem, Schönlieb, Carola-Bibiane. (2019). Solving inverse problems using data-driven models. Acta Numerica. 28. 1-174. 
+
+[2] S. Mukherjee, A. Hauptmann, O. Öktem, M. Pereyra and C. -B. Schönlieb, Learned Reconstruction Methods With Convergence Guarantees: A survey of concepts and applications. IEEE Signal Processing Magazine, vol. 40, no. 1, pp. 164-182, Jan. 2023.
+
+[3] Hauptmann A, Lucka F, Betcke M, Huynh N, Adler J, Cox B, Beard P, Ourselin S, Arridge S. Model-based learning for accelerated, limited-view 3-D photoacoustic tomography. IEEE Transactions on Medical Imaging. 2018 Mar 29;37(6):1382-93.
+
+[4] Bolin Pan and Marta M. Betcke, On Learning the Invisible in Photoacoustic Tomography with Flat Directionally Sensitive Detector, SIAM Journal on Imaging Sciences 2023 16:2, 770-801
+
+[5] Stanziola, A., Arridge, S. R., Cox, B. T., & Treeby, B. E. (2021). A Helmholtz equation solver using unsupervised learning: Application to transcranial ultrasound. Journal of Computational Physics, 441, 110430.
+
+[6] Antonio Stanziola, Simon Arridge, Ben T. Cox, Bradley E. Treeby; A learned Born series for highly-scattering media. JASA Express Lett. 1 May 2023; 3 (5): 052401. 
+
+[7] Zongyi Li, Nikola Borislavov Kovachki, Kamyar Azizzadenesheli, Burigede liu, Kaushik Bhattacharya, Andrew Stuart, Anima Anandkumar. Fourier Neural Operator for Parametric Partial Differential Equations. ICLR International Conference on Learning Representations (2021). https://openreview.net/forum?id=c8P9NQVtmnO.
+
+[8] Anima Anandkumar, Kamyar Azizzadenesheli, Kaushik Bhattacharya, Nikola Kovachki, Zongyi Li, Burigede Liu, Andrew Stuart. Neural Operator: Graph Kernel Network for Partial Differential Equations. ICLR 2020 Workshop on Integration of Deep Neural Models and Differential Equations (2019), https://openreview.net/forum?id=fg2ZFmXFO3.
+
+[9] Boullé, N., Townsend, A. Learning Elliptic Partial Differential Equations with Randomized Linear Algebra. Found Comput Math 23, 709–739 (2023). 
