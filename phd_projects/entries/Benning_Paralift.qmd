@@ -1,0 +1,51 @@
+---
+title: "PARALIFT – A PARAllel framework for LIFTed training of neural networks"
+institution: "UCL"
+department: "Computer Science"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Prof Martin Benning"
+
+---
+## Project Description
+
+ ### Existing background work
+
+
+This project is founded on innovative advancements in distributed neural network training. The cornerstone of this work, as proposed in [1], is a framework for the distributed training of deep neural networks innovatively replaces the traditional neural network consistency constraint with quadratic penalisations of that constraint. These quadratic penalisations have the advantage that they remove the need for back-propagation and pave the way for distributed optimisation algorithms that can distribute the training of individual layers across different workers. At the same time, the framework requires the introduction of auxiliary variables, which lifts the parameter search space into a higher dimensional space. 
+This framework has subsequently been augmented by constraining the auxiliary variables to convex sets [2], and its quadratic penalties have been replaced with more bespoke penalty functions [3, 4]. In [4], the penalty functions have been replaced with tailored Bregman distance functions that, in combination with suitable optimisation algorithms, bypass the requirement of differentiating activation functions in the process.
+Building on this foundation, the lifted Bregman framework has been effectively applied to address the inverse problem in neural networks [5]. The objective here is to deduce the input of a pre-trained network from its output. In [6], the proposed framework has also been shown to be an effective tool for the computation of source condition elements, which are important quantities in the context of inverse problems. Furthermore, the method therein has been adapted to efficiently compute optimal sampling patterns for magnetic resonance imaging.
+
+### Main objectives of the project
+
+While the background work has showcased the versatility of the quadratic penalisation and lifted Bregman methods in smaller-scale applications, their full potential in distributed neural network training remains largely untapped. This project aims to tap this potential by democratising access to the distributed lifted Bregman framework for the broader research community. The main objective is to develop a user-friendly software toolbox, designed to simplify the implementation of deep neural network training for large-scale datasets using the lifted Bregman framework. This toolbox will be as straightforward to use as existing toolboxes like PyTorch or JAX. A key advantage of this new toolbox is its capacity for massive parallelisation, enabling the distribution of parameter updates across various workers for individual layers, while concurrently avoiding the need for differentiating non-differentiable operations.
+
+The specific main objectives of this PhD project include (but are not limited to):
+- Developing a Comprehensive Software Toolbox: Creating an efficient and effective toolbox for implementing the lifted Bregman framework, tailored to both ease of use and high performance.
+- Advancing Medical Imaging Techniques: Applying this innovative framework to medical imaging applications, such as magnetic resonance imaging (MRI) and positron emission tomography (PET), for large-scale datasets.
+- Enhancing Variational Regularisations: Focusing on the training of variational regularisations with optimal source condition elements as a novel use-case.
+- Inverting Deep Neural Networks: Employing the lifted Bregman inversion framework for the challenging task of inverting deep neural networks, particularly in contexts involving large-scale datasets.
+
+### Details of Software/Data Deliverables
+
+This project is designed to propel the use of the lifted Bregman framework from its current state with limited use cases to mass adoption. To do so, the project involves the development a Python library or Julia package (depending on the candidate’s prior programming experience and skillset) for distributed optimisation of the lifted Bregman objectives. The goal of this library or package is to make it as easy setting up complex use cases, e.g. the training of very deep transformer-based neural network architectures for large-scale datasets, as it currently is in popular automatic differentiation/deep learning frameworks such as PyTorch and JAX, but to efficiently utilise distributed training routines tailored to the lifted Bregman framework without users having to implement any of this functionality manually.
+In particular, the library or package will 
+- allow users to set up a wide range of different and versatile architectures and optimisation problems.
+- support popular training techniques, such as batch normalisation.
+- feature a variety of different distributed, non-smooth optimisation routines, including distributed proximal gradient descent, proximal incremental aggregated gradient, and proximal stochastic averaged gradient.
+- utilise distributed hardware architectures with little to no user input to enable both data and layer parallelism. 
+
+This project aims to elevate the lifted Bregman framework from its current state of limited use-cases to widespread use in the research community. Central to this objective is the development of either a Python library or a Julia package, depending on the candidate's programming expertise and skills. This tool will facilitate distributed optimisation of lifted Bregman objectives, making the setup of complex scenarios as effortless as using established automatic differentiation and deep learning frameworks like PyTorch and JAX. However, it uniquely focuses on the efficient employment of distributed training routines specific to the lifted Bregman framework, all without requiring users having to engage with the intricate details of manual implementation.
+Key features of this library or package include (but are not limited to):
+- Versatile Architecture and Optimisation Setup: Enabling users to effortlessly configure a broad spectrum of deep neural network architectures, loss functions, constraints, and optimisation problems.
+- Support for Established Training Techniques: Incorporating widely used training methodologies, including batch normalisation, to ensure compatibility with current best practices.
+- Advanced Distributed Optimisation Routines: Offering an array of sophisticated distributed, non-smooth optimisation techniques, such as distributed proximal gradient descent, proximal incremental aggregated gradient, and proximal stochastic averaged gradient.
+- Optimized Utilisation of Distributed Hardware: Designed to leverage distributed hardware architectures with minimal user intervention, thereby facilitating both data and layer parallelism for enhanced computational efficiency.
+
+References
+- [1]	Miguel Carreira-Perpinan, and Weiran Wang. "Distributed optimization of deeply nested systems." PMLR, 2014.
+- [2]	Armin Askari, et al. "Lifted neural networks." arXiv preprint arXiv:1805.01532 (2018).
+- [3]	Fangda Gu, Armin Askari, and Laurent El Ghaoui. "Fenchel lifted networks: A Lagrange relaxation of neural network training." PMLR, 2020.
+- [4]	Xiaoyu Wang, and Martin Benning. "Lifted Bregman training of neural networks." Journal of Machine Learning Research 24, no. 232 (2023): 1-51.
+- [5]	Xiaoyu Wang, and Martin Benning. "A lifted Bregman formulation for the inversion of deep neural networks." Frontiers in Applied Mathematics and Statistics 9 (2023): 1176850.
+- [6]	Martin Benning, Tatiana A. Bubba, Luca Ratti, and Danilo Riccio. "Trust your source: quantifying source condition elements for variational regularisation methods." arXiv preprint arXiv:2303.00696 (2023).

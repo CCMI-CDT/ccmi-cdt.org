@@ -1,0 +1,12 @@
+---
+title: "Developing Quasi-Geostrophic Coupled Ocean–Atmosphere Model"
+institution: "Imperial"
+department: "Mathematics"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Prof Pavel Berloff"
+
+---
+## Project Description
+
+ 

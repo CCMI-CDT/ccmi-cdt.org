@@ -1,0 +1,38 @@
+---
+title: "HemeLB at the exascale and beyond: Implementing and studying whole human scale cardiovascular hemodynamics on the world’s most powerful supercomputers"
+institution: "UCL"
+department: "Chemistry and Computer Science"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Prof Peter V. Coveney"
+
+---
+## Project Description
+
+ 
+## Existing background work
+
+
+HemeLB is a highly scalable lattice-Boltzmann code which manifests strong scaling on all CPU and GPU platforms where it is currently deployed.  These include, inter alia, Frontier (currently the world’s only exascale computer), Summit, Aurora, LUMI, and Archer2. It is designed to model and simulate personalised blood flow throughout the entire human vasculature, from head to toe. A great deal of software engineering has been invested in getting the code to this performance level, which is almost unrivalled on a global basis. It may well feature as a science driver for the post-exascale world and to ensure that is the case we must continue to support and develop the code base. 
+HemeLB has been developed over more than 15 years within Prof Peter Coveney’s group at the Centre for Computational Science. Its applications are wide-ranging, from smaller scale investigations of blood flow in aneurysms and arteriovenous malformations through to the latest simulations in which HemeLB is coupled to a state of the art model of the human heart (Alya from Barcelona Supercomputing Center).  [1,2,3]
+
+
+## Main objectives of the project
+
+In this research, we will be involved in globally leading edge developments of the HemeLB code which will be influenced by discussions about the way supercomputer are going to be designed for the post exascale era – that is, a form of genuinely interactive co-design with our collaborators in the DoE Leadership Computing Computing Facilities at Oak Ridge and Argonne National Laboraties and associated computing companies.
+
+The applications will continue to grow around modelling and simulating the virtual human. These applications will evolve in terms of optimising and enhancing the resolution of the simulations, rendering and visualising the output in situ on GPUs and providing a computational steering facility which can be used by both scientists and clinicians when running the code, so as to most effectively assess numerous “what if?” scenarios. The overall field of computational biomedicine is currently evolving fast in the direction of human digital twins (HDTs) and we expect the HemeLB software to be integral to these endeavours within research and clinical applications in the near future too. [4, 5].
+
+## Details of Software/Data Deliverables
+
+The student will need to become familiar with the substantial existing code base of HemeLB and its various development branches. Through this route, we would like to make available versions of the code that run effectively on Isambard-AI, Dawn and other UK based platforms, as well as on Frontier and Aurora and a number of European machines including LUMI and with our collaborators at Leibniz Rechenzentrum in Munich. Versions of the code which are suitable for inclusion in development of and support for computational steering and visualisation will be developed in collaboration with NVIDIA, particularly in the context of Isambard-AI, which will enter its production phase in the second half of 2024. HDT applications which engage with end-users, particularly clinicians and physiologists, will put a premium on the usability and ease of access of the code from remote machines which may well include clouds. 
+
+- [1] I. Zacharoudiou, J. W. S. McCullough, P. V. Coveney, "Development and performance of a HemeLB GPU code for human-scale blood flow simulation", Computer Physics Communications, 282, 108548 (2023) [DOI:10.1016/j.cpc.2022.108548](https://doi.org/10.1016/j.cpc.2022.108548)
+
+- [2] J. W. S. McCullough, R. A. Richardson, A. Patronis, R. Halver, R. Marshall, M. Ruefenacht, B. J. N. Wylie, T. Odaker, M. Wiedemann, B. Lloyd, E. Neufeld, G. Sutmann, A. Skjellum, D. Kranzlmüller and P. V. Coveney, "Towards blood flow in the virtual human: efficient self-coupling of HemeLB", J R Soc Interface Focus 11, 20190119 (2020), [DOI](https://www.doi.org/):[10.1098/rsfs.2019.0119](https://doi.org/10.1098/rsfs.2019.0119)
+
+- [3] A. Patronis, R. A. Richardson, S. Schmieschek, B. J. Wylie, R. W. Nash and P. V. Coveney, "Modelling Patient-Specific Magnetic Drug Targeting within the Intracranial Vasculature", Frontiers of Physiology, 9:331 (2018), [DOI](http://ccs.chem.ucl.ac.uk/sites/ccs.chem.ucl.ac.uk/themes/doi.shtml): [10.3389/fphys.2018.00331](http://dx.doi.org/10.3389/fphys.2018.00331)
+
+- [4] C. A. Franco, M. Jones, I. Geudens, M. O. Bernabeu, A. Ragab, A. Lima, R. T. Collins, L. K. Phng, P. V. Coveney, H. Gerhardt, "Dynamic endothelial cell rearrangements drive developmental vessel regression", PLoS Biology, 13(4), e1002125 (2015), [DOI](http://ccs.chem.ucl.ac.uk/sites/ccs.chem.ucl.ac.uk/themes/doi.shtml): [10.1371/journal.pbio.1002125](http://dx.doi.org/10.1371/journal.pbio.1002125)
+
+- [5] P. V. Coveney and R. R. Highfield, Virtual You: How Building Your Digital Twin Will Revolutionize Medicine and Change Your Life, Princeton University Press (2023)  [DOI:10.1515/9780691223407](https://doi.org/10.1515/9780691223407)

@@ -1,0 +1,23 @@
+---
+title: "Machine Learning for Low-Cost Data Assimilation"
+institution: "UCL"
+department: "Computer Science"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Prof Marc Deisenroth"
+
+---
+## Project Description
+
+ ### Existing background work
+
+This project is about a machine learning approach to data assimilation. Specifically, we use message passing algorithms to infer a posterior distribution on the (weather) state given some observations. This would be a perspective on data assimilation that is different to currently used methods, such as 3DVar or inference in Gauss-Markov random fields using INLA. We have done some preliminary work in this space with encouraging results that are similar to 3DVar in terms of speed and accuracy. Currently, our results are limited to the spatial setting, and we only estimate the mean of the latent field.
+
+### Main objectives of the project
+
+The project will extend our previous work to include meaningful (marginal) uncertainty estimates plus the extension to the spatio-temporal setting where 4DVar and Ensemble Kalman Filters are the state of the art. In combination with a machine-learning model that faithfully emulates the numerical weather prediction model, we will be able to quickly arrive at a data assimilation solution that is a) parallelizable, b) distributed in computation, c) yields meaningful uncertainty estimates, d) has a small memory footprint, e) can be implemented on specialized hardware, such as Graphcores IPUs. Our approach is general in the sense that it can be applied to various areas, such as weather/climate, oceans or nuclear fusion.
+
+### Details of Software/Data Deliverables
+
+
+Our implementation is currently in JAX (including sparse linear algebra) and works on GPU and CPU. We will continue to develop our software to support multi-GPU systems. In terms of data, we currently use publicly available data. By the end of the project, software will be open-sourced and easy to use. 

@@ -1,0 +1,24 @@
+---
+title: "Re-griding the TROVE nuclear motion program"
+institution: "UCL"
+department: "Physics and Astronomy"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Prof Jonathan Tennyson"
+
+---
+## Project Description
+
+ ### Existing background work
+
+
+Tennyson and Yurchenko have developed a series of programs for solving the quantum mechanical Schrodinger equation for the motion of nuclei for small molecules. These programs are highly efficient and widely used (eg they underpin the ERC funded ExoMol project). TROVE (Theoretical ROVibrational Energies, see https://spectrove.readthedocs.io) is the most flexible of these program as it can be extended to molecules of arbitrary size and complexity. However the number of degrees of freedom that need to be considered grows as 3N-6 where N is the number of atoms. At present TROVE us products of one-dimensional grids which becomes increasingly inefficient a N increases. In addition we have been systematically updating our methodology to treat processes which lead to continuum states of the molecule being occupied. Experience with small (N=2 or N=3) molecules shows that specialized grids, currently not implemented in TROVE. To tackled cases with N > 3 will require regridding of TROVE.
+
+### Main objectives of the project
+
+The main objective will be to develop methods of using multidimensional grids in place of products on 1 dimension grids. Two versions of this will be developed: for bound  state problems largely aimed at systems with N > 6 and for problems which need to consider continuum states where at present we cannot address problems with N=4 despite many requests to work on such problems. Initial work focus on the possibility of using Smolyak grids but probably the project will explore other possibilities  The main output will be a version of TROVE with greatly enhanced functionality.  The student will have the opportunity to run calculations for key problems if they wish. 
+
+### Details of Software/Data Deliverables
+
+TROVE has a github repository: https://github.com/Trovemaster/TROVE
+Original coding can be done independent of the main software as suitable grid algorithms are developed. The final version will then integrated in the main TROVE software package.

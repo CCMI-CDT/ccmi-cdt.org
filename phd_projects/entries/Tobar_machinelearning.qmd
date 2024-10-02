@@ -1,0 +1,31 @@
+---
+title: "Optimal transport for probabilistic machine learning"
+institution: "Imperial"
+department: "Mathematics"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Dr.Felipe Tobar"
+
+---
+## Project Description
+
+ ### Existing background work
+
+During the last decade, optimal transport (OT) has penetrated the core technical aspects of machine learning (ML). In particular, OT's ability to define meaningful distances among generative models has allowed to design better, ad hoc, learning strategies for models defined over complex data structures.
+
+We have developed OT methods, including Wasserstein-inspired distances and novel types of barycentres, for Gaussian processes, time series analysis, Bayesian model selection, outlier detection, trajectory tracking, natural language processing, and clustering of distributions.
+
+### Main objectives of the project
+
+To design and validate learning strategies and architectures for probabilistic generative models using concepts and resources from OT. Likewise, to explore the use and benefits that ML methods bring to the computation of OT. The project includes both theoretical and applied (computational) aspects.  
+
+- To explore the state of the art in the interface between computational OT and probabilistic machine learning
+- To identify which aspects of learning strategies, or model architectures, can be enhanced via OT
+- To devise directions in which ML can improve OT computation (e.g., speed and robustness)
+- To provide theoretical guarantees for the developed solutions
+- To produce experimental validation of the proposed methodologies for general applied subjects (e.g., climate, astronomy, audio, social sciences, health)
+- To ensure availability and dissemination of the project contributions in the form of free (open source) software which is compatible with other toolbox of the ML communities
+
+### Details of Software/Data Deliverables
+
+The conceptual contributions of the project are expected to be complemented with reproducible experimental validation. This includes i) open-source software to be used by the scientific community, ii) a public repository hosting the developed software, iii) reproducible examples showing particular applications to scientific or social challenges.
