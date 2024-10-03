@@ -1,7 +1,7 @@
 ---
 title: "Quantifying and eliminating floating point pathologies in the simulation of chaotic dynamical systems"
 institution: "UCL"
-department: "Chemistry and Computer Science"
+department: "Chemistry and Advanced Research Computing"
 author: "Laura Beer"
 date: "02/10/2024"
 advisor: "Prof Peter V. Coveney"
