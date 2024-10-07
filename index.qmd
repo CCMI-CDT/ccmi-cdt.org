@@ -1,5 +1,5 @@
 ---
-title: Doctoral Training in Collaborative Computational Modelling at the Interface (CCMI) at EPSRC
+title: Doctoral Training in Collaborative Computational Modelling at the Interface (CCMI)
 
 format:
   html:
