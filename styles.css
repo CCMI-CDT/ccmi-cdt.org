@@ -5,6 +5,11 @@
 body {
 	box-sizing: border-box;
 	font-family: Montserrat;
+	max-width: 2000px;
+
+	@media only screen and (min-width: 2000px) {
+		margin: 0 auto;
+	}
 }
 
 header#title-block-header {
@@ -20,22 +25,27 @@ header#title-block-header {
 	@media only screen and (max-width: 951px) {
 		flex-direction: column-reverse;
 	}
+
+	@media only screen and (min-width: 2000px) {
+		margin: 0 auto;
+		width: 100%;
+	}
 }
 
 #blog-events-wrapper {
 	z-index: 2;
-	width: 30vw;
+	width: clamp(28rem, 32rem, 42rem);
 
 	@media only screen and (max-width: 951px) {
 		width: 100%;
 		z-index: 1;
 	}
 }
+
 #listing-blog,
 #listing-current-events {
 	height: fit-content;
 	max-height: 80vh;
-	/* /* background-color: #b3c0d1; */
 	background: rgba(179, 192, 209, 0.567);
 	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 	backdrop-filter: blur(4.3px);
@@ -58,16 +68,19 @@ header#title-block-header {
 #gallery {
 	position: absolute;
 	max-width: fit-content;
+	left: 0;
 
 	.carousel-item {
 		max-height: 90vh;
-		> img {
+
+		>img {
 			object-fit: cover;
 		}
 
 		@media only screen and (max-width: 951px) {
 			height: 50vh;
 		}
+
 	}
 
 	.carousel-caption {
@@ -84,6 +97,14 @@ header#title-block-header {
 			margin-bottom: auto;
 			width: auto;
 		}
+
+		@media only screen and (min-width: 1000px) {
+			transform: translate(-2rem, 0);
+		}
+
+		@media only screen and (min-width: 2000px) {
+			transform: unset;
+		}
 	}
 
 	.carousel-indicators {
@@ -97,12 +118,24 @@ header#title-block-header {
 		position: unset;
 		width: 100%;
 	}
+
+	@media only screen and (min-width: 2000px) {
+		left: unset;
+		margin-inline: auto;
+		padding-right: 32rem;
+		margin-right: 2rem;
+	}
 }
+
 #key-facts {
 	background-color: #192d83;
 
 	padding-top: 1vh;
 	max-width: max-content;
+
+	@media only screen and (min-width: 2000px) {
+		max-width: 100%;
+	}
 
 	.key-facts__heading {
 		color: white;
@@ -121,6 +154,7 @@ header#title-block-header {
 		@media only screen and (max-width: 951px) {
 			margin-bottom: auto;
 		}
+
 		.card {
 			font-size: 110%;
 			max-width: 85%;
@@ -135,6 +169,7 @@ header#title-block-header {
 			border: 1px solid rgba(255, 255, 255, 0.3);
 		}
 	}
+
 	#section-wave {
 		/* this hides a line made by the container it's in */
 		margin-bottom: -2px;
@@ -149,11 +184,12 @@ header#title-block-header {
 		background: #add2a1e2;
 		color: #3f723f;
 
-		> span {
+		>span {
 			font-weight: 600;
 		}
 	}
 }
+
 #btn-outline--custom {
 	&:hover {
 		color: white;
@@ -176,6 +212,7 @@ header#title-block-header {
 	.card {
 		max-width: 25vw;
 	}
+
 	.team-image {
 		max-height: 50vh;
 		object-fit: cover;
@@ -186,16 +223,19 @@ header#title-block-header {
 
 .nav-link {
 	color: rgba(240, 248, 255, 0.855);
+
 	&.active {
 		color: rgba(240, 248, 255, 1) !important;
 		text-decoration: underline rgba(240, 248, 255, 0.855);
 		text-underline-offset: 8px;
 	}
 }
+
 .navbar-title {
 	color: #ecf3fa;
 }
-.aa-DetachedSearchButtonIcon > svg {
+
+.aa-DetachedSearchButtonIcon>svg {
 	fill: #ecf3fa;
 }
 
@@ -211,12 +251,15 @@ h1.title {
 		padding-left: 18vw;
 		font-size: 60%;
 		align-content: center;
+
 		@media only screen and (max-width: 951px) {
 			padding-left: 0;
 		}
 	}
+
 	.title__part-3 {
 		font-size: 90%;
+
 		@media only screen and (max-width: 951px) {
 			padding-left: 0;
 		}
@@ -235,6 +278,7 @@ h1.title {
 	h5 {
 		color: #192d83;
 	}
+
 	.btn--contact {
 		color: #283c95;
 		background: rgba(255, 255, 255, 0.31);
@@ -248,6 +292,10 @@ h1.title {
 			background-color: rgba(255, 255, 255, 0.81);
 			box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
 		}
+	}
+
+	@media only screen and (min-width: 2000px) {
+		min-height: fit-content;
 	}
 }
 
@@ -281,6 +329,7 @@ h1.title {
 
 	.card {
 		transition: background-color 0.3s ease;
+
 		&:hover {
 			background-color: #b3c0d1;
 		}
