@@ -1,13 +1,5 @@
 [
   {
-    "listing": "/team.html",
-    "items": []
-  },
-  {
-    "listing": "/events/events.html",
-    "items": []
-  },
-  {
     "listing": "/blog/blog_list.html",
     "items": [
       "/blog/posts/blogpost1.html"
@@ -18,5 +10,13 @@
     "items": [
       "/blog/posts/blogpost1.html"
     ]
+  },
+  {
+    "listing": "/team.html",
+    "items": []
+  },
+  {
+    "listing": "/events/events.html",
+    "items": []
   }
 ]

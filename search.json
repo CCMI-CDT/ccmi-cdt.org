@@ -1,26 +1,5 @@
 [
   {
-    "objectID": "team.html",
-    "href": "team.html",
-    "title": "Leadership Team",
-    "section": "",
-    "text": "Prof Timo Betcke is Centre Director. He is Professor of Computational Mathematics at UCL.\n                Homepage\n                Orcid\n                \n                GitHub\n                \n            \n        \n    \n\n\n\n    \n        \n        \n        \n        \n            \n                Prof Colin Cotter is Co-Lead for the CDT. He is Professor of Computational Mathematics at Imperial College.\n                Homepage\n                Orcid\n                \n                GitHub\n                \n            \n        \n    \n\n\n\n    \n        \n        \n        \n        \n            \n                Prof Marta Betcke is Co-Director for Research and Partnership. She is Professor of Scientific Computing at UCL.\n                Homepage\n                Orcid\n                \n            \n        \n    \n\n\n\n    \n        \n        \n        \n        \n            \n                Prof Ruth Misener is Co-Director for Research and Partnership. She is Professor in Computational Optimisation at Imperial College.\n                Homepage\n                Orcid\n                \n                GitHub\n                \n            \n        \n    \n\n\n\n    \n        \n        \n        \n        \n            \n                Prof Serge Guillas is Co-Director for Training. He is the Met Office Joint Chair in Data Sciences for Weather and Climate at UCL.\n                Homepage\n                Orcid\n                \n            \n        \n    \n\n\n\n    \n        \n        \n        \n        \n            \n                Dr Dante Kalise is Co-Director for Training. He is a Reader in Computational Optimisation and Control at Imperial College.\n                Homepage\n                Orcid\n                \n            \n        \n    \n\n\n\n    \n        \n        \n        \n        \n            \n                Prof Hao Ni is Co-Director for Admissions. She is Professor of Mathematics at UCL and a Turing Fellow at the Alan Turing Institute.\n                Homepage\n                Orcid\n                \n                GitHub\n                \n            \n        \n    \n\n\n\n    \n        \n        \n        \n        \n            \n                Dr Vahid Shahrezaei is Co-Director for Admissions. He is a Reader in Biomathematics at Imperial College.\n                Homepage\n                Orcid\n                \n            \n        \n    \n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "events/events.html",
-    "href": "events/events.html",
-    "title": "Events",
-    "section": "",
-    "text": "Networking with UKAEA\n                10 September 2024\n                \n                Fusion research is a complex multidisciplinary problem, ranging across fundamental science, engineering, computational modelling, and the data sciences. In this network event we discuss future collaborations between the CCMI CDT and UKAEA on the interface of exciting computational modelling problems, large-scale data science and AI, and cutting edge research software engineering.\n            \n                \n        \n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "blog/blog_list.html",
-    "href": "blog/blog_list.html",
-    "title": "CCMI Blog",
-    "section": "",
-    "text": "Posts\n\n\n        \n            \n            \n                New homepage.\n                \n                Our new homepage is now live.\n            \n                \n        \n\n\n\nNo matching items"
-  },
-  {
     "objectID": "training.html",
     "href": "training.html",
     "title": "The CCMI Training Programme",
@@ -42,11 +21,11 @@
     "text": "Schedule\n\n09:30 – 10:15 Networking\n10:15 - 10:30 CCMI Intro, Timo Betcke & Colin Cotter\n10:30 - 10:45 GAMS, Michael Bussieck\n10:45 – 11:00 FICO, Tristan Gally\n11:00 – 11:15 DataSparq, Jeremy Bradley\n11:15 – 11:35 SLB, Joshua Knowles\n11:35 – 11:50 McLaren, Julien Hoessler\n11:50 – 12:05 Graphcore, Andrew Fitzgibbon\n12:05 – 12:20 DELL, Paul Brook\n12:30 - 13:30 Lunch\n13:30 - 14:20 Poster Session\n14:20 – 14:30 RFI, Mark Basham\n14:30 – 14:40 Crick, James Briscoe\n14:40 – 14:50 ATI, Martin O’Reilly\n14:50 – 15:00 BASF, Rosona Eldred\n15:00 – 15:10 Gurobi, Lindsay Montanari\n15:10 – 15:20 SURF, Marco Verdicchio\n15:20 – 15:30 Enthought, Alexandre Chabot-Leclerc\n15:30 – 15:40 Rapiscan, William Thompson\n15:40 – 16:00 Summary, Marta Betcke/Ruth Misener"
   },
   {
-    "objectID": "blog/posts/blogpost1.html",
-    "href": "blog/posts/blogpost1.html",
-    "title": "New homepage.",
+    "objectID": "blog/blog_list.html",
+    "href": "blog/blog_list.html",
+    "title": "CCMI Blog",
     "section": "",
-    "text": "Our brand-new homepage is now live. There may still be minor issues and features are continuously being added."
+    "text": "Posts\n\n\n        \n            \n            \n                New homepage.\n                \n                Our new homepage is now live.\n            \n                \n        \n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -54,5 +33,26 @@
     "title": "\n\t\tEPSRC Centre for Doctoral Training \n\t\t\n\t\t in \n\t\tCollaborative Computational Modelling at the Interface \n\t\t\t\n\t\t\n\t",
     "section": "",
     "text": "Blog Posts\n\n\n    \n        \n            \n            \n            \n        \n\n        \n\n            \n            \n                \n                    \n                    \n                        \n                                        \n                                New homepage.\n                            \n                            Our new homepage is now live.\n                        \n                    \n                \n                    \n                \n            \n\n            \n                \n                Previous\n            \n            \n                \n                Next\n            \n        \n    \n    \n\nNo matching items\n\n\n\n\n    \n        \n        \n            CCMI offers a fully funded 4 year PhD programme at either UCL or Imperial College\n        \n    \n    \n        \n        \n            We offer a bespoke cohort training programme consisting of dedicated block workshops, software weeks, summer schools, and many other activities\n        \n    \n    \n        \n        \n            The first intake starts in Sept. 2025 (call for applications to start in autumn 2024)\n        \n    \n    \n        \n        \n            We will provide research opportunities across computational mathematics, scientific algorithms, high-performance computing, research software engineering, data sciences, and applications\n        \n    \n    \n        \n        \n            We have external partners ranging from innovative SMEs to world-leading HPC labs\n        \n    \n    \n\n\nNo matching items\n\n\n\nEvents\n\n    \n        \n            \n            \n            \n        \n\n        \n\n            \n            \n                \n                    \n                        \n                            \n                                \n                                    Networking with UKAEA \n                                10 September 2024\n                                    \n                                A networking opportunity to discuss collaborative research projects between UKAEA and the CCMI CDT.\n                            \n                        \n                    \n                    \n                \n            \n\n        \n\n        \n            \n            Previous\n        \n        \n            \n            Next\n        \n    \n\n\n\nNo matching items\n\n\n\n\n\nEvents\n\n    \n        \n            \n            \n            \n        \n\n        \n\n            \n            \n                \n                    \n                        \n                            \n                                \n                                    Networking with UKAEA \n                                10 September 2024\n                                    \n                                A networking opportunity to discuss collaborative research projects between UKAEA and the CCMI CDT.\n                            \n                        \n                    \n                    \n                \n            \n\n        \n\n        \n            \n            Previous\n        \n        \n            \n            Next\n        \n    \n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCCMI is a collaboration between University College London and Imperial College London to offer a novel and innovative PhD training programme at the interface of computational modelling, data sciences, and research software engineering.\n\n\n\n\n\n\n\nStudents will join world-class research groups across UCL and Imperial, and will benefit from a bespoke training programme around research software engineering and its applications in the computational and data sciences.\n\n\n\n\n\n Previous\n\n\n Next\n\n\n\n\n\n\nKEY FACTS\n\n\n\n    \n        \n        \n            CCMI offers a fully funded 4 year PhD programme at either UCL or Imperial College\n        \n    \n    \n        \n        \n            We offer a bespoke cohort training programme consisting of dedicated block workshops, software weeks, summer schools, and many other activities\n        \n    \n    \n        \n        \n            The first intake starts in Sept. 2025 (call for applications to start in autumn 2024)\n        \n    \n    \n        \n        \n            We will provide research opportunities across computational mathematics, scientific algorithms, high-performance computing, research software engineering, data sciences, and applications\n        \n    \n    \n        \n        \n            We have external partners ranging from innovative SMEs to world-leading HPC labs\n        \n    \n    \n\n\nNo matching items\n\n\n\n\n\n\n\n\nInterested?\n\n\n Sign Up Now \n\n\n Read About Our Research \n\n\n Read About Our Software"
+  },
+  {
+    "objectID": "blog/posts/blogpost1.html",
+    "href": "blog/posts/blogpost1.html",
+    "title": "New homepage.",
+    "section": "",
+    "text": "Our brand-new homepage is now live. There may still be minor issues and features are continuously being added."
+  },
+  {
+    "objectID": "team.html",
+    "href": "team.html",
+    "title": "Leadership Team",
+    "section": "",
+    "text": "Prof Timo Betcke is Centre Director. He is Professor of Computational Mathematics at UCL.\n                Homepage\n                Orcid\n                \n                GitHub\n                \n            \n        \n    \n\n\n\n    \n        \n        \n        \n        \n            \n                Prof Colin Cotter is Co-Lead for the CDT. He is Professor of Computational Mathematics at Imperial College.\n                Homepage\n                Orcid\n                \n                GitHub\n                \n            \n        \n    \n\n\n\n    \n        \n        \n        \n        \n            \n                Prof Marta Betcke is Co-Director for Research and Partnership. She is Professor of Scientific Computing at UCL.\n                Homepage\n                Orcid\n                \n            \n        \n    \n\n\n\n    \n        \n        \n        \n        \n            \n                Prof Ruth Misener is Co-Director for Research and Partnership. She is Professor in Computational Optimisation at Imperial College.\n                Homepage\n                Orcid\n                \n                GitHub\n                \n            \n        \n    \n\n\n\n    \n        \n        \n        \n        \n            \n                Prof Serge Guillas is Co-Director for Training. He is the Met Office Joint Chair in Data Sciences for Weather and Climate at UCL.\n                Homepage\n                Orcid\n                \n            \n        \n    \n\n\n\n    \n        \n        \n        \n        \n            \n                Dr Dante Kalise is Co-Director for Training. He is a Reader in Computational Optimisation and Control at Imperial College.\n                Homepage\n                Orcid\n                \n            \n        \n    \n\n\n\n    \n        \n        \n        \n        \n            \n                Prof Hao Ni is Co-Director for Admissions. She is Professor of Mathematics at UCL and a Turing Fellow at the Alan Turing Institute.\n                Homepage\n                Orcid\n                \n                GitHub\n                \n            \n        \n    \n\n\n\n    \n        \n        \n        \n        \n            \n                Dr Vahid Shahrezaei is Co-Director for Admissions. He is a Reader in Biomathematics at Imperial College.\n                Homepage\n                Orcid\n                \n            \n        \n    \n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "events/events.html",
+    "href": "events/events.html",
+    "title": "Events",
+    "section": "",
+    "text": "Networking with UKAEA\n                10 September 2024\n                \n                Fusion research is a complex multidisciplinary problem, ranging across fundamental science, engineering, computational modelling, and the data sciences. In this network event we discuss future collaborations between the CCMI CDT and UKAEA on the interface of exciting computational modelling problems, large-scale data science and AI, and cutting edge research software engineering.\n            \n                \n        \n\n\n\nNo matching items"
   }
 ]
