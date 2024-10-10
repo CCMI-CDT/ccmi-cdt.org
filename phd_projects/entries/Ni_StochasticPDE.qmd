@@ -9,7 +9,7 @@ advisor: "Prof Hao Ni"
 ---
 ## Project Description
 
- ### Existing background work
+### Existing background work
 
 
 Stochastic partial differential equations (SPDEs) are power mathematical tools to model random spatiotemporal dynamics, with broader applications ranging from weather forecasting to fluid dynamics.  Machine learning (ML)-based approaches are emerging as it can be used to effectively handle the curse of dimensionality of traditional numerical methods. It can lead to the high-performing SPDE solver with significant computational acceleration. Moreover, the generalization of physics- informed neural networks from PDEs to SPDEs may provide a novel family of neural networks for analysing noisy spatiotemporal data, which can be used to discover the hidden physics law and predict the future data evolution. 

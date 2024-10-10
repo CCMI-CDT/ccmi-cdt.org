@@ -9,7 +9,7 @@ advisor: "Prof Vahid Shahrezaei and Dr. Philipp Thomas "
 ---
 ## Project Description
 
- ### Existing background work
+### Existing background work
 
 Interpretation of single-cell transcriptomics data is a tremendous mathematical challenge. Existing statistical modelling tools often lack interpretability and can introduce ambiguity introducing unquantified errors that feed into downstream analyses. By inferring mechanistic mathematical models of stochastic gene expression and gene regulatory networks, the project aims to utilise distributional information to enhance the interpretability of predictions and shed light on the cellular processes underlying transcriptional regulation.
 

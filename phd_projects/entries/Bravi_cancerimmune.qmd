@@ -9,8 +9,6 @@ advisor: "Dr. Barbara Bravi"
 ---
 ## Project Description
 
- ### Project Goal
-
 
 The immune system is a major constraint on cancer evolution and an important therapeutic target. However, the molecular determinants and the dynamics of immune response in cancer remain poorly understood. The goal of this project is to develop efficient computational simulation frameworks and machine learning methods to characterise and predict quantitatively immune responses in cancer, focussing on colorectal cancer data. The combination of computational modelling and machine learning predictions will allow us to uncover many characteristics of tumour-immune coevolution, which is key to the design of anti-cancer immunotherapies.
 

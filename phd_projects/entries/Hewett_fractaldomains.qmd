@@ -9,7 +9,7 @@ advisor: "Prof David Hewett"
 ---
 ## Project Description
 
- ### Existing background work
+### Existing background work
 
 PDEs are a fundamental tool in the mathematical modelling of physical processes, and obtaining accurate approximate numerical solutions to PDE problems is a key area within scientific computing. Many numerical methods are available, but most are designed for the case where the PDE is to be solved in a domain with a smooth boundary (typically, Lipschitz or smoother). However, many real-world problems involve domains with non-smooth boundaries, which may possess detail on multiple length scales. Fractals provide a mathematical model for such boundaries, and in this project the student will develop numerical methods for solving PDEs in domains with fractal boundaries. This is an exciting and emerging field, with lots of challenging open mathematical and computational questions to investigate. 
 

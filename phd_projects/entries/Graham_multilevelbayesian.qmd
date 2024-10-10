@@ -9,7 +9,7 @@ advisor: "Dr Matt Graham"
 ---
 ## Project Description
 
- ### Existing background work
+### Existing background work
 
 Diffusion processes specified by systems of stochastic differential equations are used to model phenomena in a wide range of settings. Inferring the posterior distribution on the unknown parameters of such models given, potentially partial and noisy, observations of the process is often a computationally demanding task, with even forward simulation of the model typically intractable, necessitating use of numerical integration schemes. A common approach in this setting is to use _data augmentation_, whereby the paths of the time discretised diffusion process are jointly inferred with the model parameters. A plethora of approximate inference schemes have been proposed in this setting, with key challenges from a computational statistics standpoint being the high-dimension of the resulting latent space when a fine time-discretization is used, and the complex, typically non-linear, dependencies between the latent variables, resulting in a challenging to approximate posterior distribution geometry. The appropriate choice of numerical integration scheme will often also be model dependent, with properties such as hypoellipticity whereby the diffusion process includes a mix of rough and smooth components, requiring careful treatment to ensure the time-discretized process retains key properties of the underlying continuous time system.
 

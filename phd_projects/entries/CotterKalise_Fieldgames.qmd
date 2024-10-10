@@ -9,7 +9,7 @@ advisor: "Prof Colin Cotter and Dr. Dante Kalise"
 ---
 ## Project Description
 
- ### Existing background work
+### Existing background work
 
 Colin Cotter is Professor of Computational Mathematics at Imperial College. He has relevant interests in optimal transport applied to the semigeostrophic equations and to weather forecast verification, and in design, analysis and implementation of finite element methods.
 

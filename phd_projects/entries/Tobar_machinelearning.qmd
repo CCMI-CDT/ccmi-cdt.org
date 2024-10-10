@@ -9,7 +9,7 @@ advisor: "Dr.Felipe Tobar"
 ---
 ## Project Description
 
- ### Existing background work
+### Existing background work
 
 During the last decade, optimal transport (OT) has penetrated the core technical aspects of machine learning (ML). In particular, OT's ability to define meaningful distances among generative models has allowed to design better, ad hoc, learning strategies for models defined over complex data structures.
 

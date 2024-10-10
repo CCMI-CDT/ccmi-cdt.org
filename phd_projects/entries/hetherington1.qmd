@@ -1,0 +1,14 @@
+---
+title: "Model correlation and the version control tree"
+institution: "UCL"
+department: "ARC"
+author: "Timo Betcke"
+date: "10/10/2024"
+advisor: "Prof James Hetherington"
+---
+
+## Project Description
+
+When we consider the behaviour of numerical models of complex systems, it is relatively common practice to treat the predictions of different models of the same phenomena as independent and uncorrelated. This approach was, for example, taken during the Covid-19 pandemic to uncertainty quantification for the national R number, based on the outputs of an ensemble of models taken from a variety of UK universities. Yet this approach misses a key element: models form a tree of inheritance, similar to that of a phylogenetic tree in biology. Models share traits with their parents. Models borrow from each other. Models developed in physical proximity interbreed - the labs and companies they are developed in. This interrelatedness is hard to characterise and control - a key challenge for reliable UQ when using ensembles of models. We propose initially to use the version control tree implied by Github, as a proxy for this, and look at model output correlation properties conditioned on graph distance in the version control tree.
+
+

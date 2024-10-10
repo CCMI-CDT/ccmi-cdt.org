@@ -9,7 +9,7 @@ advisor: "Prof Marta Betcke"
 ---
 ## Project Description
 
- ### Existing background work
+### Existing background work
 
 In inverse problems (IPs) a natural role for deep learning (DL) is to encode prior information contained in the training set e.g. anatomical and pathological similarities between patients. Learned reconstruction methods realise this in different ways learning a prior/proximal operator for use within an optimisation scheme or a post-processing correction or a pseudo-inverse e.g. via an unrolled scheme (see [1] for an overview of such methods, [2] for methods with convergence guarantees, [3, 4] for examples our group’s work in the context of Photoacoustic tomography).
 While general PDE solvers are designed to work for all coefficients (in an appropriate function space), for the PDEs modelling the forward operator of a nonlinear IP we may have additional information about the distribution of the coefficients which can be used to improve performance. This idea underpins approaches based on unrolling of an iterative forward solver e.g., specifically in the context of solution of high frequency Helmholtz equation, GMRES with the net acting as a (flexible) parametric preconditioner [5], or iterates of a learned Born series [6], and more generic neural operators which directly construct a neural network approximation to the Green’s function of a linear PDE as a function of its coefficients (see e.g. [7,8,9]).

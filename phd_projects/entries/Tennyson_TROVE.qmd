@@ -9,7 +9,7 @@ advisor: "Prof Jonathan Tennyson"
 ---
 ## Project Description
 
- ### Existing background work
+### Existing background work
 
 
 Tennyson and Yurchenko have developed a series of programs for solving the quantum mechanical Schrodinger equation for the motion of nuclei for small molecules. These programs are highly efficient and widely used (eg they underpin the ERC funded ExoMol project). TROVE (Theoretical ROVibrational Energies, see https://spectrove.readthedocs.io) is the most flexible of these program as it can be extended to molecules of arbitrary size and complexity. However the number of degrees of freedom that need to be considered grows as 3N-6 where N is the number of atoms. At present TROVE us products of one-dimensional grids which becomes increasingly inefficient a N increases. In addition we have been systematically updating our methodology to treat processes which lead to continuum states of the molecule being occupied. Experience with small (N=2 or N=3) molecules shows that specialized grids, currently not implemented in TROVE. To tackled cases with N > 3 will require regridding of TROVE.

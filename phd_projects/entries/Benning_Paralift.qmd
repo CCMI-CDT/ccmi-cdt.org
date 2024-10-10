@@ -9,7 +9,7 @@ advisor: "Prof Martin Benning"
 ---
 ## Project Description
 
- ### Existing background work
+### Existing background work
 
 
 This project is founded on innovative advancements in distributed neural network training. The cornerstone of this work, as proposed in [1], is a framework for the distributed training of deep neural networks innovatively replaces the traditional neural network consistency constraint with quadratic penalisations of that constraint. These quadratic penalisations have the advantage that they remove the need for back-propagation and pave the way for distributed optimisation algorithms that can distribute the training of individual layers across different workers. At the same time, the framework requires the introduction of auxiliary variables, which lifts the parameter search space into a higher dimensional space. 

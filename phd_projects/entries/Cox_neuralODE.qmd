@@ -9,7 +9,7 @@ advisor: "Prof Ben Cox"
 ---
 ## Project Description
 
- ### Existing background work
+### Existing background work
 
 Many imaging problems take the form of recovering the coefficients of a partial differential equation (PDE). Examples include Electrical Impedance Tomography (EIT), Diffuse Optical Tomography (DOT) and Magnetic Induction Tomography (MIT). These are categorised as non-linear. Ill-posed inverse problems and a classical approach to their solution is to iteratively solve a forward and adjoint problem by solving the PDE system explicitly. A particular challenge occurs for time-dependent problems such as Ultrasound Computed Tomography (USCT) or PhotoAcoustic Tomography (PAT) because of the extra time and memory complexity of the extra time dimension. In these problems the adjoint solution to the governing PDE has the physical interpretation of time-reversal, and has led to practical solutions for problems in several million unknowns with computation time of several hours.
 In the machine learning community there is an increasing interest in using deep learning techniques for solving forward and inverse problems involving PDEs, as well as for “discovering Physics” by finding appropriate polynomial combinations of differential operators to fit the observed behaviour of physical systems. For time dependent problems a key technology is the Neural ODE concept, wherein the time-dependent part of a model is evaluated by classical methods and a neural network is used at each time point to express the spatial derivatives of the operator.

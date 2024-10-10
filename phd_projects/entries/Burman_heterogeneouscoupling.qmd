@@ -9,7 +9,7 @@ advisor: "Prof Erik Burman"
 ---
 ## Project Description
 
- ### Existing background work
+### Existing background work
 
 With the advent of high performance computing and new computer architectures there is
 renewed interest in the efficient coupling of different partial differential equation based models and their associated solvers. Indeed, it is often the case that for a given application or computational methods there exists a highly optimized solver. However in complex applications many different models are connected and it is then attractive to connect such optimized solvers for the subproblem to obtain a solution of the global problem. The common approach in this framework is to discretize the global continuous problem into a, possibly huge, algebraic system, and then split the latter as a system of coupled algebraic subsystems. In this case the coupling condition often consists in the identification of unknowns in the subsystems corresponding to the same global unknown. This approach forms the basis of the dominating coupling softwares available today (see for example [3,4]).

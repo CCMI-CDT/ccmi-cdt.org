@@ -9,7 +9,7 @@ advisor: "Prof Martin Benning"
 ---
 ## Project Description
 
- ### Existing background work
+### Existing background work
 
 
 This PhD project centres on the intersection of computer science and hearing research, with a primary focus on unravelling the complexities of the auditory system and its implications for perception and hearing loss. While decades of hearing research have yielded many valuable insights, the difference between normal and impaired perception relies on intricacies of the auditory system that remain poorly understood. Traditionally, the field has relied on simplifying assumptions, which limit the applicability of research findings to real-world scenarios. 

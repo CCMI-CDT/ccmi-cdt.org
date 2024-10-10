@@ -9,4 +9,166 @@ advisor: "Prof Pavel Berloff"
 ---
 ## Project Description
 
- 
+This Project would be ideal for a student who seeks to develop skills in software engineering for computational
+modelling, scientific computing, data science, geophysical fluid dynamics, and climate science research.
+It aims for a major overhaul and upgrade of the existing Quasi-Geostrophic Coupled Model (Q-GCM) of the 
+ocean-atmosphere system to convert this model into a versatile modular community code for extremely fast
+high-resolution climate modelling in arbitrary geometrical setups.
+The model's ability to quickly produce global-scope multi-century climate simulations faithfully representing
+mesoscale ocean–atmosphere interactions would allow it to set the milestones for future research of fundamental
+climate processes that are currently out of reach for state-of-the-art coupled General Circulation Models (GCMs)
+due to prohibitive computational expenses of such simulations.
+
+Advancing our understanding of multi-scale climate variability is at the heart of the Project.
+A particular focus here is on the internal variability of the ocean-atmosphere subsystem of the climate system,
+which can occur even in the absence of variations in the external forcing.
+Such variability can generally be classified to fall into one of the following categories:
+
+i) internal variability of the oceans;
+ii) internal variability of the atmosphere; and
+iii) coupled ocean--atmosphere variability.
+
+Of course, other factors contribute to the climate variability modes on different levels (e.g., interaction with
+cryosphere, coupled land--atmosphere processes, and so forth).
+Most coupled ocean-atmosphere GCMs do not yet adequately discriminate between the scenarios (i)--(iii), because
+the model dynamics still lacks accurate representation of small-scale processes due to their insufficient horizontal
+resolutions. 
+In particular, global coupled GCMs do not have the required capability to resolve routinely the oceanic weather
+represented by multi-scale ensembles of *synoptic mesoscale eddies*, which evolve in a complicated, spatially
+inhomogeneous and poorly understood way. 
+
+::: {#fig-berloff layout-ncol=2}
+
+![](../assets/berloff_na.png){width=250 #fig-berloff}
+
+![](../assets/berloff_ocean.png){width=250 #fig-berloff}
+
+Left panel: Snapshot with results of FESOM1.4 (Wang et al. 2014) simulation on the global mesh with 4 km resolution
+in the full North Atlantic; white color shows upper-ocean flow speed; note the intense Gulf stream current with
+surrounding turbulence.
+Right panel: Snapshot of the upper-ocean potential vorticity anomaly as simulated by the idealized square-box
+quasigeostrophic ocean model coupled to the atmosphere; this model produces turbulent Gulf stream that couples to 
+the underlying atmosphere.
+
+:::
+
+The cutting edge high-resolution ocean modelling efforts, which involve enormous computational expenses [https://fesom.de/models/fesom14/](https://fesom.de/models/fesom14/) typically produce a single realization
+worth of a few decades of simulation at most, with marginally accepted dynamical resolution of the eddies achieved
+at least for midlatitudes (note that at high latitudes the eddies and, hence, required resolutions become even
+smaller).
+Many such simulations are also run in the ocean-only context, despite the growing evidence that the mesoscale
+air-sea interaction affects, in major --- and, perhaps, nonlinear ways, --- the atmospheric large-scale
+low-frequency variability (Mathews et al. 2024).
+However, climate-type simulations not only require hundreds of multi-century runs for robust statistical ensemble
+predictions, but they also have to consider different environmental scenarios (e.g., for greenhouse gas emissions)
+and sensitivities to many physical factors. The ability to faithfully characterize the effects of the mesoscale
+ocean eddies and currents in a coupled, global setting is a major stumbling block in climate research, and is thus
+one of the grand research challenges of our time.
+
+One way out of this deadlock is to develop accurate statistical--dynamical eddy parameterizations for the use in
+realistic models, which is a major task of its own.
+An alternative way, proposed here, is to make use of intermediate-complexity coupled ocean--atmosphere process
+models capable of accessing new and crucial knowledge about the processes involved, yet casting them in advanced
+settings that would permit direct comparisons with the real world's climate variability.
+
+Indeed, driven by the surging demand of climate science, the last two decades witnessed development of idealized,
+intermediate-complexity, midlatitude, quasi-geostrophic (QG), ocean--atmosphere coupled models, which can routinely
+resolve oceanic mesoscale eddies (Hogg et al. 2003; Kravtsov et al. 2007; Berloff et al. 2007a).
+These models are at least 100 times more computationally efficient than the heavy-duty global coupled GCMs.
+The Q-GCM of Hogg et al. (2003), which is a starting point of this project, couples its oceanic and atmospheric
+subsystems via ageostrophic boundary layers of both fluids.
+Aside from the natural limitation of QG models to be formally accurate within the midlatitude belts, these models
+are cast in the simplest square-basin or channel geometries, which hinders their immediate application to
+interpreting the observed climate variability.
+Yet, **Q-GCM is a powerful tool for simulating midlatitude coupled climate variability with fully resolved
+oceanic mesoscale turbulence**.
+
+Idealized eddy-resolving ocean and coupled modelling thus far established not only existence and robustness of
+the intrinsic ocean-only variability dubbed as the rbulent Oscillator (e.g., Berloff et al. 2007b), but also
+the importance of this variability for the ocean-atmosphere coupled variability (Kravtsov et al. 2007;
+Kurashina and Berloff 2023a,b).
+Similar fundamental importance of the eddies for driving decadal variability has been established in the Southern
+Ocean (Hogg and Blundell 2006).
+**Considering these coupled dynamics in progressively more realistic Q-GCM is of high priority, but this effort
+requires significant upgrades of the existing modelling capabilities**.
+
+### Objectives.
+The **software development objective** of the Project is very significant upgrade of the existing Q-GCM, including
+generation of modular geometrical setups, addition of new physics and incorporation of superior numerical algorithms,
+as well as the requisite updates to the post-processing tools and software library.
+The **computational objective** of the Project is to produce new multi-century simulations in the
+northern-hemisphere (NH) and southern-hemisphere (SH) model configurations.
+More specifically, we **hypothesize** that in the NH case the Atlantic and Pacific oceans will generate their own
+internal, large-scale decadal-to-interdecadal Turbulent Oscillator variability, which will be coupled through
+*atmospheric teleconnections*.
+In the SH case the situation is likely to be more complicated, as the midlatitude basins will be also connected
+via the Antarctic Circumpolar Current.
+The **analysis objective** of the Project is to gain dynamical understanding of the involved variabilities.
+
+### Work Plan.
+
+The starting point for the Project will be the most recent study of the Q-GCM idealized-ocean double-gyre coupling
+with the atmosphere, in which new, zonally asymmetric coupled variability modes have been discovered and understood
+(Kurashina and Berloff 2023a,b).
+The following Q-GCM model developments are envisioned:
+
+- Adding the second (rectangular) ocean basin to represent Atlantic-Pacific teleconnections (NB: this
+configuration can be passed to a Master student for spin-off project);
+
+- Adding capabilities for representing (arbitrary and) realistically shaped basins (this requires complete
+overhaul of the elliptic solver with the matrix capacitance method, and recoding the boundary conditions);
+
+- Upgrading advection operators in both ocean and atmosphere components with the high-resolution, efficient
+CABARET advection scheme (Karabasov et al. 2009);
+
+- Adding moist dynamics to the atmosphere (Kravtsov et al. 2022);
+
+- Developing realistic NH and SH Q-GCM model configurations (i.e., with two isolated ocean basins; with
+three ocean basins connected by the circular Southern ocean) and obtaining the corresponding milestone solutions
+both with high- and low-resolution configurations (the latter will help to quantify effects of the small scales
+and serve as the basis for eddy parameterizations);
+
+- Developing comprehensive post-processing library of numerical routines for both Eulerian and Lagrangian
+analyses and visualizations of the Q-GCM solutions;
+
+- Providing initial analyses of the milestone solutions; disentangling causalities of the ocean-atmosphere
+and ocean-ocean couplings, as well as understanding the main mesoscale eddy effects and their mechanisms;
+
+- Developing mixed-layer model for dynamics of floating tracers, such as plankton and pollutants; this
+will in effect prepare ground for the coupled ocean-atmosphere modelling with oceanic biochemistry and with global
+carbon cycle.
+
+The student will benefit from the interdisciplinary nature of the Project that combines a great deal of original
+and creative research within the remit of software engineering for computational modelling, scientific computing,
+data science, geophysical fluid dynamics, and climate science.
+Close interactions with external research partners will be a vital aspect of the Project, ensuring its optimal
+development and success: Prof. Sergey Kravtsov (University of Wisconsin, USA), Prof. William Dewar (Florida State
+University, USA) and Prof. Andrew Hogg (Australian National University, Australia).
+The Project will be a great opportunity for outreaching the climate science community and providing broad and
+practical impact.
+
+### References
+- Berloff, P., A. Hogg, and W. Dewar, 2007b: The turbulent oscillator: A mechanism of low-frequency variability of
+the wind-driven ocean gyres. *J. Phys. Oceanogr.*, **37**, 2363--2386.
+- Berloff, P., S. Kravtsov, W. Dewar, and J. McWilliams, 2007a: Ocean eddy dynamics in a coupled ocean-atmosphere
+model.  *J. Phys. Oceanogr.*, **37**, 1103--1121.
+- Hogg, A., and J. Blundell, 2006: Interdecadal variability of the Southern Ocean.
+*J. Phys. Oceanogr.*, **36**, 1626-–1645.
+- Hogg, A., W. Dewar, P. Killworth et al., 2003: A quasi-geostrophic coupled model (Q-GCM).
+*Monthly Weather Review*, **131**, 2261–2278.
+- Karabasov, S., P. Berloff, and V. Goloviznin, 2009: CABARET in the ocean gyres.
+*Ocean Modelling*, **30**, 155--168.
+- Kravtsov, S., I. Mastilovic, A. Hogg, W. Dewar, and J. Blundell, 2022: The Moist Quasi-Geostrophic Coupled Model:
+MQ-GCM 2.0. *Geoscientific Model Development*, *15*, 7449-–7469.
+- Kravtsov, S., W. Dewar, P. Berloff, J. McWilliams, and M. Ghil, 2007: A highly nonlinear coupled mode of decadal
+variability in a midlatitude ocean-atmosphere model. *Dyn. Atmos. Ocean.*, **43**, 123--150.
+- Kurashina, R., and P. Berloff, 2023b: Low-frequency variability enhancement of the midlatitude climate in an
+eddy-resolving, coupled ocean-atmosphere model. Part II: Ocean mechanisms.
+Climate Dynamics, doi:10.1007/s00382-023-06767-x.
+- Kurashina, R., and P. Berloff, 2023a: Low-frequency variability enhancement of the midlatitude climate in an
+eddy-resolving, coupled ocean-atmosphere model. Part I: Anatomy.
+Climate Dynamics, doi:10.1007/s00382-023-06782-y.
+- Mathews, J. P., Czaja, A., Vitart, F., and Roberts, C., 2024: Gulf Stream moisture fluxes impact atmospheric blocks
+throughout the Northern Hemisphere. Geophysical Research Letters, 51,
+e2024GL108826. https://doi.org/10.1029/2024GL108826
+- Wang, Q., Danilov, S., Sidorenko, D., Timmermann, R., Wekerle, C., Wang, X., ... and Schröter, J., 2014: The Finite Element Sea Ice-Ocean Model (FESOM) v. 1.4: formulation of an ocean general circulation model. Geoscientific Model Development, 7(2), 663--693.

@@ -9,7 +9,7 @@ advisor: "Dr. Panos Parpas"
 ---
 ## Project Description
 
- ### Existing background work
+### Existing background work
 
 Transition states govern the outcomes of molecular reactions. Therefore, determining the transition states of molecules is a fundamental challenge encountered across diverse fields, including chemical physics, biology, material science, and chemical engineering. However, current numerical methods fall short of what is needed in practice because transition states are rare events within a high-dimensional stochastic dynamical system. As a result, the simulation of rare events is generally intractable and requires domain-specific knowledge of the underlying molecular system or extensive and time consuming trial-and-error computations.
 
