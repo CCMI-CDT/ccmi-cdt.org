@@ -1,0 +1,37 @@
+---
+title: "Optimization methods for high-dimensional reinforcement learning"
+institution: "Imperial"
+department: "Mathematics"
+author: "Timo Betcke"
+date: "11/10/2024"
+advisor: "Dr Yufei Zhang"
+
+---
+## Project Description
+
+This PhD project aims to develop efficient zero-order optimization methods for high-dimensional reinforcement learning problems. Reinforcement learning, which is crucial for decision-making tasks in fields such as robotics, finance, and artificial intelligence, often requires solving high-dimensional optimization problems where gradients are noisy or infeasible to compute. Zero-order methods, which rely solely on function evaluations rather than gradient information, are well-suited for these black-box optimization scenarios. However, existing zero-order optimization methods suffer from the curse of dimensionality. This project seeks to leverage recent advancements in high-dimensional statistics, probability, and optimization theory to develop scalable reinforcement learning methods for high-dimensional problems.
+
+Although various reinforcement learning and zero-order optimization algorithms have been proposed in the literature, they do not explicitly exploit the intrinsic low-dimensional structures that naturally arise in many large-scale decision-making problems. As a result, existing reinforcement learning algorithms struggle to scale effectively in high-dimensional settings, leading to inefficiencies. The development of efficient RL algorithms that leverage low-dimensional structures for high-dimensional problems, along with a rigorous performance analysis, remains largely unexplored in the current literature.
+
+The principal supervisor's group has focused on developing provably convergent reinforcement learning algorithms, with an emphasis on rigorous theoretical foundations to ensure reliable performance. These works have primarily been applied to low-dimensional settings. For high-dimensional problems, the wider research community has explored complex function approximation techniques, such as neural networks, to address the curse of dimensionality. Despite their promise, these approaches often lack strong theoretical guarantees, particularly in terms of convergence and robustness, which limits their applicability in high-stakes large-scale decision-making problems.
+
+
+### Main objectives of the project
+
+The main objective of this project is to leverage recent advances in high-dimensional statistics and probability theory to learn the intricate low-dimensional structures and develop more efficient, theoretically grounded algorithms for high-dimensional reinforcement learning problems. Specifically, the project aims to:
+
+• Develop novel zero-order optimization methods that exploit the intrinsic low-dimensional structure of high-dimensional decision-making problems.
+• Design reinforcement learning algorithms that can scale efficiently in high-dimensional environments while providing provable theoretical guarantees for convergence and performance.
+• Investigate the use of high-dimensional statistical techniques and mean-field approximation to improve the scalability and robustness of these algorithms.
+• Conduct a comprehensive performance analysis of the developed algorithms, comparing them with existing approaches in the literature, particularly in terms of scalability, convergence, and computational efficiency.
+
+### Details of Software/Data Deliverables
+
+- Zero-Order Optimization Library: A software package implementing novel zero-order optimization methods, designed to efficiently scale in high-dimensional decision-making problems.
+- Reinforcement Learning Algorithms: A suite of scalable RL algorithms that exploit the intrinsic low-dimensional structure of high-dimensional problems and leverage advanced statistical techniques, with provable convergence guarantees.
+
+- Algorithm Implementation: Development of zero-order optimization and RL algorithms in Python, focusing on scalability for high-dimensional problems.
+- Optimization Library: Creation of a flexible, scalable zero-order optimization library that integrates easily into existing machine learning frameworks.
+- Data Simulations: Generation of synthetic and real-world data (e.g., finance, robotics) for testing and validating the algorithms.
+- Performance Benchmarking: Development of tools to benchmark algorithm performance, focusing on scalability, efficiency, and convergence rates.
+- Open-Source Release: All code will be open-sourced with comprehensive documentation for ease of use and reproducibility by the research community.

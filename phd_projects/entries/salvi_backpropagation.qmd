@@ -1,0 +1,28 @@
+---
+title: "Backpropagation through rough differential equations"
+institution: "Imperial"
+department: "Mathematics & Imperial-X"
+author: "Timo Betcke"
+date: "11/10/2024"
+advisor: "Dr Christopher Salvi"
+
+---
+## Project Description
+
+In this project, we will build on the work of the two supervisors [https://arxiv.org/abs/2009.08295, https://arxiv.org/abs/2201.07566] to study backpropagation through rough differential equations (RDEs), a rough analysis generalisation of SDEs including driving noises possibly rougher than Brownian motion. We will be particularly interested in designing algebraically reversible solvers for Neural RDEs, with enjoy the advantages of both discretise-then-optimise and optimise-then-discretise methods. A key tool we will use are Butcher series expansion, allowing to express the pathwise solution of an RDE in terms of trees representing certain iterated integrals of the driving noise. This expansion allows to capture symmetries to be imposed on the resulting numerical scheme such as algebraic reversibility.
+
+### Existing background work
+
+Neural SDEs combine many of the best qualities of both RNNs and SDEs: memory efficient training, high-capacity function approximation, and strong priors on model space. This makes them a natural choice for modelling many types of temporal dynamics. Training a Neural SDE requires backpropagating through an SDE solve. This may be done by solving a backwards-in-time SDE whose solution is the desired parameter gradients. However, this has previously suffered from severe speed and accuracy issues, due to high computational cost and numerical truncation errors. The reversible Heun method for SDEs [https://arxiv.org/abs/2105.13493](https://arxiv.org/abs/2105.13493), built from the analogous scheme for ODEs [https://arxiv.org/abs/2102.04668](https://arxiv.org/abs/2102.04668), is to the best of our knowledge, the only algebraically reversible SDE solver to have been developed.
+
+### Main objectives of the project
+
+Develop higher order algebraically reversible solvers for RDEs.
+Study convergence/error and stability analysis of the proposed algorithms.
+Calibrate the algorithm to real-world data, showcasing its application in financial market simulations.
+
+### Details of Software/Data Deliverables
+
+The integration of symbolic computations needed for the Butcher series expansion in Diffrax.
+Extensive test cases and benchmarking to validate the accuracy and efficiency of the algorithm.
+Open-source release of the software, complete with documentation and tutorials. 

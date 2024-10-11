@@ -1,0 +1,68 @@
+---
+title: "High-performance solver for ultrasound propagation in mixed domains with complex fluid and solid materials"
+institution: "UCL"
+department: "Mechanical Engineering"
+author: "Timo Betcke"
+date: "11/10/2024"
+advisor: "Dr Reza Haqshenas"
+
+---
+## Project Description
+
+### Existing background work
+
+The supervisory team, together with Dr van ’t Wout, has been developing the open-source
+Python library OptimUS for solving acoustic wave propagation in an unbounded medium in 3D
+with piecewise homogeneous domains. OptimUS solves the Helmholtz equation using the
+boundary element method (BEM). It has been used to simulate biomedical ultrasound clinical
+scenarios relating to treating cancers of the liver and kidney, as well as osteoid osteoma.
+OptimUS featured as part of an international software benchmarking exercise for ultrasound
+transcranial neuromodulation, overseen by the International Transcranial Ultrasonic Stimulation
+Safety and Standards. The OptimUS library is being used in biomedical ultrasound research in
+academic institutions worldwide as well as a pedagogical tool for undergraduate and
+postgraduate students.
+The current BEM formulations in OptimUS assume that domains exhibit fluid-like properties. This
+gives us accurate prediction of ultrasound propagation in soft tissues (e.g. the liver and kidney).
+However, hard tissues like bones and many dense cancer tumours demonstrate solid-like (elastic)
+behaviour. This creates a gap in accurately modelling ultrasound propagation in domains with a
+mix of soft and hard tissues and underscores the need for BEM formulations that represent the
+physics more accurately.
+
+OptimUS leverages the BEMpp kernel developed by Prof Betcke in UCL. Prof Chaillat (from
+ENSTA, Paris, France) is an expert in modelling wave propagation in elastic domains using BEM.
+She is the main developer of COFFEE, which is a code for solving elastic BEM in separated
+domains. The supervisory team and the external partners will offer academic mentorship,
+educational support and access to the state-of-the-art medical imaging and computational
+facilities (high-performance computing workstations as well as the UCL Research Computing
+Platforms Service) required for the successful delivery of this project.
+
+### Main objectives of the project
+
+This project aims to develop an efficient BEM formulation for solving ultrasound wave
+propagation in mixed domains of soft and hard tissues (i.e., both fluid and elastic domains). The
+BEM approach uses Green's functions, which are inherently complex in elastic problems. Also, the
+equations become ill-conditioned at high frequencies, substantially deteriorating the
+performance of the solver. To address these challenges, a novel formulation based on the
+Helmholtz transform will be introduced, building on the team's previous works in solving the
+Helmholtz and Maxwell equations. The new formulation will be implemented in the OptimUS
+software, validated against analytical solutions for canonical geometries, and tested in
+simulations of ultrasound wave propagation through the human body using anatomical models
+derived from medical images (ultrasound/MRI/CT scans).
+The successful completion of this project will have significant implications for the field of
+biomedical ultrasound, particularly in treatment planning for procedures like focused ultrasound
+therapy as well as imaging applications such as shear wave elastography. By improving the
+accuracy and efficiency of simulations, this work will enhance OptimUS and facilitate its adoption
+in clinical settings, where it could be used for personalised treatment, ultimately improving
+patient outcomes.
+
+
+### Details of Software/Data deliverables
+
+The project involves implementing, testing and optimising the computational performance of the
+new BEM formulation for solving ultrasound waves in complex viscous and elastic domains. The
+student will be actively involved in software development using Python and employing best
+practices in software carpentry including version control with Git and automated testing to
+ensure code reliability and reproducibility. The outcome of this project will impact the field of
+biomedical ultrasound, specifically for treatment planning, and facilitate the uptake of OptimUS
+in clinics.
+
