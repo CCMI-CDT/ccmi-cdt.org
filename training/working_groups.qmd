@@ -1,0 +1,21 @@
+---
+title: "Collaborative interface working groups (CIWGs)"
+---
+
+Collaborative interface working groups (CIWGs) deliver the core topical training programme that every CCCMI student goes through. 
+
+They are organised in the form of week long cohort workships that cover an introduction to research topics, research and software landscape overviews, exploration of current research challenges, and a discovery phase for future trends and new directions.
+
+![Structure of collaborative interface working groups](../static/ciwg.png){width=50%}
+
+In contrast to traditional lectures these working groups are centered around learning *how to be an effective researcher* and will contain significant student led components.
+
+CIWGs are delivered across the first two years in the following topic areas:
+
+- Modern programming models for scientific computing
+- Software engineering fundamentals
+- Data intensive computations
+- PDE Discretisations
+- Deep learning in theory and practice
+- Responsible computational modelling
+- High dimensional problems and optimisation

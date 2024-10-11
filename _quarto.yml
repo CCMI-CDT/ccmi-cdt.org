@@ -27,7 +27,7 @@ website:
       - text: About
         menu:
           - text: Training Programme
-            file: training.qmd
+            file: training/training.qmd
           - text: Our Leadership Team
             file: team.qmd
 
