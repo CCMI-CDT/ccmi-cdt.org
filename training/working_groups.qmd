@@ -6,7 +6,7 @@ Collaborative interface working groups (CIWGs) deliver the core topical training
 
 They are organised in the form of week long cohort workships that cover an introduction to research topics, research and software landscape overviews, exploration of current research challenges, and a discovery phase for future trends and new directions.
 
-![Structure of collaborative interface working groups](../static/ciwg.png){width=50%}
+![Structure of collaborative interface working groups](../static/ciwg.png){fig-alt="Structure of working groups" width=50%}
 
 In contrast to traditional lectures these working groups are centered around learning *how to be an effective researcher* and will contain significant student led components.
 

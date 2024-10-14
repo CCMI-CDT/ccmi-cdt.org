@@ -1,0 +1,12 @@
+---
+title: "The Software Journey"
+---
+
+![](../static/FesDigResS24_061.jpg){fig-alt="Staff of UCL ARC giving a software talk" width=80%}
+
+The **software journey** has been designed to give every CCMI student training to become a world class research software engineer. Students will collaborate on a
+diverse range of open-source software projects, some suggested by students themselves, others by academics or industrial partners. Students will learn how to focus
+ideas, develop minimum viable products, pitch ideas to stakeholders, and collaborate as teams. This will be supported by a dedicated termly software week
+with software sprints, progress talks, external seminars delivered by partners, and other activities.
+
+The software journey is an ongoing activity throughout the whole four year training programme. Every CDT student is expected to actively contribute to the software journey and develop their skills as professional research software engineers.

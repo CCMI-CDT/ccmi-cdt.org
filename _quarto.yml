@@ -30,16 +30,11 @@ website:
             file: training/training.qmd
           - text: Our Leadership Team
             file: team.qmd
-
-      - text: Get in touch
-        menu:
-          - text: Apply
-            href: /#interest
-          - text: Contact Us
+          - text: Contact us
             href: /#contact-us
 
-      - text: PhD Projects
-        file: phd_projects/phd_project_list.qmd
+      - text: How to apply 
+        file: apply.qmd 
 
       - text: Blog
         file: blog/blog_list.qmd

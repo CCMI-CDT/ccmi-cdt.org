@@ -1,7 +1,7 @@
 ---
 title: "Research thesis"
 ---
-![](../static/SciLib18_113.jpg)
+![](../static/SciLib18_113.jpg){fig-alt="UCL Science Library"}
 
 The four year **research thesis** will lead to a PhD degree from either UCL or Imperial College. 
 

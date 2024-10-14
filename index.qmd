@@ -98,7 +98,7 @@ gallery-images:
 <span class="display-6">Sign Up Now</span>
 </a>
 <div class="d-flex justify-content-evenly w-75">
-<div>
+<!-- <div>
 <a type="button" class="btn btn-outline-light " id="btn-outline--custom">
 Read About Our Research
 </a>
@@ -107,7 +107,7 @@ Read About Our Research
 <a type="button" class="btn btn-outline-light " id="btn-outline--custom">
 Read About Our Software
 </a></div>
-</div>
+</div> -->
 </div>
 
 </section>
