@@ -7,7 +7,7 @@
     "listing": "/index.html",
     "items": [
       "/blog/posts/blogpost1.html",
-      "/blog/posts/nobel_prices.html"
+      "/blog/posts/nobel_prizes.html"
     ]
   },
   {
@@ -60,7 +60,7 @@
   {
     "listing": "/blog/blog_list.html",
     "items": [
-      "/blog/posts/nobel_prices.html",
+      "/blog/posts/nobel_prizes.html",
       "/blog/posts/blogpost1.html"
     ]
   },
