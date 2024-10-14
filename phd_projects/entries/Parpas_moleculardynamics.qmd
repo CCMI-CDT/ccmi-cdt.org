@@ -1,0 +1,29 @@
+---
+title: "Efficient Computation of Transition States in Molecular Dynamics"
+institution: "Imperial"
+department: "Computing"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Dr. Panos Parpas"
+
+---
+## Project Description
+
+### Existing background work
+
+Transition states govern the outcomes of molecular reactions. Therefore, determining the transition states of molecules is a fundamental challenge encountered across diverse fields, including chemical physics, biology, material science, and chemical engineering. However, current numerical methods fall short of what is needed in practice because transition states are rare events within a high-dimensional stochastic dynamical system. As a result, the simulation of rare events is generally intractable and requires domain-specific knowledge of the underlying molecular system or extensive and time consuming trial-and-error computations.
+
+### Main objectives of the project
+
+The theoretical foundations of our methodology are provided by the remarkable fact that, under appropriate technical conditions, the eigenforms of a particular type of operator, known as the Witten Laplacian, concentrate on transition states. However, there is a catch: solving the associated Witten PDE in high dimensions is currently impractical. The objective of this project is to take of advantage of recent developments that showed how to represent the Witten PDE as a system of stochastic differential equations.[1] This opens the door to new numerical methods utilizing state-of-the-art stochastic simulation and machine learning methods. These advancements are especially promising for harnessing the power of massively parallel computing.
+
+There is a deep connection between the stochastic dynamics in used to understand saddle points and gradient flows. Associated with the stochastic representation in [1] there is a partial differential equation, the Fokker-Planck equation, that describes the evolution of the probability density of the stochastic dynamics. In a seminal paper, the authors in [2] made a connection between gradient flows and the Fokker-Planck equation. Moreover, their proof is constructive and based on an implicit discretization scheme that is known as the JKO scheme. 
+Recent works have shown how to leverage the connection between the Fokker-Planck equation and gradient flows to develop numerical methods to solve for the probability density function of the stochastic representation directly. Unfortunately, the implementation of the JKO scheme requires the solution of a large optimization problem at each iteration. To address this challenge, you will study advanced distributed optimization methods that can scale to large dimensions. A more speculative direction of research is to explore whether the Witten PDE can also be written as a gradient flow in an appropriate space. If successful, this direction will lead to a new class of algorithms for computing transition states.
+
+[1] T. Lelièvre, P. Parpas. Using Witten Laplacians to locate index-1 saddle points SIAM 
+Journal on Scientific Computing, to appear, 2023.
+[2] Jordan R, Kinderlehrer D, Otto F. The variational formulation of the Fokker--Planck equation. SIAM journal on mathematical analysis. 1998 Jan;29(1):1-7.
+
+### Details of Software/Data Deliverables
+
+It is expected that you will develop an open-source software library that can be used by the wider community. Initially, the focus will be on benchmark problems but the hope is that you will eventually be able to simulate realistic systems. You will build on an initial implementation available here: https://github.com/pp500/Stochastic-Saddle-Point-Dynamics

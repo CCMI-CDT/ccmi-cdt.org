@@ -1,0 +1,24 @@
+---
+title: "Simulation-based Inference for Expensive Scientific Simulators"
+institution: "UCL"
+department: "Statistical Science"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Dr.Francois-Xavier Briol"
+
+---
+## Project Description
+
+### Existing background work
+
+In many domains of science and engineering, statistical inference is challenging due to the unavailability of the likelihood associated to the scientific model of interest. Instead, it is often possible to simulate from these models, and to use these simulations to perform approximate inference. One challenge in this context is that these procedures typically rely on a large numbers of model simulations, which is a challenge when the simulator is computationally costly to run. Examples of such models include tsunami models based on non-linear shallow water equations, which take several minutes per run, or large eddy simulations of wind farms, which can take tens of hours per run. In these settings, statistical inference can be either extremely computationally demanding, or sometimes simply unfeasible.
+
+
+
+### Main objectives of the project
+
+The main aim of this project will be to develop novel simulation-based inference algorithms which are particularly suitable for inference with expensive scientific simulators. Different directions will be explored, including combining multi-fidelity, cost-aware and amortised methods. These should lead to novel algorithms which require far fewer expensive simulations, or where each simulation is cheaper than for existing methods.
+
+### Details of Software/Data Deliverables
+
+The main development of software will be implementations in Python of these algorithms. The aim will be to contribute this code to existing software packages for simulation-based inference, including the pytorch-based package “sbi” and the package “BayesFlow”.

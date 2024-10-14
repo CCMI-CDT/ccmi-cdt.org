@@ -1,0 +1,30 @@
+---
+title: "A differentiable Gillespie algorithm for exact gradients through discrete stochastic systems"
+institution: "Imperial"
+department: "Mathematics"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Dr.Cristopher Salvi"
+
+---
+## Project Description
+
+ The Gillespie algorithm is arguably one of the most well-known models for simulating chemical reactions, essentially acting as an Euler-Maruyama scheme applied to a jump process with a discrete state space. At each step, a random time is drawn from an exponential distribution (reflecting Poisson arrival events), and the discrete state is updated based on state-dependent transition probabilities. This project will focus on developing a rigorous mathematical theory and corresponding algorithm in JAX to calibrate parameterised and path-wise solutions of the Gillespie algorithm to data using automatic differentiation. By leveraging tools from rough path theory and stochastic automatic differentiation, we aim to compute exact gradients, which would improve on the approximate gradient methods currently in use. The work could have far-reaching implications for the fields of chemical kinetics, synthetic biology, and computational biology.
+
+### Existing background work
+
+The principal supervisor's group has extensive experience in both rough path theory and deep learning, particularly in deriving exact gradients for stochastic systems. For example, the work on “Exact Gradients for Stochastic Spiking Neural Networks Driven by Rough Signals” has laid the foundation for differentiating through stochastic and event-driven systems with discontinuities. Within the wider research community, a recent relevant contribution is the paper “A Differentiable Gillespie Algorithm for Simulating Chemical Kinetics, Parameter Estimation, and Designing Synthetic Biological Circuits.” However, this approach only provides approximate solutions and does not compute path-wise gradients, making it a target for improvement. Other works on stochastic automatic differentiation, such as “Automatic Differentiation of Programs with Discrete Randomness,” will also inform this project by providing a framework to handle the challenge of differentiating through inherently discrete random variables.
+
+### Main objectives of the project
+
+1. Develop higher order auto-differentiable solvers to efficiently compute path-wise solutions of the Gillespie algorithm, with a focus on computing exact path-wise gradients.
+3. Study convergence/error and stability analysis of the proposed algorithms.
+4. Calibrate the algorithm to real-world data, showcasing its application in chemical kinetics and synthetic biology.
+
+### Details of Software/Data Deliverables
+
+The project will deliver a JAX-based implementation of a differentiable Gillespie algorithm that computes exact gradients through discrete stochastic systems. This will involve:
+1. The development of custom gradient routines that handle discrete random variables and jump processes.
+2. A path-wise algorithm capable of calibrating chemical reaction networks to empirical data using automatic differentiation.
+3. Extensive test cases and benchmarking to validate the accuracy and efficiency of the algorithm.
+4. Open-source release of the software, complete with documentation and tutorials.

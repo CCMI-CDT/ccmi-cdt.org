@@ -1,0 +1,13 @@
+---
+title: "Nobel Prices in Chemistry and Physics for AI research"
+author: "Timo Betcke"
+date: "14/10/2024"
+summary: "The 2024 nobel prices in Physics and Chemistry were given out to breakthrough research in AI from members of the UCL community."
+categories: [Application,test]
+
+---
+London is the world center in AI research. This has been impressively demonstrated this year by the award of two Nobel Prizes to members of the UCL Community. Professor Geoffrey Hinton, founder of the Gatsby Computational Neuroscience Unit at UCL, was awarded the Physics Nobel Prize alongside John J Hopfield for breakthroughs in AI research.
+
+Sir Demis Hassabis the Co-Founder and CEO of Google Deepmind, who completed his PhD at UCL and was a postdoc in the Gatsby Neuroscience Unit, was awarded the Nobel Prize in Chemistry along with John Jumper and Professor David Baker for their work on computational protein design and protein structure prediction.
+
+Read the [UCL News Article](https://www.ucl.ac.uk/news/2024/oct/ucl-celebrates-two-more-nobel-prize-laureates) for the full story of these remarkable researchers.

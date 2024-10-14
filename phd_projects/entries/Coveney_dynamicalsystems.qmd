@@ -1,0 +1,33 @@
+---
+title: "Quantifying and eliminating floating point pathologies in the simulation of chaotic dynamical systems"
+institution: "UCL"
+department: "Chemistry and Advanced Research Computing"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Prof Peter V. Coveney"
+
+---
+## Project Description
+
+ 
+### Existing background work
+
+Floating point pathologies in the simulation of chaotic dynamics on digital computers have been uncovered in the case of some remarkably simple chaotic maps and ordinary differential equations. In particular, the generalised Bernoulli map and the Lorenz 96 system exhibit certain behaviours where the numerical solutions generate incorrect results and related behaviour which is not understood. [1,2] 
+
+A fundamental aspect of chaotic dynamics is the presence of unstable periodic orbits (UPOs), the enumeration of which provides the skeleton of chaos. However, the floating point numbers are unable to exactly identify the UPOs, with the result that substantial numbers of these orbits are missed.  Moreover, the period of these orbits grows exponentially with the dimension of the differential equations underpinning them. Given that the statistical properties of these chaotic systems are determined by the spectrum of their UPOs, those properties are compromised by their absence. 
+
+
+### Main objectives of the project
+
+In this research, the detailed way in which UPOs are excluded will be investigated theoretically as well as numerically in order to understand why, for higher dimensional versions of the Lorenz 96 system (N ~ 500), half, single and double precision floating point numbers produce closely similar statistical properties of the system. 
+
+An additional line of investigation will be undertaken with a view to implementing these dynamical systems on analogue computers, where no such floating point pathologies should arise. In principle, analogue solutions should be a much closer approximation to the true continuum behaviour of these systems and will throw further light on the floating point pathologies encountered on digital computers.  It may well be necessary to extend the analysis to handle analogue systems incorporating noise. 
+
+
+### Details of Software/Data Deliverables
+
+We shall need to develop fast and highly efficient methods for identifying unstable periodic orbits to assess how many of them are missed using floating point numbers.  A major problem in addressing difficulties caused by floats at present is that all conventional computers have IEEE floating point numbers on them; new numbering systems have not yet been deployed in any wide ranging manner on such devices. The most promising route to overcome these floating point pathologies is stochastic rounding, but while it can overcome some of these pathologies, there remains the intractability of computing the very large period orbits.  The possibility of programming analogue computers is also relevant in order to test the accuracy of digital solutions.
+
+1.	B. M. Boghosian, P. V. Coveney H. Wang, "A New Pathology in the Simulation of Chaotic Dynamical Systems on Digital Computers", Advanced Theory and Simulations, [1900125](tel:1900125) (2019), [DOI](https://www.doi.org/):[10.1002/adts.201900125](https://doi.org/10.1002/adts.201900125)
+
+2.	M. Klöwer, P. V. Coveney, E. A. Paxton, T. N. Palmer, "Periodic orbits in chaotic systems simulated at low precision", Nature Scientific Reports (2023) [DOI: 10.1038/s41598-023-37004-4](https://doi.org/10.1038/s41598-023-37004-4)

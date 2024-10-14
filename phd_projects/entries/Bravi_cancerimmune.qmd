@@ -1,0 +1,41 @@
+---
+title: "A machine learning-informed computational model of cancer-immune interactions"
+institution: "Imperial"
+department: "Mathematics"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Dr. Barbara Bravi"
+
+---
+## Project Description
+
+
+The immune system is a major constraint on cancer evolution and an important therapeutic target. However, the molecular determinants and the dynamics of immune response in cancer remain poorly understood. The goal of this project is to develop efficient computational simulation frameworks and machine learning methods to characterise and predict quantitatively immune responses in cancer, focussing on colorectal cancer data. The combination of computational modelling and machine learning predictions will allow us to uncover many characteristics of tumour-immune coevolution, which is key to the design of anti-cancer immunotherapies.
+
+### Main objectives of the project
+
+Cells of the immune system called T cells can recognize and kill cancer cells. Such recognition occurs via a specific binding between the receptors of T cells and protein fragments carrying cancer-specific mutations exposed on the cancer cells’ surface (called neoantigens). In this project, we will develop a data-driven computational model of cancer evolution under the effect of the response by T cells, which will provide evidence to test different hypotheses on cancer-immune co-evolution and will be useful to suggest molecular targets for immunotherapy design. The work will involve two complementary tasks:
+
+1. To design a mathematical model describing the stochastic dynamics of co-evolution of cancer and T cells which is driven by the molecular processes of cancer recognition by T cells (i.e., the binding between cancer neoantigens and T cell receptors), and set up a simulation framework for this model. The model will be calibrated on data that sample
+longitudinally T cell receptors and putative neoantigens from primary cancer to metastasis in colorectal cancers from several patients.
+
+2. To develop a machine learning method to detect and predict quantitatively the molecular interaction between receptors and neoantigens driving the cancer-immune co-evolutionary dynamics. Such a method will build upon recent advances in generative language models for proteins and techniques of transfer learning, and will be trained on publicly available datasets on T cell response to neoantigens. Evaluating the predictions of this method on the data from colorectal cancer samples will allow us to calibrate the receptor-neoantigen binding term in the computational model, hence to incorporate in an innovative way all the available information on the molecular species involved in the cancer-immune joint dynamics.
+
+### Details of Software/Data Deliverables
+
+
+The software/code development in this project consists of two parts:
+
+- Software for a machine learning model that predicts probabilistic scores of binding between the proteins involved in cancer-immune co-evolution (cancer neoantigens and T-cell receptors). This model will build upon the recent advances in generative language models and their application to protein modelling (e.g. by adopting a transformer architecture, see Meynard-Piganeau et al., biorxiv.org/content/10.1101/2023.07.19.549669, 2023). It will implement strategies of transfer learning on top of pre-trained models to capture the specificity of neoantigen-receptor binding (as a special class of protein-protein interactions).
+- Software for the computational model of the co-evolution of cancer and immune cells. It will be based on Gillespie simulations of its stochastic dynamics and will include routines for the statistical inference of the model’s parameters from longitudinal data.
+
+### References:
+
+On mathematical modelling:
+Lakatos, ..., and Graham. Evolutionary dynamics of neoantigens in growing tumors, Nature
+Genetics (2020).
+Almeida et al. Discrete and continuum models for the coevolutionary dynamics between CD8+ cytotoxic T lymphocytes and tumour cells, Mathematical Medicine and Biology: A Journal of the IMA (2023).
+On machine learning methods:
+Bravi et al. A transfer-learning approach to predict antigen immunogenicity and T-cell receptor
+specificity, eLife (2023).
+Meynard-Piganeau et al. TULIP - a transformer based unsupervised language model for interacting peptides and T-cell receptors that generalizes to unseen epitopes, bioRxiv https://doi.org/10.1101/2023.07.19.549669 (2023).

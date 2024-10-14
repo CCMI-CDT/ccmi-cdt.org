@@ -1,0 +1,24 @@
+---
+title: "Inference and inverse problems for stochastic interacting particle systems"
+institution: "Imperial"
+department: "Mathemetics"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Prof Greg A. Pavliotis"
+
+---
+## Project Description
+
+ 
+### Existing background work
+
+Greg Pavliotis is professor of Applied Mathematics at the department of Mathematics at Imperial College. His main research interests include statistical mechanics, multiscale systems, inference for stochastic processes and data-driven methods in applied mathematics. He has studied phase transitions for agent-based models (ABM) and interacting particle systems (IPS) and he has developed efficient inference methodologies for IPS and their mean field limit. He has also developed data-driven approaches to the study of ABMs.
+
+### Main objectives of the project
+
+Stochastic interacting particle systems (SIPS) arise in many applications, including mathematical biology, epidemiology, and the social sciences, for example in models for opinion formation, pedestrian dynamics and macroeconomics. In addition, many PDE models, such as the Keller-Segel model for bacterial chemotaxis and the Onsager model for liquid crystals, can be interpreted as the mean field limit of a system of interacting diffusions. Quite often, the interaction law of the SIPS is not known and has to be inferred from data. The objective of this project is to develop efficient and accurate inference methodologies for learning the interaction law of SIPS and of their mean field limit from data. We will consider both the parametric and the nonparametric inference problem, and we will develop and implement a variety of methodologies, including maximum likelihood-based techniques, stochastic gradient descent in continuous time, kernel methods and spectral theoretic methodologies. We will also use recently developed neural calibration techniques. In addition, we will also interpret the inference problem for SIPS as an inverse problem for the mean field PDE and then apply Bayesian methods for inverse problems. For this, the measurement model will be taken to be noisy measurements of the solution to the PDE, e.g. of the Keller-Segel or of the Onager model, and more generally of the nonlinear and nonlocal McKean-Vlasov mean field PDE.
+
+### Details of Software/Data Deliverables
+
+-	An inference toolbox for SIPS and their mean field limit, including efficient SDE solvers for the SIPS. All of the methods that will be studied and developed (MLE, SGDCT, neural calibration) will be included in the toolbox that we will develop. 
+-	Software for implementing Bayesian inverse problem methodologies to the mean field nonlinear, nonlocal PDEs.  

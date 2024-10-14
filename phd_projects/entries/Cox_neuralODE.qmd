@@ -1,0 +1,43 @@
+---
+title: "Time Reversal Imaging and Learned Physics with Neural ODEs"
+institution: "UCL"
+department: "Medical Physics and Biomedical Engineering"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Prof Ben Cox"
+
+---
+## Project Description
+
+### Existing background work
+
+Many imaging problems take the form of recovering the coefficients of a partial differential equation (PDE). Examples include Electrical Impedance Tomography (EIT), Diffuse Optical Tomography (DOT) and Magnetic Induction Tomography (MIT). These are categorised as non-linear. Ill-posed inverse problems and a classical approach to their solution is to iteratively solve a forward and adjoint problem by solving the PDE system explicitly. A particular challenge occurs for time-dependent problems such as Ultrasound Computed Tomography (USCT) or PhotoAcoustic Tomography (PAT) because of the extra time and memory complexity of the extra time dimension. In these problems the adjoint solution to the governing PDE has the physical interpretation of time-reversal, and has led to practical solutions for problems in several million unknowns with computation time of several hours.
+In the machine learning community there is an increasing interest in using deep learning techniques for solving forward and inverse problems involving PDEs, as well as for “discovering Physics” by finding appropriate polynomial combinations of differential operators to fit the observed behaviour of physical systems. For time dependent problems a key technology is the Neural ODE concept, wherein the time-dependent part of a model is evaluated by classical methods and a neural network is used at each time point to express the spatial derivatives of the operator.
+Prior work at UCL involving the supervisor team has developed the world leading k-Wave software for modelling acoustic propagation in a variety of setting, including heterogeneous sound speed, variable absorption. K-Wave .currently has 15.000 users from 70 countries. Recently several advances have been made in leveraging deep learning techniques including a learned Helmholtz [1], a differentiable wave simulator (j-wave) [2], and a learned Born series method [3]. 
+
+- [1] A Stanziola, SR Arridge, BT Cox, BE Treeby, “A Helmholtz equation solver using unsupervised learning: Application to transcranial ultrasound”, Journal of Computational Physics 441, 110430
+- [2] A. Stanziola, S.R. Arridge, B.T. Cox, B.E. Treeby, “j-Wave: An open-source differentiable wave simulator”,  SoftwareX 22, 101338 
+- [3] A Stanziola, S Arridge, BT Cox, BE Treeby, “A learned Born series for highly-scattering media”, JASA Express Letters 3 (5)
+
+
+### Main objectives of the project
+
+In this project we want to exploit the Neural ODE concept for inverse problems in ultrasound, including USCT and PAT. We will first tackle some established problems such as the initial pressure reconstruction in PAT and sound speed recovery in USCT. In these problems the spatial operator is known and we want to compare the efficiency and accuracy of Neural ODE forward adjoint solvers methods to existing solutions. Next we will use a convolutional neural net (CNN) in place of an explicit spatial operator to learn a non-linear PDE model for ultrasound, including extension to acoustic attenuation. Finally we will use methods of symbolic regression to learn back an interpretable physical model from the CNN as a method of discovery novel representations for non-linear acoustic propagation.
+Developed methods will be tested in close collaboration with the Biomedical Ultrasound Group at UCL dept Medical Physics and Biomedical Engineering, firstly on phantoms with controlled parameters and subsequently on in-vivo biological samples and human volunteers 
+
+### Details of Software/Data Deliverables
+
+Software to be used :
+
+- k-wave :		kwave.org
+- jaxdf:		https://github.com/ucl-bug/jaxdf
+- TorchDiffEq:	https://github.com/rtqichen/torchdiffeq/
+- Diffrax:		https://docs.kidger.site/diffrax
+
+
+Milestones
+1.	Year 1 : Integrate k-Wave as forward model within TorchDiff/Diffrax and train to reconstruct sound speed from a model 2D USCT problem
+2.	Year 2 : Implement a CNN to learn a non-linear spatial derivative operator for variable sound speed and acoustic attenuation
+3.	Year 3 : Develop symbolic regression methods to learn novel interpretable PDE models for acoustic propagation.
+Deliverables :
+New methods will be beta-released on Github and introduced in short courses/Summer schools where acoustic modelling is routinely presented. Results will be presented in conferences such as Acoustic Society of America (ASA) and Medical Ultrasound Tomography (MUST).  Stable implementations will be disseminated with existing  k-Wave/j-Wave platforms under rolling releases.

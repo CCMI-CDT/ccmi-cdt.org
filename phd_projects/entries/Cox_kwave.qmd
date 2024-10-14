@@ -1,0 +1,32 @@
+---
+title: "Grid-independent pseudospectral models of broadband acoustic wave propagation (k-Wave 2.0)"
+institution: "UCL"
+department: "Medical Physics and Biomedical Engineering"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Prof Ben Cox"
+
+---
+## Project Description
+
+### Existing background work
+
+Pseudospectral time domain models of wave propagation, in which wave equations are solved using spectral methods for computing spatial gradients and corrected-finite-difference schemes for the temporal integration, are increasingly widely used in acoustics, eg. in therapeutic and diagnostic biomedical ultrasound (imaging and therapy), and in large-scale underwater acoustics. This has been driven largely by the success of our software k-Wave, a toolbox for modelling linear and nonlinear wave propagation, written initially in Matlab but with alternative implementations now available. There are currently >16,000 registered k-Wave users from >70 countries who have downloaded at least one version of k-Wave, with >4000 users downloading the latest release (a proxy for active users). This makes k-Wave one of the most widely used open-source tools in acoustics. The two main journal articles describing k-Wave have been cited over 2500 times. 
+Recently, we began working on a new version of the software, k-Wave 2.0, which involves re-engineering the code base to leverage object orientated programming and differentiable functions to facilitate its use in deep learning and coupled physics problems. In addition, we are taking the opportunity to extend the algorithms underlying k-Wave so that the inputs (sources, sensors, medium properties, boundary conditions) can be defined arbitrarily in space and are not dependent on the underlying grid used for the computations. Our vision is for k-Wave 2.0 to be largely grid-independent, as far as the user is concerned. (This is guided in part by the philosophy that drives k-Wave development, that of lowering the barrier to entry for potential users as much as possible.)
+In the current version of k-Wave it is already possible to use ‘off-grid’ sources and sensors. This has been achieved by exploiting the fact that the bandlimited interpolant implicit in the numerical scheme is known to a high degree of accuracy [REF]. Furthermore, we have shown that reflecting boundary conditions can, in a restricted set of cases, be implemented by exploiting the symmetries in discrete sine and cosine transforms to automatically compute image source, but this approach is limited to planar boundaries and short duration simulations.
+
+
+### Main objectives of the project
+
+The two main limitations of k-Wave are (1) the staircasing effect that heterogeneous medium properties are subject to, because they have to be defined at the grid points and are undefined in-between, and (2) the fact that only boundary condition currently implemented is an absorbing boundary condition (perfectly matched layer) mimicking free-space propagation. The objectives of this project are to develop and code numerical schemes that overcome these limitations. 
+
+First, we propose to tackle the problem of defining the medium properties independently of the grid by rearranging the governing equations so that terms containing heterogeneous medium properties are reformulated as equivalent scattering terms, and exploiting and extending the off-grid approach currently used to implement sources and sensors. A preliminary simulation with a toy model and a sound speed heterogeneity gives us confidence this approach will work, but its extension to other heterogeneities, eg. density, absorption, nonlinearity parameter has not been explored.
+
+Second, we aim to implement arbitrary boundary conditions by computing, at each time-step, the distributed image source that would be required to mimic the effect of the boundary. This strategy, which will also employ the off-grid machinery, extends the conventional idea of an image source in a planar reflector to that of an arbitrarily-shaped boundary. Preliminary work has demonstrated this idea in the simple scenario of a perfectly-reflecting circular boundary, but the extent to which it can be extended to impedance boundaries with arbitrary geometries remains to be seen. 
+
+For both these areas of research, as well as the question of what the optimal algorithms and numerical schemes are, there remain questions as to how they are best implemented in k-Wave 2.0, both from the perspective of computational efficiency as well as the user experience.
+
+### Details of Software/Data Deliverables
+
+The algorithms and code developed as part of the project will be directly contributing to k-Wave 2.0. 
+k-Wave 2.0 is being developed within a GitHub repository with the help of UCL’s Advanced Research Computing group, and following a rigorous software development protocol.

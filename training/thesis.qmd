@@ -1,0 +1,14 @@
+---
+title: "Research thesis"
+---
+![](../static/SciLib18_113.jpg){fig-alt="UCL Science Library"}
+
+The four year **research thesis** will lead to a PhD degree from either UCL or Imperial College. 
+
+As part of the interview process students choose an available research project either at UCL or at Imperial College.
+
+Thesis topics include the UCL Departments of Mathematics, Statistics, and Computer Science, and the Imperial Departments of Mathematics and Computing.
+
+For a continuously updated selection of potential thesis topics please browse our [collection of PhD projects](../phd_projects/phd_project_list.qmd).
+
+

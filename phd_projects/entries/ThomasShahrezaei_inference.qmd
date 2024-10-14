@@ -1,0 +1,38 @@
+---
+title: "Inference of gene regulatory networks from single cell data"
+institution: "Imperial"
+department: "Mathematics"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Prof Vahid Shahrezaei and Dr. Philipp Thomas "
+
+---
+## Project Description
+
+### Existing background work
+
+Interpretation of single-cell transcriptomics data is a tremendous mathematical challenge. Existing statistical modelling tools often lack interpretability and can introduce ambiguity introducing unquantified errors that feed into downstream analyses. By inferring mechanistic mathematical models of stochastic gene expression and gene regulatory networks, the project aims to utilise distributional information to enhance the interpretability of predictions and shed light on the cellular processes underlying transcriptional regulation.
+
+
+
+### Main objectives of the project
+
+Our major innovation is model-driven leveraging distributional information of transcriptomic signatures hidden behind averages to learn about transcriptional regulation in living cells. Such distributional information exists across cells, genes and modalities but is often aggregated, averaged, or ignored by current tools. We will utilise mechanistic stochastic models as interpretable generative models for single genes to produce an atlas of burst kinetics parameters across cell types, tissues, organisms and align differentiation trajectories. Extending our model to multiple genes allows us to leverage multi-modal distributional information to infer gene regulatory networks. 
+
+
+
+### Details of Software/Data Deliverables
+
+Our model-driven approach will provide easy-to-use computational tools capable of Bayesian parameter estimation and model selection. The tools utilise amortised inference that efficiently scales to genomic data and will be used to create single-cell atlases of transcriptional regulation across several organisms. The availability of these computational pipelines is expected to enhance downstream analyses in applications, such as normalisation and data integration, providing lasting benefits to the field of single-cell transcriptomics. Overall, the project aims to significantly improve the interpretability, reliability, and computational efficiency of transcriptomic analyses, boosting our understanding of cellular processes and their disruption in disease.
+
+
+
+###  References
+
+Modelling capture efficiency of single cell RNA-sequencing data improves inference of transcriptome-wide burst kinetics
+W Tang, ACS Jorgensen, S Marguerat, P Thomas, V Shahrezaei
+Bioinformatics, Volume 39, Issue 7, July 2023, btad395
+
+Global transcription regulation revealed from dynamical correlations in time-resolved single-cell RNA-sequencing
+D Volteras, V Shahrezaei, P Thomas
+bioRxiv, 2023.10. 24.563709

@@ -1,0 +1,24 @@
+---
+title: "A Unified Form Language for PDEs in non-divergence form"
+institution: "UCL"
+department: "Mathematics"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Dr Max Jensen"
+
+---
+## Project Description
+
+Partial differential equations (PDEs) in non-divergence form are fundamental in a wide range of scientific and technological fields, playing a pivotal role in optimal control and game theory through the Hamilton-Jacobi-Bellman and Isaacs PDEs. Despite recent advancements in numerical methods for these PDEs (see the unified a priori analysis in [1]), their application remains confined to specialists. This limitation arises because there are no widely accessible software packages that offer the user-friendliness and computational power of state-of-the-art libraries for divergence-form equations, such as Fenics or Firedrake.
+
+Fenics and Firedrake have succeeded primarily due to the development of the Unified Form Language, which allows users to define a wide range of PDEs in divergence form succinctly and in a manner that aligns with their mathematical structure. This project seeks to extend the Unified Form Language to accommodate PDEs in non-divergence form and implement this extension in Firedrake.
+
+A proof of concept has already been demonstrated in [2], where numerical experiments for the fully nonlinear Hamilton-Jacobi-Bellman/Monge-Ampère equation were conducted using integral components of the Fenics library in a non-divergence form setting (noting that Firedrake and Fenics share the same Unified Form Language).
+ 
+## Details of Software/Data Deliverables
+ 
+The project will develop and implement an extension of the Unified Form Language to non-divergence form equations within Firedrake, focusing on semi-Lagrangian methods and incorporating mixed boundary conditions [3]. The implementation will leverage existing Firedrake functionality to solve systems of equations that combine terms in non-divergence and divergence forms. An example of such a system is mean-field games. The project license will likely be a GNU Lesser General Public License, with Python as the primary programming language. Initially, the target platforms are Ubuntu and macOS (via Homebrew).
+
+- [1] Debrabant, K. & Jakobsen, E. R. Semi-Lagrangian schemes for linear and fully nonlinear diffusion equations. Mathematics of Computation 82, 1433-1462 (2012).
+- [2] Feng, X. & Jensen, M. Convergent Semi-Lagrangian Methods for the Monge--Ampère Equation on Unstructured Grids. SIAM Journal on Numerical Analysis 55, 691-712 (2017).
+- [3] Jaroszkowski, B. & Jensen, M. Finite element approximation of Hamilton–Jacobi–Bellman equations with nonlinear mixed boundary conditions. IMA Journal of Numerical Analysis (2023).

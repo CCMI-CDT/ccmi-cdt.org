@@ -1,0 +1,32 @@
+---
+title: "Fast Multipole Methods on modern architectures"
+institution: "UCL"
+department: "Maths and Advanced Research Computing Centre"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Prof Timo Betcke"
+
+---
+## Project Description
+
+ ### Existing background work
+
+Fast Multipole Methods (FMM) are one of the fundamental algorithms of computational sciences. They allow the fast approximate evaluation of interactions of N particles with each other in linear complexity instead of quadratic complexity when naive direct evaluation methods are being used. The FMM goes back to Rokhlin and Greengard in 1987 and has since undergone substantial algorithmic and computational advances. FMM on GPUs for example won the Gordon Bell Price in 2009. However, while advances continued over the last ten years little work has been done to exploit Fast Multipole Methods beyond classical GPU computing. In particular, modern designs such as unified memory architectures on Apple Silicone and Nvidia Grace Hopper, mixed precision computations, or the use of tensor units in modern accelerators have received little attention.
+
+We have started building up in our group our own FMM expertise as part of the Bempp project. Using Rust as main driver language we have developed a CPU based FMM that is highly portable and competitive with other established Fast Multipole libraries. We are currently porting this effort over to MPI based clusters. Most of this work has been part of the PhD thesis of an existing student in Betcke's group.
+
+### Main objectives of the project
+
+Based on our existing experience with our CPU based FMM implementation we want to expand to modern compute architectures. In particular, we have the following objects:
+
+- **Develop optimised FMM implementations for unified memory architectures**. Within the FMM the key drivers of computational cost are the Particle To Particle Interactions (P2P) and the Multipole 2 Locale Interactions (M2L). For a shallow computation tree P2P will dominate. For a deeper tree M2L will dominate. P2P especially benefits from computation on GPU cores. M2L operations can be accelerated on GPUs but often have lower compute intensity than P2P. If CPU and GPU share a unified address space and fast overall memory accesses many of the implementational problems of full GPU based FMM fall away and we can flexibly decide between work on CPU and on GPU cores. We want to exploit this to optimise new FMM implementations that make full use of unified memory architectures.
+- **Exploit mixed precision arithmetic computations**. For many applications it is enough for an FMM to deliver 6 to 7 digits of accuracy, which is just about in the limit of FP32 computations. However, naive implementation on FP32 often leads to fewer correct digits. We want to investigate which operations to run on FP64, and which to accelerate via FP32 while still being able to maintain sufficiently high accuracy for the FMM.
+- **Optimise for matrix-multiplication operations.**. Many modern FMM formulation can be written in terms of matrix-matrix products, which can make use of tensor cores and other specialised registers for AI computations. We want to investigate how these can be used as part of the FMM workflow and allow speed-up of the overall computation.
+
+### Work plan
+
+The student will take time to familiarise themselves with our existing Rust code base, interface C++ to access accelerator devices and develop FMM on unified architectures. We therefore think the first part of FMM on unified architectures will take roughly two years of project time. In parallel the student will slowly get started on mixed precision experiments, and we expect this part of the project to be around one year in length, once the student has already assembled more experience on developing FMM. The final part on tensor and other AI accelerators will then build on the codebase and research experience with mixed precision arithmetic that the student has built up and will mainly take part in the last 1-1.5 years of the PhD.
+
+### Details of Software Deliverable
+
+We are currently preparing for release our first Rust based FMM version. The student will build on this code and integrate compute kernels for accelerators within this code base. Rust itself has limited support for GPU compute. So much of this work will be in C++ and interfaced to the Rust driver codes for the FMM. A particular interest is also to use Apple Silicone as unified memory environment for FMM. While not being used directly in HPC, Apple Silicon is widely spread and a cost effective way to develop unified memory codes. For HPC we will target Nvidia's Grace Hopper, meaning the student will need to write separate low-level kernel implementations for Apple Metal and Nvidia Cuda. For our current FMM codes we use a BSD 3-Clause license and will continue this license for this project.

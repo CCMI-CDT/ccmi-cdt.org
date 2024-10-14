@@ -1,0 +1,45 @@
+---
+title: "A computational framework for heterogeneous coupling in large scale computations"
+institution: "UCL"
+department: "Mathematics"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Prof Erik Burman"
+
+---
+## Project Description
+
+### Existing background work
+
+With the advent of high performance computing and new computer architectures there is
+renewed interest in the efficient coupling of different partial differential equation based models and their associated solvers. Indeed, it is often the case that for a given application or computational methods there exists a highly optimized solver. However in complex applications many different models are connected and it is then attractive to connect such optimized solvers for the subproblem to obtain a solution of the global problem. The common approach in this framework is to discretize the global continuous problem into a, possibly huge, algebraic system, and then split the latter as a system of coupled algebraic subsystems. In this case the coupling condition often consists in the identification of unknowns in the subsystems corresponding to the same global unknown. This approach forms the basis of the dominating coupling softwares available today (see for example [3,4]).
+
+
+An alternative approach, which is lately gaining increasing interest, is, instead, to decompose the
+original problem already at the continuous/infinite dimensional level, thus obtaining a system of coupled infinite dimensional subproblems, to be successively discretized. The advantage of the latter approach compared to the former is that it allows for a detailed mathematical analysis of the resulting couplings under precise conditions on the local solvers. Moreover, it allows for the design of optimal preconditioners of the coupling method. An abstract framework for heterogeneous coupling including stability and error analysis as well as the design of preconditioners was recently proposed by the principal supervisor in [1]. It is shown that a variety of different couplings enter the framework including interface coupling, volume coupling, FEM-BEM coupling, bulk-surface pde systems, or networks of fractures. This theoretical work was inspired by the principal supervisors extensive work on coupling methods for heterogeneous interface problems [3], fluid-structure or fluid-fluid interaction [4,5], or FEM- BEM coupling [2,6].
+
+### Main objectives of the project
+
+Describe the main objectives of the project.
+
+ The main objective of the project is to further develop the ideas of [1] along the following lines:
+
+ 1. Theory. The examples of [1] are restricted to scalar problems. Here the objective of the thesis
+would be to show how the framework can be applied to systems, with special focus on the linearized Navier-Stokes’ equations of fluid mechanics and the Maxwell’s equations of electro magnetics. For these cases a complete analysis will be derived including stability and error analysis. Preconditioners for the coupling will also be designed. If time allows more heterogeneous systems will then be considered, such as for example free flow coupled to fractured porous media or magneto-hydrodynamics. Another more adventurous potential research strand is to explore using network approximation to learn optimal coupling spaces satisfying the conditions of [1].
+ 
+2. Computational aspects. The framework will then be realised in a computational software where the merits of different coupling conditions or formulations can be assessed. Here special care will be taken to make the computational software agnostic (to the furthest possible extent) to the solvers of the subproblems in the spirit of [1].
+
+### Details of Software/Data Deliverables
+
+The software deliverable should form a significant component of the PhD project. It must be a substantial piece of software that can disseminated to the wider community. For the details of the software deliverable please describe existing software (if available), community need for the software, licensing and technical aspects (programming language, target platforms, etc.). The license by default should be an open-source license. For other types of licenses please discuss with the CDT leadership team.
+
+The objective is to design and implement a software library allowing for heterogeneous coupling of different partial differential equations and their associated methods. This library would allow for interface coupling, volume coupling, mixed dimensional coupling. Assuming that the different solvers of the subproblems are optimized the library will handle the preconditioning of the coupling using the general FETI type preconditioner designed and analysed in [1]. Contrary to the libraries of [7,8] this library would have a solid mathematical foundation that will allow for a highly optimized and reliable computational software.
+
+[1] Bertoluzza, Silvia ; Burman, Erik. An abstract framework for heterogeneous coupling: stability, approximation and applications. arXiv:2312.11733, 2023.
+[2] Betcke, Timo ; Bosy, Michał ; Burman, Erik . Hybrid coupling of finite element and boundary element methods using Nitsche's method and the Calderon projection. Numer. Algorithms 91 (2022), no. 3, 997--1019.
+[3] Burman, Erik ; Elfverson, Daniel ; Hansbo, Peter ; Larson, Mats G. ; Larsson, Karl . Hybridized CutFEM for elliptic interface problems. SIAM J. Sci. Comput. 41 (2019), no. 5, A3354--A3380.
+[4] Burman, Erik ; Durst, Rebecca ; Fernández, Miguel A. ; Guzmán, Johnny . Fully discrete loosely coupled Robin-Robin scheme for incompressible fluid-structure interaction: stability and error analysis. Numer. Math. 151 (2022), no. 4, 807--840.
+[5] Burman, Erik ; Durst, Rebecca ; Fernández, Miguel ; Guzmán, Johnny . Loosely coupled, non- iterative time-splitting scheme based on Robin-Robin coupling: unified analysis for parabolic/parabolic and parabolic/hyperbolic problems. J. Numer. Math. 31 (2023), no. 1, 59--77.
+[6] Bosy, Michal; Scroggs, Matthew W.; Betcke, Timo; Burman, Erik ; Cooper, Christopher D. Coupling finite and boundary element methods to solve the Poisson–Boltzmann equation for electrostatics in molecular solvation. Journal of Computational Chemistry. https://doi.org/10.1002/jcc.27262, 2023.
+[7] Bungartz, Hans-Joachim ; Lindner, Florian ; Gatzhammer, Bernhard ; Mehl, Miriam ; Scheufele, Klaudius ; Shukaev, Alexander ; Uekermann, Benjamin . preCICE—a fully parallel library for multi- physics surface coupling. Comput. & Fluids 141 (2016), 250--258.
+[8] Tang, Yu-Hang ; Kudo, Shuhei ; Bian, Xin ; Li, Zhen ; Karniadakis, George Em . Multiscale universal interface: a concurrent framework for coupling heterogeneous solvers. J. Comput. Phys. 297 (2015), 13--31.

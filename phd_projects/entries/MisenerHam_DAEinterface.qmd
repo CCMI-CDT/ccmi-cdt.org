@@ -1,0 +1,36 @@
+---
+title: "Algorithms and software for differentiable programming at the ML/PDE/DAE interface"
+institution: "Imperial"
+department: "Computing and Mathematics"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Prof Ruth Misener and Prof David Ham"
+
+---
+## Project Description
+
+ The researcher on this project will develop new modelling capabilities in the differentiable programming paradigm that will enable gradient-based optimisation to be employed in complex systems whose models combine partial differential equations (PDEs), differential-algebraic equations (DAEs), and machine learning (ML).  
+ 
+Across physics-based and data-driven modelling, the need to optimise the modelled system for an objective is pervasive. Optimisation objectives can include the fit to observed data, minimisation of resource consumption such as energy or materials, or performance criteria such as speed or weight. Optimising these objectives requires the entire mathematical model to be differentiated with respect to its inputs. In many circumstances, the only tractable way to do this is using reverse mode algorithmic differentiation, known in the ML community as backpropagation. In short, the model code is differentiated and run backwards. 
+ 
+The most realistic and challenging model systems combine components represented in different ways. A complex, energy-intensive and polluting industrial process might contain mechanical components modelled by DAEs, fluid processes described by PDEs and have components for which no model is known but for which a neural network can be trained from data. Optimising the design of such systems has enormous environmental and economic benefits. This is the big prize. 
+ 
+Traditional algorithmic differentiation tools started with a model written in a language such as Fortran or C and differentiated at the level of the primitive options. The much more modern approach is to design a programming model to be differentiated. This enables much more efficient differentiation of higher level mathematical structures. This approach was termed “differentiable programming” in the ML community (Meijer, ESEC/FSE 2018), but similar approaches exist in PDE-based modelling (Farrell et al. 2013) and for DAE models (`-Hart 2011).  
+ 
+Differentiable programming treats computational models as the mathematical composition of differentiable components, and applies the chain rule to differentiate across multiple components. By matching the mathematical and software abstractions of differentiable programming tools in ML, PDEs, and DAEs, differentiable models of the most complex coupled systems will be made possible. Initial work in this field has coupled ML and PDEs (Bouziani & Ham, 2023) and ML and DAEs (Ceccon et al., 2022). This project will build the bridge between PDEs and DAEs using the software tools in those works and hence complete the triangle, delivering seamless differentiable modelling and optimisation between all three domains. 
+ 
+## Justification of how it fits the scope of the programme 
+ 
+This is a software-centred project spanning physics-based and data-driven modelling approaches. It is at the core of the CDT scope. 
+ 
+## Details of Software/Data Deliverables 
+ 
+The new simulation capability will be delivered as extensions to the Firedrake (https://www.firedrakeproject.org/), OMLT project (https://github.com/cog-imperial/OMLT), Pyadjoint (https://pyadjoint.org/) and/or Pyomo (http://www.pyomo.org/). 
+ 
+## References 
+ 
+Bouziani, Nacime and Ham, David A. Physics-driven machine learning models coupling PyTorch and Firedrake ICLR 2023 Workshop on Physics for Machine Learning, 2023 https://doi.org/10.48550/arXiv.2303.06871 
+Francesco Ceccon, Jordan Jalving, Joshua Haddad, Alexander Thebelt, Calvin Tsay, Carl D Laird, and Ruth Misener. 2022. OMLT: optimization & machine learning toolkit. J. Mach. Learn. Res. 23, 1, Article 349 
+P. E. Farrell, D. A. Ham, S. W. Funke, and M. E. Rognes, [Automated Derivation of the Adjoint of High-Level Transient Finite Element Programs](https://epubs.siam.org/doi/abs/10.1137/120873558), SIAM Journal on Scientific Computing 2013 35:4, C369-C393 
+Hart, William E., Jean-Paul Watson, and David L. Woodruff. "Pyomo: modeling and solving mathematical programs in Python." Mathematical Programming Computation 3(3) (2011): 219-260. 
+Meijer, Erik. "Behind every great deep learning framework is an even greater programming languages concept (keynote)." Proceedings of the 2018 26th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering. 2018.

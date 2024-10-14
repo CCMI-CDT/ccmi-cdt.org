@@ -1,0 +1,28 @@
+---
+title: "Agent-based simulations of tissue dynamics"
+institution: "Imperial"
+department: "Mathematics"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Dr.Omer Karin"
+
+---
+## Project Description
+
+ The project aims to develop a computational framework for agent-based simulations of tissue dynamics, encompassing self-organization and disease dysregulation. The primary goal is to create a software tool that facilitates the development of interpretable and predictive mechanistic simulations of the dynamic interaction network of cells within tissues. This tool will focus on how these interactions balance growth, removal, and differentiation. Understanding these processes is essential for studying healthy tissue function and the development of diseases such as cancer.
+
+### Existing background work
+
+The framework will be based on the group’s work on effective mathematical models for cell fate decisions. 
+[1] Simons BD, Karin O. Tuning of plasma cell lifespan by competition explains the longevity and heterogeneity of antibody persistence. Immunity. 2024 Mar 12;57(3):600-11.
+[2] Karin O. EnhancerNet: A predictive model of cell identity dynamics through enhancer selection. Development. 2024 Sep 17:dev-202997.
+
+**Specify what work has already been done in this area by the principal supervisor's group and within the wider research community.**
+
+### Main objectives of the project
+
+Specific applications may involve modelling stem cell dynamics in adult tissues or during embryonic development and could include collaboration with experimental groups. The project will be organized gradually, with early deliverables focusing on more limited modeling contexts. Throughout the project, the modelling framework will be tested against specific biological applications. The outcome will be an open-source software package that supports the modelling of complex self-organization in biological tissues.
+
+### Details of Software/Data Deliverables
+
+From a software development perspective, the project will utilize Python along with numerical computation libraries such as NumPy and SciPy and support the highly nonlinear nature of the underlying dynamics and possibly a large number of agents (cells). We aim to make the code as general as possible to facilitate the investigation of complex self-organizing behaviours, such as spatio-temporal patterning or mutant invasion.

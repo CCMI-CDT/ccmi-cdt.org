@@ -1,0 +1,39 @@
+---
+title: "Improving impaired hearing through sound reconstruction from neural activity patterns"
+institution: "UCL"
+department: "Computer Science"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Prof Martin Benning"
+
+---
+## Project Description
+
+### Existing background work
+
+
+This PhD project centres on the intersection of computer science and hearing research, with a primary focus on unravelling the complexities of the auditory system and its implications for perception and hearing loss. While decades of hearing research have yielded many valuable insights, the difference between normal and impaired perception relies on intricacies of the auditory system that remain poorly understood. Traditionally, the field has relied on simplifying assumptions, which limit the applicability of research findings to real-world scenarios. 
+In [1], authors from the co-supervisor’s lab have studied auditory processing deficits in individuals with hearing loss using brain recordings, revealing that hearing loss distorts the low-dimensional neural encoding of speech, primarily affecting spectral processing and cross-frequency interactions, leading to hypersensitivity to background noise even after hearing aid amplification, and highlights the potential of deep neural networks for central brain structure research. In [2, 3], authors of the primary supervisor’s lab have introduced a novel regularisation framework for inverting deep neural networks that utilises auxiliary variables and tailored Bregman distances to lift the network parameter space into higher dimensions. 
+
+### Main objectives of the project
+
+This project aims to leverage modern deep learning techniques to formulate and address the forward problem of mapping sounds onto neural activity as well as the inverse problem of reconstructing sounds from neural activity, a pivotal aspect in hearing research. By inverting neural networks to reconstruct sounds from simulated auditory nerve activity and real brain activity after various forms of cochlear damage, this project seeks to answer crucial questions about the degradation of acoustic information after hearing loss. Furthermore, it explores the extent to which information loss can be compensated when the inverse problem in the presence of cochlear damage is solved with neural activity that is recorded from an undamaged cochlea. 
+
+The project aims at combining and extending the described background research, with the primary goal of developing and implementing invertible deep neural networks that are expressive enough to convert sounds into neural activity, for which the inverse problem can be solved in a stable fashion, and that can be applied to real-world data.
+
+This research has the potential to contribute significantly to our understanding of auditory processing, with implications for the design of assistive listening technologies. The project benefits from a substantial database of neural recordings from the inferior colliculus, a central hub in the auditory pathway, for its initial phases. 
+
+### Details of Software/Data Deliverables
+
+High-quality software development is at the core of the proposed PhD project. Coding developments will include but are not limited to: 
+- Software for Auditory Processing: Development of a comprehensive software suite, including user-friendly, well-documented programming codes for implementing and training invertible neural network models.
+- Integration with Existing Frameworks: Ensuring compatibility and ease of integration with established Python libraries like PyTorch or JAX, enhancing the utility of the developed software in various research and practical applications.
+- Open Access to Software: Making all developed software tools publicly available, ensuring they are accessible and well-documented for use by the wider research community.
+- Publication of Research Findings: Releasing open access publications detailing the research findings, methodologies, and applications of the developed software, contributing to the advancement of the field.
+
+The applicant should have a background in Computer Science, Mathematics, or a related subject. The ideal applicant has programming experience in Python and particularly with advanced automatic differentiation and deep learning libraries such as PyTorch or JAX. A strong background in inverse problems is desirable but not mandatory.
+
+References
+- [1]	Shievanie Sabesan, Andreas Fragner, Ciaran Bench, Fotios Drakopoulos, Nicholas A Lesica (2023) Large-scale electrophysiology and deep learning reveal distorted neural signal dynamics after hearing loss. eLife 12. doi: 10.7554/eLife.85108 
+- [2]	Xiaoyu Wang, and Martin Benning. "Lifted bregman training of neural networks." Journal of Machine Learning Research 24, no. 232 (2023): 1-51.
+- [3]	Xiaoyu Wang, and Martin Benning (2023) A lifted Bregman formulation for the inversion of deep neural networks. Front. Appl. Math. Stat. 9:1176850. doi: 10.3389/fams.2023.1176850

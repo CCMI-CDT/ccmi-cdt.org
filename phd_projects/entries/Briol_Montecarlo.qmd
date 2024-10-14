@@ -1,0 +1,25 @@
+---
+title: "Transfer Learning for Monte Carlo"
+institution: "UCL"
+department: "Statistical Science"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Dr.Francois-Xavier Briol"
+
+---
+## Project Description
+
+### Existing background work
+
+The problem of computing quantities of interest taking the form of intractable expectations is widespread in computational statistics, machine learning, and more broadly in the computational sciences. In practice we often need to tackle several integrals which are similar; e.g. related through time or space. However, the vast majority of existing research focuses on refining approximations of a single integral and completely ignores the fact that these are part of a set of related integrals. This key piece of information, if used appropriately, could allow algorithms to share computation across integration tasks, leading to much more accurate estimates. Although a small number of such methods have been proposed, their use is currently very limited due to their high computational cost and the lack of widely available software.
+
+### Main objectives of the project
+
+The objectives of this project are two-fold:
+1) Developing novel algorithms for the transfer of information across integration tasks. Most existing algorithms have a cost which increases cubically with the number of tasks and/or with the number of samples per task. This means that they are not worthwhile in all but the most challenging integration tasks. In this project, the student will explore approximation methods to reduce this from cubic to linear cost. This work will build on the literatures on Monte Carlo methods, kernel methods and Gaussian processes.
+2) Developing software for the widespread use of transfer learning for numerical integration. The ProbNum package in Python already includes a basic algorithm to do this, but there is very little support in terms of hyper parameter optimisation and/or advice for practitioners on how to use the methods. Many other methods are also missing. The second objective of this project will therefore be the development of this package and implementation of any novel algorithms developed in the first part of the project. The broader aim will be to make these algorithms broadly available to allow users beyond statistics/machine learning to make use of these methods.
+
+
+### Details of Software/Data Deliverables
+
+The PhD student will contribute to the development of the “ProbNum” python package; see https://probnum.readthedocs.io/en/latest/. Specifically, they will focus on the implementation of existing, and novel, methods for numerical integration, with a specific focus on methods based on transfer learning. This will be done in collaboration with colleagues and other PhD students at the University of Tuebingen, which are the leads for this package.

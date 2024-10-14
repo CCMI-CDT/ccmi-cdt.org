@@ -1,0 +1,25 @@
+---
+title: "Automated Bayesian inference in stochastic differential equation models"
+institution: "UCL"
+department: "Advanced Research Computing Centre"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Dr Matt Graham"
+
+---
+## Project Description
+
+### Existing background work
+
+Diffusion processes specified by systems of stochastic differential equations are used to model phenomena in a wide range of settings. Inferring the posterior distribution on the unknown parameters of such models given, potentially partial and noisy, observations of the process is often a computationally demanding task, with even forward simulation of the model typically intractable, necessitating use of numerical integration schemes. A common approach in this setting is to use _data augmentation_, whereby the paths of the time discretised diffusion process are jointly inferred with the model parameters. A plethora of approximate inference schemes have been proposed in this setting, with key challenges from a computational statistics standpoint being the high-dimension of the resulting latent space when a fine time-discretization is used, and the complex, typically non-linear, dependencies between the latent variables, resulting in a challenging to approximate posterior distribution geometry. The appropriate choice of numerical integration scheme will often also be model dependent, with properties such as hypoellipticity whereby the diffusion process includes a mix of rough and smooth components, requiring careful treatment to ensure the time-discretized process retains key properties of the underlying continuous time system.
+
+A promising recently proposed inference approach in this setting is to consider the joint configurations of the time discretized diffusion process and model parameters which are consistent with the observations as forming an implicitly defined manifold in the latent space, with a constrained Hamiltonian Monte Carlo algorithm then used to sample from the resulting manifold supported joint posterior distribution (Graham, Thiery and Beskos, 2022). In contrast with other approaches proposed in the literature, this methodology can be applied alike in a range of settings, including: elliptic or hypo-elliptic systems; observations with or without noise; linear or non-linear observation operators. In particular, full flexibility is available in the choice of numerical integration scheme, allowing straightforward use of higher-order integrators without a tractable transition density such as those proposed in a hypo-elliptic setting (Iguchi, Beskos and Graham, 2023).
+
+1. Graham, M. M., Thiery, A. H., & Beskos, A. (2022). Manifold Markov chain Monte Carlo methods for Bayesian inference in diffusion models. Journal of the Royal Statistical Society Series B: Statistical Methodology, 84(4), 1229-1256.
+2. Iguchi, Y., Beskos, A., & Graham, M. (2023). Parameter Inference for Degenerate Diffusion Processes. arXiv preprint arXiv:2307.16485.
+
+### Main objectives of the project + details of software deliverable
+
+While there has been much work on designing increasingly efficient, but also complex, approximate inference and numerical integration schemes for diffusion processes, there is lack of corresponding robust general-purpose software implementations which abstract details of the inference algorithm and numerical discretization away from practitioners. Probabilistic programming frameworks such as BUGS, Stan, PyMC and Turing, which combine domain specific languages to specify probabilistic generative models, with general purpose inference algorithms that can be used to estimate the unknown variables in the model, have been very successful in encouraging adoption of Bayesian methodology and are widely used in practice in a range of fields. However, while it is possible to use existing frameworks to perform inference in diffusion models, typically this will still require the user to manually implement the time discretisation of the process. Further, the default inference algorithms used in these frameworks will typically scale poorly to high-dimensional and complex posteriors characteristic of diffusion models.
+
+In this project we propose to produce a dedicated open-source software framework for performing inference in stochastic differential equation models. This will combine a simple interface for practitioners to specify their model of interest, automatic detection of key system properties such as hypoellipticity and selection of appropriate discretization schemes, and general purpose implementations of a range of numerical integration schemes and inference algorithms. As well developing the underlying software framework, there will also be the opportunity to develop novel statistical algorithms for performing inference in diffusion models to integrate in to the framework and to design automated approaches for tuning and adapting the control parameters of existing methodology, to minimize the need for user-intervention.

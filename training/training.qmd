@@ -1,0 +1,16 @@
+---
+title: "The CCMI Training Programme"
+---
+
+![](/static/students_ucl_east.jpg){fig-alt="Students at UCL East Campus"}
+
+The CCMI graduate training programme rests on three foundations.
+
+- [A four year research thesis](thesis.qmd) on the interface of computational sciences, research software engineering, and data sciences.
+- [Collaborative interface working groups](working_groups.qmd), which are week long block events that combine topical overviews, research discussions, software exploration, and discovery of new ideas.
+- [A software journey](software_journey.qmd) that involves active collaboration in open-source projects, close collaboration with external partners, regular software weeks, sprint sessions, industry talks on software engineering, and many other activities.
+
+
+
+
+

@@ -1,0 +1,35 @@
+---
+title: "Koopman operator learning of nonlinear PDEs"
+institution: "Imperial"
+department: "Mathematics"
+author: "Laura Beer"
+date: "02/10/2024"
+advisor: "Dr.Nicholas Boulle"
+
+---
+## Project Description
+
+ The aim of this project is to learn nonlinear partial differential equations (PDEs) from data using techniques based on Koopman operators and dynamic mode decomposition.
+
+### Existing background work
+
+PDE learning, which involves discovering the underlying partial differential equations governing complex physical systems from data, has become an increasingly active research area in scientific machine learning, primarily relying on neural network approximation algorithms. These methods leverage the representational flexibility of neural networks to approximate complex functions and have shown promising results in various applications [1]. However, extracting physical insights from these learned models and establishing rigorous theoretical guarantees remains challenging due to the highly nonlinear nature of neural networks. A major open problem in this field is the development of tools and theories for nonlinear PDEs. 
+
+On the other hand, Koopman operator theory presents an alternative approach to analysing nonlinear dynamical systems. The Koopman operator provides a global, linear representation of a nonlinear system by acting on an infinite-dimensional space of observables. This linearization makes it possible to analyse nonlinear systems using tools traditionally reserved for linear systems, such as spectral analysis and operator theory techniques [2,3]. The Koopman framework has shown significant potential in applications such as control theory, fluid dynamics, and signal processing.
+
+However, the Koopman operator framework has been developed predominantly for discrete-time dynamical systems and ordinary differential equations (ODEs). Its extension to continuous-time systems, and in particular to nonlinear PDEs, remains an open and underexplored area of research. The challenge lies in bridging the gap between the theoretical foundation of Koopman operators and their practical application to the highly complex dynamics of PDEs. Addressing this gap will unlock new possibilities for analysing, controlling, and predicting the behaviour of nonlinear PDE systems through a data-driven, operator-theoretic lens.
+
+[1] N. Boulle and A. Townsend, "A Mathematical Guide to Operator Learning", https://arxiv.org/abs/2312.14688.
+[2] M. J. Colbrook, "The Multiverse of Dynamic Mode Decomposition Algorithms", https://arxiv.org/abs/2312.00137.
+[3] S. L. Brunton, M. Budisic, E. Kaiser, J. N. Kutz, "Modern Koopman Theory for Dynamical Systems", https://doi.org/10.1137/21M1401243=
+
+### Main objectives of the project
+
+This project aims to achieve the following objectives:
+1. Generalizing the Koopman operator framework to infinitely large system of ODEs and nonlinear PDEs
+2. Developing the first theory for nonlinear PDE learning based on Koopman operators
+3. Implementing new algorithms for approximating Koopman operators and applying them to fluid dynamics problems
+
+### Details of Software/Data Deliverables
+
+A large component of this project will involve the implementation of new data-driven algorithms for learning and computing spectral properties associated with PDEs. The resulting software will be made publicly available in the form of a package with a detailed documentation to facilitate its adoption among the scientific machine learning community.
