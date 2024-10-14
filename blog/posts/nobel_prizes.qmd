@@ -1,9 +1,9 @@
 ---
 title: "Nobel Prizes in Chemistry and Physics for AI research"
 author: "Timo Betcke"
-date: "14/10/2024"
+date: "10/14/2024"
 summary: "The 2024 nobel prizes in Physics and Chemistry were given out to breakthrough research in AI from members of the UCL community."
-categories: [Application,test]
+categories: [News]
 
 ---
 London is the world center in AI research. This has been impressively demonstrated this year by the award of two Nobel Prizes to members of the UCL Community. Professor Geoffrey Hinton, founder of the Gatsby Computational Neuroscience Unit at UCL, was awarded the Physics Nobel Prize alongside John J Hopfield for breakthroughs in AI research.
