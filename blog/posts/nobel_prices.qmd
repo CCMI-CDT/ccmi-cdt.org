@@ -2,7 +2,7 @@
 title: "Nobel Prices in Chemistry and Physics for AI research"
 author: "Timo Betcke"
 date: "14/10/2024"
-summary: "The 2024 nobel prices in Physics and Chemistry were given out to breakthrough research in AI from members of the UCL community."
+summary: "The 2024 nobel prizes in Physics and Chemistry were given out to breakthrough research in AI from members of the UCL community."
 categories: [Application,test]
 
 ---
