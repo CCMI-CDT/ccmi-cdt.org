@@ -4,7 +4,7 @@ title: "How to apply"
 
 ![UCL Japanese Garden](../static/japanese_garden.jpg)
 
-**The online application system for 2025 entry is not yet open.** Application deadlines and links to the application system will be communicated in the near future. In the meantime please use or sign-up form to receive updates on when our application systems are ready.
+**The online application system for 2025 entry is not yet open.** Application deadlines and links to the application system will be communicated in the near future. In the meantime please use our [sign-up form](https://forms.office.com/e/i2jpkQu0Lm) to receive updates on when our application systems are ready.
 
 - [Application Procedure](application_procedure.qmd)
 - [Database of PhD Projects](phd_projects/phd_project_list.qmd)
