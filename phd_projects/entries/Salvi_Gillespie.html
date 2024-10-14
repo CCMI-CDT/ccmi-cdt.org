@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Laura Beer">
+<meta name="dcterms.date" content="2024-02-10">
 
-<title>Inaugural Partner Workshop – CCMI</title>
+<title>A differentiable Gillespie algorithm for exact gradients through discrete stochastic systems – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./static/assets/ccmi_rounded_colour.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../static/assets/ccmi_rounded_colour.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,8 +71,8 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Inaugural Partner Workshop – CCMI">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="A differentiable Gillespie algorithm for exact gradients through discrete stochastic systems – CCMI">
 <meta property="og:description" content="EPSRC Centre for Doctoral Training in Colllaborative Compuational Modelling at the Interface">
 <meta property="og:site_name" content="CCMI">
 </head>
@@ -82,10 +84,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./static/assets/ccmi_rounded_colour.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../static/assets/ccmi_rounded_colour.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">CCMI</span>
     </a>
   </div>
@@ -96,7 +98,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -105,11 +107,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-events">    
         <li>
-    <a class="dropdown-item" href="./events/events.html">
+    <a class="dropdown-item" href="../../events/events.html">
  <span class="dropdown-text">Events Page</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./partner_workshop.html">
+    <a class="dropdown-item" href="../../partner_workshop.html">
  <span class="dropdown-text">Partner Workshop</span></a>
   </li>  
     </ul>
@@ -120,25 +122,25 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="./training/training.html">
+    <a class="dropdown-item" href="../../training/training.html">
  <span class="dropdown-text">Training Programme</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./team.html">
+    <a class="dropdown-item" href="../../team.html">
  <span class="dropdown-text">Our Leadership Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./#contact-us">
+    <a class="dropdown-item" href="../../#contact-us">
  <span class="dropdown-text">Contact us</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./apply.html"> 
+    <a class="nav-link" href="../../apply.html"> 
 <span class="menu-text">How to apply</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog/blog_list.html"> 
+    <a class="nav-link" href="../../blog/blog_list.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -158,14 +160,26 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Inaugural Partner Workshop</h1>
+<h1 class="title">A differentiable Gillespie algorithm for exact gradients through discrete stochastic systems</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Laura Beer </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">February 10, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -175,35 +189,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Our first partner workshop is taking place 25 April 2025 at Imperial College London.</p>
-<p><strong>Location</strong>: Imperial South Kensington Campus, Skempton 64 64A &amp; 64B</p>
-<section id="schedule" class="level2">
-<h2 class="anchored" data-anchor-id="schedule">Schedule</h2>
-<ul>
-<li>09:30 – 10:15 Networking</li>
-<li>10:15 - 10:30 CCMI Intro, Timo Betcke &amp; Colin Cotter</li>
-<li>10:30 - 10:45 GAMS, Michael Bussieck</li>
-<li>10:45 – 11:00 FICO, Tristan Gally</li>
-<li>11:00 – 11:15 DataSparq, Jeremy Bradley</li>
-<li>11:15 – 11:35 SLB, Joshua Knowles</li>
-<li>11:35 – 11:50 McLaren, Julien Hoessler</li>
-<li>11:50 – 12:05 Graphcore, Andrew Fitzgibbon</li>
-<li>12:05 – 12:20 DELL, Paul Brook</li>
-<li>12:30 - 13:30 <strong>Lunch</strong></li>
-<li>13:30 - 14:20 <strong>Poster Session</strong></li>
-<li>14:20 – 14:30 RFI, Mark Basham</li>
-<li>14:30 – 14:40 Crick, James Briscoe</li>
-<li>14:40 – 14:50 ATI, Martin O’Reilly</li>
-<li>14:50 – 15:00 BASF, Rosona Eldred</li>
-<li>15:00 – 15:10 Gurobi, Lindsay Montanari</li>
-<li>15:10 – 15:20 SURF, Marco Verdicchio</li>
-<li>15:20 – 15:30 Enthought, Alexandre Chabot-Leclerc</li>
-<li>15:30 – 15:40 Rapiscan, William Thompson</li>
-<li>15:40 – 16:00 Summary, Marta Betcke/Ruth Misener</li>
-</ul>
-<p><br></p>
+<section id="project-description" class="level2">
+<h2 class="anchored" data-anchor-id="project-description">Project Description</h2>
+<p>The Gillespie algorithm is arguably one of the most well-known models for simulating chemical reactions, essentially acting as an Euler-Maruyama scheme applied to a jump process with a discrete state space. At each step, a random time is drawn from an exponential distribution (reflecting Poisson arrival events), and the discrete state is updated based on state-dependent transition probabilities. This project will focus on developing a rigorous mathematical theory and corresponding algorithm in JAX to calibrate parameterised and path-wise solutions of the Gillespie algorithm to data using automatic differentiation. By leveraging tools from rough path theory and stochastic automatic differentiation, we aim to compute exact gradients, which would improve on the approximate gradient methods currently in use. The work could have far-reaching implications for the fields of chemical kinetics, synthetic biology, and computational biology.</p>
+<section id="existing-background-work" class="level3">
+<h3 class="anchored" data-anchor-id="existing-background-work">Existing background work</h3>
+<p>The principal supervisor’s group has extensive experience in both rough path theory and deep learning, particularly in deriving exact gradients for stochastic systems. For example, the work on “Exact Gradients for Stochastic Spiking Neural Networks Driven by Rough Signals” has laid the foundation for differentiating through stochastic and event-driven systems with discontinuities. Within the wider research community, a recent relevant contribution is the paper “A Differentiable Gillespie Algorithm for Simulating Chemical Kinetics, Parameter Estimation, and Designing Synthetic Biological Circuits.” However, this approach only provides approximate solutions and does not compute path-wise gradients, making it a target for improvement. Other works on stochastic automatic differentiation, such as “Automatic Differentiation of Programs with Discrete Randomness,” will also inform this project by providing a framework to handle the challenge of differentiating through inherently discrete random variables.</p>
+</section>
+<section id="main-objectives-of-the-project" class="level3">
+<h3 class="anchored" data-anchor-id="main-objectives-of-the-project">Main objectives of the project</h3>
+<ol type="1">
+<li>Develop higher order auto-differentiable solvers to efficiently compute path-wise solutions of the Gillespie algorithm, with a focus on computing exact path-wise gradients.</li>
+<li>Study convergence/error and stability analysis of the proposed algorithms.</li>
+<li>Calibrate the algorithm to real-world data, showcasing its application in chemical kinetics and synthetic biology.</li>
+</ol>
+</section>
+<section id="details-of-softwaredata-deliverables" class="level3">
+<h3 class="anchored" data-anchor-id="details-of-softwaredata-deliverables">Details of Software/Data Deliverables</h3>
+<p>The project will deliver a JAX-based implementation of a differentiable Gillespie algorithm that computes exact gradients through discrete stochastic systems. This will involve: 1. The development of custom gradient routines that handle discrete random variables and jump processes. 2. A path-wise algorithm capable of calibrating chemical reaction networks to empirical data using automatic differentiation. 3. Extensive test cases and benchmarking to validate the accuracy and efficiency of the algorithm. 4. Open-source release of the software, complete with documentation and tutorials.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -220,8 +226,8 @@ ul.task-list li input[type="checkbox"] {
 		</h5>
 		<div class="d-flex flex-row justify-content-evenly align-items-center mt-4">
 			<a href="https://www.ukri.org/who-we-are/epsrc/">
-				<img src="./static/assets/ukri_logo.png" width="200" href="https://www.ukri.org/who-we-are/epsrc/"></a>
-			<img src="./static/assets/ccmi_square_colour_text.png" width="200">
+				<img src="../../static/assets/ukri_logo.png" width="200" href="https://www.ukri.org/who-we-are/epsrc/"></a>
+			<img src="../../static/assets/ccmi_square_colour_text.png" width="200">
 
 			<a href="https://www.imperial.ac.uk/">
 				<svg xmlns="http://www.w3.org/2000/svg" width="150" height="19.48" viewbox="0 0 177.3 19.48">
@@ -236,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
 				</svg>
 			</a>
 			<a href="https://www.ucl.ac.uk/mathematical-physical-sciences/news/2024/mar/ucl-receives-ps54m-boost-doctoral-training-engineering-and-physical-sciences">
-				<img src="./static/assets/UCL_logo.png" alt="UCL Logo white" width="150"></a>
+				<img src="../../static/assets/UCL_logo.png" alt="UCL Logo white" width="150"></a>
 			<!-- I have requested another white logo but have yet to hear back -->
 		</div>
 	</div>
