@@ -1,8 +1,27 @@
 [
   {
+    "listing": "/events/events.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/blog_list.html",
+    "items": [
+      "/blog/posts/nobel_prizes.html",
+      "/blog/posts/blogpost1.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/blog/posts/blogpost1.html",
+      "/blog/posts/nobel_prizes.html"
+    ]
+  },
+  {
     "listing": "/phd_projects/phd_project_list.html",
     "items": [
       "/phd_projects/entries/pavliotis_kalise.html",
+      "/phd_projects/entries/mcewen_probabilistic.html",
       "/phd_projects/entries/gutschow.html",
       "/phd_projects/entries/lamb_deep_learning copy.html",
       "/phd_projects/entries/Tobar_diffusion_models.html",
@@ -49,24 +68,6 @@
       "/phd_projects/entries/Benning_Paralift.html",
       "/phd_projects/entries/burman_inverse.html"
     ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/blog/posts/blogpost1.html",
-      "/blog/posts/nobel_prizes.html"
-    ]
-  },
-  {
-    "listing": "/blog/blog_list.html",
-    "items": [
-      "/blog/posts/nobel_prizes.html",
-      "/blog/posts/blogpost1.html"
-    ]
-  },
-  {
-    "listing": "/events/events.html",
-    "items": []
   },
   {
     "listing": "/team.html",
