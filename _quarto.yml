@@ -41,7 +41,7 @@ website:
 
 format:
   html:
-    theme: morph
+    theme: default
     css: styles.css
     toc: false
     smooth-scrolling: true

@@ -3,7 +3,7 @@ title: "Optimization methods for high-dimensional reinforcement learning"
 institution: "Imperial"
 department: "Mathematics"
 author: "Timo Betcke"
-date: "11/10/2024"
+date: "10/11/2024"
 advisor: "Dr Yufei Zhang"
 
 ---

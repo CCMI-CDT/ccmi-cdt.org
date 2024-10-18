@@ -3,7 +3,7 @@ title: "Fast Multipole Methods on modern architectures"
 institution: "UCL"
 department: "Maths and Advanced Research Computing Centre"
 author: "Laura Beer"
-date: "02/10/2024"
+date: "10/02/2024"
 advisor: "Prof Timo Betcke"
 
 ---

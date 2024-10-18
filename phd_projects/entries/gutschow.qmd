@@ -1,0 +1,47 @@
+---
+title: UCL - Scalable Collider Data Analysis with Optimised Predictions and Machine-Learning Anomaly Detection
+institution: UCL
+department: "Advanced Research Computing"
+author: "Timo Betcke"
+date: 10/18/2024
+advisor: Christian Gutschow
+---
+
+## Existing background work
+
+The Large Hadron Collider (LHC) has generated an immense amount of data, which,
+when combined with advanced Standard Model (SM) predictions, presents new opportunities
+for discovering physics beyond the SM. Current analysis frameworks, such as [Rivet](https://rivet.hepforge.org/),
+allow for data-theory comparisons, but incorporating higher-order calculations (NLO, NNLO)
+into these comparisons remains challenging. Additionally, there is potential to enhance
+traditional statistical analyses with machine learning-based anomaly detection to identify
+mismodelling or uncover hints of new physics. This project aims to improve both the affordability
+and accuracy of SM calculations and apply them to large-scale metadata analysis of collider data.
+
+
+## Main objectives of the project
+
+1.	**Optimising SM Calculations:** The project seeks to make state-of-the-art SM predictions
+    computationally affordable and accessible for large-scale collider data analysis. This will
+    be achieved through performance profiling of existing tools and integrating higher-order
+    calculations into Monte Carlo (MC) particle-level predictions using reweighting techniques.
+2.	**Comprehensive Metadata Analysis:** The student will perform large-scale metadata analysis
+    using Rivet, comparing experimental data from LHC experiments like ATLAS and CMS with optimised
+    SM predictions. *P*-value distributions will be generated to quantify the level of agreement between
+    theory and data across multiple observables.
+3.	**Anomaly Detection Framework:** Machine learning algorithms will be applied to *p*-value distributions
+    to detect anomalies in data-theory comparisons. This will enhance sensitivity in identifying potential
+    Monte Carlo mismodelling or uncovering signals of new physics.
+
+
+## Details of Software/Data Deliverables
+
+1.	**Performance-Optimised Prediction Tools:** The student will profile existing SM tools (e.g. Sherpa, Herwig)
+    to identify and address computational bottlenecks, optimising them for large-scale collider data comparisons.
+2.	**Integration of Higher-Order Calculations:** Incorporation of NLO and NNLO corrections into MC particle-level
+    predictions through reweighting techniques, making these sophisticated calculations accessible for widespread use.
+3.	**Data-Theory Comparison Framework:** A Rivet-based framework for generating detailed *p*-value distributions,
+    which will provide a robust statistical foundation for comparing experimental data with SM predictions.
+4.	**Machine Learning-Based Anomaly Detection:** Development of a machine learning-enhanced system to detect
+    inconsistencies in data-theory comparisons, using unsupervised learning techniques to identify potential
+    new physics signals or MC mismodelling.

@@ -3,7 +3,7 @@ title: "Backpropagation through rough differential equations"
 institution: "Imperial"
 department: "Mathematics & Imperial-X"
 author: "Timo Betcke"
-date: "11/10/2024"
+date: "10/11/2024"
 advisor: "Dr Christopher Salvi"
 
 ---

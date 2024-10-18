@@ -3,7 +3,7 @@ title: "Data-driven multi-scale modelling of bacterial biofilms"
 institution: "UCL"
 department: "Mathematics"
 author: "Laura Beer"
-date: "02/10/2024"
+date: "10/02/2024"
 advisor: "Dr. Philip Pearce"
 
 ---

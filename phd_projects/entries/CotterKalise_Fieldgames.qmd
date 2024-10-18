@@ -3,7 +3,7 @@ title: "A Unified Solver for Optimal Transport, Schroedinger Bridges, and Variat
 institution: "Imperial"
 department: "Mathematics"
 author: "Laura Beer"
-date: "02/10/2024"
+date: "10/02/2024"
 advisor: "Prof Colin Cotter and Dr. Dante Kalise"
 
 ---

@@ -3,7 +3,7 @@ title: "Inference and inverse problems for stochastic interacting particle syste
 institution: "Imperial"
 department: "Mathemetics"
 author: "Laura Beer"
-date: "02/10/2024"
+date: "10/02/2024"
 advisor: "Prof Greg A. Pavliotis"
 
 ---

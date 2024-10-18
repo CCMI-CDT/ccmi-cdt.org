@@ -41,6 +41,7 @@ gallery-images:
 </div>
 </div>
 
+<br>
 
 
 <section id="gallery">

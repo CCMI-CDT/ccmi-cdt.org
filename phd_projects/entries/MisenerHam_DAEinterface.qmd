@@ -3,7 +3,7 @@ title: "Algorithms and software for differentiable programming at the ML/PDE/DAE
 institution: "Imperial"
 department: "Computing and Mathematics"
 author: "Laura Beer"
-date: "02/10/2024"
+date: "10/02/2024"
 advisor: "Prof Ruth Misener and Prof David Ham"
 
 ---

@@ -3,7 +3,7 @@ title: "Efficient Computation of Transition States in Molecular Dynamics"
 institution: "Imperial"
 department: "Computing"
 author: "Laura Beer"
-date: "02/10/2024"
+date: "10/02/2024"
 advisor: "Dr. Panos Parpas"
 
 ---

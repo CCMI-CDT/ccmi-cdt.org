@@ -3,7 +3,7 @@ title: "Large-scale high-performance solver for therapeutic ultrasound applicati
 institution: "UCL"
 department: "UCL Division of Surgery and Interventional Science"
 author: "Timo Betcke"
-date: "11/10/2024"
+date: "10/11/2024"
 advisor: "Dr Pierre Gélat"
 
 ---

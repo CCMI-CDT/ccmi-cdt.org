@@ -3,7 +3,7 @@ title: "Drift detection in graph streams and its applications in healthcare"
 institution: "UCL"
 department: "Computer Science and Advanced Research Computing Centre"
 author: "Laura Beer"
-date: "02/10/2024"
+date: "10/02/2024"
 advisor: "Dr. Yevgeniya Kovalchuk"
 
 ---

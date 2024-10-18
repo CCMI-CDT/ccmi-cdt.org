@@ -3,7 +3,7 @@ title: "Machine Learning for Low-Cost Data Assimilation"
 institution: "UCL"
 department: "Computer Science"
 author: "Laura Beer"
-date: "02/10/2024"
+date: "10/02/2024"
 advisor: "Prof Marc Deisenroth"
 
 ---

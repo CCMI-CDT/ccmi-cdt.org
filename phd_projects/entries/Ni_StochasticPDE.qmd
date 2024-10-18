@@ -3,7 +3,7 @@ title: "Accelerating parabolic Stochastic PDE solver via a weak adversarial netw
 institution: "UCL"
 department: "Mathematics"
 author: "Laura Beer"
-date: "02/10/2024"
+date: "10/02/2024"
 advisor: "Prof Hao Ni"
 
 ---
@@ -13,7 +13,7 @@ advisor: "Prof Hao Ni"
 
 
 Stochastic partial differential equations (SPDEs) are power mathematical tools to model random spatiotemporal dynamics, with broader applications ranging from weather forecasting to fluid dynamics.  Machine learning (ML)-based approaches are emerging as it can be used to effectively handle the curse of dimensionality of traditional numerical methods. It can lead to the high-performing SPDE solver with significant computational acceleration. Moreover, the generalization of physics- informed neural networks from PDEs to SPDEs may provide a novel family of neural networks for analysing noisy spatiotemporal data, which can be used to discover the hidden physics law and predict the future data evolution. 
-Most of ML algorithms for learning SPDEs fail into the supervised learning category, where the input and output pairs are “observable data” consisted of driving noise and the corresponding solution trajectories. These data are simulated by high quality numerical solver. One important aspect of improving ML algorithms is to design neural networks to better approximate the SPDE solution map [1 – 3]. Among them, our proposed Deep latent regularity network incorporates Regularity structure, a groundbreaking work on SPDEs by the Fields medallist Martin Hairer, to design neural networks. This model demonstrates superior performance in terms of accuracy and inferences time on various SPDEs such as the stochastic 2D Navier-Stokes equation. 
+Most of ML algorithms for learning SPDEs fall into the supervised learning category, where the input and output pairs are “observable data” consisted of driving noise and the corresponding solution trajectories. These data are simulated by high quality numerical solver. One important aspect of improving ML algorithms is to design neural networks to better approximate the SPDE solution map [1 – 3]. Among them, our proposed Deep latent regularity network incorporates Regularity structure, a groundbreaking work on SPDEs by the Fields medallist Martin Hairer, to design neural networks. This model demonstrates superior performance in terms of accuracy and inferences time on various SPDEs such as the stochastic 2D Navier-Stokes equation. 
 
 
 ### Main objectives of the project
@@ -40,7 +40,8 @@ Reference
 
 [3].	Gong, S., Hu, P., Meng, Q., Wang, Y., Zhu, R., Chen, B., Ma, Z., Ni, H. and Liu, T.Y., 2023, June. Deep latent regularity network for modeling stochastic partial differential equations. In Proceedings of the AAAI Conference on Artificial Intelligence (Vol. 37, No. 6, pp. 7740-7747).
 
-[4].	[1] Zang, Y., Bao, G., Ye, X. and Zhou, H., 2020. Weak adversarial networks for high-dimensional partial differential equations. Journal of Computational Physics, 411, p.109409.
+[4].	Zang, Y., Bao, G., Ye, X. and Zhou, H., 2020. Weak adversarial networks for high-dimensional partial differential equations. Journal of Computational Physics, 411, p.109409.
 
-[5].	[2] Oliva, P.V., Wu, Y., He, C. and Ni, H., 2022. Towards fast weak adversarial training to solve high dimensional parabolic partial differential equations using XNODE-WAN. Journal of Computational Physics, 463, p.111233.
+[5].	Oliva, P.V., Wu, Y., He, C. and Ni, H., 2022. Towards fast weak adversarial training to solve high dimensional parabolic partial differential equations using XNODE-WAN. Journal of Computational Physics, 463, p.111233.
+
 [6].	Chevyrev, Ilya, Andris Gerasimovics, and Hendrik Weber. "Feature engineering with regularity structures." arXiv preprint arXiv:2108.05879 (2021).

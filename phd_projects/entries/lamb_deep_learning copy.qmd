@@ -1,0 +1,26 @@
+---
+title: "Deep learning with symmetry"
+institution: "Imperial"
+department: "Mathematics"
+author: "Timo Betcke"
+date: "10/18/2024"
+advisor: "Prof Jeroen Lamb"
+---
+
+### Project Description
+
+This project will study the equivariance of deep learning. The large majority of equivariant deep learning approaches is ad-hoc, and the direction of the PhD project is to exploit the algebraic theory of invariant and equivariant functions in a systematic way to develop a versatile and general approach to learning in the presence of symmetry. A few important tasks that can be achieved with such general theory are learning symmetry group orbits (e.g. recognizing objects, irrespective of their position or orientation), learning symmetry coordinates (e.g. the position and orientation of objects), and learning symmetries and near-symmetries (invariances and near-invariances).
+
+### Existing background work
+
+Equivariant deep learning is a subfield of deep learning that deals explicitly with symmetry in datasets and models. One of the most well-known and successful example is Convolutional Neural Networks (CNNs), used for the translation invariant machine learning of images. Equivariance is considered by many leading machine learners  as one of the essential ingredients, explaining the remarkable leap in efficiency of deep learning models [1]. It is also an important ingredient in physics informed modelling. Our group has a long track record of understanding symmetry in dynamical systems and we are now translating this to machine learning. 
+
+[1] M. Bronstein et al. Geometric deep learning. [https://geometricdeeplearning.com](https://geometricdeeplearning.com/)
+
+### Main objectives of the project
+
+The project will develop a systematic approach to develop algorithms that merge (computer) algebra with optimisation strategies in deep learning settings. There are many areas of applications where equivariant deep learning is the intrinsic objective. The PhD project aims to develop algorithms and software to demonstrate the effectiveness of the mathematical methodology in a concrete applied setting.
+
+### Details of Software/Data Deliverables
+
+The project will provide open source software enabling the implementation of equivariant learning strategies compatible with widely used deep learning frameworks.
