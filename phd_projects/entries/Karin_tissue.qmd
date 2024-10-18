@@ -1,5 +1,5 @@
 ---
-title: "Agent-based simulations of tissue dynamics"
+title: "Agent-based simulation of tissue self-organization"
 institution: "Imperial"
 department: "Mathematics"
 author: "Laura Beer"
@@ -14,10 +14,11 @@ advisor: "Dr.Omer Karin"
 ### Existing background work
 
 The framework will be based on the group’s work on effective mathematical models for cell fate decisions. 
+
 [1] Simons BD, Karin O. Tuning of plasma cell lifespan by competition explains the longevity and heterogeneity of antibody persistence. Immunity. 2024 Mar 12;57(3):600-11.
+
 [2] Karin O. EnhancerNet: A predictive model of cell identity dynamics through enhancer selection. Development. 2024 Sep 17:dev-202997.
 
-**Specify what work has already been done in this area by the principal supervisor's group and within the wider research community.**
 
 ### Main objectives of the project
 
