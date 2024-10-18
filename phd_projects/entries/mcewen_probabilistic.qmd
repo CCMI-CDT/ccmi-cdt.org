@@ -1,0 +1,24 @@
+---
+title: "Differentiable probabilistic deep learning with generative denoising diffusion models"
+institution: "UCL"
+department: "MSSL"
+author: "Laura Beer"
+date: "10/18/2024"
+advisor: "Prof Jason McEwen"
+---
+
+## Project Description
+
+### Existing background work
+
+Generative AI models for images, such as denoising diffusion models (e.g. Stable Diffusion), have recently demonstrated remarkable performance (Romback et al. 2022; [https://arxiv.org/abs/2112.10752](https://arxiv.org/abs/2112.10752)). Such generative models can be adapted to solve scientific inverse problems, such as recovering maps of the dark matter of the Universe.  However, current approaches typically recover a single prediction, e.g. recover a single image.  For robust scientific studies, however, single estimates are not sufficient and a principled statistical assessment is critical in order to quantify uncertainties.  Embedding denoising diffusion models in a principled statistical framework for solving inverse problems remains a topical open problem in the field.  A number of approximate solutions have been proposed (e.g. Chung et al 2023; [https://arxiv.org/abs/2209.14687](https://arxiv.org/abs/2209.14687)).
+
+McEwen and collaborators have recently developed the proximal nested sampling framework (Cai et al. 2022; [https://arxiv.org/abs/2106.03646](https://arxiv.org/abs/2106.03646)) for principled statistical inference for high-dimensional inverse imaging problems with convex likelihoods (initial code available at [https://github.com/astro-informatics/proxnest](https://github.com/astro-informatics/proxnest)).  Not only is the correct underlying posterior distribution targeted but the framework also supports computation of the marginal likelihood for principled Bayesian model comparison.  Recently, the framework has been extended to support deep learned data-driven priors based on simple denoisers (McEwen et al. 2023; [https://arxiv.org/abs/2307.00056](https://arxiv.org/abs/2307.00056)), although not denoising diffusion models.
+
+### Main objectives of the project
+
+In this project we will develop a principled statistical framework to sample the posterior distribution of scientific inverse imaging problems that integrates the generative power of denoising diffusion models.  This will be achieved by integrating denoising diffusion models into the proximal nested sampling framework.  The resulting framework is expected to result in superior reconstruction performance due to the power of generative diffusion models, targets the correct underlying posterior distribution and also allows for Bayesian model comparison to assess different data-driven priors.  The framework will be extended beyond convex likelihoods to handle general non-linear models by leveraging automatic differentiation and gradient-based likelihood constraints.  Automatic differentiation will also be exploited to accelerate inference.  While the focus will be mostly on theoretical methodological and code developments, the methods developed will be demonstrated on a number of inverse imaging problems in a range of fields.
+
+### Details of Software/Data deliverables
+
+The main deliverable with be an open-source code implementing the framework developed.  Development will involve differentiable programming, generative denoising diffusion models, and Markov chain Monte Carlo (MCMC) techniques.  A number of articles will be prepared as the research progresses, targeting the main deep learning venues (e.g. ICLR, ICML, NeurIPS).
