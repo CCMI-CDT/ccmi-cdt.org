@@ -4,7 +4,7 @@ institution: "Imperial"
 department: "Mathematics"
 author: "Laura Beer"
 date: "10/02/2024"
-advisor: "Dr.Felipe Tobar"
+advisor: "Dr Felipe Tobar"
 
 ---
 ## Project Description
