@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Laura Beer">
-<meta name="dcterms.date" content="2024-10-02">
+<meta name="author" content="Timo Betcke">
+<meta name="dcterms.date" content="2024-10-18">
 
-<title>Advanced Computational Methods for Bayesian Calibration of High-Dimensional Dynamical Models – CCMI</title>
+<title>Deep learning with symmetry – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Advanced Computational Methods for Bayesian Calibration of High-Dimensional Dynamical Models – CCMI">
+<meta property="og:title" content="Deep learning with symmetry – CCMI">
 <meta property="og:description" content="EPSRC Centre for Doctoral Training in Colllaborative Compuational Modelling at the Interface">
 <meta property="og:site_name" content="CCMI">
 </head>
@@ -160,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Advanced Computational Methods for Bayesian Calibration of High-Dimensional Dynamical Models</h1>
+<h1 class="title">Deep learning with symmetry</h1>
 </div>
 
 
@@ -170,14 +170,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Laura Beer </p>
+             <p>Timo Betcke </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 2, 2024</p>
+      <p class="date">October 18, 2024</p>
     </div>
   </div>
   
@@ -189,52 +189,22 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project-description" class="level2">
-<h2 class="anchored" data-anchor-id="project-description">Project Description</h2>
+<section id="project-description" class="level3">
+<h3 class="anchored" data-anchor-id="project-description">Project Description</h3>
+<p>This project will study the equivariance of deep learning. The large majority of equivariant deep learning approaches is ad-hoc, and the direction of the PhD project is to exploit the algebraic theory of invariant and equivariant functions in a systematic way to develop a versatile and general approach to learning in the presence of symmetry. A few important tasks that can be achieved with such general theory are learning symmetry group orbits (e.g.&nbsp;recognizing objects, irrespective of their position or orientation), learning symmetry coordinates (e.g.&nbsp;the position and orientation of objects), and learning symmetries and near-symmetries (invariances and near-invariances).</p>
+</section>
 <section id="existing-background-work" class="level3">
 <h3 class="anchored" data-anchor-id="existing-background-work">Existing background work</h3>
-<p>Professor Alexandros Beskos has made fundamental research contributions regarding:</p>
-<ol type="i">
-<li>the development of computationally intensive Sequential Monte-Carlo (SMC) algorithms that can overcome the curse-of-dimensionality that characterises standard approaches [1];</li>
-<li>the extension of the applicability of SMC algorithms on high-dimensional models, across a spectrum of application fields, including: physics-driven Data Assimilation problems in atmospheric sciences [6]; whole-genome applications in biomedicine [5]; multivariate Graphical models in finance [3]. The above research has been carried out in collaboration with expert colleagues, in the designated fields (Professor Dan Crisan, Dr Nikolas Kantas at Imperial College, UK; Professor Ajay Jasra at the Chinese University of Hong Kong in Shenzhen, China; Professor Maria de Iorio at the National University of Singapore; Prof Stephan Beck at the Cancer Institute, UCL).</li>
-</ol>
+<p>Equivariant deep learning is a subfield of deep learning that deals explicitly with symmetry in datasets and models. One of the most well-known and successful example is Convolutional Neural Networks (CNNs), used for the translation invariant machine learning of images. Equivariance is considered by many leading machine learners as one of the essential ingredients, explaining the remarkable leap in efficiency of deep learning models [1]. It is also an important ingredient in physics informed modelling. Our group has a long track record of understanding symmetry in dynamical systems and we are now translating this to machine learning.</p>
+<p>[1] M. Bronstein et al.&nbsp;Geometric deep learning. <a href="https://geometricdeeplearning.com/">https://geometricdeeplearning.com</a></p>
 </section>
+<section id="main-objectives-of-the-project" class="level3">
+<h3 class="anchored" data-anchor-id="main-objectives-of-the-project">Main objectives of the project</h3>
+<p>The project will develop a systematic approach to develop algorithms that merge (computer) algebra with optimisation strategies in deep learning settings. There are many areas of applications where equivariant deep learning is the intrinsic objective. The PhD project aims to develop algorithms and software to demonstrate the effectiveness of the mathematical methodology in a concrete applied setting.</p>
 </section>
-<section id="direction-of-atmospheric-sciences" class="level2">
-<h2 class="anchored" data-anchor-id="direction-of-atmospheric-sciences">Direction of atmospheric sciences:</h2>
-<p>SMC methods – in particular Particle Filters (PFs) – have only very recently started being attempted and used in high-dimensional Data Assimilation applications. In contrast to ensemble Kalman Filters (EnKFs) which are the particle-based algorithms typically used in Data Assimilation and are based on Gaussian approximations, PFs make use of the correct model and can recover strong non-linearities characterising dynamical systems, especially at high resolutions [7]. However, standard PF algorithms are known to suffer from the curse-of-dimensionality.</p>
-<p>Recent research has focused on the development of a new generation of PFs that can be effective for Data Assimilation applications in high dimensions. Such PFs are termed “Localised Particle Filters” (LPFs). LPFs can overcome the curse-of-dimensionality by replacing a single high-dimensional global importance sampling step – across the whole domain of the signal and for all set of arriving observations – with a number of ‘local’ importance sampling steps (at a lower dimension) that only make use of the subset of data that are informative for chosen subdomains. The localised approach is based on the simple remark that observations obtained at a given position of the domain of the signal contain minimal information for parts of the domain which are far from such a position.</p>
-<p>Such methodological advances have led to LPFs very recently been tested in operational settings in Numerical Weather Forecasting (NWF) [8], where states can be of dimension of O(10^9) or higher.</p>
-</section>
-<section id="direction-of-biomedicine" class="level2">
-<h2 class="anchored" data-anchor-id="direction-of-biomedicine">Direction of biomedicine:</h2>
-<p>There is a need for the development of statistical models for genome-wide epigenetics data and of the accompanying computational methods for their calibration. Such computations can involve the use of state-of-the-art scalable SMC algorithms and High-Performance Computing (HPC), as datasizes can be of order of 10^8 or more. Appropriate models recently proposed in the literature include, e.g., change-point dynamics [5] that track DNA methylation patterns jointly over cases/controls, across the whole genome, and can identify particular positions along the genome where cases and controls have different patterns.</p>
-<p>Full Bayesian inference for genome-wide models can provide much more information for underlying patterns than competing methods. So far Biologists have relied on out-of-shelf approaches when the cost for producing the data in the lab is enormous, so maximised extraction of information from available data is of high significance. In general, there appears to be lack of expertise in the development of suitable statistical models in this field and in corresponding scalable computational methods for fitting these models.</p>
-</section>
-<section id="direction-of-finance" class="level2">
-<h2 class="anchored" data-anchor-id="direction-of-finance">Direction of finance:</h2>
-<p>High-dimensional applications, involving dynamical models, are abundant in finance, see e.g.&nbsp;[9]. Recent advances in generic computational SMC methodology have yet to be fully appreciated by researchers focused on applications in this area.</p>
-</section>
-<section id="main-objectives-of-the-project" class="level2">
-<h2 class="anchored" data-anchor-id="main-objectives-of-the-project">Main objectives of the project</h2>
-<p>The main objectives of the project will depend on the particular application domain of interest, and can be summarised as follows:</p>
-<ul>
-<li><p>Investigate state-of-the-art SMC algorithms. Such a study is important given several new methods proposed in recent research in the field of Data Assimilation (see e.g.&nbsp;[4]) or in a general context in (see e.g.&nbsp;[2]).</p></li>
-<li><p>Explore key strengths/weaknesses of SMC algorithms and contrast approaches against alternative biased methods (e.g.&nbsp;EnKFs in atmospheric sciences).</p></li>
-<li><p>Study performance of advanced SMC methods across a number of benchmark model scenarios.</p></li>
-<li><p>Develop novel SMC algorithms which make use of expert methodology available in the SMC community, but which has yet to be fully used by researchers focused on particular application domains. Algorithmic tools already shown to greatly improve performance of SMC involve e.g.: tempering accompanied by jittering of particles to better disperse the latter across space; adaptation techniques; data-driven improved proposals for particles. Such procedures aim to generate particles within a Monte-Carlo framework which represent effectively the hidden signal. This latter signal can be modelled, e.g., via PDE/SPDE dynamics in atmospheric sciences, change point models in genome-wide applications in biomedicine, and time-evolving Graphical models in finance.</p></li>
-</ul>
-</section>
-<section id="details-of-softwaredata-deliverables" class="level2">
-<h2 class="anchored" data-anchor-id="details-of-softwaredata-deliverables">Details of Software/Data deliverables</h2>
-<p>There is an apparent lack of software for implementation of advanced SMC methods in all three areas of application highlighted above (and beyond). Provision of such software will be a key output delivered by the PhD project, given the chosen application field. Indicatively, in the field of atmospheric sciences, the comprehensive review work in [4] provides a package in GitHub (https://github.com/thiery-lab/data-assimilation) but the purpose of this software seems to be the reproducibility of the results in the accompanying paper rather than a general-purpose software. In the case of genome-wide applications in biomedicine, Professor Alexandros Beskos has been involved in the development of the package in https://github.com/ucl-medical-genomics/hygeia, but this is still at its infancy. Thus, the proposed project will provide an opportunity for a trainee in Computational Modelling to develop a software that will cover a gap in an important application field – selected based on the applicant’s interests. As such, the produced software can have a large impact. By their very nature, SMC algorithms require state-of-the-art parallelisation and High-Performance Computing (HPC) implementations. Computations will be carried out within CPU or GPU architectures, depending on the problem at hand, or on the Cloud.</p>
-</section>
-<section id="references" class="level2">
-<h2 class="anchored" data-anchor-id="references">References</h2>
-<p>[1] Beskos, A., Crisan D., Jasra, A. (2014). On the stability of sequential Monte Carlo methods in high dimensions. Annals of Applied Probability, 24, 1396-1445.</p>
-<p>[2] Finke, A., Thiery, A. (2023). Conditional sequential Monte Carlo in high dimensions. Annals of Statistics 51, 437-463.</p>
-<p>[3] Franzolini, B., Beskos, A., De Iorio, M., Poklewski Koziell, W., Grzeszkiewicz, K. (2024). Change point detection in dynamic Gaussian graphical models: the impact of COVID-19 pandemic on the US stock market. Annals of Applied Statistics 18, 555-584.</p>
-<p>[4] Graham, M., Thiery, A. (2019). A scalable optimal-transport based local particle filter. arXiv preprint arXiv:1906.00507.</p>
+<section id="details-of-softwaredata-deliverables" class="level3">
+<h3 class="anchored" data-anchor-id="details-of-softwaredata-deliverables">Details of Software/Data Deliverables</h3>
+<p>The project will provide open source software enabling the implementation of equivariant learning strategies compatible with widely used deep learning frameworks.</p>
 
 
 </section>
