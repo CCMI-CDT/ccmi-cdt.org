@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Timo Betcke">
-<meta name="dcterms.date" content="2024-10-18">
+<meta name="dcterms.date" content="2024-10-20">
 
-<title>Optimal control methods for agent-based models – CCMI</title>
+<title>The propagation of uncertainties across coupled climate models – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Optimal control methods for agent-based models – CCMI">
+<meta property="og:title" content="The propagation of uncertainties across coupled climate models – CCMI">
 <meta property="og:site_name" content="CCMI">
 </head>
 
@@ -159,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Optimal control methods for agent-based models</h1>
+<h1 class="title">The propagation of uncertainties across coupled climate models</h1>
 </div>
 
 
@@ -176,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 18, 2024</p>
+      <p class="date">October 20, 2024</p>
     </div>
   </div>
   
@@ -192,21 +192,15 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="project-description">Project Description</h2>
 <section id="existing-background-work" class="level3">
 <h3 class="anchored" data-anchor-id="existing-background-work">Existing background work</h3>
-<p>Agent-based models (ABM), often described in terms of systems of interacting diffusions (multidimensional stochastic differential equations) arise in many applications, including mathematical biology, e.g.&nbsp;models for chemotaxis, epidemiology, and the social sciences, for example in models for opinion formation, pedestrian dynamics and macroeconomics. Such systems often exhibit interesting collective behaviour as a result of the interaction between agents. Several different macroscopic configurations of the ABM are possible, for different choices of the parameters in the system, such as the interaction strength. The transition between different macroscopic configurations can have dramatic effects on the behaviour of the ABM</p>
-<p>Greg Pavliotis is professor of Applied Mathematics at the department of Mathematics at Imperial College. His main research interests include statistical mechanics, multiscale systems, inference for stochastic processes and data-driven methods in applied mathematics. He has studied phase transitions for agent-based models (ABM) and interacting particle systems (IPS) and he has developed efficient inference methodologies for IPS and their mean field limit. He has also developed data-driven approaches to the study of ABMs.</p>
-<p>Dante Kalise is Reader in Optimisation and Control at the Department of Mathematics at Imperial College. His main research interests involve scientific computation and machine learning, optimal control, high-dimensional approximation and agent-based models across scales. He has developed optimal control methods for high-dimensional problems which constitute the basis of this project, and developed applications in swarm robotics, pedestrian motion, and global optimization.</p>
+<p>The propagation of uncertainties across coupled models is a grand challenge, not yet with a solution for climate (ocean, sea-ice, atmosphere, land, etc.). The resources and runtimes required by simulations at different scales differ vastly. Linking models through emulators is now ripe (Ming, D. and Guillas, S. (2021) Linked Gaussian process emulation for systems of computer models using Matérn kernels and adaptive design, SIAM/ASA Journal on Uncertainty Quantification. 9(4), 1615-1642.) and representations such as Deep Gaussian Processes (Ming, D., Williamson, D., and Guillas, S. (2023) Deep Gaussian process emulation using stochastic imputation. Technometrics. 65(2), 150-161) are available, but the software, and the practical and methodological challenges require investigations. There is great interest at the Met Office, and at UKAEA, since coupling of multiple models is a necessary step in these complex models. The community has not yet addressed this issue head-on, so this is a timely project to deliver some initial groundbreaking steps. The principal supervisor and collaborators have set up software platforms, within a prior project at the Alan Turing Institute, with the Multi-Output Gaussian Process Emulator (MOGP), and within the EPSRC project SEAVEA (2021-2025), a set-up that facilitates the design and organisation of runs. For applications to climate modelling the group of Prof Guillas has been working on the topic, but with only one submodel, with a paper now under submission: D. Giles, J. Briant, C. J. Morcrette, S. Guillas, “Sensitivity of simulated tropical precipitation in a coarse climate model to the inclusion of subgrid variability machine learnt from high resolution weather simulations”.</p>
 </section>
 <section id="main-objectives-of-the-project" class="level3">
 <h3 class="anchored" data-anchor-id="main-objectives-of-the-project">Main objectives of the project</h3>
-<p>The goal of the proposed project is to develop efficient control methodologies for steering the ABM dynamics towards desired macroscopic configurations. Different approaches, such as optimal control for PDEs and data driven approaches based on model predictive control will be developed.</p>
+<p>The objectives are to create surrogates of sub-models and link them within a network of models, merging some simulators, some emulators. The network can be viewed as a Deep Gaussian Process with partial exposure of the hidden layers (via individual runs of the simulators). Challenges include the dimensions to reduce to forward the right level of information across the network, the construction of uncertainties within such a hybrid set-up, and the design of such computer experiments. Campaigns of runs will be co-designed with the Met Office, which will provide computing access to novel facilities. ### Details of Software/Data Deliverables</p>
 </section>
-<section id="details-of-softwaredata-deliverables" class="level3">
-<h3 class="anchored" data-anchor-id="details-of-softwaredata-deliverables">Details of Software/Data Deliverables</h3>
-<p>Software deliverables will include:</p>
-<ul>
-<li><p>An ABM simulator for trajectory generation. To date, there’s no universal standard/benchmarks for ABM simulation, despite a generic structure based on the interaction forces in the system. We will develop a trajectory simulator which is fundamental for the study of data-driven methods and for optimisation and control purposes. Such simulator will provide sufficient freedom for prescribing interaction forces, thus being useful for different applications including opinion dynamics, swarm robotics, and pedestrian motion, among others. The simulator will be constructed using state-of-the-art methods for accurate and fast approximation of large-scale SDEs.</p></li>
-<li><p>An optimal control toolbox for ABM. There are several optimal control solvers readily available for traditional control engineering applications (robotics, power electronics), however, none of them scale to high-dimensional settings which are natural in ABMs. Moreover, they do not exploit model structure and eventually resort to treating the optimal control problem as a large-scale, model-free, nonlinear optimization problem. Instead, we will develop a toolbox for control of ABMs based on adjoint calculus, making extensive use of the particular model structure of ABMs and circumventing calls to external nonlinear optimization solvers.</p></li>
-</ul>
+<section id="software-and-data-developments" class="level3">
+<h3 class="anchored" data-anchor-id="software-and-data-developments">Software and Data Developments</h3>
+<p>The codes are now available to start with linked emulators and Deep Gaussian Processes (R and python: <a href="https://github.com/mingdeyu/DGP">https://github.com/mingdeyu/DGP</a>), and the dimension reduction and emulation of multi-outputs (MOGP in python: <a href="https://github.com/alan-turing-institute/mogp-emulator">https://github.com/alan-turing-institute/mogp-emulator</a>). Developments include managing and optimising the creation of the overall network of models, including uncertainties, with an emphasis on memory requirements due to large dimensions and the trade-off of computation v. accuracy, ultimately at the exascale.</p>
 
 
 </section>

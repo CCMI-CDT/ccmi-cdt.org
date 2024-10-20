@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Timo Betcke">
-<meta name="dcterms.date" content="2024-10-18">
+<meta name="dcterms.date" content="2024-10-20">
 
-<title>Optimal control methods for agent-based models – CCMI</title>
+<title>PDE-driven/data-driven hybrid modelling for data assimilation – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,7 +72,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Optimal control methods for agent-based models – CCMI">
+<meta property="og:title" content="PDE-driven/data-driven hybrid modelling for data assimilation – CCMI">
+<meta property="og:description" content="EPSRC Centre for Doctoral Training in Colllaborative Compuational Modelling at the Interface">
 <meta property="og:site_name" content="CCMI">
 </head>
 
@@ -159,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Optimal control methods for agent-based models</h1>
+<h1 class="title">PDE-driven/data-driven hybrid modelling for data assimilation</h1>
 </div>
 
 
@@ -176,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 18, 2024</p>
+      <p class="date">October 20, 2024</p>
     </div>
   </div>
   
@@ -190,23 +191,28 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="project-description" class="level2">
 <h2 class="anchored" data-anchor-id="project-description">Project Description</h2>
+<p>Generative models display impressive abilities to simulate and generate realistic looking multimedia data, such as images and audio. However, when it comes to domains where many constraints are present, such as optimisation or physical modelling, they fall short of producing high-quality samples based on the training data alone. In these cases, samples often have unrealistic artefacts and unphysical behaviour. Therefore, it is of great interest to develop principled ways to incorporate constraints into generative models, e.g.&nbsp;diffusion models and flows. This project will first look at developing an optimisation-based methodology where one is interested in generating samples that minimise certain cost functions that can be described by constraints of the problem at hand. We aim to produce methodology and corresponding software to incorporate general constraints. Then the project will move ahead to incorporate constraints arising from physical modelling problems, e.g., described by a partial differential equation (PDE). All of this is envisioned to be converted to a modular software package, that can be interfaced with many popular software packages to improve its usability for researchers.</p>
 <section id="existing-background-work" class="level3">
 <h3 class="anchored" data-anchor-id="existing-background-work">Existing background work</h3>
-<p>Agent-based models (ABM), often described in terms of systems of interacting diffusions (multidimensional stochastic differential equations) arise in many applications, including mathematical biology, e.g.&nbsp;models for chemotaxis, epidemiology, and the social sciences, for example in models for opinion formation, pedestrian dynamics and macroeconomics. Such systems often exhibit interesting collective behaviour as a result of the interaction between agents. Several different macroscopic configurations of the ABM are possible, for different choices of the parameters in the system, such as the interaction strength. The transition between different macroscopic configurations can have dramatic effects on the behaviour of the ABM</p>
-<p>Greg Pavliotis is professor of Applied Mathematics at the department of Mathematics at Imperial College. His main research interests include statistical mechanics, multiscale systems, inference for stochastic processes and data-driven methods in applied mathematics. He has studied phase transitions for agent-based models (ABM) and interacting particle systems (IPS) and he has developed efficient inference methodologies for IPS and their mean field limit. He has also developed data-driven approaches to the study of ABMs.</p>
-<p>Dante Kalise is Reader in Optimisation and Control at the Department of Mathematics at Imperial College. His main research interests involve scientific computation and machine learning, optimal control, high-dimensional approximation and agent-based models across scales. He has developed optimal control methods for high-dimensional problems which constitute the basis of this project, and developed applications in swarm robotics, pedestrian motion, and global optimization.</p>
+<p>Constraining generative models is a popular topic, since it is generally recognised that they cannot produce samples obeying, e.g., physical constraints well. Below is very recent work in this direction:</p>
+<p>Fishman, N., Klarner, L., De Bortoli, V., Mathieu, E., &amp; Hutchinson, M. J. Diffusion Models for Constrained Domains. Transactions on Machine Learning Research, 2023.</p>
+<p>Kong, L., Du, Y., Mu, W., Neklyudov, K., De Bortoli, V., Wang, H., Wu, D., Ferber, A., Ma, Y.A., Gomes, C.P. and Zhang, C., 2024. Diffusion models as constrained samplers for optimization with unknown constraints. arXiv preprint arXiv:2402.18012.</p>
+<p>Fishman, N., Klarner, L., Mathieu, E., Hutchinson, M. and De Bortoli, V., 2024. Metropolis sampling for constrained diffusion models. Advances in Neural Information Processing Systems, 36.</p>
+<p>I have worked on diffusion models for inverse problems [1], which is a special case of constraining the generative model (instead of a loss function, one uses a likelihood – where the log-likelihood can be interpreted as a loss function). This worked really well for inverse problems, and we are already working on extensions of this idea using sequential Monte Carlo within my group for inverse problems as well as for general losses. Other relevant works include variational deep generative modelling with physics constraints, which can be seen from [2, 3, 4].</p>
+<p>[1] Boys, B., Girolami, M., Pidstrigach, J., Reich, S., Mosca, A. and Akyildiz, O.D., 2023. Tweedie moment projected diffusions for inverse problems. Transactions of Machine Learning Research, 2024.</p>
+<p>[2] Vadeboncoeur, A., Akyildiz, Ö.D., Kazlauskaite, I., Girolami, M. and Cirak, F., 2023. Fully probabilistic deep models for forward and inverse problems in parametric PDEs. Journal of Computational Physics, 491, p.112369.</p>
+<p>[3] Vadeboncoeur, A., Kazlauskaite, I., Papandreou, Y., Cirak, F., Girolami, M. and Akyildiz, O.D., 2023, July. Random grid neural processes for parametric partial differential equations. In International Conference on Machine Learning (ICML) (pp.&nbsp;34759-34778).</p>
+<p>[4] Akyildiz, O.D., Girolami, M., Stuart, A.M. and Vadeboncoeur, A., 2024. Efficient Prior Calibration From Indirect Data. arXiv preprint arXiv:2405.17955.</p>
 </section>
 <section id="main-objectives-of-the-project" class="level3">
 <h3 class="anchored" data-anchor-id="main-objectives-of-the-project">Main objectives of the project</h3>
-<p>The goal of the proposed project is to develop efficient control methodologies for steering the ABM dynamics towards desired macroscopic configurations. Different approaches, such as optimal control for PDEs and data driven approaches based on model predictive control will be developed.</p>
+<p>This project aims at publishing two or three research articles with clear methodological improvements compared to the state-of-the-art. This will include first working on general optimisation problems and developing a methodology to solve optimisation problems using generative models, most notably, diffusion and flow models (but also potentially others). Once the methodology is developed, the methodology will be converted to a software package (written in JAX, as envisioned), properly documented, and aimed at general use. To improve then the usability of the software, we will incorporate physical constraints as ready-to-go functions which can be made to guide generative models.</p>
 </section>
 <section id="details-of-softwaredata-deliverables" class="level3">
 <h3 class="anchored" data-anchor-id="details-of-softwaredata-deliverables">Details of Software/Data Deliverables</h3>
-<p>Software deliverables will include:</p>
-<ul>
-<li><p>An ABM simulator for trajectory generation. To date, there’s no universal standard/benchmarks for ABM simulation, despite a generic structure based on the interaction forces in the system. We will develop a trajectory simulator which is fundamental for the study of data-driven methods and for optimisation and control purposes. Such simulator will provide sufficient freedom for prescribing interaction forces, thus being useful for different applications including opinion dynamics, swarm robotics, and pedestrian motion, among others. The simulator will be constructed using state-of-the-art methods for accurate and fast approximation of large-scale SDEs.</p></li>
-<li><p>An optimal control toolbox for ABM. There are several optimal control solvers readily available for traditional control engineering applications (robotics, power electronics), however, none of them scale to high-dimensional settings which are natural in ABMs. Moreover, they do not exploit model structure and eventually resort to treating the optimal control problem as a large-scale, model-free, nonlinear optimization problem. Instead, we will develop a toolbox for control of ABMs based on adjoint calculus, making extensive use of the particular model structure of ABMs and circumventing calls to external nonlinear optimization solvers.</p></li>
-</ul>
+<p>We aim at interfacing popular diffusion and flow model code (or incorporating into ours) with general purpose optimizers (again, can be modified) and PDE solvers. My earlier project as cited above [1] produced a mini software package, called DiffusionJAX: https://github.com/bb515/diffusionjax Further developments of this will be implementing general purpose optimisation methods as well as PDE solvers, such as the ones based on finite elements (see the relevant projects I worked in [5], [6] and software output: https://github.com/connor-duffin/ula-statfem). The final aim is to combine the strengths of the JAX and available generative modelling and scientific modelling code, combined into a coherent framework to work with the problem of generating data with complicated constraints that arise in real-world modelling.</p>
+<p>[5] Akyildiz, Ö.D., Duffin, C., Sabanis, S. and Girolami, M., 2022. Statistical finite elements via Langevin dynamics. SIAM/ASA Journal on Uncertainty Quantification, 10(4), pp.1560-1585.</p>
+<p>[6] Glyn-Davies, A., Duffin, C., Kazlauskaite, I., Girolami, M. and Akyildiz, Ö.D., 2024. Statistical Finite Elements via Interacting Particle Langevin Dynamics. arXiv preprint arXiv:2409.07101.</p>
 
 
 </section>

@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Timo Betcke">
-<meta name="dcterms.date" content="2024-10-18">
+<meta name="dcterms.date" content="2024-10-20">
 
-<title>Optimal control methods for agent-based models – CCMI</title>
+<title>Smart Image-Based Sensor Optimisation for Fusion Simulation Validation – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,7 +72,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Optimal control methods for agent-based models – CCMI">
+<meta property="og:title" content="Smart Image-Based Sensor Optimisation for Fusion Simulation Validation – CCMI">
+<meta property="og:description" content="EPSRC Centre for Doctoral Training in Colllaborative Compuational Modelling at the Interface">
 <meta property="og:site_name" content="CCMI">
 </head>
 
@@ -159,7 +160,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Optimal control methods for agent-based models</h1>
+<h1 class="title">Smart Image-Based Sensor Optimisation for Fusion Simulation Validation</h1>
 </div>
 
 
@@ -176,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 18, 2024</p>
+      <p class="date">October 20, 2024</p>
     </div>
   </div>
   
@@ -190,23 +191,19 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="project-description" class="level2">
 <h2 class="anchored" data-anchor-id="project-description">Project Description</h2>
+<p>Fusion components need to sustain continuous extreme loads including: Steady state heat fluxes up to 20 MW/m2; strong local magnetic fields on the order of several Tesla imparting large Mega Newton body forces; and neutron bombardment leading to significant irradiation damage. The combination of extreme multi-physics conditions means that validation experiments are time and resource intensive, often yielding sparse data. Given that fusion component tests have a high cost in time and resources, a means of designing targeted and data-rich experiments that can be directly compared with engineering / physics simulations is highly desirable.</p>
+<p>Combining advances in image-based diagnostics and machine learning to optimise their use is a route to reducing the number of experiments required for fusion component qualification. Large scale component validation experiments on UKAEA’s CHIMERA and LIBRTI facilities will cost on the order of £M’s. This cost means it is not possible to run the number of experiments required for uncertainty quantification but it is possible to simulate millions of experiments and use this information to run a targeted experimental campaign. Additionally, the cost in time and resources means that gaining high-fidelity data from an optimised array of imaging sensors has the potential to greatly reduce the required experimental effort for simulation validation. To enable this, new simulation tools are required that can accurately model image-based sensors applied to a multi-physics simulation. Furthermore, while optimisation algorithms exist for points sensors applied to single physics applications there are currently no methods for optimising arrays of image-based sensors applied to a realistic multi-physics experiment.</p>
 <section id="existing-background-work" class="level3">
 <h3 class="anchored" data-anchor-id="existing-background-work">Existing background work</h3>
-<p>Agent-based models (ABM), often described in terms of systems of interacting diffusions (multidimensional stochastic differential equations) arise in many applications, including mathematical biology, e.g.&nbsp;models for chemotaxis, epidemiology, and the social sciences, for example in models for opinion formation, pedestrian dynamics and macroeconomics. Such systems often exhibit interesting collective behaviour as a result of the interaction between agents. Several different macroscopic configurations of the ABM are possible, for different choices of the parameters in the system, such as the interaction strength. The transition between different macroscopic configurations can have dramatic effects on the behaviour of the ABM</p>
-<p>Greg Pavliotis is professor of Applied Mathematics at the department of Mathematics at Imperial College. His main research interests include statistical mechanics, multiscale systems, inference for stochastic processes and data-driven methods in applied mathematics. He has studied phase transitions for agent-based models (ABM) and interacting particle systems (IPS) and he has developed efficient inference methodologies for IPS and their mean field limit. He has also developed data-driven approaches to the study of ABMs.</p>
-<p>Dante Kalise is Reader in Optimisation and Control at the Department of Mathematics at Imperial College. His main research interests involve scientific computation and machine learning, optimal control, high-dimensional approximation and agent-based models across scales. He has developed optimal control methods for high-dimensional problems which constitute the basis of this project, and developed applications in swarm robotics, pedestrian motion, and global optimization.</p>
+<p>This project will leverage the expertise of Dr Andrew Duncan in machine learning methods for model calibration, uncertainty quantification and sensor placement optimization for expensive computational simulations subject to budget constraints. The project will be co-supervised by Dr Dante Kalise, who has expertise in optimisation and optimal control of PDE driven systems. The student will be based at Imperial College London but will spend up to a month each year working on-site at either Culham or FTF-Yorkshire to enhance interaction with UKAEA staff.</p>
 </section>
 <section id="main-objectives-of-the-project" class="level3">
 <h3 class="anchored" data-anchor-id="main-objectives-of-the-project">Main objectives of the project</h3>
-<p>The goal of the proposed project is to develop efficient control methodologies for steering the ABM dynamics towards desired macroscopic configurations. Different approaches, such as optimal control for PDEs and data driven approaches based on model predictive control will be developed.</p>
+<p>The aim of this project is to develop a series of robust optimisation methods that can be used to design optimal image-based sensor arrays for multi-physics validation experiments. These optimisations will use a multi-physics simulation as input and output an array of image-based diagnostics and their positions along with predicted measurement uncertainties. The first objective of this project will be to enable multi-physics sensor placement optimisation with a focus on ray-tracing algorithms for simulating camera sensors combined with other sensors. The second objective is to incorporate computationally efficient uncertainty propagation using machine learning and ensembles of multi-fidelity models. The third objective will be to develop explainable approaches to sensor placement, leveraging multi-objective optimization methods obtain provide a justification of what aspects of an experiment will be informed by a particular sensor, and the associated tradeoffs against competing objectives. The final objective of this project is to apply the developed optimization methods to a fusion-relevant test case such as the ‘Simple Test Case’ dataset being generated as part of UKAEA’s Key Challenge 4 on Digital Qualification.</p>
 </section>
 <section id="details-of-softwaredata-deliverables" class="level3">
 <h3 class="anchored" data-anchor-id="details-of-softwaredata-deliverables">Details of Software/Data Deliverables</h3>
-<p>Software deliverables will include:</p>
-<ul>
-<li><p>An ABM simulator for trajectory generation. To date, there’s no universal standard/benchmarks for ABM simulation, despite a generic structure based on the interaction forces in the system. We will develop a trajectory simulator which is fundamental for the study of data-driven methods and for optimisation and control purposes. Such simulator will provide sufficient freedom for prescribing interaction forces, thus being useful for different applications including opinion dynamics, swarm robotics, and pedestrian motion, among others. The simulator will be constructed using state-of-the-art methods for accurate and fast approximation of large-scale SDEs.</p></li>
-<li><p>An optimal control toolbox for ABM. There are several optimal control solvers readily available for traditional control engineering applications (robotics, power electronics), however, none of them scale to high-dimensional settings which are natural in ABMs. Moreover, they do not exploit model structure and eventually resort to treating the optimal control problem as a large-scale, model-free, nonlinear optimization problem. Instead, we will develop a toolbox for control of ABMs based on adjoint calculus, making extensive use of the particular model structure of ABMs and circumventing calls to external nonlinear optimization solvers.</p></li>
-</ul>
+<p>The final objective of this project is to develop a suite of computational optimization methods to be applied to a fusion-relevant test case such as the ‘Simple Test Case’ dataset being generated as part of UKAEA’s Key Challenge 4 on Digital Qualification.</p>
 
 
 </section>

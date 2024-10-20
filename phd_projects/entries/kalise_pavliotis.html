@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Timo Betcke">
-<meta name="dcterms.date" content="2024-10-18">
+<meta name="dcterms.date" content="2024-10-20">
 
-<title>Optimal control methods for agent-based models – CCMI</title>
+<title>Taming Time and Dimension: Advanced Scientific Computing for Next-Generation Diffusion Models – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Optimal control methods for agent-based models – CCMI">
+<meta property="og:title" content="Taming Time and Dimension: Advanced Scientific Computing for Next-Generation Diffusion Models – CCMI">
 <meta property="og:site_name" content="CCMI">
 </head>
 
@@ -159,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Optimal control methods for agent-based models</h1>
+<h1 class="title">Taming Time and Dimension: Advanced Scientific Computing for Next-Generation Diffusion Models</h1>
 </div>
 
 
@@ -176,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 18, 2024</p>
+      <p class="date">October 20, 2024</p>
     </div>
   </div>
   
@@ -192,21 +192,23 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="project-description">Project Description</h2>
 <section id="existing-background-work" class="level3">
 <h3 class="anchored" data-anchor-id="existing-background-work">Existing background work</h3>
-<p>Agent-based models (ABM), often described in terms of systems of interacting diffusions (multidimensional stochastic differential equations) arise in many applications, including mathematical biology, e.g.&nbsp;models for chemotaxis, epidemiology, and the social sciences, for example in models for opinion formation, pedestrian dynamics and macroeconomics. Such systems often exhibit interesting collective behaviour as a result of the interaction between agents. Several different macroscopic configurations of the ABM are possible, for different choices of the parameters in the system, such as the interaction strength. The transition between different macroscopic configurations can have dramatic effects on the behaviour of the ABM</p>
-<p>Greg Pavliotis is professor of Applied Mathematics at the department of Mathematics at Imperial College. His main research interests include statistical mechanics, multiscale systems, inference for stochastic processes and data-driven methods in applied mathematics. He has studied phase transitions for agent-based models (ABM) and interacting particle systems (IPS) and he has developed efficient inference methodologies for IPS and their mean field limit. He has also developed data-driven approaches to the study of ABMs.</p>
-<p>Dante Kalise is Reader in Optimisation and Control at the Department of Mathematics at Imperial College. His main research interests involve scientific computation and machine learning, optimal control, high-dimensional approximation and agent-based models across scales. He has developed optimal control methods for high-dimensional problems which constitute the basis of this project, and developed applications in swarm robotics, pedestrian motion, and global optimization.</p>
+<p>Diffusion models have emerged as a powerful class of generative models, with applications in image, audio, and 3D synthesis. This PhD project aims to advance the computational efficiency of diffusion models by addressing two primary challenges: expensive time integration during sampling and the curse of dimensionality in data representation. We propose to develop novel scientific computing methods combining advanced time integration schemes with high-dimensional approximation techniques. This interdisciplinary approach will bridge state-of-the-art generative AI with classical numerical analysis and modern tensor approximation methods, potentially unlocking major efficiency gains while maintaining or improving generation quality.</p>
+</section>
+<section id="existing-background-work-1" class="level3">
+<h3 class="anchored" data-anchor-id="existing-background-work-1">Existing background work</h3>
+<p>Recent advancements in diffusion model sampling have focused on either improving time integration or tackling high-dimensional representations. On the time integration front, methods like DPM-Solver and DEIS have leveraged exponential integrators and sophisticated ODE solvers. For high-dimensional approximation, techniques such as tensor decompositions and sparse grids have shown promise in related fields. However, there remains a significant gap in approaches that effectively combine these two aspects for diffusion models. This project builds upon these foundations while aiming to create a unified framework that addresses both challenges simultaneously.</p>
+<p>Relevant references: <a href="https://arxiv.org/abs/2401.08740">Sit: Exploring flow and diffusion-based generative models with scalable interpolant transformers</a> Nanye Ma, Mark Goldstein, Michael S Albergo, Nicholas M Boffi, Eric Vanden-Eijnden, Saining Xie arXiv preprint arXiv:2401.08740</p>
+<p><a href="https://primeagencyltd.com/?_=%2Fabs%2F2401.04372%23gzIpohAcANA89nOlI%2FTaCGU%3D">Stable generative modeling using Schroedinger bridges</a> Georg Gottwald, Fengyi Li, Youssef Marzouk, Sebastian Reich arXiv preprint arXiv:2401.04372</p>
+<p><a href="https://arxiv.org/abs/2402.15285">Generative Modelling with Tensor Train approximations of Hamilton–Jacobi–Bellman equations</a> David Sommer, Robert Gruhlke, Max Kirstein, Martin Eigel, Claudia Schillings arXiv preprint arXiv:2402.15285</p>
+<p><a href="https://arxiv.org/abs/2308.02157">Improved Order Analysis and Design of Exponential Integrator for Diffusion Models Sampling</a> Qinsheng Zhang, Jiaming Song, Yongxin Chen arXiv preprint arXiv:2308.02157</p>
 </section>
 <section id="main-objectives-of-the-project" class="level3">
 <h3 class="anchored" data-anchor-id="main-objectives-of-the-project">Main objectives of the project</h3>
-<p>The goal of the proposed project is to develop efficient control methodologies for steering the ABM dynamics towards desired macroscopic configurations. Different approaches, such as optimal control for PDEs and data driven approaches based on model predictive control will be developed.</p>
+<p>The primary objectives of this project are to: (1) Develop novel time integration schemes tailored for diffusion model ODEs/SDEs, incorporating adaptive stepping and error control. (2) Investigate high-dimensional approximation techniques, including tensor decompositions and sparse grids, for efficient representation of diffusion model states and operators. (3) Design algorithms that combine advanced time integration with high-dimensional approximation, including multi-level and multi-fidelity approaches. (4) Conduct rigorous theoretical analysis of the proposed methods, deriving stability conditions, convergence rates, and error bounds.</p>
 </section>
 <section id="details-of-softwaredata-deliverables" class="level3">
 <h3 class="anchored" data-anchor-id="details-of-softwaredata-deliverables">Details of Software/Data Deliverables</h3>
-<p>Software deliverables will include:</p>
-<ul>
-<li><p>An ABM simulator for trajectory generation. To date, there’s no universal standard/benchmarks for ABM simulation, despite a generic structure based on the interaction forces in the system. We will develop a trajectory simulator which is fundamental for the study of data-driven methods and for optimisation and control purposes. Such simulator will provide sufficient freedom for prescribing interaction forces, thus being useful for different applications including opinion dynamics, swarm robotics, and pedestrian motion, among others. The simulator will be constructed using state-of-the-art methods for accurate and fast approximation of large-scale SDEs.</p></li>
-<li><p>An optimal control toolbox for ABM. There are several optimal control solvers readily available for traditional control engineering applications (robotics, power electronics), however, none of them scale to high-dimensional settings which are natural in ABMs. Moreover, they do not exploit model structure and eventually resort to treating the optimal control problem as a large-scale, model-free, nonlinear optimization problem. Instead, we will develop a toolbox for control of ABMs based on adjoint calculus, making extensive use of the particular model structure of ABMs and circumventing calls to external nonlinear optimization solvers.</p></li>
-</ul>
+<p>The project will produce a suite of scientific computing algorithms specifically designed for diffusion models. These will include novel time integration schemes, high-dimensional approximation techniques, and hybrid methods that combine both approaches. The algorithms will be built with a focus on both scalability to large-scale diffusion models and modularity, enabling easy integration with existing diffusion model implementations.</p>
 
 
 </section>

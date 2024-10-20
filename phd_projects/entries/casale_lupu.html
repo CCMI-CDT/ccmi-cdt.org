@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Timo Betcke">
-<meta name="dcterms.date" content="2024-10-18">
+<meta name="dcterms.date" content="2024-10-20">
 
-<title>Optimal control methods for agent-based models – CCMI</title>
+<title>Mathematical and Computational Modeling of Resilience in Multilayer Networks – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Optimal control methods for agent-based models – CCMI">
+<meta property="og:title" content="Mathematical and Computational Modeling of Resilience in Multilayer Networks – CCMI">
 <meta property="og:site_name" content="CCMI">
 </head>
 
@@ -159,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Optimal control methods for agent-based models</h1>
+<h1 class="title">Mathematical and Computational Modeling of Resilience in Multilayer Networks</h1>
 </div>
 
 
@@ -176,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 18, 2024</p>
+      <p class="date">October 20, 2024</p>
     </div>
   </div>
   
@@ -192,20 +192,20 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="project-description">Project Description</h2>
 <section id="existing-background-work" class="level3">
 <h3 class="anchored" data-anchor-id="existing-background-work">Existing background work</h3>
-<p>Agent-based models (ABM), often described in terms of systems of interacting diffusions (multidimensional stochastic differential equations) arise in many applications, including mathematical biology, e.g.&nbsp;models for chemotaxis, epidemiology, and the social sciences, for example in models for opinion formation, pedestrian dynamics and macroeconomics. Such systems often exhibit interesting collective behaviour as a result of the interaction between agents. Several different macroscopic configurations of the ABM are possible, for different choices of the parameters in the system, such as the interaction strength. The transition between different macroscopic configurations can have dramatic effects on the behaviour of the ABM</p>
-<p>Greg Pavliotis is professor of Applied Mathematics at the department of Mathematics at Imperial College. His main research interests include statistical mechanics, multiscale systems, inference for stochastic processes and data-driven methods in applied mathematics. He has studied phase transitions for agent-based models (ABM) and interacting particle systems (IPS) and he has developed efficient inference methodologies for IPS and their mean field limit. He has also developed data-driven approaches to the study of ABMs.</p>
-<p>Dante Kalise is Reader in Optimisation and Control at the Department of Mathematics at Imperial College. His main research interests involve scientific computation and machine learning, optimal control, high-dimensional approximation and agent-based models across scales. He has developed optimal control methods for high-dimensional problems which constitute the basis of this project, and developed applications in swarm robotics, pedestrian motion, and global optimization.</p>
+<p>The investigators work both in the Department of Computing at Imperial College London and have extensive expertise in the research topics that underpin the project. They have a running collaboration in the area of resilience, which intersects with their expertise in modelling enterprise systems and networks. Recent works relevant to the project include modelling and simulation of enterprise networks under cyber attacks (https://ieeexplore.ieee.org/document/9713988); mean-field ODE models for modelling networks evolving in randomly environments (https://ieeexplore.ieee.org/abstract/document/7843645); variational inference methods for inference of parameters in routing models (https://www.cambridge.org/core/journals/advances-in-applied-probability/article/abs/variational-inference-for-markovian-queueing-networks/D35E7DB62BE78D883730A04E617C3DB3); game theoretic analysis of stochastic agents modelling urban mobility (https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2462.pdf; a journal version is under submission). We have also built a software toolchain for multi-layer networks that will provide a software basis to this project.</p>
 </section>
 <section id="main-objectives-of-the-project" class="level3">
 <h3 class="anchored" data-anchor-id="main-objectives-of-the-project">Main objectives of the project</h3>
-<p>The goal of the proposed project is to develop efficient control methodologies for steering the ABM dynamics towards desired macroscopic configurations. Different approaches, such as optimal control for PDEs and data driven approaches based on model predictive control will be developed.</p>
+<p>The PhD project will develop advanced mathematical and computational models for studying the resilience of networks of networks. Specifically, the project will focus on the multilayer network formalism (MLN), which is used to describe networks consisting of multiple interconnected layers, each representing different types of interactions or relationships between nodes. MLNs are used to model systems where entities participate in various types of networks simultaneously, such as communication networks, social networks, and transportation systems, allowing for the analysis of interactions across different dimensions and their collective impact on the system’s dynamics. Applications of MLNs include understanding information diffusion, analyzing infrastructure resilience, optimizing network traffic, and studying the spread of diseases or cyber threats across interconnected systems.</p>
+<p>This project focuses on the mathematical foundations of MLNs, exploring their dynamic properties and resilience to perturbations using advanced techniques such as Neural Ordinary Differential Equations (Neural ODEs) to model diffusion processes across network layers. A key aspect of the research will involve creating efficient analytical frameworks to capture the behavior of multimodal information flows and cascades within these networks. The aim is to understand how multilayered structures behave under various stresses, particularly in scenarios involving abrupt changes to the network structure (e.g., sudden failures, cyberattacks, etc.), developing new resilience metrics to quantify robustness. Although the project has a modelling focus, applications to mobility systems and network security (eg network segmentation) will be explored as use cases.</p>
 </section>
 <section id="details-of-softwaredata-deliverables" class="level3">
 <h3 class="anchored" data-anchor-id="details-of-softwaredata-deliverables">Details of Software/Data Deliverables</h3>
-<p>Software deliverables will include:</p>
+<p>Several public data sources are available to concretely assess the toolchain, we presently work with mobility datasets from Oslo and Austin and security data from enterprise networks. The focus of the deliverables will therefore be on open source software tools:</p>
 <ul>
-<li><p>An ABM simulator for trajectory generation. To date, there’s no universal standard/benchmarks for ABM simulation, despite a generic structure based on the interaction forces in the system. We will develop a trajectory simulator which is fundamental for the study of data-driven methods and for optimisation and control purposes. Such simulator will provide sufficient freedom for prescribing interaction forces, thus being useful for different applications including opinion dynamics, swarm robotics, and pedestrian motion, among others. The simulator will be constructed using state-of-the-art methods for accurate and fast approximation of large-scale SDEs.</p></li>
-<li><p>An optimal control toolbox for ABM. There are several optimal control solvers readily available for traditional control engineering applications (robotics, power electronics), however, none of them scale to high-dimensional settings which are natural in ABMs. Moreover, they do not exploit model structure and eventually resort to treating the optimal control problem as a large-scale, model-free, nonlinear optimization problem. Instead, we will develop a toolbox for control of ABMs based on adjoint calculus, making extensive use of the particular model structure of ABMs and circumventing calls to external nonlinear optimization solvers.</p></li>
+<li>D1: Large-scale MLN simulation tool, Year 1</li>
+<li>D2: Diffusion models and resilience metrics for MLN analysis, Year 2</li>
+<li>D3: Use cases software applications in collaboration with external partners and companies, Year 3</li>
 </ul>
 
 
