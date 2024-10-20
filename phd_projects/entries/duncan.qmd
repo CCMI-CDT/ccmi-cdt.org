@@ -1,0 +1,27 @@
+---
+title: "Smart Image-Based Sensor Optimisation for Fusion Simulation Validation"
+institution: "Imperial"
+department: "Mathematics"
+author: "Timo Betcke"
+date: "10/20/2024"
+advisor: "Dr Andrew Duncan"
+
+---
+## Project Description
+
+Fusion components need to sustain continuous extreme loads including: Steady state heat fluxes up to 20 MW/m2; strong local magnetic fields on the order of several Tesla imparting large Mega Newton body forces; and neutron bombardment leading to significant irradiation damage. The combination of extreme multi-physics conditions means that validation experiments are time and resource intensive, often yielding sparse data. Given that fusion component tests have a high cost in time and resources, a means of designing targeted and data-rich experiments that can be directly compared with engineering / physics simulations is highly desirable. 
+
+Combining advances in image-based diagnostics and machine learning to optimise their use is a route to reducing the number of experiments required for fusion component qualification. Large scale component validation experiments on UKAEA’s CHIMERA and LIBRTI facilities will cost on the order of £M’s. This cost means it is not possible to run the number of experiments required for uncertainty quantification but it is possible to simulate millions of experiments and use this information to run a targeted experimental campaign. Additionally, the cost in time and resources means that gaining high-fidelity data from an optimised array of imaging sensors has the potential to greatly reduce the required experimental effort for simulation validation. To enable this, new simulation tools are required that can accurately model image-based sensors applied to a multi-physics simulation. Furthermore, while optimisation algorithms exist for points sensors applied to single physics applications there are currently no methods for optimising arrays of image-based sensors applied to a realistic multi-physics experiment. 
+
+### Existing background work
+This project will leverage the expertise of Dr Andrew Duncan in machine learning methods for model calibration, uncertainty quantification and sensor placement optimization for expensive computational simulations subject to budget constraints.  The project will be co-supervised by Dr Dante Kalise, who has expertise in optimisation and optimal control of PDE driven systems.   The student will be based at Imperial College London but will spend up to a month each year working on-site at either Culham or FTF-Yorkshire to enhance interaction with UKAEA staff.
+
+
+
+### Main objectives of the project
+
+The aim of this project is to develop a series of robust optimisation methods that can be used to design optimal image-based sensor arrays for multi-physics validation experiments. These optimisations will use a multi-physics simulation as input and output an array of image-based diagnostics and their positions along with predicted measurement uncertainties. The first objective of this project will be to enable multi-physics sensor placement optimisation with a focus on ray-tracing algorithms for simulating camera sensors combined with other sensors. The second objective is to incorporate computationally efficient uncertainty propagation using machine learning and ensembles of multi-fidelity models.  The third objective will be to develop explainable approaches to sensor placement, leveraging multi-objective optimization methods obtain provide a justification of what aspects of an experiment will be informed by a particular sensor, and the associated tradeoffs against competing objectives.    The final objective of this project is to apply the developed optimization methods to a fusion-relevant test case such as the ‘Simple Test Case’ dataset being generated as part of UKAEA’s Key Challenge 4 on Digital Qualification.
+
+### Details of Software/Data Deliverables
+
+The final objective of this project is to develop a suite of computational optimization methods to be applied to a fusion-relevant test case such as the ‘Simple Test Case’ dataset being generated as part of UKAEA’s Key Challenge 4 on Digital Qualification.

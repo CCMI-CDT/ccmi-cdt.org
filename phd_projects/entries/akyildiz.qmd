@@ -1,0 +1,45 @@
+---
+title: "PDE-driven/data-driven hybrid modelling for data assimilation"
+institution: "Imperial"
+department: "Mathematics"
+author: "Timo Betcke"
+date: "10/20/2024"
+advisor: "Dr Deniz Akyildiz"
+
+---
+## Project Description
+
+Generative models display impressive abilities to simulate and generate realistic looking multimedia data, such as images and audio. However, when it comes to domains where many constraints are present, such as optimisation or physical modelling, they fall short of producing high-quality samples based on the training data alone. In these cases, samples often have unrealistic artefacts and unphysical behaviour. Therefore, it is of great interest to develop principled ways to incorporate constraints into generative models, e.g. diffusion models and flows. This project will first look at developing an optimisation-based methodology where one is interested in generating samples that minimise certain cost functions that can be described by constraints of the problem at hand. We aim to produce methodology and corresponding software to incorporate general constraints. Then the project will move ahead to incorporate constraints arising from physical modelling problems, e.g., described by a partial differential equation (PDE). All of this is envisioned to be converted to a modular software package, that can be interfaced with many popular software packages to improve its usability for researchers.
+
+### Existing background work
+
+Constraining generative models is a popular topic, since it is generally recognised that they cannot produce samples obeying, e.g., physical constraints well. Below is very recent work in this direction:
+
+Fishman, N., Klarner, L., De Bortoli, V., Mathieu, E., & Hutchinson, M. J. Diffusion Models for Constrained Domains. Transactions on Machine Learning Research, 2023.
+
+Kong, L., Du, Y., Mu, W., Neklyudov, K., De Bortoli, V., Wang, H., Wu, D., Ferber, A., Ma, Y.A., Gomes, C.P. and Zhang, C., 2024. Diffusion models as constrained samplers for optimization with unknown constraints. arXiv preprint arXiv:2402.18012.
+
+Fishman, N., Klarner, L., Mathieu, E., Hutchinson, M. and De Bortoli, V., 2024. Metropolis sampling for constrained diffusion models. Advances in Neural Information Processing Systems, 36.
+
+I have worked on diffusion models for inverse problems [1], which is a special case of constraining the generative model (instead of a loss function, one uses a likelihood – where the log-likelihood can be interpreted as a loss function). This worked really well for inverse problems, and we are already working on extensions of this idea using sequential Monte Carlo within my group for inverse problems as well as for general losses. Other relevant works include variational deep generative modelling with physics constraints, which can be seen from [2, 3, 4].
+
+[1] Boys, B., Girolami, M., Pidstrigach, J., Reich, S., Mosca, A. and Akyildiz, O.D., 2023. Tweedie moment projected diffusions for inverse problems. Transactions of Machine Learning Research, 2024.
+
+[2] Vadeboncoeur, A., Akyildiz, Ö.D., Kazlauskaite, I., Girolami, M. and Cirak, F., 2023. Fully probabilistic deep models for forward and inverse problems in parametric PDEs. Journal of Computational Physics, 491, p.112369.
+
+[3] Vadeboncoeur, A., Kazlauskaite, I., Papandreou, Y., Cirak, F., Girolami, M. and Akyildiz, O.D., 2023, July. Random grid neural processes for parametric partial differential equations. In International Conference on Machine Learning (ICML) (pp. 34759-34778).
+
+[4] Akyildiz, O.D., Girolami, M., Stuart, A.M. and Vadeboncoeur, A., 2024. Efficient Prior Calibration From Indirect Data. arXiv preprint arXiv:2405.17955.
+
+### Main objectives of the project
+
+This project aims at publishing two or three research articles with clear methodological improvements compared to the state-of-the-art. This will include first working on general optimisation problems and developing a methodology to solve optimisation problems using generative models, most notably, diffusion and flow models (but also potentially others). Once the methodology is developed, the methodology will be converted to a software package (written in JAX, as envisioned), properly documented, and aimed at general use. To improve then the usability of the software, we will incorporate physical constraints as ready-to-go functions which can be made to guide generative models.
+
+### Details of Software/Data Deliverables
+
+We aim at interfacing popular diffusion and flow model code (or incorporating into ours) with general purpose optimizers (again, can be modified) and PDE solvers. My earlier project as cited above [1] produced a mini software package, called DiffusionJAX: https://github.com/bb515/diffusionjax Further developments of this will be implementing general purpose optimisation methods as well as PDE solvers, such as the ones based on finite elements (see the relevant projects I worked in [5], [6] and software output: https://github.com/connor-duffin/ula-statfem). The final aim is to combine the strengths of the JAX and available generative modelling and scientific modelling code, combined into a coherent framework to work with the problem of generating data with complicated constraints that arise in real-world modelling.
+
+[5] Akyildiz, Ö.D., Duffin, C., Sabanis, S. and Girolami, M., 2022. Statistical finite elements via Langevin dynamics. SIAM/ASA Journal on Uncertainty Quantification, 10(4), pp.1560-1585.
+
+[6] Glyn-Davies, A., Duffin, C., Kazlauskaite, I., Girolami, M. and Akyildiz, Ö.D., 2024. Statistical Finite Elements via Interacting Particle Langevin Dynamics. arXiv preprint arXiv:2409.07101.
+

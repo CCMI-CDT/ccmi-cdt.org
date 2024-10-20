@@ -1,0 +1,28 @@
+---
+title: "Mathematical and Computational Modeling of Resilience in Multilayer Networks"
+institution: "Imperial"
+department: "Computing"
+author: "Timo Betcke"
+date: "10/20/2024"
+advisor: "Dr. Giuliano Casale and Prof. Emil Lupu"
+
+---
+## Project Description
+
+### Existing background work
+
+The investigators work both in the Department of Computing at Imperial College London and have extensive expertise in the research topics that underpin the project. They have a running collaboration in the area of resilience, which intersects with their expertise in modelling enterprise systems and networks. Recent works relevant to the project include modelling and simulation of enterprise networks under cyber attacks (https://ieeexplore.ieee.org/document/9713988); mean-field ODE models for modelling networks evolving in randomly environments (https://ieeexplore.ieee.org/abstract/document/7843645); variational inference methods for inference of parameters in routing models (https://www.cambridge.org/core/journals/advances-in-applied-probability/article/abs/variational-inference-for-markovian-queueing-networks/D35E7DB62BE78D883730A04E617C3DB3); game theoretic analysis of stochastic agents modelling urban mobility (https://www.ifaamas.org/Proceedings/aamas2024/pdfs/p2462.pdf; a journal version is under submission). We have also built a software toolchain for multi-layer networks that will provide a software basis to this project.
+
+### Main objectives of the project
+
+The PhD project will develop advanced mathematical and computational models for studying the resilience of networks of networks. Specifically, the project will focus on the multilayer network formalism (MLN), which is used to describe networks consisting of multiple interconnected layers, each representing different types of interactions or relationships between nodes. MLNs are used to model systems where entities participate in various types of networks simultaneously, such as communication networks, social networks, and transportation systems, allowing for the analysis of interactions across different dimensions and their collective impact on the system's dynamics. Applications of MLNs include understanding information diffusion, analyzing infrastructure resilience, optimizing network traffic, and studying the spread of diseases or cyber threats across interconnected systems.
+
+This project focuses on the mathematical foundations of MLNs, exploring their dynamic properties and resilience to perturbations using advanced techniques such as Neural Ordinary Differential Equations (Neural ODEs) to model diffusion processes across network layers. A key aspect of the research will involve creating efficient analytical frameworks to capture the behavior of multimodal information flows and cascades within these networks. The aim is to understand how multilayered structures behave under various stresses, particularly in scenarios involving abrupt changes to the network structure (e.g., sudden failures, cyberattacks, etc.), developing new resilience metrics to quantify robustness. Although the project has a modelling focus, applications to mobility systems and network security (eg network segmentation) will be explored as use cases.
+
+### Details of Software/Data Deliverables
+
+Several public data sources are available to concretely assess the toolchain, we presently work with mobility datasets from Oslo and Austin and security data from enterprise networks. The focus of the deliverables will therefore be on open source software tools:
+
+- D1: Large-scale MLN simulation tool, Year 1
+- D2: Diffusion models and resilience metrics for MLN analysis, Year 2
+- D3: Use cases software applications in collaboration with external partners and companies, Year 3
