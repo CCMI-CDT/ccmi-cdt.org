@@ -1,5 +1,5 @@
 ---
-title: Events
+title: CCMI Events
 format:
     html:
         anchor-sections: false
@@ -7,7 +7,10 @@ format:
 listing:
   - id: event-list
     template: ../templates/event-list-page.ejs
-    contents: events.yml
+    contents: posts
+    field-types:
+        event_date: date
+
     sort: "date desc"
     categories: false
 ---

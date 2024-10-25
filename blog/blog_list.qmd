@@ -8,7 +8,7 @@ listing:
   - id: blog-list
     template: ../templates/blog-list-page.ejs
     contents: posts
-    sort: "date desc"
+    sort: "event-date desc"
     categories: true
 ---
 <div id="blog-list column-page">

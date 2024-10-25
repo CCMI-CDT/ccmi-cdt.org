@@ -17,14 +17,16 @@ listing:
     contents: templates/key-facts.yml
   - id: current-events
     template: templates/partials/events-section.ejs
-    contents: events/events.yml
-        
+    contents: events/posts
+    field-types:
+        event_date: date
+
 
 gallery-images:
     image1:
         image: static/ucl_quad.jpg
         text: CCMI is a collaboration between University College London and Imperial College London to offer a novel and innovative PhD training programme at the interface of computational modelling, data sciences, and research software engineering.
-    image2: 
+    image2:
         image: static/imperial.jpg
         text: Students will join world-class research groups across UCL and Imperial, and will benefit from a bespoke training programme around research software engineering and its applications in the computational and data sciences.
 
@@ -112,5 +114,3 @@ Read About Our Software
 </div>
 
 </section>
-
- 

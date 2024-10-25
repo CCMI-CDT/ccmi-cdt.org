@@ -1,7 +1,7 @@
 ```{=html}
-<h2 class="mt-0"><a href="events/events.qmd">Events</a></h2>
+<h2 class="mt-0"><a href="events/event_list.qmd">Events</a></h2>
 <div class="card border-dark">
-    <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel" data-interval="false">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -17,8 +17,8 @@
                         <div class="card pb-2">
                             <div class="card-body text-center px-3">
                                 <h4 class="card-title my-0">
-                                    <a href="blog/posts/<%- item.filename %>"><%- item.title %></a> </h4>
-                                <small class="mt-0"><%- item.dates %></small>
+                                    <a href="events/posts/<%- item.filename %>"><%- item.title %> </a> </h4>
+                                <h5 class="card-text my-0"><%- item.event_date %></h5>
                                     <hr class="card-divider" />
                                 <div class="card-text "><%- item.summary %></div>
                             </div>
