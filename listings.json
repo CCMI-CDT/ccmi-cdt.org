@@ -57,22 +57,25 @@
     ]
   },
   {
-    "listing": "/index.html",
+    "listing": "/blog/blog_list.html",
     "items": [
       "/blog/posts/blogpost1.html",
       "/blog/posts/nobel_prizes.html"
     ]
   },
   {
-    "listing": "/blog/blog_list.html",
+    "listing": "/events/event_list.html",
     "items": [
-      "/blog/posts/nobel_prizes.html",
-      "/blog/posts/blogpost1.html"
+      "/events/posts/open_day.html"
     ]
   },
   {
-    "listing": "/events/events.html",
-    "items": []
+    "listing": "/index.html",
+    "items": [
+      "/blog/posts/blogpost1.html",
+      "/blog/posts/nobel_prizes.html",
+      "/events/posts/open_day.html"
+    ]
   },
   {
     "listing": "/team.html",

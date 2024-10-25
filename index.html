@@ -134,9 +134,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-dates','listing-summary','listing-description',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-project','listing-resources','listing-website','listing-format','listing-execute','listing-language','listing-title','listing-author','listing-event_date','listing-date','listing-summary','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-event_date-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-title","listing-dates","listing-summary","listing-description"],
+      searchColumns: ["listing-project","listing-resources","listing-website","listing-format","listing-execute","listing-language","listing-title","listing-author","listing-event_date","listing-date","listing-summary","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -213,30 +213,27 @@ window.Quarto = {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-events" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Events</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-events">    
-        <li>
-    <a class="dropdown-item" href="./events/events.html">
- <span class="dropdown-text">Events Page</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./events/event_list.html"> 
+<span class="menu-text">Events</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="./partner_workshop.html">
- <span class="dropdown-text">Partner Workshop</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="./training/training.html"> 
+<span class="menu-text">Training Programme</span></a>
   </li>  
-    </ul>
-  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./apply.html"> 
+<span class="menu-text">How to apply</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./blog/blog_list.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
-        <li>
-    <a class="dropdown-item" href="./training/training.html">
- <span class="dropdown-text">Training Programme</span></a>
-  </li>  
         <li>
     <a class="dropdown-item" href="./team.html">
  <span class="dropdown-text">Our Leadership Team</span></a>
@@ -247,14 +244,6 @@ window.Quarto = {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="./apply.html"> 
-<span class="menu-text">How to apply</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./blog/blog_list.html"> 
-<span class="menu-text">Blog</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -303,7 +292,7 @@ window.Quarto = {
                     <div class="carousel-item  active ">
                     <div class="card pb-2">
                         <div class="card-body">
-                            <h4 class="card-title mt-0">            
+                            <h4 class="card-title mt-0">
                                 <a href="./blog/posts/blogpost1.html">New homepage.</a></h4>
                             <hr class="card-divider">
                             <div class="card-text">Our new homepage is now live.</div>
@@ -317,7 +306,7 @@ window.Quarto = {
                     <div class="carousel-item  active ">
                     <div class="card pb-2">
                         <div class="card-body">
-                            <h4 class="card-title mt-0">            
+                            <h4 class="card-title mt-0">
                                 <a href="./blog/posts/nobel_prizes.html">Nobel Prizes in Chemistry and Physics for AI research</a></h4>
                             <hr class="card-divider">
                             <div class="card-text">The 2024 nobel prizes in Physics and Chemistry were given out to breakthrough research in AI from members of the UCL community.</div>
@@ -337,7 +326,7 @@ window.Quarto = {
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    
+
     </div>
 <div class="listing-no-matching d-none">
 No matching items
@@ -382,9 +371,9 @@ No matching items
 </div>
 </div>
 <div class="hidden quarto-markdown-envelope-contents" data-render-id="pipeline-listing-current-events">
-<h2 class="mt-0"><a href="./events/events.html">Events</a></h2>
+<h2 class="mt-0"><a href="./events/event_list.html">Events</a></h2>
 <div class="card border-dark">
-    <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel" data-interval="false">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -400,10 +389,10 @@ No matching items
                         <div class="card pb-2">
                             <div class="card-body text-center px-3">
                                 <h4 class="card-title my-0">
-                                    <a href="blog/posts/">Networking with UKAEA</a> </h4>
-                                <small class="mt-0">10 September 2024</small>
+                                    <a href="./events/posts/open_day.html">CCMI Online Open Day </a> </h4>
+                                <h5 class="card-text my-0">Nov 13, 2024</h5>
                                     <hr class="card-divider">
-                                <div class="card-text ">A networking opportunity to discuss collaborative research projects between UKAEA and the CCMI CDT.</div>
+                                <div class="card-text ">We are organising an online open day to get to know the CDT, our research and how the application process works.</div>
                             </div>
                         </div>
                     </div>
@@ -431,9 +420,9 @@ No matching items
 </div>
 <br>
 <div id="listing-current-events" class="quarto-listing quarto-listing-container-custom">
-<h2 class="mt-0"><a href="./events/events.html">Events</a></h2>
+<h2 class="mt-0"><a href="./events/event_list.html">Events</a></h2>
 <div class="card border-dark">
-    <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel" data-interval="false">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -449,10 +438,10 @@ No matching items
                         <div class="card pb-2">
                             <div class="card-body text-center px-3">
                                 <h4 class="card-title my-0">
-                                    <a href="blog/posts/">Networking with UKAEA</a> </h4>
-                                <small class="mt-0">10 September 2024</small>
+                                    <a href="./events/posts/open_day.html">CCMI Online Open Day </a> </h4>
+                                <h5 class="card-text my-0">Nov 13, 2024</h5>
                                     <hr class="card-divider">
-                                <div class="card-text ">A networking opportunity to discuss collaborative research projects between UKAEA and the CCMI CDT.</div>
+                                <div class="card-text ">We are organising an online open day to get to know the CDT, our research and how the application process works.</div>
                             </div>
                         </div>
                     </div>

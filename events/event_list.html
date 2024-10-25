@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Events – CCMI</title>
+<title>CCMI Events – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -78,9 +78,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-dates','listing-summary','listing-description',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-project','listing-resources','listing-website','listing-format','listing-execute','listing-language','listing-title','listing-author','listing-event_date','listing-date','listing-summary','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-event_date-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-title","listing-dates","listing-summary","listing-description"],
+      searchColumns: ["listing-project","listing-resources","listing-website","listing-format","listing-execute","listing-language","listing-title","listing-author","listing-event_date","listing-date","listing-summary","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -129,7 +129,7 @@ window.Quarto = {
 </script>
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Events – CCMI">
+<meta property="og:title" content="CCMI Events – CCMI">
 <meta property="og:site_name" content="CCMI">
 </head>
 
@@ -157,30 +157,27 @@ window.Quarto = {
     <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-events" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Events</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-events">    
-        <li>
-    <a class="dropdown-item" href="../events/events.html">
- <span class="dropdown-text">Events Page</span></a>
+  <li class="nav-item">
+    <a class="nav-link active" href="../events/event_list.html" aria-current="page"> 
+<span class="menu-text">Events</span></a>
   </li>  
-        <li>
-    <a class="dropdown-item" href="../partner_workshop.html">
- <span class="dropdown-text">Partner Workshop</span></a>
+  <li class="nav-item">
+    <a class="nav-link" href="../training/training.html"> 
+<span class="menu-text">Training Programme</span></a>
   </li>  
-    </ul>
-  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../apply.html"> 
+<span class="menu-text">How to apply</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../blog/blog_list.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
-        <li>
-    <a class="dropdown-item" href="../training/training.html">
- <span class="dropdown-text">Training Programme</span></a>
-  </li>  
         <li>
     <a class="dropdown-item" href="../team.html">
  <span class="dropdown-text">Our Leadership Team</span></a>
@@ -191,14 +188,6 @@ window.Quarto = {
   </li>  
     </ul>
   </li>
-  <li class="nav-item">
-    <a class="nav-link" href="../apply.html"> 
-<span class="menu-text">How to apply</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../blog/blog_list.html"> 
-<span class="menu-text">Blog</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -216,7 +205,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Events</h1>
+<h1 class="title">CCMI Events</h1>
 </div>
 
 
@@ -241,16 +230,18 @@ window.Quarto = {
 
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-event-list">
+<h2 class="mt-0">Events</h2>
 <div class="post-container">
 
-        <div class="card border-dark" data-index="0">
+        <div class="card border-dark" data-index="0" data-categories="News" data-listing-date-sort="1729814400000" data-listing-file-modified-sort="1729855423132" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95" data-listing-event_date-sort="11/13/2024">
+            <a href="../events/posts/open_day.html">
             <div class="card-body">
-                <h4 class="card-title mt-0">Networking with UKAEA</h4>
-                <small>10 September 2024</small>
+                <h4 class="card-title mt-0">CCMI Online Open Day</h4>
+                <p class="card-text">Nov 13, 2024</p>
                 <hr class="card-divider">
-                <p class="card-text">Fusion research is a complex multidisciplinary problem, ranging across fundamental science, engineering, computational modelling, and the data sciences. In this network event we discuss future collaborations between the CCMI CDT and UKAEA on the interface of exciting computational modelling problems, large-scale data science and AI, and cutting edge research software engineering.</p>
+                <p class="card-text">We are organising an online open day to get to know the CDT, our research and how the application process works.</p>
             </div>
-                
+            </a>
         </div>
 
 </div>
