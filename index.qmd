@@ -33,32 +33,19 @@ gallery-images:
 
 ---
 
-<div class="container-fluid px-0 column-page page-full" id="index-wrapper">
-
-<div id="blog-events-wrapper">
-<div id="blog">
-</div>
-<br>
-<div id="current-events">
-</div>
-</div>
-
-<br>
-
+<div class="container-fluid px-0 page-full" id="index-wrapper">
 
 <section id="gallery">
-
 <div class="gallery__inner">
-
 <div class="gallery__item">
 ![]({{< meta gallery-images.image1.image >}}){.d-block .w-100 group="intro-gallery" fig-alt="UCL Quad"}
-<div class="gallery__item__caption d-none d-sm-block">
+<div class="gallery__item__caption d-sm-block">
 <p>{{< meta gallery-images.image1.text >}}</p>
 </div>
 </div>
 <div class="gallery__item">
 ![]({{< meta gallery-images.image2.image >}}){.d-block .w-100 group="intro-gallery" fig-alt="Imperial College"}
-<div class="gallery__item__caption d-none d-sm-block">
+<div class="gallery__item__caption d-sm-block">
 <p>{{< meta gallery-images.image2.text >}}</p>
 </div>
 </div>
@@ -66,8 +53,16 @@ gallery-images:
 </div>
 
 </section>
-<!-- </div> -->
 
+<section id="blog-events-wrapper">
+<div id="blog">
+</div>
+<br>
+<div id="current-events">
+</div>
+</section>
+
+<br>
 
 <section id="key-facts" class="column-page page-full pt-3">
 <h1 class="key-facts__heading display-1">KEY FACTS</h1>
