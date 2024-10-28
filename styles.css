@@ -4,6 +4,7 @@
 :root {
 	--light-blue-grey: #d9e3f1;
 	--rich-blue: #192d83;
+	--plum: #6c077e;
 }
 /* elements */
 body {
@@ -24,6 +25,13 @@ nav {
 		.navbar-title {
 			font-size: 2rem;
 		}
+	}
+}
+
+a {
+	color: var(--plum);
+	&:hover {
+		color: #b032c6;
 	}
 }
 
@@ -130,7 +138,7 @@ nav {
 	}
 
 	.gallery__item__caption {
-		background-color: rgba(32, 31, 31, 0.529);
+		background-color: #16151587;
 		backdrop-filter: blur(2.3px);
 		-webkit-backdrop-filter: blur(2.3px);
 		color: white;
@@ -281,8 +289,8 @@ nav {
 		font-size: 2rem;
 		transition: background 0.5s ease;
 		border-radius: 30px;
-		color: #6c077e;
-		border-color: #6c077e;
+		color: var(--plum);
+		border-color: var(--plum);
 		border-width: 2px;
 
 		&:hover {
@@ -351,6 +359,12 @@ nav {
 	}
 }
 
+#project-description {
+	background-color: #ecf3fa;
+	padding: 0.8rem;
+	border-radius: 8px;
+}
+
 /* classes */
 .navbar-container {
 	@media only screen and (min-width: 1600px) {
@@ -410,30 +424,17 @@ nav {
 	}
 }
 
+.post-container,
 .phd-project-container {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
 	grid-column-gap: 0.75rem;
 	grid-row-gap: 0.25rem;
 
-	a {
-		text-decoration: none;
+	@media only screen and (max-width: 900px) {
+		grid-template-columns: repeat(auto-fit, minmax(80vw, 1fr));
+		grid-row-gap: 0.8rem;
 	}
-
-	.card {
-		transition: background-color 0.3s ease;
-		&:hover {
-			background-color: #b3c0d1;
-		}
-	}
-}
-
-.post-container {
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
-	grid-column-gap: 0.75rem;
-	grid-row-gap: 0.25rem;
-
 	a {
 		text-decoration: none;
 	}
