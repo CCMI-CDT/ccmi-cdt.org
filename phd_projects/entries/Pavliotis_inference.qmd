@@ -1,11 +1,12 @@
 ---
 title: "Inference and inverse problems for stochastic interacting particle systems"
-institution: "Imperial"
-department: "Mathemetics"
-author: "Laura Beer"
-date: "10/02/2024"
-advisor: "Prof Greg A. Pavliotis"
 
+department: "Mathemetics"
+
+date: "10/02/2024"
+author: 
+    name: "Prof Greg A. Pavliotis"
+    affiliation: "Imperial"
 ---
 ## Project Description
 

@@ -1,10 +1,12 @@
 ---
 title: "Inference of gene regulatory networks from single cell data"
-institution: "Imperial"
+
 department: "Mathematics"
-author: "Laura Beer"
+
 date: "10/02/2024"
-advisor: "Prof Vahid Shahrezaei and Dr. Philipp Thomas "
+author: 
+    name: "Prof Vahid Shahrezaei and Dr. Philipp Thomas "
+    affiliation: "Imperial"
 
 ---
 ## Project Description

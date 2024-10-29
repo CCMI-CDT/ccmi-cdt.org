@@ -1,10 +1,10 @@
 ---
 title: "Taming Time and Dimension: Advanced Scientific Computing for Next-Generation Diffusion Models"
-institution: "Imperial"
+author: 
+    name: "Dr Dante Kalise Prof Greg Pavliotis "
+    affiliation: "Imperial"
 department: "Mathematics"
-author: "Timo Betcke"
 date: "10/20/2024"
-advisor: "Dr Dante Kalise Prof Greg Pavliotis  "
 ---
 
 ## Project Description

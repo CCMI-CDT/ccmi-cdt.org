@@ -1,11 +1,12 @@
 ---
 title: "Koopman operator learning of nonlinear PDEs"
-institution: "Imperial"
-department: "Mathematics"
-author: "Laura Beer"
-date: "10/02/2024"
-advisor: "Dr.Nicholas Boulle"
 
+department: "Mathematics"
+
+date: "10/02/2024"
+author: 
+    name: "Dr.Nicholas Boulle"
+    affiliation: "Imperial"
 ---
 ## Project Description
 

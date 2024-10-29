@@ -1,11 +1,12 @@
 ---
 title: "Accelerated multi-level Bayesian calibration of expensive simulations on high performance computing systems"
-institution: "UCL"
-department: "Advanced Research Computing Centre"
-author: "Laura Beer"
-date: "10/02/2024"
-advisor: "Dr Matt Graham"
 
+department: "Advanced Research Computing Centre"
+
+date: "10/02/2024"
+author: 
+    name: "Dr Matt Graham"
+    affiliation: "UCL"
 ---
 ## Project Description
 

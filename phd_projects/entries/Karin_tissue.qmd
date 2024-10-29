@@ -1,10 +1,12 @@
 ---
 title: "Agent-based simulation of tissue self-organization"
-institution: "Imperial"
+
 department: "Mathematics"
-author: "Laura Beer"
+
 date: "10/02/2024"
-advisor: "Dr.Omer Karin"
+author: 
+    name: "Dr.Omer Karin"
+    affiliation: "Imperial"
 
 ---
 ## Project Description

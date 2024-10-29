@@ -1,11 +1,12 @@
 ---
 title: "Re-griding the TROVE nuclear motion program"
-institution: "UCL"
-department: "Physics and Astronomy"
-author: "Laura Beer"
-date: "10/02/2024"
-advisor: "Prof Jonathan Tennyson"
 
+department: "Physics and Astronomy"
+
+date: "10/02/2024"
+author: 
+    name: "Prof Jonathan Tennyson"
+    affiliation: "UCL"
 ---
 ## Project Description
 

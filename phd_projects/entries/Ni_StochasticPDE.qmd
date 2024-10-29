@@ -1,11 +1,12 @@
 ---
 title: "Accelerating parabolic Stochastic PDE solver via a weak adversarial network approach"
-institution: "UCL"
-department: "Mathematics"
-author: "Laura Beer"
-date: "10/02/2024"
-advisor: "Prof Hao Ni"
 
+department: "Mathematics"
+
+date: "10/02/2024"
+author: 
+    name: "Prof Hao Ni"
+    affiliation: "UCL"
 ---
 ## Project Description
 

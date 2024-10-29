@@ -1,11 +1,12 @@
 ---
 title: "PARALIFT – A PARAllel framework for LIFTed training of neural networks"
-institution: "UCL"
-department: "Computer Science"
-author: "Laura Beer"
-date: "10/02/2024"
-advisor: "Prof Martin Benning"
 
+department: "Computer Science"
+
+date: "10/02/2024"
+author: 
+    name: "Prof Martin Benning"
+    affiliation: "UCL"
 ---
 ## Project Description
 

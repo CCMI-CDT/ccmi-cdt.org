@@ -1,10 +1,12 @@
 ---
 title: "Model correlation and the version control tree"
-institution: "UCL"
+
 department: "ARC"
-author: "Timo Betcke"
+
 date: "10/10/2024"
-advisor: "Prof James Hetherington"
+author: 
+    name: "Prof James Hetherington"
+    affiliation: "UCL"
 ---
 
 ## Project Description

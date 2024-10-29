@@ -1,11 +1,12 @@
 ---
 title: "Advanced Computational Methods for Bayesian Calibration of High-Dimensional Dynamical Models"
-institution: "UCL"
-department: "Statistics"
-author: "Laura Beer"
-date: "10/02/2024"
-advisor: "Prof Alexandros Beskos"
 
+department: "Statistics"
+
+date: "10/02/2024"
+author: 
+    name: "Prof Alexandros Beskos"
+    affiliation: "UCL"
 ---
 ## Project Description
 

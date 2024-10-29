@@ -1,11 +1,12 @@
 ---
 title: "Computational solution of inverse problems using large datasets of low rank"
-institution: "UCL"
-department: "Mathematics"
-author: "Timo Betcke"
-date: "09/30/2024"
-advisor: "Prof Erik Burman"
 
+department: "Mathematics"
+
+date: "09/30/2024"
+author: 
+    name: "Prof Erik Burman"
+    affiliation: "UCL"
 ---
 ## Project Description
 

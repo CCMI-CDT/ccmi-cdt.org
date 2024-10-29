@@ -1,11 +1,10 @@
 ---
 title: "Constrained Generative Models for Optimisation and Scientific Modelling"
-institution: "Imperial"
 department: "Mathematics"
-author: "Timo Betcke"
 date: "10/20/2024"
-advisor: "Dr Deniz Akyildiz"
-
+author: 
+    name: "Dr Deniz Akyildiz"
+    affiliation: "Imperial"
 ---
 ## Project Description
 

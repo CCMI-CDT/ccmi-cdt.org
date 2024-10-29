@@ -1,11 +1,12 @@
 ---
 title: "Data-driven preconditioning for parallel-in-time PDE solvers"
-institution: "Imperial"
-department: "Mathematics"
-author: "Laura Beer"
-date: "10/11/2024"
-advisor: "Prof Colin Cotter"
 
+department: "Mathematics"
+
+date: "10/11/2024"
+author: 
+    name: "Prof Colin Cotter"
+    affiliation: "Imperial"
 ---
 ## Project Description
 

@@ -1,17 +1,18 @@
 ---
 title: "Large-scale high-performance solver for therapeutic ultrasound applications"
-institution: "UCL"
-department: "Division of Surgery and Interventional Science"
-author: "Timo Betcke"
-date: "10/11/2024"
-advisor: "Dr Pierre Gélat"
 
+department: "Division of Surgery and Interventional Science"
+
+date: "10/11/2024"
+author: 
+    name: "Dr Pierre Gélat"
+    affiliation: "UCL"
 ---
 ## Project Description
 
 ### Existing background work
 
-The supervisory team, together with Dr Elwin van ’t Wout (Pontificia Universidad Católica de Chile), has been developing the open-source Python library OptimUS [1] for solving acoustic wave propagation in an unbounded medium in 3D with piecewise homogeneous domains. OptimUS solves the Helmholtz equation using the boundary element method (BEM). It has been used to simulate biomedical ultrasound clinical scenarios relating to treating cancers of the liver and kidney [2] as well as osteoid osteoma [3]. OptimUS featured as part of an international software benchmarking exercise [4] for ultrasound transcranial neuromodulation, overseen by the International Transcranial Ultrasonic Stimulation Safety and Standards. The OptimUS library is being used in biomedical ultrasound research in academic institutions worldwide as well as a pedagogical tool for undergraduate and postgraduate students. OptimUS leverages the Bempp kernel developed by Prof Timo Betcke (UCL Department of Mathematics).
+The supervisory team, together with Dr Elwin van ’t Wout (Pontificia Universidad Católica de Chile), has been developing the open-source Python library OptimUS [1] for solving acoustic wave propagation in an unbounded medium in 3D with piecewise homogeneous domains. OptimUS solves the Helmholtz equation using the boundary element method (BEM). It has been used to simulate biomedical ultrasound clinical scenarios relating to treating cancers of the liver and kidney [2] as well as osteoid osteoma [3]. OptimUS featured as part of an international software benchmarking exercise [4] for ultrasound transcranial neuromodulation, overseen by the International Transcranial Ultrasonic Stimulation Safety and Standards. The OptimUS library is being used in biomedical ultrasound research in academic affiliations worldwide as well as a pedagogical tool for undergraduate and postgraduate students. OptimUS leverages the Bempp kernel developed by Prof Timo Betcke (UCL Department of Mathematics).
 
 Using OptimUS to solve large biomedical problems at high frequencies is currently challenging due to the large RAM consumption required, which is of the order of GigaByte to TeraByte. A dedicated high-frequency solver is therefore required to achieve realistic simulations at the operational MHz frequencies relevant to laboratory and clinical biomedical ultrasound applications. A promising kernel-independent Fast Multipole Method (FMM) BEM has recently been developed for the next release of the Bempp library and has been used to solve the Laplace equation. Research into dedicated high-frequency FMM implementation is needed to achieve BEM simulations on a larger scale than other numerical approaches. BEM has a distinct advantage over finite element and finite-difference time domain schemes as it suffers from only minimal numerical dispersion and pollution effects. It is therefore anticipated that the development of a high-performance FMM BEM formulation for Helmholtz kernels will be transformative in the field of biomedical ultrasound.
 

@@ -1,10 +1,12 @@
 ---
 title: "A differentiable Gillespie algorithm for exact gradients through discrete stochastic systems"
-institution: "Imperial"
+
 department: "Mathematics"
-author: "Laura Beer"
+
 date: "10/02/2024"
-advisor: "Dr.Cristopher Salvi"
+author: 
+    name: "Dr.Cristopher Salvi"
+    affiliation: "Imperial"
 
 ---
 ## Project Description

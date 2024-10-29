@@ -1,10 +1,12 @@
 ---
 title: "Smart Image-Based Sensor Optimisation for Fusion Simulation Validation"
-institution: "Imperial"
+
 department: "Mathematics"
-author: "Timo Betcke"
+
 date: "10/20/2024"
-advisor: "Dr Andrew Duncan"
+author: 
+    name: "Dr Andrew Duncan"
+    affiliation: "Imperial"
 
 ---
 ## Project Description

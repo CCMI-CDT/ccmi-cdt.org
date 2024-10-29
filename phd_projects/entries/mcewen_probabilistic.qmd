@@ -1,10 +1,12 @@
 ---
 title: "Differentiable probabilistic deep learning with generative denoising diffusion models"
-institution: "UCL"
+
 department: "MSSL"
-author: "Laura Beer"
+
 date: "10/18/2024"
-advisor: "Prof Jason McEwen"
+author: 
+    name: "Prof Jason McEwen"
+    affiliation: "UCL"
 ---
 
 ## Project Description

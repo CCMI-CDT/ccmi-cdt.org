@@ -1,11 +1,12 @@
 ---
 title: "Optimal transport for probabilistic machine learning"
-institution: "Imperial"
-department: "Mathematics"
-author: "Laura Beer"
-date: "10/02/2024"
-advisor: "Dr Felipe Tobar"
 
+department: "Mathematics"
+
+date: "10/02/2024"
+author: 
+    name: "Dr Felipe Tobar"
+    affiliation: "Imperial"
 ---
 ## Project Description
 
