@@ -9,6 +9,7 @@
 }
 /* elements */
 body {
+	/* this makes the body a grid and makes sure the content is 2000px max and displays as a column in the center */
 	box-sizing: border-box;
 	font-family: Montserrat;
 	justify-content: center;
@@ -18,7 +19,9 @@ body {
 	justify-self: center;
 	width: 100%;
 }
+
 nav {
+	/* navbar at the top */
 	font-size: 1rem;
 	background-color: var(--rich-blue);
 	@media only screen and (min-width: 1500px) {
@@ -30,10 +33,15 @@ nav {
 }
 
 a {
+	/* links */
 	color: var(--plum);
 	&:hover {
 		color: #b032c6;
 	}
+}
+
+ul > li {
+	margin-bottom: 0.8rem;
 }
 
 /* IDs */
@@ -48,11 +56,11 @@ a {
 	grid-template-columns: unset;
 }
 #title-block-header {
-	/* this is the header within the content */
+	/* this is the ccmi header within the content */
 	justify-self: center;
 	justify-content: center;
 
-	h1.title {
+	.main-title {
 		font-size: 2rem;
 		font-weight: 420;
 		color: var(--rich-blue);
@@ -87,6 +95,7 @@ a {
 }
 
 #gallery {
+	/* this holds the photos of UCL and Imperial with their captions, side by side above 1200px but otherwise in a column */
 	padding-top: 2rem;
 	padding-bottom: 4rem;
 	height: max-content;
@@ -145,6 +154,7 @@ a {
 	}
 }
 #blog-events-wrapper {
+	/* the strip that holds the blog and events previews, side by side above 1000px, otherwise column */
 	z-index: 2;
 	display: flex;
 	flex-direction: row;
@@ -168,6 +178,7 @@ a {
 
 #listing-blog,
 #listing-current-events {
+	/* the actual blog and events preview carousels */
 	width: 50%;
 	height: fit-content;
 
@@ -307,6 +318,7 @@ a {
 }
 
 #logos {
+	/* logos should appear in one row above 900px, otherwise as a 2x2 grid */
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
 	align-items: center;
@@ -350,13 +362,42 @@ a {
 }
 
 #project-description {
-	background-color: #ecf3fa;
+	background-color: #f9fafc;
 	padding: 0.8rem;
 	border-radius: 8px;
 }
 
 /* classes */
+.quarto-title {
+	/* title of non main pages */
+	h1.title {
+		color: var(--rich-blue);
+		font-weight: 400;
+		text-align: center;
+	}
+}
+.quarto-title-block:has(:first-child:nth-last-child(3)) {
+	/* this should only style on the phd pages due to the number of children */
+	display: grid;
+	grid-template-columns: 1fr auto 1fr auto 1fr;
+	grid-template-rows: auto auto;
+	text-align: center;
+	justify-items: center;
+
+	.quarto-title {
+		grid-column: 1 / -1; /* spanning the row */
+	}
+	.quarto-title-meta-author {
+		grid-column: 1; /* Place in the first column */
+	}
+
+	.quarto-title-meta {
+		grid-column: 5; /* Place in the last column */
+	}
+}
+
 .navbar-container {
+	/* some responsive styling for the content in the navbar at larger widths so it's not spread out too much */
 	@media only screen and (min-width: 1600px) {
 		max-width: 80%;
 		justify-content: center;
@@ -416,10 +457,11 @@ a {
 
 .post-container,
 .phd-project-container {
+	/* the events,blog and project cards should fill a grid on 900px and up and just be a column of single cards below that */
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
 	grid-column-gap: 0.75rem;
-	grid-row-gap: 0.25rem;
+	grid-row-gap: 0.5rem;
 
 	@media only screen and (max-width: 900px) {
 		grid-template-columns: repeat(auto-fit, minmax(80vw, 1fr));
