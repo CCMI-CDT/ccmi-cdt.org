@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-	--light-blue-grey: #d9e3f1;
+	--light-blue-grey: #edf2f9;
 	--rich-blue: #192d83;
 	--plum: #6c077e;
 }
@@ -54,6 +54,7 @@ a {
 		font-size: 2rem;
 		font-weight: 500;
 		color: var(--rich-blue);
+		padding-inline: 2%;
 
 		/* center aligns title on mobiles */
 		@media only screen and (max-width: 1000px) {
@@ -314,6 +315,9 @@ a {
 
 #contact-us {
 	margin-bottom: 10vh;
+	@media only screen and (max-width: 900px) {
+		margin-bottom: 1rem;
+	}
 }
 
 #logos {
