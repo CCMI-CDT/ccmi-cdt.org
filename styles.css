@@ -4,6 +4,7 @@
 :root {
 	--light-blue-grey: #edf2f9;
 	--rich-blue: #192d83;
+	--dark-grey: #090d1f;
 	--plum: #6c077e;
 }
 /* elements */
@@ -43,6 +44,7 @@ a {
 	grid-column: unset;
 }
 #index-wrapper {
+	/* this gets rid of the column for side menu */
 	grid-template-columns: unset;
 }
 #title-block-header {
@@ -52,20 +54,20 @@ a {
 
 	h1.title {
 		font-size: 2rem;
-		font-weight: 500;
+		font-weight: 420;
 		color: var(--rich-blue);
 		padding-inline: 2%;
+		width: max-content;
 
-		/* center aligns title on mobiles */
-		@media only screen and (max-width: 1000px) {
-			text-align: center;
-		}
 		.title__part-1 {
 			font-size: 90%;
+			transform: translateX(-12%);
+			@media only screen and (max-width: 1200px) {
+				transform: unset;
+			}
 		}
 
 		.title__part-2 {
-			padding-left: 18vw;
 			font-size: 70%;
 			align-content: center;
 
@@ -77,13 +79,8 @@ a {
 		.title__part-3 {
 			font-size: 105%;
 
-			span.ccmi {
-				font-weight: 700;
-				color: rebeccapurple;
-			}
-
-			@media only screen and (max-width: 1000px) {
-				padding-left: 0;
+			@media only screen and (max-width: 1200px) {
+				font-size: 100%;
 			}
 		}
 	}
