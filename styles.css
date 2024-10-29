@@ -115,12 +115,6 @@ a {
 		display: grid;
 		padding: 0.5rem;
 
-		&:first-of-type {
-			translate: 0 2rem;
-		}
-		&:last-of-type {
-			translate: 0 -2rem;
-		}
 		> img {
 			object-fit: cover;
 			border-radius: 8px;
@@ -130,11 +124,6 @@ a {
 			overflow: visible;
 			display: flex;
 			flex-direction: column;
-
-			&:first-of-type,
-			&:last-of-type {
-				translate: unset;
-			}
 		}
 	}
 
