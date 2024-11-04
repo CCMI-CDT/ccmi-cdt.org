@@ -1,11 +1,13 @@
 ---
 title: "Aligned diffusion models for machine learning"
-institution: "Imperial"
-department: "Mathematics"
-author: "Laura Beer"
-date: "10/18/2024"
-advisor: "Dr Felipe Tobar"
 
+department: "Mathematics"
+
+date: "10/18/2024"
+author: 
+    name: "Dr Felipe Tobar"
+    affiliation: "Imperial"
+institution: "Imperial"
 ---
 ## Project Description
 

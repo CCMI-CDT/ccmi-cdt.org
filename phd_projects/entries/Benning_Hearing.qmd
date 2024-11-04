@@ -1,11 +1,13 @@
 ---
 title: "Improving impaired hearing through sound reconstruction from neural activity patterns"
-institution: "UCL"
-department: "Computer Science"
-author: "Laura Beer"
-date: "10/02/2024"
-advisor: "Prof Martin Benning"
 
+department: "Computer Science"
+
+date: "10/02/2024"
+author: 
+    name: "Prof Martin Benning"
+    affiliation: "UCL"
+institution: "UCL"
 ---
 ## Project Description
 

@@ -1,11 +1,13 @@
 ---
 title: "Mathematical and Computational Modeling of Resilience in Multilayer Networks"
-institution: "Imperial"
-department: "Computing"
-author: "Timo Betcke"
-date: "10/20/2024"
-advisor: "Dr. Giuliano Casale and Prof. Emil Lupu"
 
+department: "Computing"
+
+date: "10/20/2024"
+author: 
+    name: "Dr. Giuliano Casale and Prof. Emil Lupu"
+    affiliation: "Imperial"
+institution: "Imperial"
 ---
 ## Project Description
 

@@ -1,11 +1,13 @@
 ---
 title: "A Unified Form Language for PDEs in non-divergence form"
-institution: "UCL"
-department: "Mathematics"
-author: "Laura Beer"
-date: "10/02/2024"
-advisor: "Dr Max Jensen"
 
+department: "Mathematics"
+
+date: "10/02/2024"
+author: 
+    name: "Dr Max Jensen"
+    affiliation: "UCL"
+institution: "UCL"
 ---
 ## Project Description
 

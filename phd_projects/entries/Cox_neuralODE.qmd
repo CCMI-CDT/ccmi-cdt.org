@@ -1,11 +1,13 @@
 ---
 title: "Time Reversal Imaging and Learned Physics with Neural ODEs"
-institution: "UCL"
-department: "Medical Physics and Biomedical Engineering"
-author: "Laura Beer"
-date: "10/02/2024"
-advisor: "Prof Ben Cox"
 
+department: "Medical Physics and Biomedical Engineering"
+
+date: "10/02/2024"
+author: 
+    name: "Prof Ben Cox"
+    affiliation: "UCL"
+institution: "UCL"
 ---
 ## Project Description
 

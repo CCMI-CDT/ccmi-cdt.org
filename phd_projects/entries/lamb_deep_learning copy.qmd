@@ -1,10 +1,13 @@
 ---
 title: "Deep learning with symmetry"
-institution: "Imperial"
+
 department: "Mathematics"
-author: "Timo Betcke"
+
 date: "10/18/2024"
-advisor: "Prof Jeroen Lamb"
+author: 
+    name: "Prof Jeroen Lamb"
+    affiliation: "Imperial"
+institution: "Imperial"
 ---
 
 ### Project Description

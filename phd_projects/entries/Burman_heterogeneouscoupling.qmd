@@ -1,11 +1,13 @@
 ---
 title: "A computational framework for heterogeneous coupling in large scale computations"
-institution: "UCL"
-department: "Mathematics"
-author: "Laura Beer"
-date: "10/02/2024"
-advisor: "Prof Erik Burman"
 
+department: "Mathematics"
+
+date: "10/02/2024"
+author: 
+    name: "Prof Erik Burman"
+    affiliation: "UCL"
+institution: "UCL"
 ---
 ## Project Description
 

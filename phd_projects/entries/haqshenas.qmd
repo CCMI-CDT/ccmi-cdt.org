@@ -1,11 +1,13 @@
 ---
 title: "High-performance solver for ultrasound propagation in mixed domains with complex fluid and solid materials"
-institution: "UCL"
-department: "Mechanical Engineering"
-author: "Timo Betcke"
-date: "10/11/2024"
-advisor: "Dr Reza Haqshenas"
 
+department: "Mechanical Engineering"
+
+date: "10/11/2024"
+author: 
+    name: "Dr Reza Haqshenas"
+    affiliation: "UCL"
+institution: "UCL"
 ---
 ## Project Description
 
@@ -19,7 +21,7 @@ scenarios relating to treating cancers of the liver and kidney, as well as osteo
 OptimUS featured as part of an international software benchmarking exercise for ultrasound
 transcranial neuromodulation, overseen by the International Transcranial Ultrasonic Stimulation
 Safety and Standards. The OptimUS library is being used in biomedical ultrasound research in
-academic institutions worldwide as well as a pedagogical tool for undergraduate and
+academic affiliations worldwide as well as a pedagogical tool for undergraduate and
 postgraduate students.
 The current BEM formulations in OptimUS assume that domains exhibit fluid-like properties. This
 gives us accurate prediction of ultrasound propagation in soft tissues (e.g. the liver and kidney).

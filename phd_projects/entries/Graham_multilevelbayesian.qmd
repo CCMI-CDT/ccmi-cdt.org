@@ -1,11 +1,13 @@
 ---
 title: "Automated Bayesian inference in stochastic differential equation models"
-institution: "UCL"
-department: "Advanced Research Computing Centre"
-author: "Laura Beer"
-date: "10/02/2024"
-advisor: "Dr Matt Graham"
 
+department: "Advanced Research Computing Centre"
+
+date: "10/02/2024"
+author: 
+    name: "Dr Matt Graham"
+    affiliation: "UCL"
+institution: "UCL"
 ---
 ## Project Description
 

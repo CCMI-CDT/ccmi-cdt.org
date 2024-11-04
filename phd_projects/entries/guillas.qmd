@@ -1,11 +1,13 @@
 ---
 title: "The propagation of uncertainties across coupled climate models"
-institution: "UCL"
-department: "Statistics"
-author: "Timo Betcke"
-date: "10/20/2024"
-advisor: "Prof Serge Guillas"
 
+department: "Statistics"
+
+date: "10/20/2024"
+author: 
+    name: "Prof Serge Guillas"
+    affiliation: "UCL"
+institution: "UCL"
 ---
 ## Project Description
 

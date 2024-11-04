@@ -1,11 +1,11 @@
 ---
 title: "All-at-once deep learning methods for nonlinear PDE based inverse problems"
-institution: "UCL"
 department: "Computer Science"
-author: "Laura Beer"
 date: "10/02/2024"
-advisor: "Prof Marta Betcke"
-
+author: 
+    name: "Prof Marta Betcke"
+    affiliation: "UCL"
+institution: "UCL"
 ---
 ## Project Description
 

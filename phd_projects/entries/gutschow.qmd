@@ -1,10 +1,12 @@
 ---
 title: UCL - Scalable Collider Data Analysis with Optimised Predictions and Machine-Learning Anomaly Detection
-institution: UCL
+
 department: "Advanced Research Computing"
-author: "Timo Betcke"
+
 date: 10/18/2024
-advisor: Christian Gutschow
+author: 
+    name: Christian Gutschow
+    affiliation: UCL
 ---
 
 ## Existing background work

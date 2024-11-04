@@ -33,56 +33,36 @@ gallery-images:
 
 ---
 
-<div class="container-fluid px-0 column-page page-full" id="index-wrapper">
-
-<div id="blog-events-wrapper">
-<div id="blog">
-</div>
-<br>
-<div id="current-events">
-</div>
-</div>
-
-<br>
-
+<div class="container-fluid px-0 page-full" id="index-wrapper">
 
 <section id="gallery">
-<div id="introCarousel" class="carousel slide" data-bs-ride="carousel">
-<div class="carousel-indicators">
-<button type="button" data-bs-target="#introCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-<button type="button" data-bs-target="#introCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-</div>
-
-<div class="carousel-inner">
-
-<div class="carousel-item active">
-![]({{< meta gallery-images.image1.image >}}){.d-block .w-100 group="intro-gallery" fig-alt="UCL Quad"}
-<div class="carousel-caption d-none d-sm-block">
+<div class="gallery__inner">
+<div class="gallery__item">
+![]({{< meta gallery-images.image1.image >}}){.d-block .w-100 group="intro-gallery" fig-alt="Image of UCL Quad"}
+<div class="gallery__item__caption d-sm-block">
 <p>{{< meta gallery-images.image1.text >}}</p>
 </div>
 </div>
-<div class="carousel-item">
-![]({{< meta gallery-images.image2.image >}}){.d-block .w-100 group="intro-gallery" fig-alt="Imperial College"}
-<div class="carousel-caption d-none d-sm-block">
+<div class="gallery__item">
+![]({{< meta gallery-images.image2.image >}}){.d-block .w-100 group="intro-gallery" fig-alt="Image of Imperial College"}
+<div class="gallery__item__caption d-sm-block">
 <p>{{< meta gallery-images.image2.text >}}</p>
 </div>
 </div>
 
 </div>
 
-<button class="carousel-control-prev" type="button" data-bs-target="#introCarousel" data-bs-slide="prev">
-<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Previous</span>
-</button>
-<button class="carousel-control-next" type="button" data-bs-target="#introCarousel" data-bs-slide="next">
-<span class="carousel-control-next-icon d-none d-sm-block" aria-hidden="true"></span>
-<span class="visually-hidden">Next</span>
-</button>
+</section>
 
+<section id="blog-events-wrapper">
+<div id="blog">
+</div>
+<br>
+<div id="current-events">
 </div>
 </section>
-</div>
 
+<br>
 
 <section id="key-facts" class="column-page page-full pt-3">
 <h1 class="key-facts__heading display-1">KEY FACTS</h1>
@@ -97,11 +77,11 @@ gallery-images:
 <section id="interest" class="column-page page-full">
 <h1 class="d-flex justify-content-center display-1 fw-bolder">Interested?</h1>
 <div class="d-flex flex-column justify-content-center align-items-center row-gap-4">
-<a href="https://forms.office.com/e/i2jpkQu0Lm" type="button" class="btn btn-outline-info my-3 w-50" id="btn--signup">
+<a href="https://forms.office.com/e/i2jpkQu0Lm" type="button" class="btn btn-outline my-3" id="btn--signup">
 <span class="display-6">Sign Up Now</span>
 </a>
-<div class="d-flex justify-content-evenly w-75">
-<!-- <div>
+<!--<div class="d-flex justify-content-evenly w-75">
+ <div>
 <a type="button" class="btn btn-outline-light " id="btn-outline--custom">
 Read About Our Research
 </a>
@@ -114,3 +94,5 @@ Read About Our Software
 </div>
 
 </section>
+
+</div>

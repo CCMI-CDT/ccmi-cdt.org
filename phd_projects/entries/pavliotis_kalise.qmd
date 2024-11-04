@@ -1,10 +1,13 @@
 ---
 title: "Optimal control methods for agent-based models"
-institution: "Imperial"
+
 department: "Mathematics"
-author: "Timo Betcke"
+
 date: "10/18/2024"
-advisor: "Prof Greg Pavliotis and Dr Dante Kalise"
+author: 
+    name: "Prof Greg Pavliotis and Dr Dante Kalise"
+    affiliation: "Imperial"
+institution: "Imperial"
 ---
 
 ## Project Description

@@ -1,11 +1,13 @@
 ---
 title: "Simulation-based Inference for Expensive Scientific Simulators"
-institution: "UCL"
-department: "Statistical Science"
-author: "Laura Beer"
-date: "10/02/2024"
-advisor: "Dr.Francois-Xavier Briol"
 
+department: "Statistical Science"
+
+date: "10/02/2024"
+author: 
+    name: "Dr.Francois-Xavier Briol"
+    affiliation: "UCL"
+institution: "UCL"
 ---
 ## Project Description
 

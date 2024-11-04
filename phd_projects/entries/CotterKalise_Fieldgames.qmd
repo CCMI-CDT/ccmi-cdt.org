@@ -1,11 +1,13 @@
 ---
 title: "A Unified Solver for Optimal Transport, Schroedinger Bridges, and Variational Mean Field Games"
-institution: "Imperial"
-department: "Mathematics"
-author: "Laura Beer"
-date: "10/02/2024"
-advisor: "Prof Colin Cotter and Dr. Dante Kalise"
 
+department: "Mathematics"
+
+date: "10/02/2024"
+author: 
+    name: "Prof Colin Cotter and Dr. Dante Kalise"
+    affiliation: "Imperial"
+institution: "Imperial"
 ---
 ## Project Description
 
