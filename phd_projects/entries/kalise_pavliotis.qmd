@@ -3,6 +3,7 @@ title: "Taming Time and Dimension: Advanced Scientific Computing for Next-Genera
 author: 
     name: "Dr Dante Kalise Prof Greg Pavliotis "
     affiliation: "Imperial"
+institution: "Imperial"
 department: "Mathematics"
 date: "10/20/2024"
 ---
