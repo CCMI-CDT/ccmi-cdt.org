@@ -40,7 +40,7 @@ a {
 	}
 }
 
-ul > li {
+ul:not(.navbar-nav) > li {
 	margin-bottom: 0.8rem;
 }
 
