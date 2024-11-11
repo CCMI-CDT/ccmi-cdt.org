@@ -1,0 +1,71 @@
+---
+title: "Developing multi-physics, multi-scale wave modelling on graphics cards"
+
+department: "Mechanical Engineering"
+
+date: "10/11/2024"
+author: 
+    name: "Dr Peter Huthwaite"
+    affiliation: "Imperial"
+institution: "Imperial"
+---
+## Project Description
+
+The use of the time-explicit FE method for simulating ultrasound in
+many engineering components has been demonstrated to be accurate for
+propagation within metals, and the use graphics cards such as through
+software packages like Pogo (developed in the Imperial NDE group)
+enables the algorithm to be solved efficiently. The goal of this work
+is to improve the accuracy in more complex scenarios, where both
+multi-scale and multi-physics behaviour become important. An example
+of this is ultrasound within human tissue, where there are a wide
+range of scales from the body itself down to sub-cell structures, and
+with properties vary from liquid to solid (supporting shear and
+longitudinal waves) with variable complex anisotropy and periodic
+structures. The intention here is to develop an efficient integrated
+solution for simulating wave interaction with such
+structures. Development of multi-physics will enable more complex
+physical behaviour to be captured enabling greater understanding of
+various phenomena, such as the low speed shear wave (1-3m/s) seen in
+tissue and used for elastography (compared to the 1500m/s for the
+longitudinal wave of general interest). This also has applications in
+the emulsions and structures used in batteries, an important new
+application of ultrasound, to test battery integrity.
+
+
+### Existing background work
+
+This will build upon the Pogo software package, which has been used
+for simulating ultrasound within NDE (Non-Destructive Evaluation) for
+over 10 years and is now used throughout the world in industry and
+academia.
+
+Dr Huthwaite has extensive experience with a variety of approximations
+for simulating waves in different materials, including ray theory
+(eikonal equation) and Born approximation-type approaches, as well as
+developing the FE method on graphics cards. He has been involved in
+techniques to model complex solid media such as large-grained
+material, developing models of over 1 billion degrees of freedom.
+Some multi-scale work has been done in the broader research community,
+typically with small-scale evaluations to estimate homogenised
+properties, which are then used for larger simulations. Multi-physics
+approaches have also been utilised and are common in areas such as
+transduction where different phenomena need to be coupled, but
+integrating these with multi-scale techniques presents a new
+challenge.
+
+### Main objectives of the project
+
+Deliver an efficient approach for accurate modelling of wave
+propagation through multiscale, multi-physics problems.  Apply the
+method to propagation through complex structures, such as tissue, and
+ideally compare to experimental measurements.
+
+### Details of Software/Data Deliverables
+
+
+The outcomes will be incorporated into the Pogo software package for
+application across a variety of areas including NDE, medicine and
+underwater ultrasound.  Describe coding and data developments during
+the project.  Specific techniques will need to be developed to code
+the method to achieve results without compromising GPU performance.
