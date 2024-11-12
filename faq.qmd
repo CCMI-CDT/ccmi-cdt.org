@@ -1,0 +1,157 @@
+---
+title: Frequenty Asked Questions
+---
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## What is CCMI?
+
+CCMI stands for Collaborative Computational Modelling at the Interface. Our vision is to train a future generation of scientists working at the interface of physics driven modelling, data driven modelling and research software engineering. Our trainees will move fluently across these interfaces, understanding their interdependencies to build the next generation of simulations and translate them to impacts in industry and society.
+:::
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## What is a CDT?
+
+CDT stands for ‘Centre for Doctoral Training’, where Universities, and their partners, come together to offer combined research and expertise to support and train PhD students.
+By undertaking your PhD in a CDT, you’ll be part of a prestigious cohort that will study together within a structured programme, providing a supportive and collaborative environment. You’ll join a thriving group and carry out your research alongside people from different backgrounds, with different perspectives.
+:::
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## How will a PhD from the CCMI CDT benefit my career?
+
+You will receive cutting edge training on the interface of data sciences, simulation, and research software engineering, opening up careers across research and engineering, the financial sector, tech companies, and anywhere that data and simulations are relevant. Your software skills will make you a highly sought after candidate for any development role and provide an advantage over many other data or simulation oriented PhD level training programmes.
+:::
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## How long is the programme?
+
+The programme is available as a 4 year, full time programme.
+
+There is an option to study part time. This is available to postgraduate researchers that do not need a student visa to study in the UK. Please contact us before applying if you are interested in part time study, as schedules will be built on a case by case basis.
+:::
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## How many students will there be in each cohort?
+
+There will be approximately 14 students per cohort, starting in September each year of admission. These studentships will be evenly distributed across UCL and Imperial.
+
+There will be a total of approximately 70-80 students, over a 5 year period.
+:::
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## When will the PhD Programme start?
+
+The first cohort in the CCMI CDT will start in September 2025.
+
+:::
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## Are these PhD opportunities funded? What is the stipend payment?
+
+Yes, postgraduate researchers at the CCMI CDT will receive a full 4 year studentship (pro-rata for part-time students)
+
+To cover living expenses, the UKRI rate (London-weighted) doctoral stipend, plus an additional £2,000 top-up, will be paid to postgraduate researchers each year, in regular instalments. The UKRI stipends tend to increase each year with inflation. The stipend for 2025/2026 will be confirmed in Spring 2025, but is estimated to be £21,870, giving a total estimated stipend of £23,870 including top-up.  For more information on UKRI stipends, please visit their [website](https://www.ukri.org/apply-for-funding/studentships-and-doctoral-training/get-a-studentship-to-fund-your-doctorate/#contents-list).
+
+Annual tuition will be paid and there is funding available to support research training costs such as conference attendance.
+
+For additional information on the cost of studying in London, please visit the [UCL website](https://www.ucl.ac.uk/scholarships/how-much-does-it-cost-study-ucl).
+:::
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## Do I need to choose a topic for my PhD research?
+
+No, you don’t need to contact a supervisor before applying.
+Unlike more traditional approaches to applying for a PhD, if you are interested in applying for the CCMI CDT, you are not required or expected to contact anyone about project supervision.
+
+Please see the [list of projects](phd_projects/phd_project_list.qmd) that are offered. If you pass the interview stage, we will hold an open day for you to learn more about the project areas on offer and we will ask you to submit which projects/research areas you are interested in. You will then have a chance to meet with supervisors to discuss projects.
+:::
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## How is the programme structured?
+
+The CCMI CDT programme rests on 3 foundations - a 4 year research thesis, collaborative interface working groups and a software journey.
+For more information about the structure of the programme, please visit our [Training Programme](training/training.qmd) pages
+:::
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## Will I get any industrial experience?
+
+Not all projects will automatically include industry experience. Some projects, co-sponsored by external industry partners, will have an expected placement at the partner institution as an integral part of the research.  Some projects may also require students to work elsewhere as part of their research. This will be determined individually, as per the corresponding research projects and will form a component of the thesis.
+
+Whilst internships are not a mandatory component of the CDT, we do encourage and support students who are interested in industry experience. We welcome this discussion as part of your project matching, should you pass the interview stage of the application.
+:::
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## What are the entry requirements to apply?
+
+A UK Master's degree in a relevant discipline with Merit, or a minimum of an upper second-class UK Bachelor's degree in a relevant discipline, or an overseas qualification of an equivalent standard. Work experience may also be taken into account.
+
+Relevant disciplines are broadly STEM subjects (Science, Technology, Engineering, Mathematics). Related disciplines at the interface of STEM may be acceptable. During the application stage, we will assess the suitability of your technical background.
+
+The English language level for this programme is:  [Level 1](https://www.ucl.ac.uk/prospective-students/graduate/english-language-requirements).
+:::
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## I already have a PhD qualification, can I still apply?
+
+Yes, you can apply for the CCMI CDT if you already have obtained a PhD.
+:::
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## What funding rules do I need to be aware of?
+
+There are residence requirements for postgraduate research funding from Engineering and Physical Sciences Research Council (EPSRC).
+UKRI-funded studentships are open to UK (home) and international students.
+To be considered a ‘home’ student, you must meet one of the following criteria set out by UKRI:
+
+- be a UK national
+- have settled status
+- have pre-settled status
+- have indefinite leave to remain or enter.
+
+Additionally, you will need to meet specified residency requirements. The decision about fee status will be taken by the host university before a formal offer is made.
+If a candidate does not meet any of the above criteria, they will be classified as an international student.
+International applicants are eligible for tuition fees at the UK rate and a stipend at the UKRI rate. Some scholarships to cover the difference to full overseas tuition rates may be available and are given out on a competitive basis. However, there are restrictions on the number of overseas applicants funded through the CDT.
+
+We encourage applications from international candidates, but please be aware that there is typically strong competition within universities for this limited funding.
+
+Normally, to be eligible for a full award from the EPSRC, a student must a) have no restrictions on how long they can stay in the UK and b) have been ordinarily resident in the UK for at least 3 years prior to the start of the studentship. For more details visit the [UKRI website](https://www.ukri.org/what-we-do/developing-people-and-skills/esrc/funding-for-postgraduate-training-and-development/eligibility-for-studentship-funding/).
+:::
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## How do I apply?
+
+The application procedure consists of 4 stages: The Online Application, Interview, Project Matching, and pro-forma application for document and fee status check. Please see full details of our application process at our [Application Procedure](application_procedure.qmd) page. If applications are not yet open, but you would like to be notified when they are, please do register your interest and we will notify you when applications open.
+:::
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## Do I need to submit a research proposal or choose supervisor when I apply?
+
+No. Before you apply, we would ask you to review the projects on offer at the [‘Projects’](phd_projects/phd_project_list.qmd) page on our website.
+
+If you pass the interview stage of the application process, you will have the opportunity to learn more about our projects and supervisors. You will be asked submit your top three preferred projects so we can understand your research interests.  You will then meet potential supervisors one on one during our supervisor matching process.
+:::
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## I haven’t yet graduated from my current university course, can I still apply?
+
+Yes. At the initial application stage we will ask you about qualifications you have already achieved, your current studies and predicted grades. If successful at interview and project matching, you would be made an offer which is conditional upon the outcome of your current studies.
+:::
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## Do I need to upload references when I apply?
+
+We do not ask for references at the initial application stage. If you reach the offer stage, you will then be asked to supply references. References will be submitted after project matching, directly to  UCL or Imperial, with your pro-forma application.
+:::
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## When will the interviews take place?
+
+We are planning a first round of interviews in January 2025 with a second round later in March 2025 for remaining places.
+Please check the [Apply](apply.qmd) page for more information as dates are finalised. We will communicate the deadlines as soon as possible to everyone who has signed-up for updates from the CDT.
+:::
+
+::: {.callout-note collapse="true" .callout-note appearance="minimal"}
+## When will I know if my application has been successful?
+
+Should you be invited to interview, we would aim to inform you of the outcome of the interview within a week.
+:::

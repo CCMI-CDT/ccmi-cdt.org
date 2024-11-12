@@ -28,6 +28,9 @@ website:
       - text: Blog
         file: blog/blog_list.qmd
 
+      - text: FAQ
+        file: about/faq.qmd
+
       - text: About
         menu:
           - text: Our Leadership Team
