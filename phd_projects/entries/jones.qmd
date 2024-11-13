@@ -1,0 +1,73 @@
+---
+title: "Smart Image-Based Sensor Optimisation for Fusion Simulation Validation"
+
+department: "Mathematics"
+
+date: "10/20/2024"
+author: 
+    name: "Prof Nick Jones"
+    affiliation: "Imperial"
+institution: "Imperial"
+
+---
+## Project Description
+
+The aim of this project is o understand how mtDNA mutations accumulate
+in our cells, and what their effects are, using a mix of simulation,
+inference and machine learning.
+
+### Existing background work
+
+We have been investigating (genetic) variation in cellular power
+stations (mitochondria) using a mix of ideas from stochastic
+population processes/statistical genetics, statistical physics,
+statistical inference/machine learning and control. Our goal is to
+understand human ageing and to inform therapies to combat disease. We
+believe this is a particularly exciting area to study for two
+reasons. Not only does 1) mitochondrial (dys)function have deep
+connections to therapies for conditions like Parkinsons, Diabetes,
+ageing and Cancer (and we are working on these) it is 2) a topic that,
+though poorly understood, is susceptible to the very basic (though
+mathematically nuanced) models that one constructs in theoretical and
+mathematical physics/ statistical genetics. This is an area where
+students can explore a new scientific direction since the medical
+promise and scientific opportunities easily exceed the number of
+theorists. Students can develop new evolutionary theory while also
+contributing to therapeutic design. We place a substantial emphasis on
+single-cell sequencing and single-cell transcriptomics (these are
+among the most active areas of modern biomedicine): this involves
+aspects of machine learning and bioinformatics. We build stochastic
+models that link to the results of our inference from the
+transcriptomics. We also link information about cellular state to
+cellular mutational state using tools from (Bayesian) Machine
+Learning. The applicant will have an opportunity to participate in a
+large project with the Cambridge experimental groups of Profs Patrick
+Chinnery and Maria Spillantini on Parkinson's disease and
+mitochondria. Our work will build on our recent paper: 'Cryptic
+mitochondrial ageing coincides with mid-late life and is
+pathophysiologically informative in single cells across tissues and
+species' https://www.biorxiv.org/content/10.1101/2023.07.04.547509v1
+
+
+### Main objectives of the project
+
+Exemplar objectives would be to:
+
+Search for evidence for selection of mutated mtDNA
+
+Discover whether epigenetics or mtDNA mutations are better associated with ageing
+
+Develop causal inference tools linking mtDNA mutations to gene-expression
+
+Simulate mutation accumulation in single cells and in tissues
+
+
+### Details of Software/Data Deliverables
+
+Data analysis: machine learning linking mtDNA mutation and gene
+expression; causal inference linking mutations and genes;
+(Approximate) Bayesian inference fitting stochastic models for
+mutations
+
+Simulation: forward-simulating mutation accumulation in cellular
+populations and simulations.
