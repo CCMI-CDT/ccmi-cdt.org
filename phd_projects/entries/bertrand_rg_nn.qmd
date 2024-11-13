@@ -1,0 +1,95 @@
+---
+title: "Renormalisation Group Perspective on Neural Networks"
+
+department: "Mathematics"
+
+date: "10/11/2024"
+author: 
+    name: "Dr Thibaut Bertrand and Dr Gunnar Pruesnner"
+    affiliation: "Imperial"
+institution: "Imperial"
+---
+## Project Description
+
+While machine learning models have by now invaded our daily lives, we
+are still crucially lacking a good understanding of the reason why
+they prove to be so powerful. A case in point is that of artificial
+neural networks which were originally built to mimic neuronal
+organization in living systems but have since taken a life of their
+own, so to speak.
+
+To mathematical physicists, some of the key concepts in artificial
+neural networks are reminiscent of the concepts of the renormalisation
+group that has revolutionised the thinking in statistical physics in
+the 1970s. Neural networks turn a complex input in the form of data
+into coarse grained information, say, data classification. In the
+renormalisation group, fast, fine, detailed degrees of freedom are
+integrated out to be absorbed into the couplings in an effective
+theory governing a given system on a coarser scale.
+
+Within the statistical mechanics community the relationship between
+machine learning models (more particularly neural networks) and the
+renormalisation group has been studied from different perspectives
+[1]: (1) for example using neural networks to extract the relevant
+physics and calculate quantities normally derived in a renormalisation
+procedure [2,3] but also (2) in order to follow the process of
+information coarse-graining in machine learning [4,5].
+
+[1] C Beny (2013), Deep learning and the renormalization group,
+https://arxiv.org/abs/1301.3124
+
+[2] Z Li, M Luo and X Wan (2019), Extracting critical exponents by
+finite-size scaling with convolutional neural networks, Phys Rev B 99
+075418, https://journals.aps.org/prb/pdf/10.1103/PhysRevB.99.075418
+
+[3] M Koch-Janusz and Z Ringel (2018), Mutual information, neural
+networks and the renormalization group, Nat Phys 14 578,
+https://www.nature.com/articles/s41567-018-0081-4
+
+[4] A Nguyen and K Howe (2019), Learning Renormalization with a
+Convolutional Neural Network, Second Workshop on Machine Learning and
+the Physical Sciences (NeurIPS 2019), Vancouver, Canada,
+https://ml4physicalsciences.github.io/2019/files/NeurIPS_ML4PS_2019_148.pdf
+
+[5] J Erdmenger, K T Grosvenor and R Jefferson (2022), Towards
+quantifying information flows: Relative entropy in deep neural
+networks and the renormalization group, SciPost Phys. 12, 041,
+https://scipost.org/SciPostPhys.12.1.041/pdf
+
+### Existing background work
+
+
+
+### Main objectives of the project
+
+In the present project, we will explore the intimate link between the
+renormalisation group and neural networks (including convolutional and
+deep neural networks). We will study how information flows under the
+renormalisation group procedure and the application of deep neural
+networks. Here, rather than applying machine learning techniques to
+extract potentially relevant information from models in statistical
+mechanics, we will use the mathematical framework behind the
+renormalisation group theory to gain a deeper understanding of neural
+networks, even though we expect our approach may draw on the former
+perspective. We will use canonical models in statistical mechanics and
+observe how convolutional neural network extract information,
+following the information flow through the hidden layers. Armed with
+this newfound understanding, we will consider how neural networks can
+in turn help us predict and study phase transitions and criticality in
+statistical mechanics models which are not easily amenable to
+renormalisation group methods.
+
+### Details of Software/Data Deliverables
+
+The success of this project will rely on the development of:
+
+
+1. numerical algorithms for a large-scale computational exploration of
+a variety of systems in statistical mechanics;
+
+2. analytical and computational renormalisation group procedures for a
+variety of canonical models in statistical mechanics;
+
+3. purpose-built, scalable and adaptable software implementing a
+number of neural network architectures which may involve both CPU and
+GPU implementations.
