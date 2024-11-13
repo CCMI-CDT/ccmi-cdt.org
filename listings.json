@@ -23,6 +23,7 @@
   {
     "listing": "/phd_projects/phd_project_list.html",
     "items": [
+      "/phd_projects/entries/jones.html",
       "/phd_projects/entries/kalise_pavliotis.html",
       "/phd_projects/entries/duncan.html",
       "/phd_projects/entries/casale_lupu.html",
@@ -38,6 +39,7 @@
       "/phd_projects/entries/gelat.html",
       "/phd_projects/entries/salvi_backpropagation.html",
       "/phd_projects/entries/zhang_reinforcement_learning.html",
+      "/phd_projects/entries/bertrand_rg_nn.html",
       "/phd_projects/entries/cotter_parallel_time.html",
       "/phd_projects/entries/hethernington2.html",
       "/phd_projects/entries/hetherington1.html",
