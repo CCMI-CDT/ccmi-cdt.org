@@ -29,7 +29,7 @@ website:
         file: blog/blog_list.qmd
 
       - text: FAQ
-        file: about/faq.qmd
+        file: faq.qmd
 
       - text: About
         menu:
