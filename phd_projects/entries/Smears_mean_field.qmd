@@ -1,0 +1,23 @@
+---
+title: "Numerical methods for Mean Field Games"
+
+department: "Mathematics"
+
+date: "11/13/2024"
+author:
+    name: "Dr Iain Smears"
+    affiliation: "UCL"
+institution: "UCL"
+---
+## Project Description
+
+Mean field games are game theoretical models for large populations of players subject to stochastic dynamics, and find application in many fields of industrial, societal, and economic interest. Mathematically, the Nash equilibria of the game are characterized by a coupled system of nonlinear partial differential equations, involving a Hamilton--Jacobi--Bellman (HJB) equation coupled with a Kolmogorov--Fokker--Planck (KFP) equation.  The mathematical theory of these problems is incredibly rich by tying together PDE theory, numerical analysis, game theory, convex analysis, stochastic processes and control theory. MFG have attracted significant interest owing to the combination of several analytical and numerical challenges, including the lack of a variational formulation for general couplings, the lack of coercivity or monotonicity properties of the operators, the nonlocality of the couplings, the coupled forward-backward structure of the time-dependent problem.
+
+The group of the principal supervisor has made significant progress in the development and analysis of numerical methods for nonlinear partial differential equations, including Hamilton-Jacobi-Bellman equations and Mean Field Game systems, for a range of numerical methods including conforming and nonconforming methods, stabilized, high-order and/or adaptive methods. A recent advance in the field has been the discovery that, in general, the nonuniqueness of the optimal controls for the players of the game can lead to Nash equilibria with more complex structures, in particular asymmetry in player strategies despite the symmetry of the game.  In such cases, the MFG system can no longer be understood as a partial differential *equation* but instead must be understood as a partial differential *inclusion* for nonlinear set-valued differential operators. In recent work we have developed finite element methods with a complete convergence proof for the full space-time problem with nonlocal and nonlinear couplings. In the case of steady-state problems with regular Hamiltonians, we have also given the first proof of quasi-optimal convergence for any family of numerical methods.
+
+Even with recent progress, there are many important challenges challenges remaining that can form the basis for the project. These include the need for developing novel nonlinear stabilization/flux limiting techniques that guarantee structure preservation and also dualities between components of the system. There is also the need for novel solution algorithms for the fully coupled space-time system. Finally there is a need for novel methods including regularization and approximations for handling the set-valued operators in the inclusions.
+
+
+### Details of Software/Data Deliverables
+
+The software deliverables include the development of novel discretization methods and efficient solvers, and integration into numerical software packages such as Firedrake, NGSolve, etc, or as standalone open-source packages in a suitable language. The software would provide the numerical community with novel discretization techniques, and also provide the wider scientific community with effective new tools for modelling and simulating new and important applications of MFG.
