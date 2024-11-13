@@ -1,5 +1,26 @@
 [
   {
+    "listing": "/index.html",
+    "items": [
+      "/blog/posts/blogpost1.html",
+      "/blog/posts/nobel_prizes.html",
+      "/events/posts/open_day.html"
+    ]
+  },
+  {
+    "listing": "/events/event_list.html",
+    "items": [
+      "/events/posts/open_day.html"
+    ]
+  },
+  {
+    "listing": "/blog/blog_list.html",
+    "items": [
+      "/blog/posts/blogpost1.html",
+      "/blog/posts/nobel_prizes.html"
+    ]
+  },
+  {
     "listing": "/phd_projects/phd_project_list.html",
     "items": [
       "/phd_projects/entries/kalise_pavliotis.html",
@@ -12,6 +33,7 @@
       "/phd_projects/entries/gutschow.html",
       "/phd_projects/entries/lamb_deep_learning copy.html",
       "/phd_projects/entries/Tobar_diffusion_models.html",
+      "/phd_projects/entries/huthwaite.html",
       "/phd_projects/entries/haqshenas.html",
       "/phd_projects/entries/gelat.html",
       "/phd_projects/entries/salvi_backpropagation.html",
@@ -54,27 +76,6 @@
       "/phd_projects/entries/Kovalchuk_healthcare.html",
       "/phd_projects/entries/Benning_Paralift.html",
       "/phd_projects/entries/burman_inverse.html"
-    ]
-  },
-  {
-    "listing": "/blog/blog_list.html",
-    "items": [
-      "/blog/posts/blogpost1.html",
-      "/blog/posts/nobel_prizes.html"
-    ]
-  },
-  {
-    "listing": "/events/event_list.html",
-    "items": [
-      "/events/posts/open_day.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/blog/posts/blogpost1.html",
-      "/blog/posts/nobel_prizes.html",
-      "/events/posts/open_day.html"
     ]
   },
   {
