@@ -1,0 +1,90 @@
+---
+title: "Particles for Fusion"
+
+department: "Mathematics"
+
+date: "11/21/2024"
+author: 
+    name: "Prof David Ham (with UKAEA cosupervision)"
+    affiliation: "Imperial"
+institution: "Imperial"
+
+---
+## Project Description
+
+One of the grand challenge problems in fusion energy is modelling
+plasma in the edge region of a donut-shaped fusion reactor called a
+tokamak. In this edge region, hot plasma interfaces with the reactor
+wall and cold neutral gas resulting in a computationally expensive
+multi-scale problem that is an exascale computing challenge. This edge
+region exists between the core plasma, one of the hottest places in
+the solar system, and a container wall, which we would like to not
+melt. Hot plasma and cold neutral particles are both considered to be
+collisionless and are modelled using a "kinetic" discretisation
+comprising a large number of moving particles. Additional quantities,
+such as electromagnetic fields and cooler collisional fluid plasma,
+maybe modelled using finite element representations.
+
+A simulation of plasma may couple a turbulent fluid model for certain
+plasma species with a particle model for other species within the same
+computational domain. The resulting simulation is very computationally
+expensive and requires algorithms to be efficiently implemented on
+modern HPC hardware. However the exact equations and discretisations
+which model the edge region plasma are themselves an active area of
+research. What is required is the ability to formulate highly
+sophisticated coupled particle-mesh simulation software, capable of
+fully exploiting high performance computing facilities but retaining
+the flexibility to revise fundamental mathematical decisions without
+massive recoding. This project will achieve this by extending the
+Firedrake automated finite element system to mathematically and
+computationally support massive swarms of rapidly moving particles
+interacting with field variables stored on a finite element mesh. The
+work will span numerical mathematics, scientific computing and
+algorithmic differentiation (AD) to contribute a simulation capability
+unmatched in any current system.
+
+### Existing background work 
+
+Traditional numerical PDE solvers are based on low-level code written
+in compiled languages such as C, C++, or Fortran. The code is far from
+the high level mathematical description of the problem that
+mathematicians, scientists and engineers formulate. Every change to
+the equations, discretisations, or implementation requires painstaking
+work in large code bases, with mathematics, performance engineering
+and parallelism all exposed at the same level. Progress is slow,
+error-prone and tedious. In contrast, the Firedrake automated finite
+element system (https://firedrakeproject.org) takes a radically
+different approach. Users write high level mathematical code closely
+reflecting the differential equations they are solving in Python. The
+high performance parallel implementation is be automatically generated
+as the code runs. The effect is that high performance simulations can
+be written in tens to hundreds of lines of code, in place of tens to
+hundreds of thousands of lines. Sophisticated mathematical approaches
+which are so complex as to be intractable for many researchers become
+straightforward because the user is freed from having to implement
+them themselves.
+
+### Main objectives of the project
+
+To extend Firedrake to performantly deal with particles coupled to
+finite element simulations on high performance computing systems.
+
+To demonstrate and evaluate this performance using challenging test
+problems relevant to the simulation of fusion power generation
+systems.
+
+### Details of Software/Data Deliverables
+
+A key deliverable of this project will be a high performance
+Lagrangian particle capability in the Firedrake automated finite
+element system. The particle capability will be fully integrated in
+Firedrake’s high level mathematical abstraction, enabling users to
+formulate complex PDE-particle coupled systems with minimal code. Both
+particle trajectories and interpolation operators between the
+particles and PDE fields will be differentiable, thereby enabling the
+solution of inverse problems such as data assimilation and optimal
+design. The code will be released in Firedrake and will become
+available to Firedrake’s thousands of users worldwide. This project
+combines the development of novel computational mathematics with the
+opportunity to work in a professional research software engineering
+context and to acquire those professional skills yourself.
