@@ -75,10 +75,10 @@ gallery-images:
 
 
 <section id="interest" class="column-page page-full">
-<h1 class="d-flex justify-content-center display-1 fw-bolder">Interested?</h1>
+<h1 class="d-flex justify-content-center display-1 fw-bolder">Would you like to join?</h1>
 <div class="d-flex flex-column justify-content-center align-items-center row-gap-4">
-<a href="https://forms.office.com/e/i2jpkQu0Lm" type="button" class="btn btn-outline my-3" id="btn--signup">
-<span class="display-6">Sign Up Now</span>
+<a href="https://lahp.flexigrant.com/startapplication.aspx?id=14370" type="button" class="btn btn-outline my-3" id="btn--signup">
+<span class="display-6">Apply Now</span>
 </a>
 <!--<div class="d-flex justify-content-evenly w-75">
  <div>

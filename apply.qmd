@@ -4,10 +4,27 @@ title: "How to apply"
 
 ![UCL Japanese Garden](../static/japanese_garden.jpg)
 
-**The online application system for 2025 entry is not yet open.** Application deadlines and links to the application system will be communicated in the near future. In the meantime please use our [sign-up form](https://forms.office.com/e/i2jpkQu0Lm) to receive updates on when our application systems are ready.
+### Important deadlines
 
-- [Application Procedure](application_procedure.qmd)
-- [Database of PhD Projects](phd_projects/phd_project_list.qmd)
+- Applications for the first interview round close **15 January 2025, 5pm GMT**.
+- Interview invites for shortlisted candidates will be sent out by **31 January 2025**.
+- Interviews will be held online mid February. Planned dates are **12/13 Feburary**.
+- Successful candidates are invited by **20 February** for the project matching with potential supervisors.
+
+### Application Form
+
+To start an online application please follow the below link. Before being able to log in you will need to register an account. You can do so by clicking the top-right *Register* button on the page.
+
+Please note that you cannot edit your application after submitting it. However, you can save and continue editing as long as it is not submitted.
+
+The online application system has gone through a rebranding from another Doctoral Training Programme. You may receive e-mail confirmations from a *London Arts and Humanities Partnership (LAHP)* email address as we complete the rebranding.
+
+<p align="center">
+**[Online Application Form](https://lahp.flexigrant.com/startapplication.aspx?id=14370)**
+</p>
+
+
+
 
 ### Application Procedure
 
