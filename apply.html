@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,10 +36,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-5fe3404b8cd0cb1bd8050316e5936a84.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,6 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="How to apply – CCMI">
 <meta property="og:description" content="EPSRC Centre for Doctoral Training in Colllaborative Compuational Modelling at the Interface">
+<meta property="og:image" content="https://ccmi-cdt.org/../static/japanese_garden.jpg">
 <meta property="og:site_name" content="CCMI">
 </head>
 
@@ -174,11 +175,24 @@ ul.task-list li input[type="checkbox"] {
 <figcaption>UCL Japanese Garden</figcaption>
 </figure>
 </div>
-<p><strong>The online application system for 2025 entry is not yet open.</strong> Application deadlines and links to the application system will be communicated in the near future. In the meantime please use our <a href="https://forms.office.com/e/i2jpkQu0Lm">sign-up form</a> to receive updates on when our application systems are ready.</p>
+<section id="important-deadlines" class="level3">
+<h3 class="anchored" data-anchor-id="important-deadlines">Important deadlines</h3>
 <ul>
-<li><a href="./application_procedure.html">Application Procedure</a></li>
-<li><a href="./phd_projects/phd_project_list.html">Database of PhD Projects</a></li>
+<li>Applications for the first interview round close <strong>15 January 2025, 5pm GMT</strong>.</li>
+<li>Interview invites for shortlisted candidates will be sent out by <strong>31 January 2025</strong>.</li>
+<li>Interviews will be held online mid February. Planned dates are <strong>12/13 Feburary</strong>.</li>
+<li>Successful candidates are invited by <strong>20 February</strong> for the project matching with potential supervisors.</li>
 </ul>
+</section>
+<section id="application-form" class="level3">
+<h3 class="anchored" data-anchor-id="application-form">Application Form</h3>
+<p>To start an online application please follow the below link. Before being able to log in you will need to register an account. You can do so by clicking the top-right <em>Register</em> button on the page.</p>
+<p>Please note that you cannot edit your application after submitting it. However, you can save and continue editing as long as it is not submitted.</p>
+<p>The online application system has gone through a rebranding from another Doctoral Training Programme. You may receive e-mail confirmations from a <em>London Arts and Humanities Partnership (LAHP)</em> email address as we complete the rebranding.</p>
+<p align="center">
+<strong><a href="https://lahp.flexigrant.com/startapplication.aspx?id=14370">Online Application Form</a></strong>
+</p>
+</section>
 <section id="application-procedure" class="level3">
 <h3 class="anchored" data-anchor-id="application-procedure">Application Procedure</h3>
 <p>You apply by submitting a written application in our online submission system. If shortlisted this is followed by a formal interview. If you pass the interview we will match you with a suitable research project before a formal offer is made. Details can be found <a href="./application_procedure.html">here</a>.</p>
@@ -311,8 +325,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -423,7 +435,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {

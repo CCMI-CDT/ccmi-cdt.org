@@ -64,7 +64,8 @@
     "listing": "/blog/blog_list.html",
     "items": [
       "/blog/posts/blogpost1.html",
-      "/blog/posts/nobel_prizes.html"
+      "/blog/posts/nobel_prizes.html",
+      "/blog/posts/applications_open.html"
     ]
   },
   {
@@ -78,6 +79,7 @@
     "items": [
       "/blog/posts/blogpost1.html",
       "/blog/posts/nobel_prizes.html",
+      "/blog/posts/applications_open.html",
       "/events/posts/open_day.html"
     ]
   },
