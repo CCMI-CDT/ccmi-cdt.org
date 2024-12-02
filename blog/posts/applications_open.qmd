@@ -2,7 +2,7 @@
 title: "Online Applications are now open."
 author: "Timo Betcke"
 date: "11/29/2024"
-summary: "Our application system is online."
+summary: "Our applications are owned by live. Read for more info and see application link on homepage."
 categories: [Announcements]
 
 ---
