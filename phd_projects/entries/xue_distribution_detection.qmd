@@ -1,0 +1,25 @@
+---
+title: "Out-of-distribution detection with long-tailed learning and vision-language models"
+
+department: "Statistics"
+
+date: "12/02/2024"
+author:
+    name: "Prof Jinghao Xue"
+    affiliation: "UCL"
+institution: "UCL"
+---
+
+## Project Description
+
+### Existing background work
+
+Most deep neural networks were developed on an assumption that the classes of test data have been known and seen in the training data. However, after the deployment of these models, they often encounter the data from unseen or even unknown classes, and it is often very important in practice for them to detect and handle such a situation, for example, in the cases of autonomous driving and unseen disease diagnosis. Hence, deep learning for out-of-distribution detection emerges as a crucial task to address. However, this task is challenging due to the unavailability of out-of-distribution samples for the network training. Even worse, in the available training data the seen classes often have clear class imbalance, leading to a long-tailed class distribution and the scarcity of samples from tail classes. Consequently, existing out-of-distribution detectors are typically confused between scarce tail samples and unseen out-of-distribution samples.
+
+### Main objectives of the project
+
+This project aims to tackle the challenge of out-of-distribution detection with long-tailed in-distribution samples. To achieve this aim, the student is expected to accomplish the following workplan: (1) to explore the state of the art of deep learning for out-of-distribution detection, long-tailed learning, and vision-language models; (2) to develop two innovative and promising approaches to out-of-distribution detection with long-tailed in-distribution samples, without and with the assistance of pre-trained vision-language models, respectively; (3) to design and implement comprehensive experiments to evaluate the methods developed in this project, and compare them with relevant state-of-the-art methods, on various types of datasets, from publicly-available benchmark datasets for out-of-distribution detection to healthcare datasets for rare-disease diagnosis; and (4) to provide some theoretical justification (in mathematics, statistics, or optimisation) for the proposed methods.
+
+### Details of Software Deliverables
+
+The software deliverables will include a Python toolbox on PyTorch for the deep learning methods developed in this project, with code to be released in a repository publicly available to the scientific community, for reproducibility and further development.
