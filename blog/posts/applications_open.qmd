@@ -1,0 +1,22 @@
+---
+title: "Online Applications are now open."
+author: "Timo Betcke"
+date: "11/29/2024"
+summary: "Our application system is online."
+categories: [Announcements]
+
+---
+<!-- Please copy this template into the posts folder and rename as appropriate -->
+<br>
+<!-- enter post content here -->
+
+We are happy to announce that the CCMI CDT is now open to receive applications for our 2025/2026 cohort, via our online applications system
+
+We have tried to make the application process as open and inclusive as possible.
+
+- **We are not asking you to upload documents at the point of application.** Gathering degree documentation, references and other materials is an onerous task for applicants. We will only ask for your academic transcript if you are invited for an interview. Full documentation will only be required when we are ready to make an offer to a candidate, in order to carry out necessary formal documentation checks.
+- **Previous university and degree classification will not be included in the initial review of applications** We want to avoid educational bias as much as possible. While we ask for your previous highest degree awarding institution and degree classification this is only used to check minimum eligibility and will not be forwarded to the initial online reviewers.
+- **Much of your information remains anonymous in the online sifting.** Your voluntary EDI information is hidden and will only be used to gather statistical information. In addition, your name, nationality, country of residence, home or international student status, full or part-time application, highest degree awarding institution, and degree classification will be hidden from the online reviewers.
+- **It is your statements that matter.** The key points in the application form are *What has attracted you to the CCMI CDT?*, *Describe your background in computational and data sciences.*, *Describe a piece of software that you have developed.* *Explain other skills and experience that you think will contribute to your success on the CCMI CDT.* These questions are designed to allow you to shine and to show us your potential and passion for the CDT.
+- **Don't obsess about small typos or mistakes.** We all know the feeling of submitting an application and worrying about whether we got everything right. We won't mark you down for small mistakes. We are looking for potential and passion, not perfection.
+- **The precise PhD project matters less than you think.** We have a wonderful list of [potential PhD projects](/phd_projects/phd_project_list.qmd). Have a look at what is there to get a feel of what we offer. But don't be nervous about project selection now. If you are successful in the interview we will provide lots of information and support to find the right supervisor for your personal interests and skills. You may already have a precise project in mind. That is great and we will give your preference priority in the project selection. Or you may not know yet what you want to do. That is also great and we will help you find the right project for you. Also, never forget, the project that you start with is rarely the precise project that you finish with. Research is unpredictable. You may start with one idea and end up being lead down a very different pathway during your PhD.
