@@ -146,8 +146,8 @@ We do not ask for references at the initial application stage. If you reach the 
 ::: {.callout-note collapse="true" .callout-note appearance="minimal"}
 ## When will the interviews take place?
 
-We are planning a first round of interviews in January 2025 with a second round later in March 2025 for remaining places.
-Please check the [Apply](apply.qmd) page for more information as dates are finalised. We will communicate the deadlines as soon as possible to everyone who has signed-up for updates from the CDT.
+For all relevant application deadlines please see the information under [How to apply](apply.qmd).
+
 :::
 
 ::: {.callout-note collapse="true" .callout-note appearance="minimal"}
