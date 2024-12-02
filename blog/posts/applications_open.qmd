@@ -2,7 +2,7 @@
 title: "Online Applications are now open."
 author: "Timo Betcke"
 date: "11/29/2024"
-summary: "Our applications are owned by live. Read for more info and see application link on homepage."
+summary: "Our application system is now live. Read for more info."
 categories: [Announcements]
 
 ---
@@ -10,7 +10,7 @@ categories: [Announcements]
 <br>
 <!-- enter post content here -->
 
-We are happy to announce that the CCMI CDT is now open to receive applications for our 2025/2026 cohort, via our online applications system
+We are happy to announce that the CCMI CDT is now open to receive applications for our 2025/2026 cohort, via our [online applications system](https://lahp.flexigrant.com/startapplication.aspx?id=14370).
 
 We have tried to make the application process as open and inclusive as possible.
 
