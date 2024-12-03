@@ -6,8 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Dr.&nbsp;Barbara Bravi">
-<meta name="dcterms.date" content="2024-10-02">
+<meta name="author" content="Dr.&nbsp;Barbara Bravi and Prof Mauricio Barahona">
+<meta name="dcterms.date" content="2024-03-11">
 
 <title>A machine learning-informed computational model of cancer-immune interactions – CCMI</title>
 <style>
@@ -162,7 +162,7 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-meta-heading">Institution</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author">Dr.&nbsp;Barbara Bravi </p>
+    <p class="author">Dr.&nbsp;Barbara Bravi and Prof Mauricio Barahona </p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
@@ -177,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 2, 2024</p>
+      <p class="date">March 11, 2024</p>
     </div>
   </div>
   
@@ -191,26 +191,32 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="project-description" class="level2">
 <h2 class="anchored" data-anchor-id="project-description">Project Description</h2>
-<p>The immune system is a major constraint on cancer evolution and an important therapeutic target. However, the molecular determinants and the dynamics of immune response in cancer remain poorly understood. The goal of this project is to develop efficient computational simulation frameworks and machine learning methods to characterise and predict quantitatively immune responses in cancer, focussing on colorectal cancer data. The combination of computational modelling and machine learning predictions will allow us to uncover many characteristics of tumour-immune coevolution, which is key to the design of anti-cancer immunotherapies.</p>
+<p>Antibodies are proteins that play a key role in the immune response against pathogens by binding specifically to the pathogen. The body is able to modify sections of antibodies through mutations to improve the specificity and affinity of the binding to unseen pathogens. Consequently, the design of antibodies as possible therapeutic tools that can bind to specific targets (e.g., pathogens, cancerous cells) is an area of highly active research. However, which molecular and structural properties determine the specific binding of antibodies to protein targets remains unclear, thus hampering our understanding of the mutational effects in the immune response and impeding progress in the rational design of antibodies. In this project, we will develop machine learning methods to predict antibodies’ functional properties related to their binding that are informed by biophysical modelling of their sequence and structure as captured by graph-based representations of antibody-protein interactions. In particular, the aim of these models is to predict and characterize single-site mutations that can improve antibody binding to specific targets without compromising other biophysical properties, with potential applications in antibody design.</p>
 <section id="main-objectives-of-the-project" class="level3">
 <h3 class="anchored" data-anchor-id="main-objectives-of-the-project">Main objectives of the project</h3>
-<p>Cells of the immune system called T cells can recognize and kill cancer cells. Such recognition occurs via a specific binding between the receptors of T cells and protein fragments carrying cancer-specific mutations exposed on the cancer cells’ surface (called neoantigens). In this project, we will develop a data-driven computational model of cancer evolution under the effect of the response by T cells, which will provide evidence to test different hypotheses on cancer-immune co-evolution and will be useful to suggest molecular targets for immunotherapy design. The work will involve two complementary tasks:</p>
+<p>To achieve our main goal, we will leverage various machine learning approaches which we have developed, and we will develop new ones to exploit the increasing amount of data on antibodies and their cognate target proteins. Schematically, the objectives and tasks of the project will be:</p>
 <ol type="1">
-<li><p>To design a mathematical model describing the stochastic dynamics of co-evolution of cancer and T cells which is driven by the molecular processes of cancer recognition by T cells (i.e., the binding between cancer neoantigens and T cell receptors), and set up a simulation framework for this model. The model will be calibrated on data that sample longitudinally T cell receptors and putative neoantigens from primary cancer to metastasis in colorectal cancers from several patients.</p></li>
-<li><p>To develop a machine learning method to detect and predict quantitatively the molecular interaction between receptors and neoantigens driving the cancer-immune co-evolutionary dynamics. Such a method will build upon recent advances in generative language models for proteins and techniques of transfer learning, and will be trained on publicly available datasets on T cell response to neoantigens. Evaluating the predictions of this method on the data from colorectal cancer samples will allow us to calibrate the receptor-neoantigen binding term in the computational model, hence to incorporate in an innovative way all the available information on the molecular species involved in the cancer-immune joint dynamics.</p></li>
+<li><p>To train a model that can capture long-range complex dependencies between amino acids at different sites along the antibody/protein amino acid chain, and which, accounting for such dependencies, can provide a single-site measure of amino acid importance to target binding. For this task we will build upon a transformer-like architecture [1].</p></li>
+<li><p>To build biophysically informed models of antibody-protein interactions that can give graph representations of such interactions and antibody/protein structures, summarizing and distilling relevant biochemical and structural information. We will employ different graph construction techniques, from geometric graphs that capture packing to biophysical models of energetic interactions to higher-order models (akin to simplicial complexes) that capture many-body interactions in the structure. We will then explore strategies to machine-learn refinements of such graph representations (e.g., GCNs or GNNs) by optimizing the task of predicting antibodytarget binding.</p></li>
+<li><p>To set up a multi-task learning framework whereby different prediction tasks are performed jointly (e.g., predicting structural flexibility, binding specificity, binding affinity etc.). Such a framework will rely on graph neural networks and will be designed to obtain single-site predictions of importance to target binding that account for long-range correlations between sites as well as multiple structural and biochemical constraints. These predictions will be key to estimate in silico the effect of mutations and set up a computational framework to guide mutation-based antibody design in the laboratory. Ongoing collaborations with the Imperial Department of Chemistry, as well as with the LiverpoolImperial AIChemy UKRI Hub in AI will allow us to establish links to experimental antibody design for validation and further development.</p></li>
 </ol>
+</section>
+<section id="existing-background-work" class="level3">
+<h3 class="anchored" data-anchor-id="existing-background-work">Existing background work</h3>
+<p>The field of machine learning approaches to biophysical modelling and design of immune-related proteins like antibodies has witnessed growing activity recently [2]. The supervisors’ group has recently published a machine learning method to predict antibody binding affinity to specific targets that leverages jointly a modelling framework capturing antibodies’ structural fluctuations upon binding and convolutional neural networks [3]. The ongoing research is focussing on biochemically informed graph-based representations of antibody structures [4,5] and on combining them to neural network architectures to model how structural flexibility contributes to antibodies’ functional properties related to target binding.</p>
 </section>
 <section id="details-of-softwaredata-deliverables" class="level3">
 <h3 class="anchored" data-anchor-id="details-of-softwaredata-deliverables">Details of Software/Data Deliverables</h3>
-<p>The software/code development in this project consists of two parts:</p>
-<ul>
-<li>Software for a machine learning model that predicts probabilistic scores of binding between the proteins involved in cancer-immune co-evolution (cancer neoantigens and T-cell receptors). This model will build upon the recent advances in generative language models and their application to protein modelling (e.g.&nbsp;by adopting a transformer architecture, see Meynard-Piganeau et al., biorxiv.org/content/10.1101/2023.07.19.549669, 2023). It will implement strategies of transfer learning on top of pre-trained models to capture the specificity of neoantigen-receptor binding (as a special class of protein-protein interactions).</li>
-<li>Software for the computational model of the co-evolution of cancer and immune cells. It will be based on Gillespie simulations of its stochastic dynamics and will include routines for the statistical inference of the model’s parameters from longitudinal data.</li>
-</ul>
+<p>The coding and data developments during the project will consist of well curated computational pipelines comprising:</p>
+<ol type="1">
+<li><p>Algorithms to produce graph-based representations of protein data combining structural and biochemical information;</p></li>
+<li><p>Machine learning architectures (transformers, graph neural networks) taking protein data as input and performing different learning tasks (potentially in a multi-task learning setting).</p></li>
+</ol>
+<p>The software deliverable will consist of the python packages made freely available e.g.&nbsp;via github (like we did for Ref. [3]) and usable through a webserver (like we did for Ref. [5]). Such software will allow a potential user to: pre-process custom antibody/protein data of interest to produce inputs to the machine learning methods and graph-based representations that can be used for further analysis; evaluate on them the predictions of the machine learning methods; re-train/fine-tune the machine learning architectures on the custom data; extract insights and analyze the predictions for e.g.&nbsp;antibody design purposes.</p>
 </section>
 <section id="references" class="level3">
 <h3 class="anchored" data-anchor-id="references">References:</h3>
-<p>On mathematical modelling: Lakatos, …, and Graham. Evolutionary dynamics of neoantigens in growing tumors, Nature Genetics (2020). Almeida et al.&nbsp;Discrete and continuum models for the coevolutionary dynamics between CD8+ cytotoxic T lymphocytes and tumour cells, Mathematical Medicine and Biology: A Journal of the IMA (2023). On machine learning methods: Bravi et al.&nbsp;A transfer-learning approach to predict antigen immunogenicity and T-cell receptor specificity, eLife (2023). Meynard-Piganeau et al.&nbsp;TULIP - a transformer based unsupervised language model for interacting peptides and T-cell receptors that generalizes to unseen epitopes, bioRxiv https://doi.org/10.1101/2023.07.19.549669 (2023).</p>
+<p>[1] Leem, Mitchell, Farmery, Barton, Galson. Deciphering the language of antibodies using selfsupervised learning, 2022. Patterns, 3(7). [2] Bravi. Development and use of machine learning algorithms in vaccine target selection, 2024. npj Vaccines, 9(15). [3] Michalewicz, Barahona, Bravi. ANTIPASTI: interpretable prediction of antibody binding affinity exploiting Normal Modes and Deep Learning, 2024. Structure, 32: 1-13. [4] Song, Barahona, Yaliraki. Bagpype: A python package for the construction of atomistic, energy-weighted graphs from biomolecular structures, 2021. [5] Amor, B., Schaub, M., Yaliraki, S. et al.&nbsp;Prediction of allosteric sites and mediating interactions through bond-to-bond propensities, 2016. Nat Commun, 7:12477.</p>
 
 
 </section>
