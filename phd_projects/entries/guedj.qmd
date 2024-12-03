@@ -1,0 +1,50 @@
+---
+title: "Transfer Learning and Few-Shot Learning for Science: Learning with Limited Data and Compute"
+department: "Computer Science"
+
+date: "10/02/2024"
+author:
+    name: "Dr Benjamin Guedj"
+    affiliation: "UCL"
+institution: "UCL"
+
+---
+## Project Description
+
+### Existing Background Work
+
+Modern scientific problems often require machine learning models that can perform effectively despite limited access to large-scale, labelled datasets. This challenge is particularly acute in domains such as biology, environmental science, medicine, or materials science, where data acquisition can be expensive, time-consuming, or constrained by ethical considerations.
+
+Transfer learning has emerged as a powerful paradigm, allowing pre-trained models to adapt to new tasks by leveraging knowledge from related domains. Techniques such as fine-tuning, feature extraction, and domain adaptation have demonstrated significant success in reducing data requirements. Concurrently, few-shot learning aims to push the boundaries further by enabling models to generalise from a handful of labelled examples, using methods such as meta-learning and metric-based learning.
+
+While these approaches have shown promise in domains such as computer vision and natural language processing, their application to scientific datasets presents unique challenges. Scientific data often exhibit complex, domain-specific properties, and are constrained by limited compute resources, particularly in research environments with restricted budgets. Existing work has made progress in domain adaptation and few-shot learning; however, the practical integration of these techniques into scientific workflows remains underexplored.
+
+### Main Objectives of the Project
+
+The primary goal of this project is to advance the use of transfer learning and few-shot learning techniques to address the challenges posed by limited data and computational resources in scientific domains. One key topic of the PhD will be to leverage recent advances from learning theory and specifically PAC-Bayesian learning to develop new algorithms. The specific objectives include:
+
+1. **Developing Task-Specific Transfer Learning Frameworks:** Design algorithms that can effectively transfer knowledge from large, general-purpose datasets to domain-specific tasks in science, ensuring adaptability to the nuances of scientific data.
+
+2. **Exploring Few-Shot Learning Paradigms for Scientific Applications:** Investigate and extend few-shot learning techniques tailored for structured, high-dimensional, and often noisy scientific datasets.
+
+3. **Optimising for Compute Efficiency:** Propose novel methods to reduce the computational cost of transfer learning and few-shot learning approaches, including lightweight model architectures and parameter-efficient tuning strategies.
+
+4. **Validating Methods Across Diverse Scientific Domains:** Conduct empirical studies to assess the performance and generalisability of the proposed methods on datasets from fields such as environmental monitoring, molecular modelling, and healthcare.
+
+5. **Promoting Responsible AI in Science:** Address ethical and practical concerns, ensuring that the developed methods are robust, interpretable, and accessible to the scientific community.
+
+### Details of Software/Data Deliverables
+
+To facilitate reproducibility and adoption, the project will produce the following deliverables:
+
+1. **Open-Source Software Tools:**
+   - Python-based libraries implementing the developed transfer learning and few-shot learning methods.
+   - Pre-configured pipelines for adapting these methods to specific scientific datasets, including user-friendly interfaces for non-experts.
+
+2. **Benchmark Datasets:**
+   - Curated datasets from a range of scientific domains, annotated and pre-processed for transfer and few-shot learning tasks.
+   - Synthetic datasets simulating real-world scientific scenarios to evaluate the robustness and scalability of the proposed methods.
+
+3. **Scientific publications:**
+   - Research articles introducing new methodology and theoretical analysis
+   - Detailed case studies demonstrating the practical utility of the methods in solving real-world scientific problems.
