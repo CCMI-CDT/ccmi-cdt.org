@@ -1,28 +1,5 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/blog/posts/blogpost1.html",
-      "/blog/posts/nobel_prizes.html",
-      "/blog/posts/applications_open.html",
-      "/events/posts/open_day.html"
-    ]
-  },
-  {
-    "listing": "/events/event_list.html",
-    "items": [
-      "/events/posts/open_day.html"
-    ]
-  },
-  {
-    "listing": "/blog/blog_list.html",
-    "items": [
-      "/blog/posts/blogpost1.html",
-      "/blog/posts/nobel_prizes.html",
-      "/blog/posts/applications_open.html"
-    ]
-  },
-  {
     "listing": "/phd_projects/phd_project_list.html",
     "items": [
       "/phd_projects/entries/xue_distribution_detection.html",
@@ -77,11 +54,35 @@
       "/phd_projects/entries/Graham_multilevelbayesian.html",
       "/phd_projects/entries/Hewett_fractaldomains.html",
       "/phd_projects/entries/MisenerHam_DAEinterface.html",
+      "/phd_projects/entries/guedj.html",
       "/phd_projects/entries/Jensen_unifiedformlanguage.html",
       "/phd_projects/entries/Briol_Montecarlo.html",
       "/phd_projects/entries/Kovalchuk_healthcare.html",
       "/phd_projects/entries/Benning_Paralift.html",
       "/phd_projects/entries/burman_inverse.html"
+    ]
+  },
+  {
+    "listing": "/blog/blog_list.html",
+    "items": [
+      "/blog/posts/blogpost1.html",
+      "/blog/posts/nobel_prizes.html",
+      "/blog/posts/applications_open.html"
+    ]
+  },
+  {
+    "listing": "/events/event_list.html",
+    "items": [
+      "/events/posts/open_day.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/blog/posts/blogpost1.html",
+      "/blog/posts/nobel_prizes.html",
+      "/blog/posts/applications_open.html",
+      "/events/posts/open_day.html"
     ]
   },
   {
