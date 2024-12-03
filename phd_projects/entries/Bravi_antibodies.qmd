@@ -1,0 +1,122 @@
+---
+title: "A machine learning-informed computational model of cancer-immune interactions"
+
+department: "Mathematics"
+
+date: "03/11/2024"
+author: 
+    name: "Dr. Barbara Bravi and Prof Mauricio Barahona"
+    affiliation: "Imperial"
+institution: "Imperial"
+---
+## Project Description
+
+Antibodies are proteins that play a key role in the immune response
+against pathogens by binding specifically to the pathogen. The body is
+able to modify sections of antibodies through mutations to improve the
+specificity and affinity of the binding to unseen pathogens.
+Consequently, the design of antibodies as possible therapeutic tools
+that can bind to specific targets (e.g., pathogens, cancerous cells)
+is an area of highly active research. However, which molecular and
+structural properties determine the specific binding of antibodies to
+protein targets remains unclear, thus hampering our understanding of
+the mutational effects in the immune response and impeding progress in
+the rational design of antibodies. In this project, we will develop
+machine learning methods to predict antibodies’ functional properties
+related to their binding that are informed by biophysical modelling of
+their sequence and structure as captured by graph-based
+representations of antibody-protein interactions. In particular, the
+aim of these models is to predict and characterize single-site
+mutations that can improve antibody binding to specific targets
+without compromising other biophysical properties, with potential
+applications in antibody design.
+
+### Main objectives of the project
+
+To achieve our main goal, we will leverage various machine learning
+approaches which we have developed, and we will develop new ones to
+exploit the increasing amount of data on antibodies and their cognate
+target proteins.  Schematically, the objectives and tasks of the
+project will be:
+
+1. To train a model that can capture long-range complex dependencies
+between amino acids at different sites along the antibody/protein
+amino acid chain, and which, accounting for such dependencies, can
+provide a single-site measure of amino acid importance to target
+binding. For this task we will build upon a transformer-like
+architecture [1].
+
+2. To build biophysically informed models of antibody-protein
+interactions that can give graph representations of such interactions
+and antibody/protein structures, summarizing and distilling relevant
+biochemical and structural information. We will employ different graph
+construction techniques, from geometric graphs that capture packing to
+biophysical models of energetic interactions to higher-order models
+(akin to simplicial complexes) that capture many-body interactions in
+the structure. We will then explore strategies to machine-learn
+refinements of such graph representations (e.g., GCNs or GNNs) by
+optimizing the task of predicting antibodytarget binding.
+
+3. To set up a multi-task learning framework whereby different
+prediction tasks are performed jointly (e.g., predicting structural
+flexibility, binding specificity, binding affinity etc.). Such a
+framework will rely on graph neural networks and will be designed to
+obtain single-site predictions of importance to target binding that
+account for long-range correlations between sites as well as multiple
+structural and biochemical constraints. These predictions will be key
+to estimate in silico the effect of mutations and set up a
+computational framework to guide mutation-based antibody design in the
+laboratory.  Ongoing collaborations with the Imperial Department of
+Chemistry, as well as with the LiverpoolImperial AIChemy UKRI Hub in
+AI will allow us to establish links to experimental antibody design
+for validation and further development.
+
+### Existing background work
+
+The field of machine learning approaches to biophysical modelling and
+design of immune-related proteins like antibodies has witnessed
+growing activity recently [2]. The supervisors’ group has recently
+published a machine learning method to predict antibody binding
+affinity to specific targets that leverages jointly a modelling
+framework capturing antibodies’ structural fluctuations upon binding
+and convolutional neural networks [3]. The ongoing research is
+focussing on biochemically informed graph-based representations of
+antibody structures [4,5] and on combining them to neural network
+architectures to model how structural flexibility contributes to
+antibodies’ functional properties related to target binding.
+
+### Details of Software/Data Deliverables
+
+The coding and data developments during the project will consist of
+well curated computational pipelines comprising:
+
+1. Algorithms to produce graph-based representations of protein data combining structural and
+biochemical information;
+
+2. Machine learning architectures (transformers, graph neural
+networks) taking protein data as input and performing different
+learning tasks (potentially in a multi-task learning setting).
+
+
+The software deliverable will consist of the python packages made
+freely available e.g. via github (like we did for Ref. [3]) and usable
+through a webserver (like we did for Ref. [5]). Such software will
+allow a potential user to: pre-process custom antibody/protein data of
+interest to produce inputs to the machine learning methods and
+graph-based representations that can be used for further analysis;
+evaluate on them the predictions of the machine learning methods;
+re-train/fine-tune the machine learning architectures on the custom
+data; extract insights and analyze the predictions for e.g. antibody
+design purposes.
+
+### References:
+
+[1] Leem, Mitchell, Farmery, Barton, Galson. Deciphering the language of antibodies using selfsupervised learning, 2022. Patterns, 3(7).
+[2] Bravi. Development and use of machine learning algorithms in vaccine target selection, 2024.
+npj Vaccines, 9(15).
+[3] Michalewicz, Barahona, Bravi. ANTIPASTI: interpretable prediction of antibody binding
+affinity exploiting Normal Modes and Deep Learning, 2024. Structure, 32: 1-13.
+[4] Song, Barahona, Yaliraki. Bagpype: A python package for the construction of atomistic,
+energy-weighted graphs from biomolecular structures, 2021.
+[5] Amor, B., Schaub, M., Yaliraki, S. et al. Prediction of allosteric sites and mediating interactions
+through bond-to-bond propensities, 2016. Nat Commun, 7:12477.
