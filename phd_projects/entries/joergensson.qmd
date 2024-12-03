@@ -1,0 +1,116 @@
+---
+title: "Computational modelling for educational research"
+
+department: "Mathematics"
+
+date: "11/21/2024"
+author: 
+    name: "Dr Andreas Joergensen (with Prof Camille Kandiko Howson (CHERS))",
+    affiliation: "Imperial"
+institution: "Imperial"
+
+## Project Description
+
+We would like to offer an interdisciplinary PhD project at the
+Department of Mathematics and the Centre for Higher Education Research
+and Scholarship. Ultimately, the research conducted by the student
+will address complex topics in education while leveraging mathematical
+methodologies to offer insights with real-world implications for
+policy and practice. We will thus focus on understanding what drives
+inequities in STEM and related careers, including gender equity. We
+will address the topic using mixed approaches with a strong
+quantitative outlook. This will include mathematical modelling to
+explore fundamental aspects of learning or decision-making through
+agent-based models. The agent-based models will be complemented and
+informed by simpler mathematical models and by using Bayesian
+statistics and machine-learning methods applied to real-world
+data. This will include existing large national datasets, such as the
+Administrative Data Research UK (ADR UK,
+https://www.adruk.org/data-access/data-catalogue/) catalogue and
+flagship datasets
+(https://www.adruk.org/data-access/flagship-datasets/). Beyond a
+literature search, an exploration of existing data will thus be an
+essential starting point for tailoring the modelling approach.
+
+### Existing background work 
+
+Mathematical models of learning and cognition are widespread in
+computational psychology and educational research. Thus, agent-based
+models have been applied to simulate and understand the underlying
+behavioural dynamics for a wide range of phenomena in social science
+(e.g., https://www.biorxiv.org/content/10.1101/2024.06.16.599026v1,
+https://onlinelibrary.wiley.com/doi/full/10.1002/andp.202100277),
+including gender equity
+(https://royalsocietypublishing.org/doi/10.1098/rsos.221346), and
+recently agent-based models using large language models have emerged
+as a new and fruitful avenue (e.g.,
+https://arxiv.org/abs/2304.03442). Agent-based models are thus the
+ideal tool to explore how the decisions of individuals lead to
+emergent properties on a societal level. The behaviour of larger
+populations, on the other hand, can be modelled, e.g., using diffusion
+decision models or other game-theoretical concepts.
+
+In general, quantitative methods, including advanced statistical
+analyses, play a fundamental role in educational research. Integrating
+quantitative approaches with qualitative methods thus offers a robust
+methodology in the field and a more comprehensive understanding of
+educational phenomena.
+
+Dr Andreas Joergensen has a strong background in developing and
+applying mechanistic models, such as agent-based models, across a wide
+range of fields, including astrophysics, biology, and environmental
+conservation. Moreover, he has combined these models with Bayesian
+inference and machine-learning frameworks to successfully use them to
+shed light on real-world data. His interdisciplinary expertise will
+support the application of these techniques to educational
+research. Additionally, Professor Camille Kandiko Howson brings
+extensive expertise in educational research, including the development
+and analysis of national student surveys and measures of educational
+quality and learning gain; large-scale research into educational
+inequalities in Physics and wider Physics Education Research; and
+research on applied methods for learning analytics. Together, they
+have previously explored synergies between mathematics and education,
+particularly through a project proposal on gender equity at Imperial,
+which will flow into the PhD project.
+
+### Main objectives of the project
+
+This project aims to apply quantitative and computational methods to
+address complex challenges in education research, with a specific
+focus on inequities in STEM fields. The goal is to derive actionable
+insights that can influence educational policies and practices. While
+large-scale patterns of engagement and inequality in education are
+often tracked through national datasets, many researchers lack the
+computational expertise to analyse this data or to model the
+underlying dynamics. This project, therefore, seeks to bridge that gap
+by developing computational methodologies that connect and analyse
+mathematical models, addressing previously unexplored aspects of
+existing data.
+
+The agent-based models in this project will be tailored to inform
+policies and practices, leveraging an understanding of the current
+data landscape. This includes identifying suitable proxies for
+inequity, such as degree progression, career outcomes, and academic
+performance in higher education. Additionally, useful summary
+statistics and underlying mechanisms will be incorporated to ensure
+the model’s relevance to real-world scenarios.
+
+The agent-based models will be built on Bayesian principles, allowing
+them to capture how individuals interact with social information and
+navigate complex environments. By exploring the impact of different
+model parameters, we aim to uncover the mechanisms driving emergent
+social phenomena. Furthermore, surrogate models, such as emulators or
+simplifying approximations, will be introduced to enable comparisons
+with real-world data using Bayesian inference.
+
+### Details of Software/Data Deliverables
+
+The student will be responsible for developing the code necessary for
+the project. This will include mathematical models to simulate
+educational processes, but it will also entail the code needed for
+incorporating and dealing with real-world data. All code developed
+during the project should adhere to best practices in open science and
+be made publicly available upon publication to ensure transparency and
+facilitate future research. This will allow the broader scientific
+community to benefit from the tools and methodologies created during
+the PhD project.
