@@ -1,0 +1,236 @@
+---
+title: "Robust Multi-objective and Mutli-fidelity Bayesian Optimisation of Fusion Breeder Blankets"
+
+department: "Mathematics"
+
+date: "11/21/2024"
+author: 
+    name: "Dr Dante Kalise and Dr Andrew Duncan (with cosupervision from Dr Lorenzo Zanisi and Dr Helen Brooks at UKAEA)"
+    affiliation: "Imperial"
+institution: "Imperial"
+
+---
+## Project Description
+
+Within many fusion power plant concepts, breeder blankets fulfil a
+multi-functional role.  Neutrons emitted in deuterium-tritium fusion
+reactions must be absorbed, in part to reduce damaging irradiation to
+other essential components (such as superconducting magnets) and outer
+structural material. The neutrons’ energy must be converted to heat;
+the heat must be transported by a coolant where it will be ultimately
+employed to drive conventional steam-based turbines for generation of
+electricity. Some neutrons must also participate in reactions to breed
+tritium to sustain fusion reactions. The tritium must be extracted at
+a rate that supports plant availability. Structural material must
+remain within safe operational conditions, while significant pressure
+drops in the coolant must be minimised to optimise power plant
+efficiency. Materials suitable for each of these functions are usually
+not interchangeable and thus there are necessarily trade-offs in the
+spatial allocation for the sub-components responsible for each
+function. This domain is therefore highly suitable for a
+multi-objective optimisation over geometric parameters.
+
+Simulation of the breeder blanket must necessarily span multiple
+physics domains, minimally including neutronics, heat transfer and
+computational fluid dynamics (CFD). Depending on the level of fidelity
+selected for CFD - which may range from 1D correlations, reduced order
+turbulence models, through to direct numerical simulations - the
+computational cost for evaluating a single design point can vary
+enormously. A lack of fidelity may conceal emergent phenomenon; such
+effects have already been noted in reference [1] where local hotspots
+were observed only with higher fidelity models. Meanwhile too much
+fidelity may render unviable any optimisation algorithm. We propose a
+multi-fidelity approach, where inexpensive low-fidelity simulations
+inform the query to expensive high-fidelity simulations towards the
+global optimum.
+
+Besides setting the appropriate level of fidelity, there are other
+considerations in ensuring robustness to the optimisation
+procedure. The limited tolerances in the manufacturing process imply
+an uncertainty in the material composition and inevitable small
+differences in the component shape compared to the simulated
+one. Furthermore, the empirical nuclide cross-section data for those
+materials (which are inputs to the neutron transport calculations) are
+often associated with significant uncertainties. As such, the
+optimisation procedure should select configurations that are stable
+under small perturbations in both parameter space and in the input
+nuclear data.
+
+Bayesian Optimisation provides a theoretically solid foundation to
+perform sample-efficient maximisation of a noisy black-box function,
+with guaranteed convergence rates. In this project, the efficacy of
+Bayesian optimisation methods applied to breeder blankets will be
+explored.
+
+### Existing background work 
+
+Recent years have seen the development of scalable and open-source
+multi-physics software that is suitable for the modelling of fusion
+components. In particular, the MOOSE framework [2] offers a flexible
+platform for the solution of arbitrary partial differential equations
+using the finite element method, with many built-in physics modules as
+well as couplings to specialist tools for Monte Carlo neutron
+transport (OpenMC) [3,4] and spectral element computational fluid
+dynamics (NekRS) [5]. MOOSE applications have been used to simulate a
+variety of breeder blanket concept designs, including both solid
+ceramic and liquid lead-lithium breeders [6,7,8].
+
+Parametric optimisation studies involving MOOSE for analysis have
+already been performed for the simple case of a divertor monoblock
+component [9]. While such studies are indicative of methodology, a
+limiting factor in pursuing a similar approach to breeder blankets
+until recently was the existence of a suitable tool to generate
+geometry. However, a blanket geometry engine, Hypnos, has recently
+been developed, with an initial demonstration of the software
+indicating that geometric optimisation is now possible [10]. With a
+proven tool-chain already in place for analysis, the primary area for
+innovation would pertain to the development and deployment of the
+optimisation algorithms themselves, with a particular focus on the
+robustness of the outcomes.
+
+In decision problems arising from industrial processes, the design
+parameters are often subject to uncertainty. This uncertainty can stem
+from limited data observability, noisy measurements, implementation
+challenges, or prediction errors. In the context of manufacturing,
+this uncertainty may arise from manufacturing tolerances, and material
+imperfections. Stochastic Optimsation (SO) methods have classically
+allowed to model this uncertainty within a decision-making framework,
+assuming that the decision maker has complete knowledge about the
+underlying uncertainty through a known probability distribution. On
+the other hand, in robust optimisation it is assumed that the decision
+maker has only minimal distributional knowledge about the underlying
+uncertainty, and the optimiser seeks to minimise the worst-case
+outcome over an uncertainty set. This has been extended to the
+multi-objective optimisation case in several works, where one
+identifies a pareto front of candidate solutions which are favourable
+against a set of distinct objectives. Motivated by practical
+limitations due to manufacturing tolerances, in [11] a robust
+multi-objective optimisation approach known as constraint active
+search (CAS) is proposed, which aims to identify diverse solutions in
+the region of the search space that exceeds a minimum threshold on the
+objectives, leveraging a post-hoc sensitivity analysis process to
+assess the robustness of candidate points under input noise [12].
+
+Approaching robust design by decoupling data collection and
+sensitivity analysis is central to the Taguchi method [13]. Data
+acquisition often revolves around finding designs that balance the
+mean and variance of the sensitive objective under input
+noise. Daulton et al [14] extended the Bayesian optimisation framework
+to black-box multi-objective optimisation problems, identifying a
+pareto front of candidate solutions with associated robustness
+guarantees.  Integration of these approaches with large-scale
+simulation frameworks remains a challenge. In [14] the authors derive
+a new framework for batch-based black-box optimisation which enables
+the effective use of parallel simulations to obtain high-quality
+optimisation candidates. This was subsequently applied in the context
+of calibrating JOREK, and MHD simulator for fusion in [15].  In [16]
+the authors explore another optimisation-centric decision problem,
+namely design of experiments for optimal sensor placement, which is
+able to exploit multi-resolution simulation data through
+resolution-invariant learning methods.
+
+[1] F. A. Hernández et al. (2019) ‘Advancements in the Helium-Cooled
+Pebble Bed Breeding Blanket for the EU DEMO: Holistic Design Approach
+and Lessons Learned’, Fusion Science and Technology, 75(5),
+pp. 352–364. doi: 10.1080/15361055.2019.1607695
+
+[2] C. J. Permann et al. (2020) ‘MOOSE: Enabling massively parallel
+multiphysics simulation’, SoftwareX, 11 (100430), doi:
+10.1016/j.softx.2020.100430
+
+[3] H. Brooks et al (2022), ‘Scalable multi-physics for fusion
+reactors with AURORA’, Plasma Physics and Controlled Fusion, 65 (2),
+024002, doi: 10.1088/1361-6587/aca998
+
+[4] A.J. Novak et al (2024), ‘Monte Carlo multiphysics simulation on
+adaptive unstructured mesh geometry’, Nuclear Engineering and Design,
+429 (113589), doi: 10.1016/j.nucengdes.2024.113589.
+
+[5] A.J. Novak et al (2022), ‘Coupled Monte Carlo and thermal-fluid
+modeling of high temperature gas reactors using Cardinal’, Annals of
+Nuclear Energy, 177 (109310), doi: 10.1016/j.anucene.2022.109310.
+
+[6] H. Brooks et al (2022), ‘Towards multiphysics simulations of
+fusion breeder blankets’, Int.  Conf. on Physics of Reactors 2022
+(American Nuclear Society) pp 2480–9
+
+[7] A. Novak et al (2023) ‘Multiphysics Coupling of OpenMC CAD-Based
+Transport to MOOSE using Cardinal and Aurora’, The International
+Conference on Mathematics and Computational Methods Applied to Nuclear
+Science and Engineering (M&C 2023)
+
+[8] F. Kong et al (2022), "Toward a Fully Integrated Multiphysics
+Simulation Framework for Fusion Blanket Design," IEEE Transactions on
+Plasma Science, 50 (11) pp. 4446-4452, Nov.  2022, doi:
+10.1109/TPS.2022.3173158
+
+[9] L. R. Humphrey et al (2024), ‘Machine learning techniques for
+sequential learning engineering design optimisation’, Plasma Physics
+and Controlled Fusion, 66 (025002), DOI 10.1088/1361-6587/ad11fb
+
+[10] H. Brooks et al (2024), ‘An Open-Source Digital Engineering
+Pipeline for Enabling In-silico Design and Qualification of Tritium
+Breeding Devices’, 26th Technology of Fusion Energy Meeting (TOFE
+2024)
+
+[11] Malkomes, Gustavo, et al. "Beyond the pareto efficient frontier:
+Constraint active search for multiobjective experimental design."
+International Conference on Machine Learning. PMLR, 2021.
+
+[12] Calandra, Roberto, Jan Peters, and M. P. Deisenrothy. "Pareto
+front modeling for sensitivity analysis in multi-objective bayesian
+optimization." NIPS Workshop on Bayesian Optimization. Vol. 5. 2014.
+
+[13] Taguchi, Genichi. Introduction to quality engineering: designing
+quality into products and processes. 1986.
+
+[14] Daulton, Samuel, et al. "Robust multi-objective bayesian
+optimization under input noise."  International Conference on Machine
+Learning. PMLR, 2022.
+
+[14] Crovini, Enrico, et al. "Batch Bayesian optimization via particle
+gradient Flows." arXiv preprint arXiv:2209.04722 (2022).
+
+[15] Crovini, E., et al. "Automatic JOREK calibration via batch
+Bayesian optimization." Physics of Plasmas 31.6 (2024).
+
+[16] Cordero-Encinar, Paula, et al. "Deep Optimal Sensor Placement for
+Black Box Stochastic Simulations." arXiv preprint arXiv:2410.12036
+(2024).
+
+[17] K. Kandasamy et al. 2016, “Multi-fidelity bayesian optimization
+with continuous approximations”, arXiv:1703.06240
+
+[18] M. A. Gelbart et al. 2014, “Bayesian Optimisation with unknown
+constraints”, arXiv:1403.5607
+
+[19] R. Oliveira et al. 2019, “Bayesian optimisation under uncertain
+inputs”, arXiv:1902.07908
+
+### Main objectives of the project
+
+The project will initially consider the helium-cooled pebble bed
+(HCPB) breeder blanket. This concept is already well-established;
+having been considered by EU-DEMO during the preconceptual phase
+(2014-2020) it is being actively pursued in the conceptual design
+phase (2021-2027). Therefore, the design is at a suitable level of
+readiness for further optimisation, with high potential for impact
+should the methodologies prove successful. The optimisation will be
+performed in a multi-fidelity fashion (e.g. [17]), with the competing
+objectives of minimising pressure drop, maximising heat transfer and
+maximising tritium breeding ratio (TBR) subject to operational
+constraints (e.g. [18]). The result of the procedure should be robust
+to uncertainties arising from limitations in manufacturing as well as
+from nuclear data libraries, (e.g. [19]).
+
+### Details of Software/Data Deliverables
+
+The student will leverage the multi-physics simulation engine for
+Bayesian Optimisation studies.  A separate GitHub repository will be
+created, aimed at providing a general purpose framework for relevant
+black-box optimisation tasks. This will include baselines based on
+existing packages, for example the widely popular BoTorch package, as
+well as novel algorithms developed within the duration of the
+studies. Due to the ubiquity of this problem, we envisage that this
+framework will be valuable to decision makers across a wide range of
+sectors.
