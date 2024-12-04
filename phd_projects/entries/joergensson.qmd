@@ -5,7 +5,7 @@ department: "Mathematics"
 
 date: "11/21/2024"
 author: 
-    name: "Dr Andreas Joergensen (with Prof Camille Kandiko Howson (CHERS))",
+    name: "Dr Andreas Joergensen (with Prof Camille Kandiko Howson (CHERS))"
     affiliation: "Imperial"
 institution: "Imperial"
 
