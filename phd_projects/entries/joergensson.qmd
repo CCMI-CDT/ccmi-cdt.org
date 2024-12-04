@@ -9,6 +9,7 @@ author:
     affiliation: "Imperial"
 institution: "Imperial"
 
+---
 ## Project Description
 
 We would like to offer an interdisciplinary PhD project at the
