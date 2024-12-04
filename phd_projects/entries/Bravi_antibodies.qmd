@@ -1,5 +1,5 @@
 ---
-title: "A machine learning-informed computational model of cancer-immune interactions"
+title: "Machine learning-based biophysical models of antibody properties and function"
 
 department: "Mathematics"
 
