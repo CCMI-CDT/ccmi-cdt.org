@@ -5,7 +5,7 @@ department: "Mathematics"
 
 date: "10/20/2024"
 author: 
-    name: "Dr Andrew Duncan"
+    name: "Dr Andrew Duncan, Dr Dante Kalise and Lloyd Fletcher (UKAEA)"
     affiliation: "Imperial"
 institution: "Imperial"
 

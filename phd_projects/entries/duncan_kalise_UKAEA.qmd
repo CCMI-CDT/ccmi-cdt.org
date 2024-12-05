@@ -5,7 +5,7 @@ department: "Mathematics"
 
 date: "11/21/2024"
 author: 
-    name: "Dr Dante Kalise and Dr Andrew Duncan (with cosupervision from Dr Lorenzo Zanisi and Dr Helen Brooks at UKAEA)"
+    name: "Dr Andrew Duncan (with cosupervision from Dr Lorenzo Zanisi and Dr Helen Brooks at UKAEA)"
     affiliation: "Imperial"
 institution: "Imperial"
 
