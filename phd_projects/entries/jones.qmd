@@ -1,5 +1,5 @@
 ---
-title: "Smart Image-Based Sensor Optimisation for Fusion Simulation Validation"
+title: "Computational simulation of mtDNA mutations"
 
 department: "Mathematics"
 
