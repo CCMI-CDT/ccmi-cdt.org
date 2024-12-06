@@ -1,5 +1,5 @@
 ---
-title: "Computational simulation of mtDNA mutations"
+title: "Single Cell Ageing and mtDNA: learning and simulation"
 
 department: "Mathematics"
 
