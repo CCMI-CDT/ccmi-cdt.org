@@ -1,0 +1,124 @@
+---
+title: "Stochastic resetting in many-body interacting particle systems"
+department: "Mathematics"
+
+date: "12/12/2024"
+author: 
+    name: "Dr Thibault Bertrand and Prof. Paul Berloff"
+    affiliation: "Imperial"
+institution: "Imperial"
+
+
+---
+## Project Description
+
+Large systems of interacting particles are central to many
+applications across natural and social sciences. In physics, particles
+may represent ions in a plasma, molecules in a passive or active
+fluids, or galaxies in a cosmological model, while in biology, they
+often represent microorganisms like eukaryotic cells or bacteria that
+can exhibit complex behaviours. In economics and social sciences,
+particles typically represent individual agents like investors or
+institutions in a model of financial markets or individuals and
+communities in models of opinion formation. In these systems, robust
+emergent behaviour often arises even from very simple rules of
+interaction. Paradigmatic examples in systems of interacting active
+particles include motility induced phase separation and non-trivial
+swarming behaviour. A major challenge is to reduce the mathematical
+complexity of such systems by studying them at a coarse-grained level
+rather than at the level of single agents.
+
+A classical approach is to derive a macroscopic ic model that provides
+a continuous description of the dynamics in terms of global densities
+evolving according to non-linear partial differential equations. Such
+kinetic formulations date back to the foundations of statistical
+mechanics and the Boltzmann equation of dilute gases interacting via
+direct collisions. This is in general a complicated task and important
+(often uncontrolled) approximations need to be made. In recent years,
+however, much of the focus has been on the mean-field limit of
+particles with long range or collisionless interactions. Two
+paradigmatic examples are interacting Brownian particles in the
+overdamped regime and the Kuramoto model of coupled phase oscillators.
+
+Finally, the concept of stochastic resetting has recently
+emerged. Stochastic resetting is the process in which a system, such
+as a diffusive particle, is intermittently "reset" to an initial
+state, thereby restarting its evolution at stochastic
+times. Stochastic resetting has recently been under intense scrutiny
+because it has been shown to enhance search efficiency, create
+non-equilibrium steady states (NESS), and offer insights into a wide
+range of processes, from chemical reactions to biological foraging
+behaviours in a mathematically tractable framework. However, almost
+all previous studies of stochastic resetting have focused on
+single-particle systems.
+
+
+### Main objectives of the project
+
+The main goal of this project is to use a combination of mean-field
+theory, coarse-graining techniques, dimensional reduction, and
+agent-based numerical simulations to explore the effects of stochastic
+resetting on large-scale interacting particle systems, including both
+Kuramoto-based oscillator networks and systems of passive/active
+particles. Topics of interest include the following:
+
+• Existence of NESS in systems of interacting particles under
+  stochastic resetting – First, we will investigate the existence of a
+  NESS for the population density PDE of an interacting particle
+  system with local resetting and pairwise interactions. We will ask
+  whether the NESS exhibits phase transitions along analogous lines to
+  previous studies of Brownian gases without resetting.
+
+• Exploring differences between local and global resetting – under
+  local resetting each particle is independently reset following its
+  own sequence of times, while in global resetting all particles are
+  simultaneously reset. In the latter case, the resulting PDE for the
+  population density is itself subject to resetting. That is, mean
+  field theory breaks down and statistical correlations between the
+  particles arise even in the absence of interactions. We aim to
+  develop new analytical strategies to derive PDE descriptions of
+  these systems, strategies which will be informed by our large-scale
+  simulations.
+
+• Bridging local and global resetting – in a variety of models,
+  particles can be organized in subsystems (i.e. communities on
+  network-based Kuramoto systems or clusters arising in systems of
+  interacting active Brownian particles). We will introduce the
+  concept of subsystem resetting, in which subsystems can be reset
+  simultaneously leaving the rest of the system unchanged. We will
+  explore the conditions under which subsystem resetting can induce
+  global resetting. Focusing on the Kuramoto model, we will ask
+  whether subsystem resetting can induce system spanning correlation
+  and global synchronization. Using both analytical and numerical
+  methods (like genetic algorithms), we devise strategies to design
+  network topologies which optimize the emergence of synchronization
+  from subsystem resetting.
+
+• Extrinsic vs intrinsic coupling – In large interacting particle
+  systems, the coupling between individual particles can either be
+  “intrinsic” (i.e. direct pairwise interactions) or “extrinsic”
+  (i.e. mediated by a common external medium). An example of extrinsic
+  particle-particle interactions would be the quorum sensing observed
+  in bacterial colonies. We are interested in comparing the emergent
+  collective dynamics observed in the case of systems with intrinsic
+  and extrinsic interactions.
+
+• Passive vs active particles resetting – For passive Brownian
+  particles, the state of each particle is simply defined to be its
+  position. On the other hand, for an active particle it is necessary
+  to specify both its position and velocity state (or at least its
+  orientation). We will explore how the choice of resetting protocol
+  affects the collective behaviour exhibited by these systems.
+
+• Finite-size effects – In all the studies, we will investigate
+  numerically the breakdown of mean field theory as the number N of
+  interacting particles decreases. To do so, we will focus on
+  understanding how macroscopic observables scale with system size.
+
+### Details of Software/Data Deliverables
+
+The success of this project will rely on the development of:
+1.	numerical algorithms for a large-scale computational exploration of a variety of minimal systems in statistical mechanics;
+2.	development of efficient numerical algorithms for agent-based modelling both on networks (in the context of the Kuramoto model) and off-lattice (for simulations of passive and active particles systems);
+3.	purpose-built, scalable and adaptable software implementing advanced numerical solutions to highly nonlinear systems of PDEs and SPDEs; 
+4.	development of genetic algorithms to solve the inverse problem of finding the network structure of our Kuramoto model which optimizes global synchronization from the smallest subsystem resetting.

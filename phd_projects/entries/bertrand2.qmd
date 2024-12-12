@@ -1,0 +1,91 @@
+---
+title: "Accumulation and absorption of active particles at surfaces"
+department: "Mathematics"
+
+date: "12/12/2024"
+author: 
+    name: "Dr Thibault Bertrand and Prof. Paul Berloff"
+    affiliation: "Imperial"
+institution: "Imperial"
+
+
+---
+## Project Description
+
+Active matter provides a powerful quantitative framework for
+understanding complex biological processes by examining the interplay
+between self-organizing, energy-consuming particles and their
+surrounding environment. Systems such as motile bacteria,
+self-propelled colloids, or cytoskeletal filaments exemplify this
+paradigm. Canonical models include run-and-tumble particles (RTPs),
+which change direction through discrete reorientations, and active
+Brownian particles (ABPs), whose motion combines constant propulsion
+speed with rotational diffusion. While the local energy consumption
+puts these systems inherently out-of-equilibrium, in isolation, active
+particles seen at long enough time and large enough distances remain
+diffusive; true nonequilibrium features stem from the interactions of
+active particles with their environment.
+
+For instance, when confined within a channel, active particles tend to
+accumulate at the channel walls, even in the absence of inter-particle
+interactions. This is in clear contradiction with equilibrium
+Boltzmann distributions. Each particle pushes against the wall until a
+tumbling event or rotational diffusion redirects its motion enough
+that they can scatter off; this makes the wall behave like a sticky
+boundary. At the multi-particle level this results in a pressure being
+exerted on the confining walls. This behavior can also be described in
+terms of so-called sticky boundary condition: upon colliding with the
+wall, a particle remains attached for a random time governed by its
+tumbling dynamics. The degree of stickiness is characterized by the
+escape time back into the bulk; it spans from totally reflecting
+boundaries (instantaneous escape) to totally absorbing ones (permanent
+adhesion), with intermediate cases characterized by partial
+retention. Sticky boundary conditions are also relevant in
+understanding biological phenomena such as the dynamics of growing and
+shrinking polymer filaments.
+
+Extending this concept, partially permeable walls introduce another
+layer of complexity. Particles interacting with sticky boundaries may
+either re-enter the bulk or escape permanently, leading to a distinct
+set of behaviors compared to impermeable walls. In this scenario, the
+system lacks a steady-state density for particle position and
+orientation, and attention shifts to dynamic quantities like the mean
+first passage time (MFPT) for permanent absorption and its
+higher-order moments. These features underscore how the interactions
+between active particles and their environments drive nonequilibrium
+phenomena central to active matter systems.
+
+### Main objectives of the project
+
+The main goal of this project is to
+combine nonequilibrium statistical physics, mean field theory, and
+multi-scale computation to investigate the accumulationof
+particles. Recent studies have started to extend the equilibrium
+theory of wetting to systems of active particles showing that the
+stiffness of the wall controls a transition to wetting. We will here
+similarly study the condition of emergence of a wetting transition as
+a function of the absorption behaviour of the wall.
+
+•     First-passage statistics – At the particle level, our study will also focus on determining important first-passage statistics including the mean first-passage time for single-particle absorption at a permeable wall as well as the extremal statistics of absorption in the case of multiple particles, quantifying for instance, first absorption times.
+
+•     Theory of particle-surface interactions – We will develop a microscopic theory of particle-surface interactions and how this affects the accumulation and absorption of particles, including for flexible and active interfaces (modelling for instance a biological membrane).
+
+•     Breakdown of mean-field – Throughout the project, we will compare large-scale particle-based simulations and mean-field analytical arguments. We will then investigate the breakdown of mean field theory due to the absorption and removal of particles from the population.
+
+
+### Details of Software/Data Deliverables
+
+The success of this project will rely on the development of a number
+of advanced numerical simulations:
+
+1. numerical algorithms for a large-scale computational exploration of
+a variety of minimal systems in statistical mechanics including
+efficient sampling techniques to explore rare events, extremal
+statistics and first-passage time statistics;
+
+2. development of efficient numerical algorithms for systems of
+coupled SDEs;
+
+3. purpose-built, scalable and adaptable software implementing
+advanced numerical solutions to highly nonlinear systems of PDEs and
+SPDEs to solve our mean-field models.
