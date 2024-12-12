@@ -9,7 +9,7 @@
 <meta name="author" content="Prof Colin Cotter">
 <meta name="dcterms.date" content="2024-10-11">
 
-<title>Data-driven preconditioning for parallel-in-time PDE solvers – CCMI</title>
+<title>Next generation implicit numerics for atmosphere models – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-5fe3404b8cd0cb1bd8050316e5936a84.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-e0accf1c42d2821f88325b60c265fa40.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Data-driven preconditioning for parallel-in-time PDE solvers – CCMI">
+<meta property="og:title" content="Next generation implicit numerics for atmosphere models – CCMI">
 <meta property="og:description" content="EPSRC Centre for Doctoral Training in Colllaborative Compuational Modelling at the Interface">
 <meta property="og:site_name" content="CCMI">
 </head>
@@ -153,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data-driven preconditioning for parallel-in-time PDE solvers</h1>
+<h1 class="title">Next generation implicit numerics for atmosphere models</h1>
 </div>
 
 
@@ -191,29 +191,26 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="project-description" class="level2">
 <h2 class="anchored" data-anchor-id="project-description">Project Description</h2>
-<p>In our group we are developing solvers for parallel-in-time simulation based on a technique called ParaDiag. The goal of parallel-in-time methods is to solve time-dependent PDEs using a parallel computer with computation across several time steps at once in addition to the usual parallelism across spatial subdomains, to yield additional parallelism so that we can get the solution to bigger problems more quickly. ParaDiag is a computational linear algebra trick for solving the implicit system coupling together several time steps at once. For problems with waves and/or transport (such as those arising in weather and climate, or fusion plasma simulation) the big challenge is that ParaDiag requires the solution of systems that look like backward Euler applied to the original system but with a complex valued timestep! This complex valued aspect causes trouble for standard iterative solvers, and here we plan to use an iteration consisting of solving the linear system restricted independently on each of a set of overlapping patches, inspired by Graham et al (2020) which solved similar problems in the context of frequency domain wave equations. From that work it is evident that the patch systems must have an (approximate) absorbing boundary condition for the solver to converge well. For nondispersive wave equations and pure advection problems it is clear what these boundary conditions should be, but for nonlinear problems the theory is incomplete. In this project we propose to use a data-driven approach, taking solutions of the backward Euler problem, and restricting them to patches as input data, before fitting parameters using an appropriate model (such as a neural network, random features model, etc.).</p>
-<ul>
-<li>Graham, Ivan G., Euan A. Spence, and Jun Zou. “Domain decomposition with local impedance conditions for the Helmholtz equation with absorption.” SIAM Journal on Numerical Analysis 58, no. 5 (2020): 2515-2543.</li>
-</ul>
+<p>The classical numerical approaches to building atmosphere models rely on complicated splitting methods that deal with different parts of the model: waves, transport, moisture processes (clouds, evaporation, rain, ice etc), radiation, boundary layers, convection, etc. These splitting methods lead to highly complicated codes, time schemes that are difficult to analyse for stability/accuracy, and occasionally numerical artifacts the coupling of fluid dynamics and other physics. In this project we are pursuing an alternative goal: to translate as much of the system as possible into a single monolithic PDE coupling all the variables, and solve it with an implicit Runge-Kutta method. This is made possible by recent advances in massively parallel iterative methods for solving the implicit systems that come from this equation: we shift the complications from the timestepping scheme into the iterative solver.</p>
+<p>As a first step, we will build an atmosphere model consisting of the fluid dynamics component plus moisture processes, in this framework. Moisture processes involve switches (e.g., when maximum humidity is reached, any surplus water vapour is converted into cloud); we will deal with this using advanced “Variational Inequality” Newton solvers facilitated using PETSc [1]. The spatial discretisation will be build from compatible finite element methods closely related to those being implemented in the next generation LFRic modelling system at the Met Office. The software will be developed using Firedrake [2], which is a system for solving complicated PDEs using advanced finite element methods based on domain specific languages and code generation.</p>
+<p>The resulting modelling system will be automatically differentiable using the py-adjoint system (https://github.com/dolfin-adjoint/pyadjoint), making it suitable for blending with machine learning tools, towards our goal of hybrid physics-based/data-driven modelling approaches.</p>
+<p>[1] S. Balay, S. Abhyankar, M. Adams, S. Benson, J. Brown, P. Brune, K. Buschelman, E. Constantinescu, L. Dalcin, A. Dener, V. Eijkhout, J. Faibussowitsch, W. Gropp, V. Hapla, T. Isaac, P. Jolivet, D. Karpeyev, D. Kaushik, M. Knepley, F. Kong, S. Kruger, D. May, L. Curfman McInnes, R. Mills, L. Mitchell, T. Munson, J. Roman, K. Rupp, P. Sanan, J Sarich, B. Smith, H. Suh, S. Zampini, H. Zhang, and H. Zhang, J. Zhang, PETSc/TAO Users Manual, ANL-21/39 - Revision 3.22, 2024. https://doi.org/10.2172/2205494, https://petsc.org/release/docs/manual/manual.pdf</p>
+<p>[2] David A. Ham, Paul H. J. Kelly, Lawrence Mitchell, Colin J. Cotter, Robert C. Kirby, Koki Sagiyama, Nacime Bouziani, Sophia Vorderwuelbecke, Thomas J. Gregory, Jack Betteridge, Daniel R. Shapero, Reuben W. Nixon-Hill, Connor J. Ward, Patrick E. Farrell, Pablo D. Brubeck, India Marsden, Thomas H. Gibson, Miklós Homolya, Tianjiao Sun, Andrew T. T. McRae, Fabio Luporini, Alastair Gregory, Michael Lange, Simon W. Funke, Florian Rathgeber, Gheorghe-Teodor Bercea, and Graham R. Markall. Firedrake User Manual. Imperial College London and University of Oxford and Baylor University and University of Washington, first edition edition, 5 2023. doi:10.25561/104839.</p>
 <section id="existing-background-work" class="level3">
 <h3 class="anchored" data-anchor-id="existing-background-work">Existing background work</h3>
-<p>The history of the ParaDiag framework is surveyed in Gander et al (2020); we are pursuing the ParaDiag II approach as it is described in that article, particularly focussing on achieving practical performance for nonlinear PDEs. Funded by the UK ExCALIBUR project led by UKRI, the Met Office, UKAEA and STFC, we have developed a software library, asQ (Hope-Collins et al (2024)) for investigating ParaDiag algorithms and benchmarking them on high performance supercomputers. This has involved specific test cases relevant to weather and climate, fusion simulation and computational geology, but the scope is broad. asQ is built using Firedrake (firedrakeproject.org) which has a PyTorch interface for seamless integration of neural networks (Bouziani, Ham and Farsi (2024)).</p>
-<ul>
-<li>Gander, Martin J., Jun Liu, Shu-Lin Wu, Xiaoqiang Yue, and Tao Zhou. “Paradiag: Parallel-in-time algorithms based on the diagonalization technique.” arXiv preprint arXiv:2005.09158 (2020).</li>
-<li>Hope-Collins, Joshua, Abdalaziz Hamdan, Werner Bauer, Lawrence Mitchell, and Colin Cotter. “asQ: parallel-in-time finite element simulations using ParaDiag for geoscientific models and beyond.” arXiv preprint arXiv:2409.18792 (2024).</li>
-<li>Bouziani, Nacime, David A. Ham, and Ado Farsi. “Differentiable programming across the PDE and Machine Learning barrier.” arXiv preprint arXiv:2409.06085 (2024).</li>
-</ul>
+<p>We have a body of ten years of research in methods and software for atmosphere models, which is summarised in [3] and [4].</p>
+<p>[3] Cotter, Colin J. “Compatible finite element methods for geophysical fluid dynamics.” Acta Numerica 32 (2023): 291-393.</p>
+<p>[4] Gibson, Thomas H., Andrew TT McRae, Colin J. Cotter, Lawrence Mitchell, and David A. Ham. Compatible Finite Element Methods for Geophysical Flows: Automation and Implementation Using Firedrake. Springer Nature, 2019.</p>
 </section>
 <section id="main-objectives-of-the-project" class="level3">
 <h3 class="anchored" data-anchor-id="main-objectives-of-the-project">Main objectives of the project</h3>
-<p>The objectives are: * To develop a data-driven approach to absorbing boundary conditions for ParaDiag problems * To build up the capability through dispersive wave equations, coupled wave-transport problems, and the problems arising from ParaDiag applied to specific nonlinear PDEs</p>
+<p>This project is available to researchers with a wide variety of interests, who might focus on one or more of: * designing scalable iterative methods allowing the use of highly parallel supercomputers, * developing interative solvers that seamlessly incorporate moisture processes, * developing stabilisation schemes that allow the model to incorporate the effects of unresolved turbulent scales, * time-parallel algorithms using ParaDiag methods [5], * benchmarking the quality of the simulation in challenging testcases such as fronts and storms, * exploration of computationally optimal configurations using e.g. high order discretisations and emergent Firedrake capability on GPUs.</p>
+<p>[5] Hope-Collins, J., Hamdan, A., Bauer, W., Mitchell, L. and Cotter, C., 2024. asQ: parallel-in-time finite element simulations using ParaDiag for geoscientific models and beyond. arXiv preprint arXiv:2409.18792.</p>
 </section>
 <section id="details-of-softwaredata-deliverables" class="level3">
 <h3 class="anchored" data-anchor-id="details-of-softwaredata-deliverables">Details of Software/Data Deliverables</h3>
 <ul>
-<li>implemented preconditioners for asQ using petsc4py integrated with Firedrake</li>
-<li>tuned parameters for example problems</li>
-<li>everything developed open source on Github</li>
+<li>The research will contribute to open source software developed in Python (with automatically generated high performance C code)</li>
 </ul>
 
 

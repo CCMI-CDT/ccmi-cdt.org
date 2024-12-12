@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Dr Thibault Bertrand and Prof.&nbsp;Paul Berloff">
+<meta name="dcterms.date" content="2024-12-12">
 
-<title>Research thesis – CCMI</title>
+<title>Stochastic resetting in many-body interacting particle systems – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../static/assets/ccmi_rounded_colour.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-e0accf1c42d2821f88325b60c265fa40.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../static/assets/ccmi_rounded_colour.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e0accf1c42d2821f88325b60c265fa40.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,12 +71,10 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="Research thesis – CCMI">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Stochastic resetting in many-body interacting particle systems – CCMI">
 <meta property="og:description" content="EPSRC Centre for Doctoral Training in Colllaborative Compuational Modelling at the Interface">
-<meta property="og:image" content="https://ccmi-cdt.org/static/SciLib18_113.jpg">
 <meta property="og:site_name" content="CCMI">
-<meta property="og:image:alt" content="UCL Science Library">
 </head>
 
 <body class="nav-fixed fullcontent">
@@ -84,10 +84,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../static/assets/ccmi_rounded_colour.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../static/assets/ccmi_rounded_colour.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">CCMI</span>
     </a>
   </div>
@@ -98,27 +98,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../events/event_list.html"> 
+    <a class="nav-link" href="../../events/event_list.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../training/training.html"> 
+    <a class="nav-link" href="../../training/training.html"> 
 <span class="menu-text">Training Programme</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../apply.html"> 
+    <a class="nav-link" href="../../apply.html"> 
 <span class="menu-text">How to apply</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/blog_list.html"> 
+    <a class="nav-link" href="../../blog/blog_list.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../faq.html"> 
+    <a class="nav-link" href="../../faq.html"> 
 <span class="menu-text">FAQ</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -127,11 +127,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../team.html">
+    <a class="dropdown-item" href="../../team.html">
  <span class="dropdown-text">Our Leadership Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../#contact-us">
+    <a class="dropdown-item" href="../../#contact-us">
  <span class="dropdown-text">Contact us</span></a>
   </li>  
     </ul>
@@ -153,14 +153,33 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research thesis</h1>
+<h1 class="title">Stochastic resetting in many-body interacting particle systems</h1>
 </div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Supervisor</div>
+  <div class="quarto-title-meta-heading">Institution</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Dr Thibault Bertrand and Prof.&nbsp;Paul Berloff </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Imperial
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 12, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -170,13 +189,28 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="../static/SciLib18_113.jpg" class="img-fluid" alt="UCL Science Library"></p>
-<p>The four year <strong>research thesis</strong> will lead to a PhD degree from either UCL or Imperial College.</p>
-<p>As part of the interview process students choose an available research project either at UCL or at Imperial College.</p>
-<p>Thesis topics include the UCL Departments of Mathematics, Statistics, and Computer Science, and the Imperial Departments of Mathematics and Computing.</p>
-<p>For a continuously updated selection of potential thesis topics please browse our <a href="../phd_projects/phd_project_list.html">collection of PhD projects</a>.</p>
+<section id="project-description" class="level2">
+<h2 class="anchored" data-anchor-id="project-description">Project Description</h2>
+<p>Large systems of interacting particles are central to many applications across natural and social sciences. In physics, particles may represent ions in a plasma, molecules in a passive or active fluids, or galaxies in a cosmological model, while in biology, they often represent microorganisms like eukaryotic cells or bacteria that can exhibit complex behaviours. In economics and social sciences, particles typically represent individual agents like investors or institutions in a model of financial markets or individuals and communities in models of opinion formation. In these systems, robust emergent behaviour often arises even from very simple rules of interaction. Paradigmatic examples in systems of interacting active particles include motility induced phase separation and non-trivial swarming behaviour. A major challenge is to reduce the mathematical complexity of such systems by studying them at a coarse-grained level rather than at the level of single agents.</p>
+<p>A classical approach is to derive a macroscopic ic model that provides a continuous description of the dynamics in terms of global densities evolving according to non-linear partial differential equations. Such kinetic formulations date back to the foundations of statistical mechanics and the Boltzmann equation of dilute gases interacting via direct collisions. This is in general a complicated task and important (often uncontrolled) approximations need to be made. In recent years, however, much of the focus has been on the mean-field limit of particles with long range or collisionless interactions. Two paradigmatic examples are interacting Brownian particles in the overdamped regime and the Kuramoto model of coupled phase oscillators.</p>
+<p>Finally, the concept of stochastic resetting has recently emerged. Stochastic resetting is the process in which a system, such as a diffusive particle, is intermittently “reset” to an initial state, thereby restarting its evolution at stochastic times. Stochastic resetting has recently been under intense scrutiny because it has been shown to enhance search efficiency, create non-equilibrium steady states (NESS), and offer insights into a wide range of processes, from chemical reactions to biological foraging behaviours in a mathematically tractable framework. However, almost all previous studies of stochastic resetting have focused on single-particle systems.</p>
+<section id="main-objectives-of-the-project" class="level3">
+<h3 class="anchored" data-anchor-id="main-objectives-of-the-project">Main objectives of the project</h3>
+<p>The main goal of this project is to use a combination of mean-field theory, coarse-graining techniques, dimensional reduction, and agent-based numerical simulations to explore the effects of stochastic resetting on large-scale interacting particle systems, including both Kuramoto-based oscillator networks and systems of passive/active particles. Topics of interest include the following:</p>
+<p>• Existence of NESS in systems of interacting particles under stochastic resetting – First, we will investigate the existence of a NESS for the population density PDE of an interacting particle system with local resetting and pairwise interactions. We will ask whether the NESS exhibits phase transitions along analogous lines to previous studies of Brownian gases without resetting.</p>
+<p>• Exploring differences between local and global resetting – under local resetting each particle is independently reset following its own sequence of times, while in global resetting all particles are simultaneously reset. In the latter case, the resulting PDE for the population density is itself subject to resetting. That is, mean field theory breaks down and statistical correlations between the particles arise even in the absence of interactions. We aim to develop new analytical strategies to derive PDE descriptions of these systems, strategies which will be informed by our large-scale simulations.</p>
+<p>• Bridging local and global resetting – in a variety of models, particles can be organized in subsystems (i.e.&nbsp;communities on network-based Kuramoto systems or clusters arising in systems of interacting active Brownian particles). We will introduce the concept of subsystem resetting, in which subsystems can be reset simultaneously leaving the rest of the system unchanged. We will explore the conditions under which subsystem resetting can induce global resetting. Focusing on the Kuramoto model, we will ask whether subsystem resetting can induce system spanning correlation and global synchronization. Using both analytical and numerical methods (like genetic algorithms), we devise strategies to design network topologies which optimize the emergence of synchronization from subsystem resetting.</p>
+<p>• Extrinsic vs intrinsic coupling – In large interacting particle systems, the coupling between individual particles can either be “intrinsic” (i.e.&nbsp;direct pairwise interactions) or “extrinsic” (i.e.&nbsp;mediated by a common external medium). An example of extrinsic particle-particle interactions would be the quorum sensing observed in bacterial colonies. We are interested in comparing the emergent collective dynamics observed in the case of systems with intrinsic and extrinsic interactions.</p>
+<p>• Passive vs active particles resetting – For passive Brownian particles, the state of each particle is simply defined to be its position. On the other hand, for an active particle it is necessary to specify both its position and velocity state (or at least its orientation). We will explore how the choice of resetting protocol affects the collective behaviour exhibited by these systems.</p>
+<p>• Finite-size effects – In all the studies, we will investigate numerically the breakdown of mean field theory as the number N of interacting particles decreases. To do so, we will focus on understanding how macroscopic observables scale with system size.</p>
+</section>
+<section id="details-of-softwaredata-deliverables" class="level3">
+<h3 class="anchored" data-anchor-id="details-of-softwaredata-deliverables">Details of Software/Data Deliverables</h3>
+<p>The success of this project will rely on the development of: 1. numerical algorithms for a large-scale computational exploration of a variety of minimal systems in statistical mechanics; 2. development of efficient numerical algorithms for agent-based modelling both on networks (in the context of the Kuramoto model) and off-lattice (for simulations of passive and active particles systems); 3. purpose-built, scalable and adaptable software implementing advanced numerical solutions to highly nonlinear systems of PDEs and SPDEs; 4. development of genetic algorithms to solve the inverse problem of finding the network structure of our Kuramoto model which optimizes global synchronization from the smallest subsystem resetting.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <div class="column-page page-full mt-5 wave-background d-flex flex-column align-items-center justify-content-end">
@@ -192,8 +226,8 @@ ul.task-list li input[type="checkbox"] {
 		</h5>
 		<div id="logos" class="mt-4">
 			<a href="https://www.ukri.org/who-we-are/epsrc/">
-				<img src="../static/assets/ukri_logo.png" href="https://www.ukri.org/who-we-are/epsrc/" alt="UKRI logo"></a>
-			<img src="../static/assets/ccmi_square_colour_text.png" alt="CCMI logo">
+				<img src="../../static/assets/ukri_logo.png" href="https://www.ukri.org/who-we-are/epsrc/" alt="UKRI logo"></a>
+			<img src="../../static/assets/ccmi_square_colour_text.png" alt="CCMI logo">
 
 			<a href="https://www.imperial.ac.uk/">
 				<svg xmlns="http://www.w3.org/2000/svg" height="19.48" viewbox="0 0 177.3 19.48">
@@ -208,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
 				</svg>
 			</a>
 			<a href="https://www.ucl.ac.uk/mathematical-physical-sciences/news/2024/mar/ucl-receives-ps54m-boost-doctoral-training-engineering-and-physical-sciences">
-				<img src="../static/assets/UCL_logo.png" alt="UCL Logo white"></a>
+				<img src="../../static/assets/UCL_logo.png" alt="UCL Logo white"></a>
 		</div>
 	</div>
 </div>
