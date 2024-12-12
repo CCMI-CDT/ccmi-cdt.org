@@ -1,0 +1,127 @@
+---
+title: "Optimising Experimental Design for Nuclear Materials Research Using Foundation Models"
+
+department: "Mathematics and Materials"
+
+date: "10/11/2024"
+author: 
+    name: "Dr Sam Cooper"
+    affiliation: "Imperial"
+institution: "Imperial"
+---
+## Project Description
+
+The development of advanced materials for nuclear energy systems requires complex experimental campaigns involving significant time and resource investments. Current approaches rely heavily on manual planning by experts, limiting scalability and adaptability. This project aims to revolutionize experimental design in nuclear materials research by leveraging foundation models, particularly large language models (LLMs), to guide and optimize the scientific process.
+
+1.  Mathematical Foundations
+The project will develop a computational framework grounded in mathematical optimization techniques such as Bayesian inference, active learning, and probabilistic modelling. These methods will enable efficient experiment design by integrating prior scientific knowledge, evaluating uncertainties, and recommending optimal experimental strategies. Mathematical rigor will ensure the scalability and robustness of the approach.
+
+2.  Computational Modelling
+The project will explore cutting-edge AI and computational modelling approaches, including deep learning architectures specialized for scientific data. Foundation models will extract relevant information from large datasets, generate hypotheses, and simulate experimental scenarios. Integration with nuclear materials models will allow for the realistic prediction of material behaviours under extreme conditions such as radiation exposure.
+
+3.  Real-World Applications
+Close collaboration with the UK Atomic Energy Agency will align the project with nuclear materials research challenges, focusing on irradiation-resistant materials, fusion reactor components, and other mission-critical materials. The framework will be validated using experimental datasets from real-world research projects, ensuring that AI-driven experimental designs translate into tangible advances in nuclear materials science.
+
+This interdisciplinary project bridges artificial intelligence, materials science, and nuclear research. The successful PhD candidate will gain expertise in advanced AI methods, materials characterization, and scientific data analysis, preparing them for leading roles in academia or industry. By advancing experimental design optimization, the project will accelerate discovery while reducing the time and cost associated with nuclear materials research.
+
+
+### Existing background work
+
+      The design of experiments in nuclear materials research is
+      challenging due to the high costs, safety-critical constraints,
+      and the complexity of data-driven insights required. Traditional
+      methods rely on expert-driven approaches supported by
+      computational models, but these are often resource-intensive and
+      difficult to scale.
+
+Recent advances in AI, particularly large language models, offer
+promising solutions for optimizing experimental campaigns. These
+models excel at processing scientific literature, proposing
+hypotheses, and guiding experiment design. Sam CooperÕs group has
+demonstrated the potential of AI for materials science in automating
+microstructure optimization using generative models [1]. However,
+integrating such models into experiment design for nuclear research
+remains underexplored.
+
+      Felipe Tobar's group has made key contributions in Bayesian
+      model selection [2] and Gaussian processes, which are essential
+      for managing uncertainty in experimental design from the lens of
+      Bayesian optimisation. Combining these methods with LLM-driven
+      scientific reasoning could create a powerful system for
+      optimizing nuclear materials experiments, particularly in
+      designing irradiation-resistant materials and fusion reactor
+      components.
+      
+      This project aims to merge AI-driven language models,
+      probabilistic inference, and computational materials simulations
+      into a unified framework for experiment planning. By leveraging
+      expertise from both groups and collaborating with the UK Atomic
+      Energy Agency, the project seeks to accelerate nuclear materials
+      research through scalable, data-driven experimental design.
+
+[1] Lei, G., Docherty, R. and Cooper, S.J., 2024. Materials science in
+the era of large language models: a perspective.ÊDigital Discovery.
+
+[2] Backhoff-Veraguas, J., Fontbona, J., Rios, G. and Tobar, F.,
+2022. Bayesian learning with Wasserstein barycenters.ÊESAIM:
+Probability and Statistics,Ê26, pp.436-472.
+
+### Main objectives of the project
+
+1. Develop an AI-Driven Experimental Design Framework:
+Create a computational framework that integrates large language models (LLMs) with probabilistic modelling techniques such as Bayesian optimization and active learning.
+Enable automated extraction of scientific knowledge from literature, hypothesis generation, and experiment proposal.
+
+2. Incorporate Nuclear Materials Research Needs:
+Tailor the framework to address challenges in nuclear materials research, including irradiation-resistant materials and fusion reactor components.
+Ensure compatibility with computational materials models such as density functional theory (DFT) and molecular dynamics simulations.
+
+3. Integrate Mathematical Rigor:
+Use advanced mathematical methods to handle uncertainties, optimize multi-objective functions, and adaptively refine experimental strategies.
+Ensure model transparency, interpretability, and decision-making reliability.
+
+4. Validate Through Real-World Applications:
+Collaborate with the UK Atomic Energy Agency to test the framework using real-world experimental datasets.
+Demonstrate the systemÕs ability to improve experimental efficiency, reduce costs, and accelerate scientific discovery.
+
+5. Advance Scientific Reproducibility and Automation:
+Develop methods to enhance scientific reproducibility by creating transparent, traceable experiment planning processes.
+Publish open-source tools, models, and findings to advance the broader scientific community.
+
+These objectives aim to create a cutting-edge, AI-powered system that transforms the way experiments are designed in nuclear materials science, accelerating innovation while ensuring scientific reliability and safety.
+
+
+### Details of Software/Data Deliverables
+
+1. AI-Powered Experiment Design Platform: A modular software platform
+integrating large language models , Bayesian optimization, and active
+learning algorithms. Features include literature extraction,
+hypothesis generation, experiment planning, and adaptive campaign
+management.
+
+2. Materials-Specific Model Integration: Interfaces connecting the AI
+system with established computational materials tools such as DFT and
+molecular dynamics packages. Custom modules for nuclear materials
+applications (e.g., predicting irradiation damage).
+
+3. User Dashboard and Visualization Tools: An interactive dashboard
+for planning, tracking, and analysing experimental
+campaigns. Visualization tools for data-driven insights, experimental
+recommendations, and campaign summaries.
+
+4. Codebase and APIs: Open-source code repositories hosted on
+platforms like GitHub. Well-documented APIs for easy integration into
+existing scientific workflows.
+
+Data Deliverables
+
+1. Curated Nuclear Materials Dataset: A dataset of relevant nuclear
+materials experiments, including published and simulated data,
+formatted for AI model training.
+
+2. Experiment Design Case Studies: Fully documented experimental
+campaigns used as validation benchmarks. Reproducible case studies
+demonstrating the system's capabilities in real-world scenarios.
+
+3. Synthetic Experiment Datasets: AI-generated experimental datasets
+for benchmarking and evaluation of optimization performance.
