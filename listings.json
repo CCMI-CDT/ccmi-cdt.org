@@ -1,18 +1,5 @@
 [
   {
-    "listing": "/index.html",
-    "items": [
-      "/blog/posts/blogpost1.html",
-      "/blog/posts/nobel_prizes.html",
-      "/blog/posts/applications_open.html",
-      "/events/posts/open_day.html"
-    ]
-  },
-  {
-    "listing": "/team.html",
-    "items": []
-  },
-  {
     "listing": "/phd_projects/phd_project_list.html",
     "items": [
       "/phd_projects/entries/bertrand1.html",
@@ -40,6 +27,7 @@
       "/phd_projects/entries/bertrand_rg_nn.html",
       "/phd_projects/entries/salvi_backpropagation.html",
       "/phd_projects/entries/huthwaite.html",
+      "/phd_projects/entries/cooper_tobar.html",
       "/phd_projects/entries/hetherington1.html",
       "/phd_projects/entries/hethernington2.html",
       "/phd_projects/entries/Salvi_Gillespie.html",
@@ -78,6 +66,19 @@
       "/phd_projects/entries/Briol_Montecarlo.html",
       "/phd_projects/entries/burman_inverse.html",
       "/phd_projects/entries/Bravi_antibodies.html"
+    ]
+  },
+  {
+    "listing": "/team.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/blog/posts/blogpost1.html",
+      "/blog/posts/nobel_prizes.html",
+      "/blog/posts/applications_open.html",
+      "/events/posts/open_day.html"
     ]
   },
   {
