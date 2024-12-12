@@ -1,0 +1,107 @@
+---
+title: "Next generation implicit numerics for atmosphere models"
+
+department: "Mathematics"
+
+date: "10/11/2024"
+author: 
+    name: "Prof Colin Cotter"
+    affiliation: "Imperial"
+institution: "Imperial"
+---
+## Project Description
+
+The classical numerical approaches to building atmosphere models rely
+on complicated splitting methods that deal with different parts of the
+model: waves, transport, moisture processes (clouds, evaporation,
+rain, ice etc), radiation, boundary layers, convection, etc. These
+splitting methods lead to highly complicated codes, time schemes that
+are difficult to analyse for stability/accuracy, and occasionally
+numerical artifacts the coupling of fluid dynamics and other physics.
+In this project we are pursuing an alternative goal: to translate as
+much of the system as possible into a single monolithic PDE coupling
+all the variables, and solve it with an implicit Runge-Kutta method.
+This is made possible by recent advances in massively parallel
+iterative methods for solving the implicit systems that come from this
+equation: we shift the complications from the timestepping scheme into
+the iterative solver.
+
+As a first step, we will build an atmosphere model consisting of the
+fluid dynamics component plus moisture processes, in this framework.
+Moisture processes involve switches (e.g., when maximum humidity is
+reached, any surplus water vapour is converted into cloud); we will
+deal with this using advanced "Variational Inequality" Newton solvers
+facilitated using PETSc [1].  The spatial discretisation will be build
+from compatible finite element methods closely related to those being
+implemented in the next generation LFRic modelling system at the Met
+Office. The software will be developed using Firedrake [2], which is a
+system for solving complicated PDEs using advanced finite element
+methods based on domain specific languages and code generation.
+
+The resulting modelling system will be automatically differentiable
+using the py-adjoint system
+(https://github.com/dolfin-adjoint/pyadjoint), making it suitable for
+blending with machine learning tools, towards our goal of hybrid
+physics-based/data-driven modelling approaches.
+
+
+[1] S. Balay, S. Abhyankar, M. Adams, S. Benson, J. Brown, P. Brune,
+K. Buschelman, E. Constantinescu, L. Dalcin, A. Dener, V. Eijkhout,
+J. Faibussowitsch, W. Gropp, V. Hapla, T. Isaac, P. Jolivet,
+D. Karpeyev, D. Kaushik, M. Knepley, F. Kong, S. Kruger, D. May,
+L. Curfman McInnes, R. Mills, L. Mitchell, T. Munson, J. Roman,
+K. Rupp, P. Sanan, J Sarich, B. Smith, H. Suh, S. Zampini, H. Zhang,
+and H. Zhang, J. Zhang, PETSc/TAO Users Manual, ANL-21/39 - Revision
+3.22, 2024. https://doi.org/10.2172/2205494,
+https://petsc.org/release/docs/manual/manual.pdf
+
+[2] David A. Ham, Paul H. J. Kelly, Lawrence Mitchell, Colin
+J. Cotter, Robert C. Kirby, Koki Sagiyama, Nacime Bouziani, Sophia
+Vorderwuelbecke, Thomas J. Gregory, Jack Betteridge, Daniel
+R. Shapero, Reuben W. Nixon-Hill, Connor J. Ward, Patrick E. Farrell,
+Pablo D. Brubeck, India Marsden, Thomas H. Gibson, Miklós Homolya,
+Tianjiao Sun, Andrew T. T. McRae, Fabio Luporini, Alastair Gregory,
+Michael Lange, Simon W. Funke, Florian Rathgeber, Gheorghe-Teodor
+Bercea, and Graham R. Markall. Firedrake User Manual. Imperial College
+London and University of Oxford and Baylor University and University
+of Washington, first edition edition, 5 2023. doi:10.25561/104839.
+
+### Existing background work
+
+We have a body of ten years of research in methods and software
+for atmosphere models, which is summarised in [3] and [4].
+
+[3] Cotter, Colin J. "Compatible finite element methods for
+geophysical fluid dynamics." Acta Numerica 32 (2023): 291-393.
+
+[4] Gibson, Thomas H., Andrew TT McRae, Colin J. Cotter, Lawrence
+Mitchell, and David A. Ham. Compatible Finite Element Methods for
+Geophysical Flows: Automation and Implementation Using
+Firedrake. Springer Nature, 2019.
+
+### Main objectives of the project
+
+This project is available to researchers with a wide variety
+of interests, who might focus on one or more of:
+* designing scalable iterative methods allowing the use of highly parallel
+supercomputers,
+* developing interative solvers that seamlessly incorporate moisture
+processes,
+* developing stabilisation schemes that allow the model to incorporate
+the effects of unresolved turbulent scales,
+* time-parallel algorithms using ParaDiag methods [5],
+* benchmarking the quality of the simulation in challenging testcases
+  such as fronts and storms,
+* exploration of computationally optimal configurations using e.g.
+high order discretisations and emergent Firedrake capability on GPUs.
+
+[5] Hope-Collins, J., Hamdan, A., Bauer, W., Mitchell, L. and Cotter,
+C., 2024. asQ: parallel-in-time finite element simulations using
+ParaDiag for geoscientific models and beyond. arXiv preprint
+arXiv:2409.18792.
+
+
+### Details of Software/Data Deliverables
+
+* The research will contribute to open source software developed
+in Python (with automatically generated high performance C code)
