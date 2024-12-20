@@ -4,7 +4,7 @@ department: "Mathematics"
 
 date: "12/12/2024"
 author: 
-    name: "Dr Thibault Bertrand and Prof. Paul Berloff"
+    name: "Dr Thibault Bertrand and Prof. Paul Bressloff"
     affiliation: "Imperial"
 institution: "Imperial"
 
