@@ -26,9 +26,9 @@ institution: "Imperial"
 
 ### Existing background work
 
-    The lead supervisor is an expert in data assimilation (having
-    written a textbook with Sebastian Reich) and also in finite
-    element discretisations of PDEs.
+   The lead supervisor is an expert in data assimilation (having
+   written a textbook with Sebastian Reich) and also in finite
+   element discretisations of PDEs.
 
 ### Main objectives of the project
 
