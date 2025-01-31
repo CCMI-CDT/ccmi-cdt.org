@@ -19,6 +19,7 @@
   {
     "listing": "/phd_projects/phd_project_list.html",
     "items": [
+      "/phd_projects/entries/ham_compiler.html",
       "/phd_projects/entries/bertrand2.html",
       "/phd_projects/entries/bertrand1.html",
       "/phd_projects/entries/xue_distribution_detection.html",
@@ -70,7 +71,6 @@
       "/phd_projects/entries/Graham_multilevelbayesian.html",
       "/phd_projects/entries/Ni_StochasticPDE.html",
       "/phd_projects/entries/CotterKalise_Fieldgames.html",
-      "/phd_projects/entries/Cox_neuralODE.html",
       "/phd_projects/entries/Tobar_machinelearning.html",
       "/phd_projects/entries/Boulle_Koopman.html",
       "/phd_projects/entries/Coveney_HemeLB.html",
@@ -78,6 +78,7 @@
       "/phd_projects/entries/Graham_Automatedbayesian.html",
       "/phd_projects/entries/Kovalchuk_healthcare.html",
       "/phd_projects/entries/Pearce_bacterialbiofilms.html",
+      "/phd_projects/entries/Arridge_neuralODE.html",
       "/phd_projects/entries/BetckeM_inverseproblems.html",
       "/phd_projects/entries/Salvi_Gillespie.html",
       "/phd_projects/entries/Betcke_GPUarchitectures.html",
