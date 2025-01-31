@@ -1,0 +1,33 @@
+---
+title: "PDE-driven Digital Twins"
+
+department: "Mathematics"
+
+date: "10/02/2024"
+author: 
+    name: "Prof Colin Cotter"
+    affiliation: "Imperial"
+institution: "Imperial"
+---
+## Project Description
+
+   There are many definitions for digital twins but here we define a
+   digital twin as a computational model of a physical (natural,
+   engineered, social or hybrid) system combined with algorithms for
+   assimilating observed data into the model and for controlling the
+   physical system so that there is bidirectional interaction updated
+   in real time. Some applications include: flood forecasting with
+   river control, vertical farming, renewable energy devices, traffic
+   pollution control in cities, etc.
+
+   In this project we will focus on the algorithmic challenges arising
+   when the computational model involves the numerical solution of
+   PDEs.  In this case, to realise the full potential uses of digital
+   twins, we need to develop new mathematics and algorithms to address
+   the challenge to computational resources that otherwise
+   exists. This includes: multiscale and multifidelity modelling,
+   reduced order modelling, empirical surrogates and hybrid
+   empirical/mechanistic models, all of which may need to be federated
+   into a fully functional digital twin.
+
+ Data assimilation is the process of taking measurements from a system that is evolving in time (like the Earth's weather, or water levels on a river network, etc) and using them to update knowledge about the current state of that system, so that a model can be used to produce future predictions of it. The goal of this project is to develop, analyse and implement new methods for performing data assimilation when the model has errors in it (due to e.g. unresolved processes below the gridscale). In our approach, we will use a stochastic formulation for these errors, which must itself be learned from data, either from precomputed high resolution simulation, or updated online during the data assimilation process.
