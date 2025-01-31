@@ -2,14 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.6.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Prof Colin Cotter">
 <meta name="dcterms.date" content="2024-10-02">
 
-<title>PDE-driven/data-driven hybrid modelling for data assimilation – CCMI</title>
+<title>PDE-driven Digital Twins – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -38,10 +38,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-e0accf1c42d2821f88325b60c265fa40.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-fdd080ec7a5fbd578c55ba6c2157f3be.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="PDE-driven/data-driven hybrid modelling for data assimilation – CCMI">
+<meta property="og:title" content="PDE-driven Digital Twins – CCMI">
 <meta property="og:description" content="EPSRC Centre for Doctoral Training in Colllaborative Compuational Modelling at the Interface">
 <meta property="og:site_name" content="CCMI">
 </head>
@@ -153,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">PDE-driven/data-driven hybrid modelling for data assimilation</h1>
+<h1 class="title">PDE-driven Digital Twins</h1>
 </div>
 
 
@@ -191,9 +191,25 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="project-description" class="level2">
 <h2 class="anchored" data-anchor-id="project-description">Project Description</h2>
-<p>Data assimilation is the process of taking measurements from a system that is evolving in time (like the Earth’s weather, or water levels on a river network, etc) and using them to update knowledge about the current state of that system, so that a model can be used to produce future predictions of it. The goal of this project is to develop, analyse and implement new methods for performing data assimilation when the model has errors in it (due to e.g.&nbsp;unresolved processes below the gridscale). In our approach, we will use a stochastic formulation for these errors, which must itself be learned from data, either from precomputed high resolution simulation, or updated online during the data assimilation process.</p>
+<p>There are many definitions for digital twins but here we define a digital twin as a computational model of a physical (natural, engineered, social or hybrid) system combined with algorithms for assimilating observed data into the model and for controlling the physical system so that there is bidirectional interaction updated in real time. Some applications include: flood forecasting with river control, vertical farming, renewable energy devices, traffic pollution control in cities, etc.</p>
+<p>This topic is for PhD researchers who are interested in numerical discretisations for PDEs and their embedding inside algorithms that couple them with data.</p>
+<section id="existing-background-work" class="level3">
+<h3 class="anchored" data-anchor-id="existing-background-work">Existing background work</h3>
+<pre><code>The lead supervisor is an expert in data assimilation (having
+written a textbook with Sebastian Reich) and also in finite
+element discretisations of PDEs.</code></pre>
+</section>
+<section id="main-objectives-of-the-project" class="level3">
+<h3 class="anchored" data-anchor-id="main-objectives-of-the-project">Main objectives of the project</h3>
+<p>In this project topic we will focus on the algorithmic challenges arising when the computational model involves the numerical solution of PDEs. In this case, to realise the full potential uses of digital twins, we need to develop new mathematics and algorithms to address the challenge to computational resources that otherwise exists. This includes: multiscale and multifidelity modelling, reduced order modelling, empirical surrogates (including generative models) and hybrid empirical/mechanistic models, data assimilation and control algorithms, all of which may need to be federated into a fully functional digital twin.</p>
+<p>Projects in this topic will focus in one or more of this algorithmic areas, developed in the context of finite element methods for partial differential equations, with the application area open depending on the interests and capabilities of the PhD researcher.</p>
+</section>
+<section id="details-of-softwaredata-deliverables" class="level3">
+<h3 class="anchored" data-anchor-id="details-of-softwaredata-deliverables">Details of Software/Data Deliverables</h3>
+<p>The project will deliver software for the chosen algorithms, so that they can be evaluated and extended. The software will take the form of a general purpose tool that can be applied to a range of models implemented using the Firedrake framework.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
