@@ -1,11 +1,11 @@
 ---
 title: "Time Reversal Imaging and Learned Physics with Neural ODEs"
 
-department: "Medical Physics and Biomedical Engineering"
+department: "Computer Science"
 
 date: "10/02/2024"
 author: 
-    name: "Prof Ben Cox"
+    name: "Prof Simon Arridge"
     affiliation: "UCL"
 institution: "UCL"
 ---

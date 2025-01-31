@@ -1,0 +1,34 @@
+---
+title: "Domain-specific Compiler Technology for Finite Element Simulation on Tensor Hardware"
+
+department: "Mathematics or Computing"
+
+date: "01/31/2025"
+author: 
+    name: "Prof Paul Kelly and Prof David Ham"
+    affiliation: "Imperial"
+institution: "Imperial"
+---
+
+## Project Description
+
+The finite element method is a powerful mathematical abstraction for simulations of continuous physical systems. It is employed in applications as diverse as weather prediction, fusion energy design, the stability of massive structures or the development of optimal cooling for high performance microchips, to name but a few.  
+ 
+Firedrake is a software tool that automates the finite element method.  It generates high-performance code for laptops, GPUs and supercomputers.  Firedrake is used by a large and growing community of users worldwide, in universities, government institutions and companies. Firedrake exploits the mathematical abstraction of the finite element method to replace hand-written code with a series of specialist compiler layers that transform the user’s mathematical description of a simulation task into a high-performance parallel computation.  
+ 
+From a user perspective, this provides a highly productive simulation capability which avoids the laborious, technical and error-prone task of writing low-level parallel code. From a computer science perspective, Firedrake delivers a representation of the simulation task which is higher level and more structured than low-level code. This provides the opportunity to exploit this structure to generate high performance implementations without the complex and fragile analysis needed to discover that structure in lower-level code 
+ 
+The availability of CPUs and GPUs with parallel instructions for not just vectors, but also matrices, creates new opportunities.  Nvidia’s tensor cores provide a large performance advantage, and similar instruction set extensions are in the pipeline for Intel, AMD and ARM CPUs.  The finite element method is often dominated by an assembly phase, essential a tensor contraction.  The challenge in this project is to map this onto tensor/matrix instructions. 
+ 
+The Multi-Level Intermediate Representation (MLIR) is a framework for compiler architecture, building on the open-source LLVM infrastructure – with huge industrial support.  MLIR’s dialect mechanism enables domain-specific compilers to be structured in a layered way – we aim to adopt MLIR (or the Python-based XDSL) - and to gain not only from multiple available compiler backends for diverse hardware, but also community support for tensor and graph/mesh optimisations. 
+ 
+### Existing background work: 
+ 
+XDSL is a Python version of MLIR, interoperable with the main MLIR codebase, specifically designed to support DSLs in HPC; see [GitHub - xdslproject/xdsl](https://github.com/xdslproject/xdsl): A Python Compiler Design Toolkit),  It is used, for example in [[2404.02218] A shared compilation stack for distributed-memory parallelism in stencil DSLs](https://arxiv.org/abs/2404.02218) 
+ 
+The [Firedrake project](https://firedrakeproject.org/) will be the basis and host for this project.  
+ 
+### Details of Software Deliverables: 
+ 
+The new compiler architecture delivered in this project will provide a new compiler back end to the Firedrake project and will be released as a part of that project. This will place it in immediate use by scientists and engineers worldwide. The student working on the project will have the opportunity to form collaborations with users tackling the most challenging of applications, and hence to take their work far further than the highly simplified test cases that often typify new technology developments. 
+ 
