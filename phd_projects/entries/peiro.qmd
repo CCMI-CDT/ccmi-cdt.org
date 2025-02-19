@@ -1,0 +1,81 @@
+---
+title: "Reinforcement Learning for Full-Hexahedral Mesh Generation"
+
+department: "Aeronautics"
+
+date: "10/02/2024"
+author: 
+    name: "Prof Joaquim Peiro and Dr Mashy Green (UCL ARC)"
+    affiliation: "Imperial"
+institution: "Imperial"
+---
+## Project Description
+
+Machine learning and its inherent ability for pattern matching is proposed as
+an alternative to current state-of-the-art trial-and-error methods of hexahedral
+mesh generation that could potentially overcome their limitations and lead to its
+ultimate, yet unfulfilled, goal: a fully automatic full-hexahedral meshing tool.
+
+### Existing background work
+
+   Mesh generation is the scaffolding that supports modelling and simulation: an
+accurate and efficient simulation requires a high-quality mesh that appropriately
+captures the complex geometrical and physical features of the problem, whilst
+ensuring the stability of the numerical method employed for such simulation.
+Hexahedral elements are the preferred choice for the majority of applications
+in finite element analysis because their better approximation and stability prop-
+erties when compared with their tetrahedral counterparts. However, the lack of
+automatic, robust and reliable mesh generators of full hexahedral meshes means
+that mixed or full tetrahedral meshes must be used for discretizing complex ge-
+ometries. Current methods for generating complex, unstructured all-hexahedral
+meshes are heuristic and often require extensive user input form accumulated
+experience and time-consuming trial-and-error procedures.
+We will adopt state-of-the-art machine learning methods for deep reinforce-
+ment learning, such as Monte Carlo tree searching and its derivatives, that have
+demonstrated their ability to cope with the demands of ‘learning’ what it takes
+to win complex games such as chess or go, to identify winning strategies for
+the full-hexahedral mesh generation game. Despite recent interest in using ma-
+chine learning techniques for mesh generation, novelty here lies on viewing mesh
+generation as a ‘game’. These techniques will be used to perform and assess mesh topological mesh
+operations or ‘moves’. We will consider two main types of such operations:
+hexahedral-to-hexahedral operations aiming at improving overall mesh quality,
+and polyhedral-to-hexahedral operations to increase the percentage of converted
+hexahedra and their mesh quality. The idea of assimilating mesh generation to
+a game is new.
+
+### Main objectives of the project
+
+In the absence of a theoretically based holistic approach to full-hexahedral mesh
+generation, we seek to investigate machine learning techniques for improving
+the performance of state-of-the-art procedures for the topological modification
+of full-hexahedral or hex-dominant meshes with a view to achieve high-quality
+full-hexahedral meshes.
+The idea behind the proposed methodology is to view topological mesh modi-
+fication operations as ‘moves’ of a game with the aim of achieving full-hexahedral
+meshes of optimal a priori mesh quality.
+The main objectives of the work are:
+
+1. To implement and train state-of-the-art machine learning methods based
+on deep reinforcement learning to ‘play’ the mesh generation ‘game’.
+2. To identify the optimal ‘rules of the game’, or suitable criteria of a priori
+mesh quality.
+3. To select a suitable set of ‘game moves’, or topological mesh modifications,
+and assess their performance according to the rules of the game.
+4. To investigate the possibility of incorporating ‘sacrificial moves’ for im-
+proved performance, wherein a ‘move’ that gives initially lower quality
+in the short term ultimately results in a much higher-quality mesh after
+many ‘moves’.
+
+### Details of Software/Data Deliverables
+
+This work will lead to the development of a robust full-hexahedral meshing ca-
+pability of interest to both academia and industry. The capability will integrate:
+
+1. A software implementation of a library for mesh modification operations:
+hexahedra-to-hexahedra and polyhedra-to-hexahedra. The library will be
+stand-alone and callable by existing mesh generators such as NekMesh,
+a general open-source high-order mesh generator under the Nektar++
+spectral/hp element framework.
+2. Use of state-of-the-art software for machine learning, such as Tensorflow
+or pyTorch, for the development of the reinforcement learning of the ‘hex-
+ahedral meshing game.
