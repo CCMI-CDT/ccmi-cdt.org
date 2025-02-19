@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="your name">
+<meta name="author" content="Prof Joaquim Peiro and Dr Mashy Green (UCL ARC)">
+<meta name="dcterms.date" content="2024-10-02">
 
-<title>title of the post – CCMI</title>
+<title>Reinforcement Learning for Full-Hexahedral Mesh Generation – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,23 +25,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../static/assets/ccmi_rounded_colour.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-e01dce85e4dd9d04787a43765b4758b9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../static/assets/ccmi_rounded_colour.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-e01dce85e4dd9d04787a43765b4758b9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,8 +71,8 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="title of the post – CCMI">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Reinforcement Learning for Full-Hexahedral Mesh Generation – CCMI">
 <meta property="og:description" content="EPSRC Centre for Doctoral Training in Colllaborative Compuational Modelling at the Interface">
 <meta property="og:site_name" content="CCMI">
 </head>
@@ -83,10 +84,10 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../static/assets/ccmi_rounded_colour.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../static/assets/ccmi_rounded_colour.png" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">CCMI</span>
     </a>
   </div>
@@ -97,27 +98,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../events/event_list.html"> 
+    <a class="nav-link" href="../../events/event_list.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../training/training.html"> 
+    <a class="nav-link" href="../../training/training.html"> 
 <span class="menu-text">Training Programme</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../apply.html"> 
+    <a class="nav-link" href="../../apply.html"> 
 <span class="menu-text">How to apply</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../blog/blog_list.html"> 
+    <a class="nav-link" href="../../blog/blog_list.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../faq.html"> 
+    <a class="nav-link" href="../../faq.html"> 
 <span class="menu-text">FAQ</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -126,11 +127,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../team.html">
+    <a class="dropdown-item" href="../../team.html">
  <span class="dropdown-text">Our Leadership Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../#contact-us">
+    <a class="dropdown-item" href="../../#contact-us">
  <span class="dropdown-text">Contact us</span></a>
   </li>  
     </ul>
@@ -152,28 +153,31 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">title of the post</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">Application</div>
-    <div class="quarto-category">test</div>
-  </div>
-  </div>
+<h1 class="title">Reinforcement Learning for Full-Hexahedral Mesh Generation</h1>
+</div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Supervisor</div>
+  <div class="quarto-title-meta-heading">Institution</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Prof Joaquim Peiro and Dr Mashy Green (UCL ARC) </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Imperial
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>your name </p>
-          </div>
-  </div>
-    
+      
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">Invalid Date</p>
+      <p class="date">October 2, 2024</p>
     </div>
   </div>
   
@@ -185,10 +189,34 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- Please copy this template into the posts folder and rename as appropriate -->
-<p><br> <!-- enter post content here --></p>
+<section id="project-description" class="level2">
+<h2 class="anchored" data-anchor-id="project-description">Project Description</h2>
+<p>Machine learning and its inherent ability for pattern matching is proposed as an alternative to current state-of-the-art trial-and-error methods of hexahedral mesh generation that could potentially overcome their limitations and lead to its ultimate, yet unfulfilled, goal: a fully automatic full-hexahedral meshing tool.</p>
+<section id="existing-background-work" class="level3">
+<h3 class="anchored" data-anchor-id="existing-background-work">Existing background work</h3>
+<p>Mesh generation is the scaffolding that supports modelling and simulation: an accurate and efficient simulation requires a high-quality mesh that appropriately captures the complex geometrical and physical features of the problem, whilst ensuring the stability of the numerical method employed for such simulation. Hexahedral elements are the preferred choice for the majority of applications in finite element analysis because their better approximation and stability prop- erties when compared with their tetrahedral counterparts. However, the lack of automatic, robust and reliable mesh generators of full hexahedral meshes means that mixed or full tetrahedral meshes must be used for discretizing complex ge- ometries. Current methods for generating complex, unstructured all-hexahedral meshes are heuristic and often require extensive user input form accumulated experience and time-consuming trial-and-error procedures. We will adopt state-of-the-art machine learning methods for deep reinforce- ment learning, such as Monte Carlo tree searching and its derivatives, that have demonstrated their ability to cope with the demands of ‘learning’ what it takes to win complex games such as chess or go, to identify winning strategies for the full-hexahedral mesh generation game. Despite recent interest in using ma- chine learning techniques for mesh generation, novelty here lies on viewing mesh generation as a ‘game’. These techniques will be used to perform and assess mesh topological mesh operations or ‘moves’. We will consider two main types of such operations: hexahedral-to-hexahedral operations aiming at improving overall mesh quality, and polyhedral-to-hexahedral operations to increase the percentage of converted hexahedra and their mesh quality. The idea of assimilating mesh generation to a game is new.</p>
+</section>
+<section id="main-objectives-of-the-project" class="level3">
+<h3 class="anchored" data-anchor-id="main-objectives-of-the-project">Main objectives of the project</h3>
+<p>In the absence of a theoretically based holistic approach to full-hexahedral mesh generation, we seek to investigate machine learning techniques for improving the performance of state-of-the-art procedures for the topological modification of full-hexahedral or hex-dominant meshes with a view to achieve high-quality full-hexahedral meshes. The idea behind the proposed methodology is to view topological mesh modi- fication operations as ‘moves’ of a game with the aim of achieving full-hexahedral meshes of optimal a priori mesh quality. The main objectives of the work are:</p>
+<ol type="1">
+<li>To implement and train state-of-the-art machine learning methods based on deep reinforcement learning to ‘play’ the mesh generation ‘game’.</li>
+<li>To identify the optimal ‘rules of the game’, or suitable criteria of a priori mesh quality.</li>
+<li>To select a suitable set of ‘game moves’, or topological mesh modifications, and assess their performance according to the rules of the game.</li>
+<li>To investigate the possibility of incorporating ‘sacrificial moves’ for im- proved performance, wherein a ‘move’ that gives initially lower quality in the short term ultimately results in a much higher-quality mesh after many ‘moves’.</li>
+</ol>
+</section>
+<section id="details-of-softwaredata-deliverables" class="level3">
+<h3 class="anchored" data-anchor-id="details-of-softwaredata-deliverables">Details of Software/Data Deliverables</h3>
+<p>This work will lead to the development of a robust full-hexahedral meshing ca- pability of interest to both academia and industry. The capability will integrate:</p>
+<ol type="1">
+<li>A software implementation of a library for mesh modification operations: hexahedra-to-hexahedra and polyhedra-to-hexahedra. The library will be stand-alone and callable by existing mesh generators such as NekMesh, a general open-source high-order mesh generator under the Nektar++ spectral/hp element framework.</li>
+<li>Use of state-of-the-art software for machine learning, such as Tensorflow or pyTorch, for the development of the reinforcement learning of the ’hex- ahedral meshing game.</li>
+</ol>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <div class="column-page page-full mt-5 wave-background d-flex flex-column align-items-center justify-content-end">
@@ -204,8 +232,8 @@ ul.task-list li input[type="checkbox"] {
 		</h5>
 		<div id="logos" class="mt-4">
 			<a href="https://www.ukri.org/who-we-are/epsrc/">
-				<img src="../static/assets/ukri_logo.png" href="https://www.ukri.org/who-we-are/epsrc/" alt="UKRI logo"></a>
-			<img src="../static/assets/ccmi_square_colour_text.png" alt="CCMI logo">
+				<img src="../../static/assets/ukri_logo.png" href="https://www.ukri.org/who-we-are/epsrc/" alt="UKRI logo"></a>
+			<img src="../../static/assets/ccmi_square_colour_text.png" alt="CCMI logo">
 
 			<a href="https://www.imperial.ac.uk/">
 				<svg xmlns="http://www.w3.org/2000/svg" height="19.48" viewbox="0 0 177.3 19.48">
@@ -220,7 +248,7 @@ ul.task-list li input[type="checkbox"] {
 				</svg>
 			</a>
 			<a href="https://www.ucl.ac.uk/mathematical-physical-sciences/news/2024/mar/ucl-receives-ps54m-boost-doctoral-training-engineering-and-physical-sciences">
-				<img src="../static/assets/UCL_logo.png" alt="UCL Logo white"></a>
+				<img src="../../static/assets/UCL_logo.png" alt="UCL Logo white"></a>
 		</div>
 	</div>
 </div>
