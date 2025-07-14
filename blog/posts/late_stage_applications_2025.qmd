@@ -2,7 +2,7 @@
 title: "Online Applications are now open."
 author: "Timo Betcke"
 date: "06/13/2025"
-summary: "Late stage applications now open."
+summary: "Late stage applications."
 categories: [Announcements]
 
 ---
