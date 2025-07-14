@@ -8,10 +8,14 @@
   {
     "listing": "/blog/blog_list.html",
     "items": [
-      "/blog/posts/applications_open.html",
+      "/blog/posts/nobel_prizes.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
       "/blog/posts/nobel_prizes.html",
-      "/blog/posts/late_stage_applications_2025.html",
-      "/blog/posts/blogpost1.html"
+      "/events/posts/open_day.html"
     ]
   },
   {
@@ -83,16 +87,6 @@
       "/phd_projects/entries/Briol_simulation.html",
       "/phd_projects/entries/burman_inverse.html",
       "/phd_projects/entries/Bravi_antibodies.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/blog/posts/blogpost1.html",
-      "/blog/posts/nobel_prizes.html",
-      "/blog/posts/applications_open.html",
-      "/blog/posts/late_stage_applications_2025.html",
-      "/events/posts/open_day.html"
     ]
   },
   {
