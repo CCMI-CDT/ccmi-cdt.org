@@ -77,8 +77,8 @@ gallery-images:
 <section id="interest" class="column-page page-full">
 <h1 class="d-flex justify-content-center display-1 fw-bolder">Would you like to join?</h1>
 <div class="d-flex flex-column justify-content-center align-items-center row-gap-4">
-<a href="https://ucl-doctoral-funding.flexigrant.com/" type="button" class="btn btn-outline my-3" id="btn--signup">
-<span class="display-6">Late stage applications now open</span>
+<a href="https://forms.cloud.microsoft/e/twBdtrGwkE?origin=lprLink" type="button" class="btn btn-outline my-3" id="btn--signup">
+<span class="display-6">Register to receive updates for 2026 entry</span>
 </a>
 <!--<div class="d-flex justify-content-evenly w-75">
  <div>
