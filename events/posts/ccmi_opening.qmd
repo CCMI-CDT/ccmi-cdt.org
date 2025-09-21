@@ -1,0 +1,14 @@
+---
+title: "CCMI Grand Opening"
+author: "Timo Betcke"
+event_date: "10/01/2025"
+date: "09/21/2025"
+summary: "We are celebraing the opening of the CCMI CDT."
+categories: [News]
+---
+
+On Wednesday 1 October we will celebrate the Grand Opening
+of the CCMI CDT from 2pm onwards. We will start with
+a special invited colloquium by [Prof Tobias Weinzierl](https://www.durham.ac.uk/staff/tobias-weinzierl/) from the University of Durham, followed by an open reception.
+
+If you would like to participate please register at [Eventbrite](https://www.eventbrite.com/e/ccmi-opening-tickets-1636741069599?aff=oddtdtcreator).

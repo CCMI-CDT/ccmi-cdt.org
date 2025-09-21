@@ -1,0 +1,32 @@
+---
+title: "CCMI is about to start"
+author: "Timo Betcke"
+date: "09/21/2025"
+summary: "The first CCMI cohort is about to arrive."
+categories: [News]
+
+---
+The first CCMI cohort is about to start. For UCL students term starts tomorrow, 22 September, while our Imperial students
+arrive one week later. The last year has seen a flurry of preparations, from two recruitment rounds to organising facilities,
+making contracts with our partners and many more.
+
+I would like to share the Director's Welcome in our Student Handbook. It reminds of what CCMI stands for and
+what our values are.
+
+
+*Dear students,*
+
+*A warm welcome to those of you who are new and congratulations on making the CCMI CDT your programme of choice.*
+
+*CCMI is a unique and novel approach to Doctoral Training. The traditional view is that there are the computational and data sciences on one side, and software engineering as a professional service for these sciences on the other side. At CCMI we believe that research and software are deeply interlinked and should not be viewed as separate from each other. This is the mission of our CDT. You will receive world leading training on the interface of the computational and data science and research software engineering, enabling you to develop tools and methodologies to solve the big challenges of the 21st century.*
+
+*Not only will you be involved in cutting edge research and software, you will be part of something special, a cohort of like-minded PhD students who will be there with you for all your successes but also for the stressful moments and the days when nothing seems to work. You will make lifelong bonds in this CDT, building networks of friends and colleagues who will be there for you long after you complete your PhD.*
+
+*Finally, I would like to emphasise to you our commitment to Equality, Diversity, and Inclusion. At its core the message of EDI is very simple, treat each other with kindness, respect, and decency. In an uncertain world, where even these simple values are under attack, you have the chance to make a difference, not just through your research but by helping to build a better, more inclusive, and tolerant world.*
+
+*With this said, all of us from the CCMI Team wish you a wonderful start and many happy memories and successes over the next four years.*
+
+*Timo Betcke* 
+
+
+
