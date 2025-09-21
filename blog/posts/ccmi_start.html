@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Prof Martin Benning">
-<meta name="dcterms.date" content="2024-10-02">
+<meta name="author" content="Timo Betcke">
+<meta name="dcterms.date" content="2025-09-21">
 
-<title>Improving impaired hearing through sound reconstruction from neural activity patterns – CCMI</title>
+<title>CCMI is about to start – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,7 +74,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Improving impaired hearing through sound reconstruction from neural activity patterns – CCMI">
+<meta property="og:title" content="CCMI is about to start – CCMI">
+<meta property="og:description" content="EPSRC Centre for Doctoral Training in Colllaborative Compuational Modelling at the Interface">
 <meta property="og:site_name" content="CCMI">
 </head>
 
@@ -155,31 +156,27 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Improving impaired hearing through sound reconstruction from neural activity patterns</h1>
-</div>
+<h1 class="title">CCMI is about to start</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">News</div>
+  </div>
+  </div>
 
 
-<div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Supervisor</div>
-  <div class="quarto-title-meta-heading">Institution</div>
-  
-    <div class="quarto-title-meta-contents">
-    <p class="author">Prof Martin Benning </p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            UCL
-          </p>
-      </div>
-  </div>
 
 <div class="quarto-title-meta">
 
-      
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Timo Betcke </p>
+          </div>
+  </div>
+    
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 2, 2024</p>
+      <p class="date">September 21, 2025</p>
     </div>
   </div>
   
@@ -191,27 +188,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project-description" class="level2">
-<h2 class="anchored" data-anchor-id="project-description">Project Description</h2>
-<section id="existing-background-work" class="level3">
-<h3 class="anchored" data-anchor-id="existing-background-work">Existing background work</h3>
-<p>This PhD project centres on the intersection of computer science and hearing research, with a primary focus on unravelling the complexities of the auditory system and its implications for perception and hearing loss. While decades of hearing research have yielded many valuable insights, the difference between normal and impaired perception relies on intricacies of the auditory system that remain poorly understood. Traditionally, the field has relied on simplifying assumptions, which limit the applicability of research findings to real-world scenarios. In [1], authors from the co-supervisor’s lab have studied auditory processing deficits in individuals with hearing loss using brain recordings, revealing that hearing loss distorts the low-dimensional neural encoding of speech, primarily affecting spectral processing and cross-frequency interactions, leading to hypersensitivity to background noise even after hearing aid amplification, and highlights the potential of deep neural networks for central brain structure research. In [2, 3], authors of the primary supervisor’s lab have introduced a novel regularisation framework for inverting deep neural networks that utilises auxiliary variables and tailored Bregman distances to lift the network parameter space into higher dimensions.</p>
-</section>
-<section id="main-objectives-of-the-project" class="level3">
-<h3 class="anchored" data-anchor-id="main-objectives-of-the-project">Main objectives of the project</h3>
-<p>This project aims to leverage modern deep learning techniques to formulate and address the forward problem of mapping sounds onto neural activity as well as the inverse problem of reconstructing sounds from neural activity, a pivotal aspect in hearing research. By inverting neural networks to reconstruct sounds from simulated auditory nerve activity and real brain activity after various forms of cochlear damage, this project seeks to answer crucial questions about the degradation of acoustic information after hearing loss. Furthermore, it explores the extent to which information loss can be compensated when the inverse problem in the presence of cochlear damage is solved with neural activity that is recorded from an undamaged cochlea.</p>
-<p>The project aims at combining and extending the described background research, with the primary goal of developing and implementing invertible deep neural networks that are expressive enough to convert sounds into neural activity, for which the inverse problem can be solved in a stable fashion, and that can be applied to real-world data.</p>
-<p>This research has the potential to contribute significantly to our understanding of auditory processing, with implications for the design of assistive listening technologies. The project benefits from a substantial database of neural recordings from the inferior colliculus, a central hub in the auditory pathway, for its initial phases.</p>
-</section>
-<section id="details-of-softwaredata-deliverables" class="level3">
-<h3 class="anchored" data-anchor-id="details-of-softwaredata-deliverables">Details of Software/Data Deliverables</h3>
-<p>High-quality software development is at the core of the proposed PhD project. Coding developments will include but are not limited to: - Software for Auditory Processing: Development of a comprehensive software suite, including user-friendly, well-documented programming codes for implementing and training invertible neural network models. - Integration with Existing Frameworks: Ensuring compatibility and ease of integration with established Python libraries like PyTorch or JAX, enhancing the utility of the developed software in various research and practical applications. - Open Access to Software: Making all developed software tools publicly available, ensuring they are accessible and well-documented for use by the wider research community. - Publication of Research Findings: Releasing open access publications detailing the research findings, methodologies, and applications of the developed software, contributing to the advancement of the field.</p>
-<p>The applicant should have a background in Computer Science, Mathematics, or a related subject. The ideal applicant has programming experience in Python and particularly with advanced automatic differentiation and deep learning libraries such as PyTorch or JAX. A strong background in inverse problems is desirable but not mandatory.</p>
-<p>References - [1] Shievanie Sabesan, Andreas Fragner, Ciaran Bench, Fotios Drakopoulos, Nicholas A Lesica (2023) Large-scale electrophysiology and deep learning reveal distorted neural signal dynamics after hearing loss. eLife 12. doi: 10.7554/eLife.85108 - [2] Xiaoyu Wang, and Martin Benning. “Lifted bregman training of neural networks.” Journal of Machine Learning Research 24, no. 232 (2023): 1-51. - [3] Xiaoyu Wang, and Martin Benning (2023) A lifted Bregman formulation for the inversion of deep neural networks. Front. Appl. Math. Stat. 9:1176850. doi: 10.3389/fams.2023.1176850</p>
+<p>The first CCMI cohort is about to start. For UCL students term starts tomorrow, 22 September, while our Imperial students arrive one week later. The last year has seen a flurry of preparations, from two recruitment rounds to organising facilities, making contracts with our partners and many more.</p>
+<p>I would like to share the Director’s Welcome in our Student Handbook. It reminds of what CCMI stands for and what our values are.</p>
+<p><em>Dear students,</em></p>
+<p><em>A warm welcome to those of you who are new and congratulations on making the CCMI CDT your programme of choice.</em></p>
+<p><em>CCMI is a unique and novel approach to Doctoral Training. The traditional view is that there are the computational and data sciences on one side, and software engineering as a professional service for these sciences on the other side. At CCMI we believe that research and software are deeply interlinked and should not be viewed as separate from each other. This is the mission of our CDT. You will receive world leading training on the interface of the computational and data science and research software engineering, enabling you to develop tools and methodologies to solve the big challenges of the 21st century.</em></p>
+<p><em>Not only will you be involved in cutting edge research and software, you will be part of something special, a cohort of like-minded PhD students who will be there with you for all your successes but also for the stressful moments and the days when nothing seems to work. You will make lifelong bonds in this CDT, building networks of friends and colleagues who will be there for you long after you complete your PhD.</em></p>
+<p><em>Finally, I would like to emphasise to you our commitment to Equality, Diversity, and Inclusion. At its core the message of EDI is very simple, treat each other with kindness, respect, and decency. In an uncertain world, where even these simple values are under attack, you have the chance to make a difference, not just through your research but by helping to build a better, more inclusive, and tolerant world.</em></p>
+<p><em>With this said, all of us from the CCMI Team wish you a wonderful start and many happy memories and successes over the next four years.</em></p>
+<p><em>Timo Betcke</em></p>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <div class="column-page page-full mt-5 wave-background d-flex flex-column align-items-center justify-content-end">
