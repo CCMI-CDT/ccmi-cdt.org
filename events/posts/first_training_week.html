@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Prof David Ham (with UKAEA cosupervision)">
-<meta name="dcterms.date" content="2024-11-21">
+<meta name="author" content="Timo Betcke">
+<meta name="dcterms.date" content="2025-10-05">
 
-<title>Particles for Fusion – CCMI</title>
+<title>Training Week on Programming Models for Scientific Computing – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Particles for Fusion – CCMI">
+<meta property="og:title" content="Training Week on Programming Models for Scientific Computing – CCMI">
 <meta property="og:description" content="EPSRC Centre for Doctoral Training in Colllaborative Compuational Modelling at the Interface">
 <meta property="og:site_name" content="CCMI">
 </head>
@@ -156,31 +156,27 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Particles for Fusion</h1>
-</div>
+<h1 class="title">Training Week on Programming Models for Scientific Computing</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">News</div>
+  </div>
+  </div>
 
 
-<div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Supervisor</div>
-  <div class="quarto-title-meta-heading">Institution</div>
-  
-    <div class="quarto-title-meta-contents">
-    <p class="author">Prof David Ham (with UKAEA cosupervision) </p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            Imperial
-          </p>
-      </div>
-  </div>
 
 <div class="quarto-title-meta">
 
-      
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Timo Betcke </p>
+          </div>
+  </div>
+    
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 21, 2024</p>
+      <p class="date">October 5, 2025</p>
     </div>
   </div>
   
@@ -192,26 +188,9 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project-description" class="level2">
-<h2 class="anchored" data-anchor-id="project-description">Project Description</h2>
-<p>One of the grand challenge problems in fusion energy is modelling plasma in the edge region of a donut-shaped fusion reactor called a tokamak. In this edge region, hot plasma interfaces with the reactor wall and cold neutral gas resulting in a computationally expensive multi-scale problem that is an exascale computing challenge. This edge region exists between the core plasma, one of the hottest places in the solar system, and a container wall, which we would like to not melt. Hot plasma and cold neutral particles are both considered to be collisionless and are modelled using a “kinetic” discretisation comprising a large number of moving particles. Additional quantities, such as electromagnetic fields and cooler collisional fluid plasma, maybe modelled using finite element representations.</p>
-<p>A simulation of plasma may couple a turbulent fluid model for certain plasma species with a particle model for other species within the same computational domain. The resulting simulation is very computationally expensive and requires algorithms to be efficiently implemented on modern HPC hardware. However the exact equations and discretisations which model the edge region plasma are themselves an active area of research. What is required is the ability to formulate highly sophisticated coupled particle-mesh simulation software, capable of fully exploiting high performance computing facilities but retaining the flexibility to revise fundamental mathematical decisions without massive recoding. This project will achieve this by extending the Firedrake automated finite element system to mathematically and computationally support massive swarms of rapidly moving particles interacting with field variables stored on a finite element mesh. The work will span numerical mathematics, scientific computing and algorithmic differentiation (AD) to contribute a simulation capability unmatched in any current system.</p>
-<section id="existing-background-work" class="level3">
-<h3 class="anchored" data-anchor-id="existing-background-work">Existing background work</h3>
-<p>Traditional numerical PDE solvers are based on low-level code written in compiled languages such as C, C++, or Fortran. The code is far from the high level mathematical description of the problem that mathematicians, scientists and engineers formulate. Every change to the equations, discretisations, or implementation requires painstaking work in large code bases, with mathematics, performance engineering and parallelism all exposed at the same level. Progress is slow, error-prone and tedious. In contrast, the Firedrake automated finite element system (https://firedrakeproject.org) takes a radically different approach. Users write high level mathematical code closely reflecting the differential equations they are solving in Python. The high performance parallel implementation is be automatically generated as the code runs. The effect is that high performance simulations can be written in tens to hundreds of lines of code, in place of tens to hundreds of thousands of lines. Sophisticated mathematical approaches which are so complex as to be intractable for many researchers become straightforward because the user is freed from having to implement them themselves.</p>
-</section>
-<section id="main-objectives-of-the-project" class="level3">
-<h3 class="anchored" data-anchor-id="main-objectives-of-the-project">Main objectives of the project</h3>
-<p>To extend Firedrake to performantly deal with particles coupled to finite element simulations on high performance computing systems.</p>
-<p>To demonstrate and evaluate this performance using challenging test problems relevant to the simulation of fusion power generation systems.</p>
-</section>
-<section id="details-of-softwaredata-deliverables" class="level3">
-<h3 class="anchored" data-anchor-id="details-of-softwaredata-deliverables">Details of Software/Data Deliverables</h3>
-<p>A key deliverable of this project will be a high performance Lagrangian particle capability in the Firedrake automated finite element system. The particle capability will be fully integrated in Firedrake’s high level mathematical abstraction, enabling users to formulate complex PDE-particle coupled systems with minimal code. Both particle trajectories and interpolation operators between the particles and PDE fields will be differentiable, thereby enabling the solution of inverse problems such as data assimilation and optimal design. The code will be released in Firedrake and will become available to Firedrake’s thousands of users worldwide. This project combines the development of novel computational mathematics with the opportunity to work in a professional research software engineering context and to acquire those professional skills yourself.</p>
+<p>On Monday 1 October our first training week is starting. Students will get to know programming models for Scientific Computing through a mixture of lectures, student led seminars and practical programming sessions. Topics parallel programming models, GPU development and software libraries for mathematical tasks. On the final day we look forward to a guest lecture by <a href="https://www.esc.cam.ac.uk/directory/chris-richardson">Chris Richardson</a> from Cambridge on <a href="https://fenicsproject.org">FEniCS</a>.</p>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <div class="column-page page-full mt-5 wave-background d-flex flex-column align-items-center justify-content-end">

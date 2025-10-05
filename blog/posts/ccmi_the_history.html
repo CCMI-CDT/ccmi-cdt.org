@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Prof David Ham (with UKAEA cosupervision)">
-<meta name="dcterms.date" content="2024-11-21">
+<meta name="author" content="Timo Betcke">
+<meta name="dcterms.date" content="2025-10-05">
 
-<title>Particles for Fusion – CCMI</title>
+<title>CCMI - How we got here – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Particles for Fusion – CCMI">
+<meta property="og:title" content="CCMI - How we got here – CCMI">
 <meta property="og:description" content="EPSRC Centre for Doctoral Training in Colllaborative Compuational Modelling at the Interface">
 <meta property="og:site_name" content="CCMI">
 </head>
@@ -156,31 +156,27 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Particles for Fusion</h1>
-</div>
+<h1 class="title">CCMI - How we got here</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">News</div>
+  </div>
+  </div>
 
 
-<div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Supervisor</div>
-  <div class="quarto-title-meta-heading">Institution</div>
-  
-    <div class="quarto-title-meta-contents">
-    <p class="author">Prof David Ham (with UKAEA cosupervision) </p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            Imperial
-          </p>
-      </div>
-  </div>
 
 <div class="quarto-title-meta">
 
-      
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Timo Betcke </p>
+          </div>
+  </div>
+    
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">November 21, 2024</p>
+      <p class="date">October 5, 2025</p>
     </div>
   </div>
   
@@ -192,26 +188,23 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project-description" class="level2">
-<h2 class="anchored" data-anchor-id="project-description">Project Description</h2>
-<p>One of the grand challenge problems in fusion energy is modelling plasma in the edge region of a donut-shaped fusion reactor called a tokamak. In this edge region, hot plasma interfaces with the reactor wall and cold neutral gas resulting in a computationally expensive multi-scale problem that is an exascale computing challenge. This edge region exists between the core plasma, one of the hottest places in the solar system, and a container wall, which we would like to not melt. Hot plasma and cold neutral particles are both considered to be collisionless and are modelled using a “kinetic” discretisation comprising a large number of moving particles. Additional quantities, such as electromagnetic fields and cooler collisional fluid plasma, maybe modelled using finite element representations.</p>
-<p>A simulation of plasma may couple a turbulent fluid model for certain plasma species with a particle model for other species within the same computational domain. The resulting simulation is very computationally expensive and requires algorithms to be efficiently implemented on modern HPC hardware. However the exact equations and discretisations which model the edge region plasma are themselves an active area of research. What is required is the ability to formulate highly sophisticated coupled particle-mesh simulation software, capable of fully exploiting high performance computing facilities but retaining the flexibility to revise fundamental mathematical decisions without massive recoding. This project will achieve this by extending the Firedrake automated finite element system to mathematically and computationally support massive swarms of rapidly moving particles interacting with field variables stored on a finite element mesh. The work will span numerical mathematics, scientific computing and algorithmic differentiation (AD) to contribute a simulation capability unmatched in any current system.</p>
-<section id="existing-background-work" class="level3">
-<h3 class="anchored" data-anchor-id="existing-background-work">Existing background work</h3>
-<p>Traditional numerical PDE solvers are based on low-level code written in compiled languages such as C, C++, or Fortran. The code is far from the high level mathematical description of the problem that mathematicians, scientists and engineers formulate. Every change to the equations, discretisations, or implementation requires painstaking work in large code bases, with mathematics, performance engineering and parallelism all exposed at the same level. Progress is slow, error-prone and tedious. In contrast, the Firedrake automated finite element system (https://firedrakeproject.org) takes a radically different approach. Users write high level mathematical code closely reflecting the differential equations they are solving in Python. The high performance parallel implementation is be automatically generated as the code runs. The effect is that high performance simulations can be written in tens to hundreds of lines of code, in place of tens to hundreds of thousands of lines. Sophisticated mathematical approaches which are so complex as to be intractable for many researchers become straightforward because the user is freed from having to implement them themselves.</p>
-</section>
-<section id="main-objectives-of-the-project" class="level3">
-<h3 class="anchored" data-anchor-id="main-objectives-of-the-project">Main objectives of the project</h3>
-<p>To extend Firedrake to performantly deal with particles coupled to finite element simulations on high performance computing systems.</p>
-<p>To demonstrate and evaluate this performance using challenging test problems relevant to the simulation of fusion power generation systems.</p>
-</section>
-<section id="details-of-softwaredata-deliverables" class="level3">
-<h3 class="anchored" data-anchor-id="details-of-softwaredata-deliverables">Details of Software/Data Deliverables</h3>
-<p>A key deliverable of this project will be a high performance Lagrangian particle capability in the Firedrake automated finite element system. The particle capability will be fully integrated in Firedrake’s high level mathematical abstraction, enabling users to formulate complex PDE-particle coupled systems with minimal code. Both particle trajectories and interpolation operators between the particles and PDE fields will be differentiable, thereby enabling the solution of inverse problems such as data assimilation and optimal design. The code will be released in Firedrake and will become available to Firedrake’s thousands of users worldwide. This project combines the development of novel computational mathematics with the opportunity to work in a professional research software engineering context and to acquire those professional skills yourself.</p>
+<p>It is finally done. Our CDT has started. I’d like to explain a little bit of the history of this CDT.</p>
+<p>My first attempt to bring a CDT to UCL was in 2018 on a Scientific Computing focused CDT. The proposal went all the way to the final interviews. Yet, at the end it was not funded. A typical CDT application is about a year of work. So any rejection is a major disappointment. But on the other hand it was a very good learning experience. In long post mortems I realised why we were not funded and I pledged to myself to try again.</p>
+<p>In 2022 Colin Cotter from Imperial and I started talking about the next upcoming application round for Doctoral Training Centres, and we decided that we would have a much stronger case by submitting a joint UCL/Imperial proposal.</p>
+<p>But what would the unique selling point of this CDT be? Both, Colin and I are passionate about research software. At UCL we also have with <a href="https://www.ucl.ac.uk/advanced-research-computing/">ARC</a> one of the UK’s foremost centres for Research Software Engineering. This was pivotal. It would give us the credibility and resources to build a CDT proposal with world leading research software engineering at its heart.</p>
+<p>Before a CDT proposal can go to council there is a lot of work. We had to go through tough internal UCL competition before we were even allowed to apply to EPSRC. Application numbers per university are limited and competition is fierce.</p>
+<p>After surviving the internal selection procedure we had to write an outline application for EPSRC. While formally this is just a short outline, partners already need to be contacted and costing be done in the outline stage. Moreover, the core idea of the CDT needs to be there and presented.</p>
+<p>Again, the competition is tough in the outline stage and a lot of excellent proposals do not make it on. Finally, once we made it to the main stage the big proposal needed to be written, costings finalised, details of the training programme worked out and partner letters organised. This took several months of work.</p>
+<p>But this is not the end. After receiving external referee reports, applicants are invited to an interview. One day in autumn 2023 myself, Colin, and our Co-Director Ruth Misener from Imperial were invited to come to Bristol for an in-depth interview.</p>
+<p>This was it, the culmination of over a year of work. Our nerves were bare. But we managed to keep ourselves calm enough and somehow everything went well.</p>
+<p>Finally, in early 2024 the results were officially announced to the world. While we originally thought we would start in Autumn 2024 it turned out that we were one of a number of CDTs that were asked by EPSRC to delay start by one year.</p>
+<p>Initially, this seemed disappointing. After all this work we were keen to see students arriving. But it turned out a blessing in disguise. We had time to hire excellent CDT Managers (Laura Beer at UCL and Lydia Noha at Imperial). We could carefully plan the training programme and did not have to rush recruitment.</p>
+<p>Now it is October 2025 and it finally happened. Our students have arrived and CCMI has officially started. It was a long journey but probably the single most satisfying one in my career so far.</p>
+<p>Such a journey cannot be made alone. A CDT is a huge team effort. I have already mentioned Colin, Ruth, Laura, and Lydia. But we are a much larger team behind this CDT, and I would like to take the opportunity to thank all of them for the great work to get CCMI from a vague idea to an actually existing centre.</p>
+<p>Thanks again to Colin Cotter, Dante Kalise, Ruth Misener, Vahid Shahrezaei and Lydia Noah at Imperial and Marta Betcke, Serge Guillas, Hao Ni, Laura Beer, Matthew Scroggs and the ARC Operations Team at UCL. We have made it.</p>
+<p>Finally, to conclude this post I would also especially like to thank all our new students who have given us their trust to spend the next four years doing research and training with us at UCL and Imperial. Over the next few weeks we will build up homepage profiles for each one of them and introduce these remarkable researchers in separate posts.</p>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <div class="column-page page-full mt-5 wave-background d-flex flex-column align-items-center justify-content-end">
