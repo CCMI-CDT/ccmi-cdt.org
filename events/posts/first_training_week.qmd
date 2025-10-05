@@ -1,0 +1,13 @@
+---
+title: "Training Week on Programming Models for Scientific Computing"
+author: "Timo Betcke"
+event_date: "10/06/2025"
+date: "10/05/2025"
+summary: "Our first CDT training week is starting."
+categories: [News]
+---
+
+On Monday 1 October our first training week is starting. Students will get to know programming models
+for Scientific Computing through a mixture of lectures, student led seminars and practical programming sessions.
+Topics parallel programming models, GPU development and software libraries for mathematical tasks.
+On the final day we look forward to a guest lecture by [Chris Richardson](https://www.esc.cam.ac.uk/directory/chris-richardson) from Cambridge on [FEniCS](https://fenicsproject.org).

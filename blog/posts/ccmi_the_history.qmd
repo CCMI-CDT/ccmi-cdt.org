@@ -1,0 +1,40 @@
+---
+title: "CCMI - How we got here"
+author: "Timo Betcke"
+date: "10/05/2025"
+summary: "How CCMI got from a vague idea to an existing centre."
+categories: [News]
+
+---
+It is finally done. Our CDT has started. I'd like to explain a little bit of the history of this CDT.
+
+My first attempt to bring a CDT to UCL was in 2018 on a Scientific Computing focused CDT. The proposal went all the way to the final interviews. Yet, at the end it was not funded. A typical CDT application is about a year of work. So any rejection is a major disappointment. But on the other hand it was a very good learning experience. In long post mortems I realised why we were not funded and I pledged to myself to try again.
+
+In 2022 Colin Cotter from Imperial and I started talking about the next upcoming application round for Doctoral Training Centres, and we decided that we would have a much stronger case by submitting a joint UCL/Imperial proposal.
+
+But what would the unique selling point of this CDT be? Both, Colin and I are passionate about research software. At UCL we also have with [ARC](https://www.ucl.ac.uk/advanced-research-computing/) one of the UK's foremost centres for Research Software Engineering. This was pivotal. It would give us the credibility and resources to build a CDT proposal with world leading research software engineering at its heart.
+
+Before a CDT proposal can go to council there is a lot of work. We had to go through tough internal UCL competition before we were even allowed to apply to EPSRC. Application numbers per university are limited and competition is fierce.
+
+After surviving the internal selection procedure we had to write an outline application for EPSRC. While formally this is just a short outline, partners already need to be contacted and costing be done in the outline stage. Moreover, the core idea of the CDT needs to be there and presented.
+
+Again, the competition is tough in the outline stage and a lot of excellent proposals do not make it on. Finally, once we made it to the main stage the big proposal needed to be written, costings finalised, details of the training programme worked out and partner letters organised. This took several months of work.
+
+But this is not the end. After receiving external referee reports, applicants are invited to an interview. One day in autumn
+2023 myself, Colin, and our Co-Director Ruth Misener from Imperial were invited to come to Bristol for an in-depth interview.
+
+This was it, the culmination of over a year of work. Our nerves were bare. But we managed to keep ourselves calm enough and somehow everything went well.
+
+Finally, in early 2024 the results were officially announced to the world. While we originally thought we would start in Autumn 2024 it turned out that we were one of a number of CDTs that were asked by EPSRC to delay start by one year.
+
+Initially, this seemed disappointing. After all this work we were keen to see students arriving. But it turned out a blessing in disguise. We had time to hire excellent CDT Managers (Laura Beer at UCL and Lydia Noha at Imperial). We could carefully plan the training programme and did not have to rush recruitment.
+
+Now it is October 2025 and it finally happened. Our students have arrived and CCMI has officially started. It was a long journey but probably the single most satisfying one in my career so far.
+
+Such a journey cannot be made alone. A CDT is a huge team effort. I have already mentioned Colin, Ruth, Laura, and Lydia.
+But we are a much larger team behind this CDT, and I would like to take the opportunity to thank all of them for the great work to get CCMI from a vague idea to an actually existing centre.
+
+Thanks again to Colin Cotter, Dante Kalise, Ruth Misener, Vahid Shahrezaei and Lydia Noah at Imperial and Marta Betcke, Serge Guillas, Hao Ni, Laura Beer, Matthew Scroggs and the ARC Operations Team at UCL. We have made it.
+
+Finally, to conclude this post I would also especially like to thank all our new students who have given us their trust to spend the next four years doing research and training with us at UCL and Imperial. Over the next few weeks we will build up homepage profiles for each one of them and introduce these remarkable researchers in separate posts.
+
