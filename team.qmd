@@ -59,6 +59,9 @@ listing:
         - name: Dr Matthew Scroggs
           description: <strong>Matthew Scroggs</strong> is <em>Teaching and Training lead for the CCMI CDT</em>. He is a Senior Research Software Engineer at UCL ARC.
           image: static/people/scroggs.jpg
+          github: https://github.com/mscroggs
+          homepage: https://mscroggs.co.uk
+          orcid: https://orcid.org/0000-0002-4658-2443
 ---
 
 <div class="column-body-outset page-full mx-2">
