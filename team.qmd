@@ -5,10 +5,10 @@ format:
     page-layout: full
     anchor-sections: false
 
-listing: 
+listing:
     - id: team
       template: templates/partials/team-card.ejs
-      contents: 
+      contents:
         - name: Prof Timo Betcke
           description: <strong>Prof Timo Betcke</strong> is <em>Centre Director</em>. He is Professor of Computational Mathematics at UCL.
           image: static/people/betcke.png
@@ -56,7 +56,9 @@ listing:
         - name: Mrs Larau Beer
           description: Laura Beer is <em>Centre Manager for the CCMI CDT</em>. She is a Professional Research Investment & Strategy Manager at UCL ARC.
           image: static/people/beer.jpg
-        
+        - name: Dr Matthew Scroggs
+          description: <strong>Matthew Scroggs</strong> is <em>Teaching and Training lead for the CCMI CDT</em>. He is a Senior Research Software Engineer at UCL ARC.
+          image: static/people/scroggs.jpg
 ---
 
 <div class="column-body-outset page-full mx-2">
