@@ -2,7 +2,7 @@
 title: "To be or not to be in the office"
 author: "Timo Betcke"
 date: "10/22/2025"
-summary: "A few thoughts on remote vs in-office working in a CDT"
+summary: "A few thoughts on remote vs in-office working in a CDT."
 categories: [News]
 ---
 In central London universities the question of remote vs in office working is a difficult one. Before the 2020 pandemic in office working was
