@@ -6,7 +6,7 @@ resources:
 
 website:
   title: "CCMI"
-  description: "EPSRC Centre for Doctoral Training in Colllaborative Compuational Modelling at the Interface"
+  description: "EPSRC Centre for Doctoral Training in Colllaborative Computational Modelling at the Interface"
   favicon: static/assets/ccmi_rounded_colour.png
   open-graph: true
 
