@@ -4,30 +4,8 @@
     "items": [
       "/blog/posts/nobel_prizes.html",
       "/blog/posts/ccmi_start.html",
-      "/blog/posts/ccmi_the_history.html"
-    ]
-  },
-  {
-    "listing": "/team.html",
-    "items": []
-  },
-  {
-    "listing": "/events/event_list.html",
-    "items": [
-      "/events/posts/first_training_week.html",
-      "/events/posts/ccmi_opening.html",
-      "/events/posts/open_day.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
       "/blog/posts/ccmi_the_history.html",
-      "/blog/posts/ccmi_start.html",
-      "/blog/posts/nobel_prizes.html",
-      "/events/posts/ccmi_opening.html",
-      "/events/posts/open_day.html",
-      "/events/posts/first_training_week.html"
+      "/blog/posts/modern_hybrid_working.html"
     ]
   },
   {
@@ -100,5 +78,31 @@
       "/phd_projects/entries/burman_inverse.html",
       "/phd_projects/entries/Bravi_antibodies.html"
     ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/blog/posts/ccmi_the_history.html",
+      "/blog/posts/ccmi_start.html",
+      "/blog/posts/nobel_prizes.html",
+      "/blog/posts/modern_hybrid_working.html",
+      "/events/posts/ccmi_opening.html",
+      "/events/posts/open_day.html",
+      "/events/posts/seminar_25_10_28.html",
+      "/events/posts/first_training_week.html"
+    ]
+  },
+  {
+    "listing": "/events/event_list.html",
+    "items": [
+      "/events/posts/seminar_25_10_28.html",
+      "/events/posts/first_training_week.html",
+      "/events/posts/ccmi_opening.html",
+      "/events/posts/open_day.html"
+    ]
+  },
+  {
+    "listing": "/team.html",
+    "items": []
   }
 ]
