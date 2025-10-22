@@ -1,0 +1,19 @@
+---
+title: "Seminar on AI and Scientific Computing"
+author: "Timo Betcke"
+event_date: "10/28/2025"
+date: "10/22/2025"
+summary: "Prof Petros Koumoutsakos from Harvard University is giving a seminar on AI and Scientific Computing."
+categories: [News]
+---
+
+**LOCATION:** First Floor, Function Room, 90 High Holborn WC1V 6BH
+
+**TIME:** 14:00-15:00, 28/10/2025
+
+**SPEAKER:** Petros Koumoutsakos, Herbert S. Winokur, Jr. Professor of Computing in Science and Engineering, Harvard University
+
+**TITLE:** AI and Scientific Computing: Algorithmic Alloys for Forecasting and Optimization of Complex Systems
+
+**ABSTRACT:** Computational science and Artificial Intelligence have been drivers and benefactors of advances in algorithms and hardware, 
+each in different ways, and originally with different targets. The intellectual space between these two fields is home to exciting opportunities for scientific discovery and engineering innovation. I will discuss algorithmic alloys based on the fusion of data driven and equation driven methodologies for the prediction and control of complex flows. I will also present ideas of developing algorithmic alloys for fusing experiments and simulations for understanding and controlling complex systems.

@@ -4,36 +4,4 @@ title: "How to apply"
 
 ![UCL Japanese Garden](../static/japanese_garden.jpg)
 
-### Important deadlines
-
-We have opened late stage applications for two home
-student places. The deadline is **23 June noon**.
-
-### Application Form
-
-To start an online application please follow the below link. Before being able to log in you will need to register an account. You can do so by clicking the top-right *Register* button on the page.
-
-Please note that you cannot edit your application after submitting it. However, you can save and continue editing as long as it is not submitted.
-
-The online application system has gone through a rebranding from another Doctoral Training Programme. You may receive e-mail confirmations from a *London Arts and Humanities Partnership (LAHP)* email address as we complete the rebranding.
-
-<p align="center">
-**[Online Application Form](https://ucl-doctoral-funding.flexigrant.com/)**
-</p>
-
-
-
-
-### Application Procedure
-
-You apply by submitting a written application in our online submission system. If shortlisted this is followed by a formal interview. If you pass the interview we will match you with a suitable research project before a formal offer is made. Details can be found [here](application_procedure.qmd).
-
-### PhD Projects
-
-We offer [PhD projects](phd_projects/phd_project_list.qmd) across a broad range of technical areas from UCL and Imperial College. The common thread of these projects is the relevance to modern computational and data sciences. As part of the application procedure you will be matched with a suitable PhD Project and associated supervisor. Some PhD projects may involve external partners and expected internships at the external partner institutions. Such additional requirements are specified within the project descriptions.
-
-### Eligibility and language requirements.
-
-A UK Master's degree in a relevant discipline with Merit, or a minimum of an upper second-class UK Bachelor's degree in a relevant discipline, or an overseas qualification of an equivalent standard. Work experience may also be taken into account. The required English level for this Programme is [Level 1](https://www.ucl.ac.uk/prospective-students/graduate/english-language-requirements).
-
-Relevant disciplines are broadly STEM subjects (Science, Technology, Engineering, Mathematics). But other related disciplines on the interface to STEM may be suitable too. During the application stage we will assess the suitability of your technical background.
+We are currently updating our application system for 2026 entry. Applications will open around mid November together with detailed information on how to apply for the academic year 2026/2027.

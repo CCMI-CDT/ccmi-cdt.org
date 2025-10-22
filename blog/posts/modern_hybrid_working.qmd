@@ -1,0 +1,23 @@
+---
+title: "To be or not to be in the office"
+author: "Timo Betcke"
+date: "10/22/2025"
+summary: "A few thoughts on remote vs in-office working in a CDT"
+categories: [News]
+---
+In central London universities the question of remote vs in office working is a difficult one. Before the 2020 pandemic in office working was
+the standard for most staff and PhD students. Then the pandemic happened and suddenly for a long time remote working became the norm. 
+
+From 2022 onwards as things slowly normalised again there was at universities like at many other work places no general return to office and we
+now live in a hybrid work environment. This has a lot of advantages, such as better adjustments for childcare, reduction of high commuting costs (especially in London), and generally achieving a better work/life balance.
+
+But how should CDTs handle in-office vs remote working? There is widespread consensus across academics that the fully remote working conditions for PhD students during the pandemic was detrimental to their professional development. They missed out on day to day research interactions over tea, did not have the same networking experience as students before them and had to deal with the loneliness of doing an individual research project cut-off from their peers.
+
+At the same time, unless required through e.g. certain types of lab works, it is unreasonable to expect of PhD students that they spend every day
+in the office when all around them staff are working mostly hybrid. Moreover, high commuting costs in places like London mean that coming to the office is not cheap.
+
+A personal rule of thumb is that students should aim to spend more than half of a week physically among their peers unless there is important reasons not to (e.g. health, care responsibilities, etc.). But getting students in the office cannot come through enforcement alone. There must be real benefit of being in the office. And there the cohort based training vision of a CDT is important. From spontaneous lunches to encouraging project collaborations among students there is a lot we can do to make a CDT an attractive place to be physically present.
+
+This is what we try to do at CCMI. We are only at the beginning of this journey and will make mistakes along the way. But thinking back to the
+pandemic and the loneliness of PhD students at the time it is a worthwile endeavour to recreate an environment in which physical interactions are the norm and not the exception.
+
