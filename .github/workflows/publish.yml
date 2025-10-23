@@ -3,10 +3,11 @@ on:
   push:
     branches: main
 
-name: Quarto Publish
+name: Publish
 
 jobs:
   build-deploy:
+    name: Build and deploy website
     runs-on: ubuntu-latest
     permissions:
       contents: write

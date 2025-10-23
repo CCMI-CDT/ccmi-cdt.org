@@ -5,10 +5,11 @@ on:
   pull_request:
     branches: [ main ]
 
-name: Quarto Render
+name: Test website rendering
 
 jobs:
   build-deploy:
+    name: Build website
     runs-on: ubuntu-latest
     permissions:
       contents: write
