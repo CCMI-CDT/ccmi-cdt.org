@@ -1,11 +1,13 @@
-## CCMI-CDT
+# CCMI-CDT
 
-### A collaboration between University College London and Imperial College London
+This repository hosts the [CCMI CDT website](https://ccmi-cdt.org).
 
-#### The programme will provide......
+## Previewing locally
+To preview the website locally install [Quarto](https://quarto.org/) (a static site generator with quite powerful features to integrate formulas, program outputs or other scientific content).
+To view the site run the follwing command in the website directory:
 
-#### We welcome applications from individuals with a strong background in.....
+```bash
+quarto preview
+```
 
-
-## Programme Structure
-## The X year programme will enable you to embark...
+Alternatively, you can install VS Code's Quarto plugin and use its preview function.
