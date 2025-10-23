@@ -66,6 +66,7 @@ ul:not(.navbar-nav) > li {
         color: var(--rich-blue);
         padding-inline: 2%;
         width: max-content;
+        max-width: 90vw;
 
         .title__part-1 {
             font-size: 90%;
