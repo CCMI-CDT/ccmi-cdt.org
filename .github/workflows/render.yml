@@ -1,13 +1,15 @@
 on:
   workflow_dispatch:
   push:
-    branches: main
+    branches: [ "**" ]
+  pull_request:
+    branches: [ main ]
 
-name: Publish
+name: Test website rendering
 
 jobs:
   build-deploy:
-    name: Build and deploy website
+    name: Build website
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -18,9 +20,5 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Render
+        uses: quarto-dev/quarto-actions/render@v2
