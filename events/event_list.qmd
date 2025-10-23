@@ -19,7 +19,7 @@ listing:
 The CCMI runs a fortnightly seminar that alternates between being held at UCL and Imperial. It covers topics relevant to the CDT, including
 scientific computing, numerical analysis, machine learning, and application areas.
 
-If you wish to receive email notifications of upcoming seminar talks, you can join our mailing list by [sending an email containing "subscribe" to ccmi-cdt-seminar-request@ucl.ac.uk](mailto:ccmi-cdt-seminar-request@ucl.ac.uk?body=subscribe).
+If you wish to receive email notifications of upcoming seminar talks, you can join our mailing list by sending an email containing "subscribe" to [ccmi-cdt-seminar-request@ucl.ac.uk](mailto:ccmi-cdt-seminar-request@ucl.ac.uk?body=subscribe).
 You will then recieve an email telling you how to confirm your subscription.
 
 <div id="event-list column-page">
