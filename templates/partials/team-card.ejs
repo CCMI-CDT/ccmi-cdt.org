@@ -8,8 +8,12 @@
         <div class="col-md-8">
             <div class="card-body">
                 <h5 class="card-title"><%= (item.description) %></h5>
+                <% if (item.homepage) { %>
                 <a class="card-link" href="<%- item.homepage %>">Homepage</a>
+                <% } %>
+                <% if (item.orcid) { %>
                 <a class="card-link" href="<%- item.orcid %>">Orcid</a>
+                <% } %>
                 <% if (item.github) { %>
                 <a class="card-link" href="<%- item.github %>">GitHub</a>
                 <% } %>
