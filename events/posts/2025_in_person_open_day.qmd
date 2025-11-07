@@ -7,7 +7,7 @@ summary: "We are organising an open day to get to know the CDT, our research and
 categories: [News]
 ---
 
-On 24 November, there will be a CCMI CDT open day, taking place from 3:30pm to 5:20pm GMT in the Ground Floor Collaboration Space at UCL Bidborough House,
+On 24 November, there will be a CCMI CDT open day, taking place from 3:30pm to 5:30pm GMT in the Ground Floor Collaboration Space at UCL Bidborough House,
 38-50 Bidborough St, London, WC1H 9BT. At this event, you will have an opportunity to hear
 from and meet the CDT team, researchers who will be supervising some students, and the current CDT students.
 
