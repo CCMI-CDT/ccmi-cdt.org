@@ -2,7 +2,7 @@
 title: "CCMI Online Open Day"
 author: "Timo Betcke"
 event_date: "11/10/2025"
-date: "10/07/2025"
+date: "11/10/2025"
 summary: "We are organising an online open day to get to know the CDT, our research and how the application process works."
 categories: [News]
 ---
