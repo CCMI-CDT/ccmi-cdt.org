@@ -1,0 +1,18 @@
+---
+title: "Seminar on Low-rank approximation by column subset selection"
+author: "Timo Betcke"
+event_date: "11/11/2025"
+date: "11/11/2025"
+summary: "Dr Alice Cortinovis from the University of Pisa is presenting new results on low-rank approximations of matrices."
+categories: [News]
+---
+
+**LOCATION:** ROOM 660, 6th Floor, Chemistry, Imperial College South Kensington Campus
+
+**TIME:** 14:00-15:00, 11/11/2025
+
+**SPEAKER:** Dr Alice Cortinovis, Department of Computer Science, University of Pisa
+
+**TITLE:** Low-rank approximation by column subset selection
+
+**ABSTRACT:** The problem of approximating a large matrix B with a matrix of lower rank is important for speeding up computations and compressing data. The best rank-k approximation of B can be obtained from a singular value decomposition of B, but this process is too costly for large-scale matrices. A practical alternative is to approximate B using only a small subset of its actual columns. This approach preserves the original meaning of the data stored in the columns, making the result both interpretable and computationally efficient. How to choose these columns to get a good low-rank approximation? In this talk, I will pick them at random! More precisely, I will choose columns by sampling from a particular probability distribution that ensures that the resulting low-rank approximation is, in expectation, almost as good as the optimal rank-k approximation of B. I will also highlight how this strategy can be adapted to a range of other low-rank approximations that are built using columns and/or rows of the matrix B.
