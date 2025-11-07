@@ -97,10 +97,10 @@
   {
     "listing": "/events/event_list.html",
     "items": [
-      "/events/posts/2025_seminar_11_11.html",
-      "/events/posts/2025_seminar_10_28.html",
       "/events/posts/2025_in_person_open_day.html",
+      "/events/posts/2025_seminar_11_11.html",
       "/events/posts/2025_virtual_open_day.html",
+      "/events/posts/2025_seminar_10_28.html",
       "/events/posts/2025_first_training_week.html",
       "/events/posts/2025_ccmi_opening.html"
     ]
