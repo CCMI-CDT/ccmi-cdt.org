@@ -2,7 +2,7 @@
 title: "Training Week on Programming Models for Scientific Computing"
 author: "Timo Betcke"
 event_date: "10/06/2025"
-date: "10/05/2025"
+date: "10/06/2025"
 summary: "Our first CDT training week is starting."
 categories: [News]
 ---

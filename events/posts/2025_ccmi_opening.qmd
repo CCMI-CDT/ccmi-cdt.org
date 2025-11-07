@@ -2,7 +2,7 @@
 title: "CCMI Grand Opening"
 author: "Timo Betcke"
 event_date: "10/01/2025"
-date: "09/21/2025"
+date: "10/01/2025"
 summary: "We are celebraing the opening of the CCMI CDT."
 categories: [News]
 ---
