@@ -54,8 +54,10 @@ gallery-images:
 
 </section>
 
+<section id="upcoming-events-wrapper">
 <div id="upcoming-events">
 </div>
+</section>
 
 <section id="interest" class="column-page page-full">
 <h1 class="d-flex justify-content-center display-1 fw-bolder">Would you like to join?</h1>

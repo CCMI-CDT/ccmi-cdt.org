@@ -145,11 +145,6 @@ ul:not(.navbar-nav) > li {
         }
     }
 }
-#upcoming-events-wrapper #inner-events-wrapper,
-#listing-blog {
-    max-width:1000px;
-    margin:auto;
-}
 #upcoming-events-wrapper, #blog-wrapper {
     /* the strip that holds the blog and events previews, side by side above 1000px, otherwise column */
     z-index: 2;
@@ -196,9 +191,11 @@ ul:not(.navbar-nav) > li {
     }
 }
 
+#listing-upcoming-events,
 #listing-blog,
 #listing-current-events {
     /* the actual blog and events preview carousels */
+    margin:auto;
     width: 50%;
     height: fit-content;
 
@@ -230,6 +227,7 @@ ul:not(.navbar-nav) > li {
     .carousel-item {
         height: 100%;
         border-radius: 10px;
+        margin-bottom: 20px;
     }
 
     .card-divider {

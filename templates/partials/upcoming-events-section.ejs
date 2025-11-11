@@ -4,8 +4,6 @@
 <% for (const item of items) { %>
     <% if (Date.parse(item.event_date) > Date.now()) { %>
         <% if (count == 0) { %>
-<section id="upcoming-events-wrapper">
-<div id="inner-events-wrapper">
 <h2 class="mt-0"><a href="events/event_list.qmd">Upcoming Events</a></h2>
         <% } %>
     <div class="card border-dark">
@@ -21,9 +19,5 @@
     </div>
         <% count++; %>
     <% } %>
-<% } %>
-<% if (count > 0) { %>
-</div>
-</section>
 <% } %>
 ```
