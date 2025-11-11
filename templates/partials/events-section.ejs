@@ -1,48 +1,25 @@
 ```{=html}
-<h2 class="mt-0"><a href="events/event_list.qmd">Events</a></h2>
+<h2 class="mt-0"><a href="events/event_list.qmd">Recent and upcoming Events</a></h2>
 
 
 <div class="card border-dark">
-    <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel" data-interval="60000">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#eventsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
 
-        <div class="carousel-inner">
+    <% let count=0; let ordered_items=items.sort((a,b)=> Date.parse(b.event_date) -
+        Date.parse(a.event_date));
 
-            <% let count = 0; %>
-            <% for (const item of items) { %>
+        %>
+        <ul>
+            <% for (const item of ordered_items) { %>
                 <% if (count < 3) { %>
-                    <div class="carousel-item <% if (count = 1) { %> active <% } %>">
-                        <div class="card pb-2">
-                            <div class="card-body text-center px-3">
-                                <h4 class="card-title my-0">
-                                    <a href="events/posts/<%- item.filename %>"><%- item.title %> </a> </h4>
-                                <h5 class="card-text my-0"><%- item.event_date %></h5>
-                                    <hr class="card-divider" />
-                                <div class="card-text "><%- item.summary %></div>
-                            </div>
-                        </div>
-                    </div>
+                    <li><a href="<%- item.path %>">
+                            <%= item.title %> (on <%= item.event_date %>)
+                        </a></li>
                     <% count++; %>
-                <% } else { %>
-                    <% break; %>
-                <% } %>
-            <% } %>
-
-        </div>
-
-        <button class="carousel-control-prev" type="button" data-bs-target="#eventsCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#eventsCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-
+                        <% } else { %>
+                            <% break; %>
+                                <% } %>
+                                    <% } %>
+        </ul>
 </div>
+</ul>
 ```
