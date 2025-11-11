@@ -145,6 +145,29 @@ ul:not(.navbar-nav) > li {
         }
     }
 }
+#upcoming-events-wrapper, #blog-wrapper {
+    /* the strip that holds the blog and events previews, side by side above 1000px, otherwise column */
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+    height: fit-content;
+    width: 100%;
+    margin-top: 5rem;
+
+    background: rgba(179, 192, 209, 0.567);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.3px);
+    -webkit-backdrop-filter: blur(4.3px);
+    border: 1px solid rgba(179, 192, 209, 0.1);
+    padding: 1.8rem;
+    border-radius: 5px;
+
+    @media only screen and (max-width: 1000px) {
+        flex-direction: column;
+    }
+}
+
 #blog-events-wrapper {
     /* the strip that holds the blog and events previews, side by side above 1000px, otherwise column */
     z-index: 2;
@@ -168,9 +191,11 @@ ul:not(.navbar-nav) > li {
     }
 }
 
+#listing-upcoming-events,
 #listing-blog,
 #listing-current-events {
     /* the actual blog and events preview carousels */
+    margin:auto;
     width: 50%;
     height: fit-content;
 
@@ -202,6 +227,7 @@ ul:not(.navbar-nav) > li {
     .carousel-item {
         height: 100%;
         border-radius: 10px;
+        margin-bottom: 20px;
     }
 
     .card-divider {
@@ -470,4 +496,8 @@ ul:not(.navbar-nav) > li {
             background-color: #b3c0d1;
         }
     }
+}
+
+.fw-bolder {
+    font-size: 3rem;
 }

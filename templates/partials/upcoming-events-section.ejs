@@ -1,0 +1,23 @@
+```{=html}
+
+<% let count = 0; %>
+<% for (const item of items) { %>
+    <% if (Date.parse(item.event_date) > Date.now()) { %>
+        <% if (count == 0) { %>
+<h2 class="mt-0"><a href="events/event_list.qmd">Upcoming Events</a></h2>
+        <% } %>
+    <div class="card border-dark">
+                        <div class="card pb-2">
+                            <div class="card-body text-center px-3">
+                                <h4 class="card-title my-0">
+                                    <a href="events/posts/<%- item.filename %>"><%- item.title %> </a> </h4>
+                                <h5 class="card-text my-0"><%- item.event_date %></h5>
+                                    <hr class="card-divider" />
+                                <div class="card-text "><%- item.summary %></div>
+                            </div>
+                        </div>
+    </div>
+        <% count++; %>
+    <% } %>
+<% } %>
+```

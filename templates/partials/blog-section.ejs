@@ -1,25 +1,18 @@
 ```{=html}
 <h2 class="mt-0"><a href="blog/blog_list.qmd">Recent Blog Posts</a></h2>
 
-
-<div class="card border-dark">
-
-    <% let count=0; let ordered_items=items.sort((a,b)=> Date.parse(b.event_date) -
-        Date.parse(a.event_date));
-
-        %>
-        <ul>
-            <% for (const item of ordered_items) { %>
-                <% if (count < 3) { %>
-                    <li><a href="<%- item.path %>">
-                            <%= item.title %> (published <%= item.date %>)
-                        </a></li>
-                    <% count++; %>
-                        <% } else { %>
-                            <% break; %>
-                                <% } %>
-                                    <% } %>
-        </ul>
-</div>
-</ul>
+<% let count=0; %>
+<% let ordered_items = items.sort((a,b)=> Date.parse(b.event_date) - Date.parse(a.event_date)); %>
+<% for (const item of ordered_items) { %>
+    <% if (count >= 3) { break; } %>
+    <div class="card border-dark">
+        <div class="card-body text-center px-3">
+            <h4 class="card-title mt-0">
+                <a href="blog/posts/<%- item.filename %>"><%- item.title %></a></h4>
+                <hr class="card-divider" />
+            <div class="card-text "><%- item.summary %></div>
+        </div>
+    </div>
+    <% count++; %>
+<% } %>
 ```
