@@ -1,6 +1,22 @@
 ```{=html}
 <h2 class="mt-0"><a href="events/event_list.qmd">Events</a></h2>
 
+<% for (const item of items) { %>
+    <%- item.filename %> (<%- item.event_date %>)<br />
+<% } %>
+<br /><br />
+<% items.sort((a, b) => Date.parse(a.event_date) > Date.parse(b.event_date)) %>
+
+<% for (const item of items) { %>
+    <%- item.filename %> (<%- item.event_date %>)<br />
+<% } %>
+
+<br /><br />
+<% for (const item of items) { %>
+    <% if (Date.parse(item.event_date) > Date.now()) { %>
+        <%- item.filename %> (<%- item.event_date %>)<br />
+    <% } %>
+<% } %>
 
 <div class="card border-dark">
     <div id="eventsCarousel" class="carousel slide" data-bs-ride="carousel" data-interval="60000">
