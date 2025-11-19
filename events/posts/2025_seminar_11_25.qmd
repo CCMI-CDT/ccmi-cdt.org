@@ -1,0 +1,18 @@
+---
+title: "Seminar on Scientific Computing"
+author: "Timo Betcke"
+event_date: "11/25/2025"
+date: "11/19/2025"
+summary: "Prof Joachim Schoeberl from TU Vienna gives a seminar on scientific computing with NGSolve."
+categories: [News]
+---
+
+**LOCATION:** First Floor, Function Room, 90 High Holborn WC1V 6BH
+
+**TIME:** 14:00-15:00, 25/11/2025
+
+**SPEAKER:** Joachim Schoeberl, Professor for Computational Mathematics in Engineering, TU Vienna
+
+**TITLE:** Scientific Computing for Solving PDEs - What's inside NGSolve
+
+**ABSTRACT:** The finite element method is a powerful technique for solving partial differential equations (PDEs). This talk introduces the open-source software Netgen/NGSolve, which leverages this method through a user-friendly Python interface—reminiscent of FEniCS's UFL—that compiles down to efficient, parallel C++ kernels. We will demonstrate its use in solving problems in electromagnetics, fluid dynamics, and solid mechanics. The discussion will also cover NGSolve's implementation and its extensibility, showing how researchers can contribute new modules at the high level and even define new function spaces in the core C++ code. Finally, we highlight recent work embedding boundary integral operators, accelerated by fast multipole methods, seamlessly into the form language.
