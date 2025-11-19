@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Dr Dante Kalise Prof Greg Pavliotis">
-<meta name="dcterms.date" content="2024-10-20">
+<meta name="author" content="Timo Betcke">
+<meta name="dcterms.date" content="2025-11-19">
 
-<title>Taming Time and Dimension: Advanced Scientific Computing for Next-Generation Diffusion Models – CCMI</title>
+<title>Seminar on Scientific Computing – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -74,7 +74,8 @@ ul.task-list li input[type="checkbox"] {
 
 
 <link rel="stylesheet" href="../../styles.css">
-<meta property="og:title" content="Taming Time and Dimension: Advanced Scientific Computing for Next-Generation Diffusion Models – CCMI">
+<meta property="og:title" content="Seminar on Scientific Computing – CCMI">
+<meta property="og:description" content="EPSRC Centre for Doctoral Training in Colllaborative Computational Modelling at the Interface">
 <meta property="og:site_name" content="CCMI">
 </head>
 
@@ -155,31 +156,27 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Taming Time and Dimension: Advanced Scientific Computing for Next-Generation Diffusion Models</h1>
-</div>
+<h1 class="title">Seminar on Scientific Computing</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">News</div>
+  </div>
+  </div>
 
 
-<div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Supervisor</div>
-  <div class="quarto-title-meta-heading">Institution</div>
-  
-    <div class="quarto-title-meta-contents">
-    <p class="author">Dr Dante Kalise Prof Greg Pavliotis </p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            Imperial
-          </p>
-      </div>
-  </div>
 
 <div class="quarto-title-meta">
 
-      
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Timo Betcke </p>
+          </div>
+  </div>
+    
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">October 20, 2024</p>
+      <p class="date">November 19, 2025</p>
     </div>
   </div>
   
@@ -191,31 +188,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project-description" class="level2">
-<h2 class="anchored" data-anchor-id="project-description">Project Description</h2>
-<section id="existing-background-work" class="level3">
-<h3 class="anchored" data-anchor-id="existing-background-work">Existing background work</h3>
-<p>Diffusion models have emerged as a powerful class of generative models, with applications in image, audio, and 3D synthesis. This PhD project aims to advance the computational efficiency of diffusion models by addressing two primary challenges: expensive time integration during sampling and the curse of dimensionality in data representation. We propose to develop novel scientific computing methods combining advanced time integration schemes with high-dimensional approximation techniques. This interdisciplinary approach will bridge state-of-the-art generative AI with classical numerical analysis and modern tensor approximation methods, potentially unlocking major efficiency gains while maintaining or improving generation quality.</p>
-</section>
-<section id="existing-background-work-1" class="level3">
-<h3 class="anchored" data-anchor-id="existing-background-work-1">Existing background work</h3>
-<p>Recent advancements in diffusion model sampling have focused on either improving time integration or tackling high-dimensional representations. On the time integration front, methods like DPM-Solver and DEIS have leveraged exponential integrators and sophisticated ODE solvers. For high-dimensional approximation, techniques such as tensor decompositions and sparse grids have shown promise in related fields. However, there remains a significant gap in approaches that effectively combine these two aspects for diffusion models. This project builds upon these foundations while aiming to create a unified framework that addresses both challenges simultaneously.</p>
-<p>Relevant references: <a href="https://arxiv.org/abs/2401.08740">Sit: Exploring flow and diffusion-based generative models with scalable interpolant transformers</a> Nanye Ma, Mark Goldstein, Michael S Albergo, Nicholas M Boffi, Eric Vanden-Eijnden, Saining Xie arXiv preprint arXiv:2401.08740</p>
-<p><a href="https://primeagencyltd.com/?_=%2Fabs%2F2401.04372%23gzIpohAcANA89nOlI%2FTaCGU%3D">Stable generative modeling using Schroedinger bridges</a> Georg Gottwald, Fengyi Li, Youssef Marzouk, Sebastian Reich arXiv preprint arXiv:2401.04372</p>
-<p><a href="https://arxiv.org/abs/2402.15285">Generative Modelling with Tensor Train approximations of Hamilton–Jacobi–Bellman equations</a> David Sommer, Robert Gruhlke, Max Kirstein, Martin Eigel, Claudia Schillings arXiv preprint arXiv:2402.15285</p>
-<p><a href="https://arxiv.org/abs/2308.02157">Improved Order Analysis and Design of Exponential Integrator for Diffusion Models Sampling</a> Qinsheng Zhang, Jiaming Song, Yongxin Chen arXiv preprint arXiv:2308.02157</p>
-</section>
-<section id="main-objectives-of-the-project" class="level3">
-<h3 class="anchored" data-anchor-id="main-objectives-of-the-project">Main objectives of the project</h3>
-<p>The primary objectives of this project are to: (1) Develop novel time integration schemes tailored for diffusion model ODEs/SDEs, incorporating adaptive stepping and error control. (2) Investigate high-dimensional approximation techniques, including tensor decompositions and sparse grids, for efficient representation of diffusion model states and operators. (3) Design algorithms that combine advanced time integration with high-dimensional approximation, including multi-level and multi-fidelity approaches. (4) Conduct rigorous theoretical analysis of the proposed methods, deriving stability conditions, convergence rates, and error bounds.</p>
-</section>
-<section id="details-of-softwaredata-deliverables" class="level3">
-<h3 class="anchored" data-anchor-id="details-of-softwaredata-deliverables">Details of Software/Data Deliverables</h3>
-<p>The project will produce a suite of scientific computing algorithms specifically designed for diffusion models. These will include novel time integration schemes, high-dimensional approximation techniques, and hybrid methods that combine both approaches. The algorithms will be built with a focus on both scalability to large-scale diffusion models and modularity, enabling easy integration with existing diffusion model implementations.</p>
+<p><strong>LOCATION:</strong> First Floor, Function Room, 90 High Holborn WC1V 6BH</p>
+<p><strong>TIME:</strong> 14:00-15:00, 25/11/2025</p>
+<p><strong>SPEAKER:</strong> Joachim Schoeberl, Professor for Computational Mathematics in Engineering, TU Vienna</p>
+<p><strong>TITLE:</strong> Scientific Computing for Solving PDEs - What’s inside NGSolve</p>
+<p><strong>ABSTRACT:</strong> The finite element method is a powerful technique for solving partial differential equations (PDEs). This talk introduces the open-source software Netgen/NGSolve, which leverages this method through a user-friendly Python interface—reminiscent of FEniCS’s UFL—that compiles down to efficient, parallel C++ kernels. We will demonstrate its use in solving problems in electromagnetics, fluid dynamics, and solid mechanics. The discussion will also cover NGSolve’s implementation and its extensibility, showing how researchers can contribute new modules at the high level and even define new function spaces in the core C++ code. Finally, we highlight recent work embedding boundary integral operators, accelerated by fast multipole methods, seamlessly into the form language.</p>
 
 
-</section>
-</section>
 
 </main> <!-- /main -->
 <div class="column-page page-full mt-5 wave-background d-flex flex-column align-items-center justify-content-end">
