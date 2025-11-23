@@ -40,8 +40,7 @@ There will be a total of approximately 70-80 students, over a 5 year period.
 ::: {.callout-note collapse="true" .callout-note appearance="minimal"}
 ## When will the PhD Programme start?
 
-The first cohort in the CCMI CDT will start in September 2025.
-
+The next cohort in the CCMI CDT will start in September 2026 
 :::
 
 ::: {.callout-note collapse="true" .callout-note appearance="minimal"}
@@ -49,7 +48,7 @@ The first cohort in the CCMI CDT will start in September 2025.
 
 Yes, postgraduate researchers at the CCMI CDT will receive a full 4 year studentship (pro-rata for part-time students)
 
-To cover living expenses, the UKRI rate (London-weighted) doctoral stipend, plus an additional £2,000 top-up, will be paid to postgraduate researchers each year, in regular instalments. The UKRI stipends tend to increase each year with inflation. The stipend for 2025/2026 will be confirmed in Spring 2025, but is estimated to be £21,870, giving a total estimated stipend of £23,870 including top-up.  For more information on UKRI stipends, please visit their [website](https://www.ukri.org/apply-for-funding/studentships-and-doctoral-training/get-a-studentship-to-fund-your-doctorate/#contents-list).
+To cover living expenses, the UKRI rate (London-weighted) doctoral stipend, plus an additional £2,000 top-up, will be paid to postgraduate researchers each year, in regular instalments. The UKRI stipends tend to increase each year with inflation. The stipend for 2026/2027 will be confirmed in Spring 2026, but is estimated to be £23,466, giving a total estimated stipend of £25,466  including top-up   For more information on UKRI stipends, please visit their [website](https://www.ukri.org/apply-for-funding/studentships-and-doctoral-training/get-a-studentship-to-fund-your-doctorate/#contents-list).
 
 Annual tuition will be paid and there is funding available to support research training costs such as conference attendance.
 
@@ -57,12 +56,11 @@ For additional information on the cost of studying in London, please visit the [
 :::
 
 ::: {.callout-note collapse="true" .callout-note appearance="minimal"}
-## Do I need to choose a topic for my PhD research?
+## Do I need to contact a supervisor before applying?
 
-No, you don’t need to contact a supervisor before applying.
-Unlike more traditional approaches to applying for a PhD, if you are interested in applying for the CCMI CDT, you are not required or expected to contact anyone about project supervision.
+No, you don’t need to contact a supervisor before applying. Unlike more traditional approaches to applying for a PhD, if you are interested in applying for the CCMI CDT, you are not required or expected to contact anyone about project supervision. 
 
-Please see the [list of projects](phd_projects/phd_project_list.qmd) that are offered. If you pass the interview stage, we will hold an open day for you to learn more about the project areas on offer and we will ask you to submit which projects/research areas you are interested in. You will then have a chance to meet with supervisors to discuss projects.
+Please see the type of projects that are being carried out in our CDT currently. If you pass the interview stage, we will hold an open day for you to learn more about the project areas on offer. You will then have a chance to meet with supervisors to discuss projects. 
 :::
 
 ::: {.callout-note collapse="true" .callout-note appearance="minimal"}
@@ -126,9 +124,7 @@ The application procedure consists of 4 stages: The Online Application, Intervie
 ::: {.callout-note collapse="true" .callout-note appearance="minimal"}
 ## Do I need to submit a research proposal or choose supervisor when I apply?
 
-No. Before you apply, we would ask you to review the projects on offer at the [‘Projects’](phd_projects/phd_project_list.qmd) page on our website.
-
-If you pass the interview stage of the application process, you will have the opportunity to learn more about our projects and supervisors. You will be asked submit your top three preferred projects so we can understand your research interests.  You will then meet potential supervisors one on one during our supervisor matching process.
+You do not need to submit a proposal when you apply. We recruit for fit to CDT in the first instance.  If you pass the interview stage of the application process, you will have the opportunity to learn more about our projects and supervisors and will meet potential supervisors one on one during our supervisor matching process. 
 :::
 
 ::: {.callout-note collapse="true" .callout-note appearance="minimal"}
