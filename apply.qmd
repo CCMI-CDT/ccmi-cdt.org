@@ -4,4 +4,38 @@ title: "How to apply"
 
 ![UCL Japanese Garden](../static/japanese_garden.jpg)
 
-We are currently updating our application system for 2026 entry. Applications will open around mid November together with detailed information on how to apply for the academic year 2026/2027.
+Please complete our application form via Microsoft forms at [this link](https://forms.office.com/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwuW-5Vcsd0NAuBDVhrQRq-5URUxHSkZNV0FHNlVDUk1GVjJKQUZPQkIwUC4u).  
+
+A full copy of the application questions are [available as a PDF here](../static/ccmi_application_form_2026.pdf). 
+
+ 
+We advise applicants to: 
+
+- Review all questions in advance 
+
+- Set aside time to complete the form in one sitting - approximately one hour 
+
+- Prepare longer answers in a separate document, then copy and paste them into the form (This helps avoid losing work due to internet issues or accidental navigation) 
+
+This short form is designed for us to get to know you and your interests. Please do not worry about any typos or potential mistakes as we aim to review all applications in an open, inclusive manner. If invited to interview, you will be asked if you require any reasonable adjustments to successfully attend your interview.  
+
+Please note that there is a strict character limit on the experience and interest questions. Applicants will have an opportunity to review and edit their application before submitting, using the back button at the bottom left of the form. Do not use your browser’s back button, as this may cause data loss. 
+ 
+**Please complete all sections of the application form.**
+ 
+**Final Submission Policy**
+ 
+Applicants are permitted to submit only one application via the Microsoft Form. This submission should be treated as final. Please take the time to ensure your application is complete and accurate before submitting. Once you have submitted this form, in order for your application to be considered complete, we require you to email your educational transcripts to [arc.ccmi-cdt@ucl.ac.uk](mailto:arc.ccmi-cdt@ucl.ac.uk?subject=TRANSCRIPT)  Please write TRANSCRIPT in the subject line and send your transcript as a PDF. If you have more than one transcript, please merge and send as one PDF file. We will only review one PDF transcript file per applicant.  
+ 
+**Deadline for this application submission is 12th January 2026 at 17:00 (GMT).**
+
+Once you have submitted your online application form the next stages are as follows:
+
+- In January we will shortlist candidates for interview. We aim to inform everyone about the outcome of the shortlisting towards the end of January.
+- Interviews for shortlisted candidates will take place around mid February. These will take place online. Detailed information on interviews will be released for shortlisted candidates in due time.
+- Shortlisted candidates will be given more information on available PhD projects. Candidates who we wish to make an offer after interview will receive support to discuss projects with potential supervisors across UCL and Imperial.
+- A final offer for CDT entry will be generated once
+  - A project is agreed with a suitable UCL or Imperial advisor in one of the research areas supported by the CDT.
+  - A pro-forma application to either UCL or Imperial (depending on supervisor), including full references, has been approved. This pro-forma application mainly serves to do a formal document check and to confirm eligibility of candidates for funding by the respective university.
+
+**Eligible PhD projects** are broadly across the computational sciences, data sciences, and research software engineering. While most of our students have projects across mathematics, statistics, and computer science, we also support students in other departments (e.g. Chemistry, Medicine), as long as the projects fall within the remit of the CDT. Please note that many of our funded places come with restrictions on choice of university department or topic area. We will try to support the preferred research area of each candidate we wish to make an offer. But funding arrangements can mean that not every choice of preferred supervisor or project will be possible.
