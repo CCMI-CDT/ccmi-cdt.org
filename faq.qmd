@@ -118,7 +118,7 @@ Normally, to be eligible for a full award from the EPSRC, a student must a) have
 ::: {.callout-note collapse="true" .callout-note appearance="minimal"}
 ## How do I apply?
 
-The application procedure consists of 4 stages: The Online Application, Interview, Project Matching, and pro-forma application for document and fee status check. Please see full details of our application process at our [Application Procedure](application_procedure.qmd) page. If applications are not yet open, but you would like to be notified when they are, please do register your interest and we will notify you when applications open.
+The application procedure consists of 4 stages: The Online Application, Interview, Project Matching, and pro-forma application for document and fee status check. To start the application please see the information provided [here](../apply.html).
 :::
 
 ::: {.callout-note collapse="true" .callout-note appearance="minimal"}
