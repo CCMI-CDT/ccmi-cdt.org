@@ -11,57 +11,57 @@ listing:
       contents:
         - name: Prof Timo Betcke
           description: <strong>Prof Timo Betcke</strong> is <em>Centre Director</em>. He is Professor of Computational Mathematics at UCL.
-          image: static/people/betcke.png
+          image: static/people/team/betcke.png
           homepage: https://profiles.ucl.ac.uk/31216-timo-betcke
-          github: https://github.com/tbetcke
-          orcid: https://orcid.org/0000-0002-3323-2110
+          github: tbetcke
+          orcid: 0000-0002-3323-2110
         - name: Prof Colin Cotter
           description: <strong>Prof Colin Cotter</strong> is <em>Co-Lead</em> for the CDT. He is Professor of Computational Mathematics at Imperial College.
-          image: static/people/cotter.jpg
-          homepage: https://www.imperial.ac.uk/people/colin.cotter
-          github: https://github.com/colinjcotter
-          orcid: https://orcid.org/0000-0001-7962-8324
+          image: static/people/team/cotter.jpg
+          homepage: https://www.imperial.ac.uk/people/team/colin.cotter
+          github: colinjcotter
+          orcid: 0000-0001-7962-8324
         - name: Prof Marta Betcke
           description: <strong>Prof Marta Betcke</strong> is <em>Co-Director for Research and Partnership</em>. She is Professor of Scientific Computing at UCL.
-          image: static/people/mbetcke.jpg
+          image: static/people/team/mbetcke.jpg
           homepage: https://sites.google.com/site/mbetcke/
-          orcid: https://orcid.org/0000-0003-3818-2121
+          orcid: 0000-0003-3818-2121
         - name: Prof Ruth Misener
           description: <strong>Prof Ruth Misener</strong> is <em>Co-Director for Research and Partnership</em>. She is Professor in Computational Optimisation at Imperial College.
-          image: static/people/misener.jpg
+          image: static/people/team/misener.jpg
           homepage: http://wp.doc.ic.ac.uk/rmisener/
-          github: https://github.com/cog-imperial
-          orcid: https://orcid.org/0000-0001-5612-5417
+          github: cog-imperial
+          orcid: 0000-0001-5612-5417
         - name:  Prof Serge Guillas
           description: <strong>Prof Serge Guillas</strong> is <em>Co-Director for Training</em>. He is the Met Office Joint Chair in Data Sciences for Weather and Climate at UCL.
-          image: static/people/guillas.jpg
+          image: static/people/team/guillas.jpg
           homepage: https://profiles.ucl.ac.uk/3850-serge-guillas
-          orcid: https://orcid.org/0000-0002-3910-3408
+          orcid: 0000-0002-3910-3408
         - name: Dr Dante Kalise
           description: <strong>Dr Dante Kalise</strong> is <em>Co-Director for Training</em>. He is a Reader in Computational Optimisation and Control at Imperial College.
-          image: static/people/kalise.jpg
+          image: static/people/team/kalise.jpg
           homepage: https://www.dkalise.net
-          orcid: https://orcid.org/0000-0003-2327-1957
+          orcid: 0000-0003-2327-1957
         - name: Prof Hao Ni
           description: <strong>Prof Hao Ni</strong> is <em>Co-Director for Admissions</em>. She is Professor of Mathematics at UCL and a Turing Fellow at the Alan Turing Institute.
-          image: static/people/ni.jpg
+          image: static/people/team/ni.jpg
           homepage: https://profiles.ucl.ac.uk/56579-hao-ni
-          github: https://github.com/hello0630
-          orcid: https://orcid.org/0000-0001-5485-4376
+          github: hello0630
+          orcid: 0000-0001-5485-4376
         - name: Dr Vahid Shahrezaei
           description: <strong>Dr Vahid Shahrezaei</strong> is <em>Co-Director for Admissions</em>. He is a Reader in Biomathematics at Imperial College.
-          image: static/people/shahrezaei.jpg
-          homepage: https://www.imperial.ac.uk/people/v.shahrezaei
-          orcid: https://orcid.org/0000-0002-4013-5458
+          image: static/people/team/shahrezaei.jpg
+          homepage: https://www.imperial.ac.uk/people/team/v.shahrezaei
+          orcid: 0000-0002-4013-5458
         - name: Mrs Laura Beer
           description: <strong>Laura Beer</strong> is <em>Centre Manager for the CCMI CDT</em>. She is a Professional Research Investment & Strategy Manager at UCL ARC.
-          image: static/people/beer.jpg
+          image: static/people/team/beer.jpg
         - name: Dr Matthew Scroggs
           description: <strong>Matthew Scroggs</strong> is <em>Teaching and Training lead for the CCMI CDT</em>. He is a Senior Research Software Engineer at UCL ARC.
-          image: static/people/scroggs.jpg
-          github: https://github.com/mscroggs
+          image: static/people/team/scroggs.jpg
+          github: mscroggs
           homepage: https://mscroggs.co.uk
-          orcid: https://orcid.org/0000-0002-4658-2443
+          orcid: 0000-0002-4658-2443
 ---
 
 <div class="column-body-outset page-full mx-2">

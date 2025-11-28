@@ -1,0 +1,36 @@
+---
+title: "Thomas Template"
+surname: "Template"
+about:
+  template: trestles
+  image: ../static/people/students/placeholder_puffin.jpg
+  links:
+    - text: "<i class='fa-brands fa-internet-explorer'></i> Homepage"
+      href: https://example.com
+    - text: "<i class='fa-brands fa-orcid'></i> ORCiD"
+      href: https://orcid.org/XXXX-XXXX-XXXX-XXXX
+    - icon: github
+      text: Github
+      href: https://github.com/example
+    - icon: bluesky
+      text: Bluesky
+      href: https://bsky.app/profile/logicbot.bsky.social
+---
+
+{{<fa brands>}}
+
+Thomas Template is an example person who is not doing actual research. While not pretending to be real, Thomas likes to play board games and lacrosse.
+
+## Interests
+
+- Examples
+- Templates
+
+## Publications
+
+E. Example, T. Template. How to make a page on the CCMI website (2025), Journal of CDT websites, 1(1), 1-5, [XX.XXXX/XXXXXXXXX](https://dx.doi.org/XX.XXXX/XXXXXXXXXX).
+
+## Education
+
+University College London | London, UK<br />
+BA in Computer Science | Sept 2020 - June 2024

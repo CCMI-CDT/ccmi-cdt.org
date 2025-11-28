@@ -33,6 +33,8 @@ website:
 
       - text: About
         menu:
+          - text: Current Students
+            file: student_list.qmd
           - text: Our Leadership Team
             file: team.qmd
           - text: Contact us

@@ -1,4 +1,5 @@
 ```{=html}
+{{<fa brands>}}
 <% for (const item of items) { %>
 <div class="card mb-3">
     <div class="row g-0">
@@ -9,13 +10,13 @@
             <div class="card-body">
                 <h5 class="card-title"><%= (item.description) %></h5>
                 <% if (item.homepage) { %>
-                <a class="card-link" href="<%- item.homepage %>">Homepage</a>
+                <a href="<%- item.homepage %>" class="about-link"><i class="fa-brands fa-internet-explorer"></i> Homepage</span></a>
                 <% } %>
                 <% if (item.orcid) { %>
-                <a class="card-link" href="<%- item.orcid %>">Orcid</a>
+                <a href="https://orcid.org/<%- item.orcid %>" class="about-link"><i class="fa-brands fa-orcid"></i> ORCiD</a>
                 <% } %>
                 <% if (item.github) { %>
-                <a class="card-link" href="<%- item.github %>">GitHub</a>
+                <a href="https://github.com/<%- item.github %>" class="about-link"><i class="fa-brands fa-github"></i> Github</a>
                 <% } %>
             </div>
         </div>

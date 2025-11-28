@@ -1,0 +1,16 @@
+---
+title: Current CCMI Students
+format:
+    html:
+        anchor-sections: false
+
+listing:
+  - id: student-list
+    template: templates/student-list.ejs
+    contents: students
+    sort: "surname desc"
+    categories: false
+---
+
+<div id="student-list column-page">
+</div>
