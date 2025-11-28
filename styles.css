@@ -501,3 +501,18 @@ ul:not(.navbar-nav) > li {
 .fw-bolder {
     font-size: 3rem;
 }
+
+.card-body a.about-link {
+    font-size: .8em;
+    padding: .25em .5em;
+    border-radius: 4px;
+    color: rgb(78.4864864865,88,97.5135135135);
+    text-decoration: none;
+    border: solid 1px;
+    display: inline-block;
+    margin: .1em;
+}
+
+.card-body a.about-link:hover {
+    color: #0d6efd;
+}
