@@ -9,15 +9,20 @@
         <div class="col-md-8">
             <div class="card-body">
                 <h5 class="card-title"><%= (item.description) %></h5>
-                <% if (item.homepage) { %>
-                <a href="<%- item.homepage %>" class="about-link"><i class="fa-brands fa-internet-explorer"></i> Homepage</span></a>
-                <% } %>
-                <% if (item.orcid) { %>
-                <a href="https://orcid.org/<%- item.orcid %>" class="about-link"><i class="fa-brands fa-orcid"></i> ORCiD</a>
-                <% } %>
-                <% if (item.github) { %>
-                <a href="https://github.com/<%- item.github %>" class="about-link"><i class="fa-brands fa-github"></i> Github</a>
-                <% } %>
+                <div class="about-links"
+                    <% if (item.homepage) { %>
+                    <a href="<%- item.homepage %>" class="about-link"><i class="fa-brands fa-internet-explorer"></i> Homepage</span></a>
+                    <% } %>
+                    <% if (item.orcid) { %>
+                    <a href="https://orcid.org/<%- item.orcid %>" class="about-link"><i class="fa-brands fa-orcid"></i> ORCiD</a>
+                    <% } %>
+                    <% if (item.github) { %>
+                    <a href="https://github.com/<%- item.github %>" class="about-link"><i class="fa-brands fa-github"></i> Github</a>
+                    <% } %>
+                    <% if (item.bluesky) { %>
+                    <a href="https://bsky.app/profile/<%- item.bluesky %>" class="about-link"><i class="fa-brands fa-bluesky"></i> Bluesky</a>
+                    <% } %>
+                </div>
             </div>
         </div>
     </div>
