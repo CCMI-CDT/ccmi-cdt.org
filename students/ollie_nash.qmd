@@ -16,7 +16,7 @@ interests:
 publications:
   -Coming very soon
 education:
-  - institution: PSL - Dauphiné & ENS 
+  - institution: "PSL - Dauphiné & ENS"
     location: Paris, France
     degree: M2 in Theoretical and applied mathematics
     startdate: Sept 2023
