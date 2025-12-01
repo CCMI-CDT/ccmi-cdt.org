@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>CCMI Events – CCMI</title>
+<title>bryce_shirley – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,18 +31,20 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
 <link href="../static/assets/ccmi_rounded_colour.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap-dc5e99de59e0415ab1d83184b11bd19f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/academic-webpage/academic-webpage.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/academic-webpage/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/academic-webpage/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,69 +72,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-event-list .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-project','listing-resources','listing-website','listing-format','listing-execute','listing-language','listing-title','listing-author','listing-event_date','listing-date','listing-summary','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-event_date-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-resources","listing-website","listing-format","listing-execute","listing-language","listing-title","listing-author","listing-event_date","listing-date","listing-summary","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-event-list'] = new List('listing-event-list', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="CCMI Events – CCMI">
+<meta property="og:title" content="CCMI">
 <meta property="og:description" content="EPSRC Centre for Doctoral Training in Colllaborative Computational Modelling at the Interface">
+<meta property="og:image" content="https://media.licdn.com/dms/image/v2/D4E03AQFzqUgQKp-EnA/profile-displayphoto-scale_200_200/B4EZmSAAbhKsAY-/0/1759091101009?e=1766016000&amp;v=beta&amp;t=pDMbQ8gCRziHgVT0fH8dMHtLNhUWELLfERgtAHprhLE">
 <meta property="og:site_name" content="CCMI">
 </head>
 
@@ -162,7 +107,7 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../events/event_list.html" aria-current="page"> 
+    <a class="nav-link" href="../events/event_list.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
@@ -215,121 +160,42 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">CCMI Events</h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
+<p></p><div class="quarto-about-trestles">
+  <div class="about-entity">
+    <img src="https://media.licdn.com/dms/image/v2/D4E03AQFzqUgQKp-EnA/profile-displayphoto-scale_200_200/B4EZmSAAbhKsAY-/0/1759091101009?e=1766016000&amp;v=beta&amp;t=pDMbQ8gCRziHgVT0fH8dMHtLNhUWELLfERgtAHprhLE" class="about-image rounded" style="width: 20em;">
+    <header id="title-block-header" class="quarto-title-block default">
+      <div class="quarto-title">
+        <h1 class="title">Bryce Shirley</h1>
+      </div>
+    </header>
+    <div class="about-links">
+      <a href="https://orcid.org/0009-0009-3268-5837" class="about-link"><i class="fa-brands fa-orcid"></i> ORCiD</a>
+      <a href="https://github.com/bryceshirley" class="about-link"><i class="fa-brands fa-github"></i> Github</a>
+    </div>
   </div>
-  
-
-
-</header>
-
-
-<section id="ccmi-seminar" class="level2">
-<h2 data-anchor-id="ccmi-seminar">CCMI Seminar</h2>
-<p>The CCMI runs a fortnightly seminar that alternates between being held at UCL and Imperial. It covers topics relevant to the CDT, including scientific computing, numerical analysis, machine learning, and application areas.</p>
-<p>If you wish to receive email notifications of upcoming seminar talks, you can join our mailing list by sending an email containing “subscribe” to <a href="mailto:ccmi-cdt-seminar-request@ucl.ac.uk?body=subscribe">ccmi-cdt-seminar-request@ucl.ac.uk</a>. You will then recieve an email telling you how to confirm your subscription.</p>
-<div id="event-list column-page">
-
+  <div class="about-contents"><main class="content" id="quarto-document-content">
+    <p>Bryce Shirley’s an aligned PhD student with the CCMI CDT, working as a Research Software Engineer in the Computational Maths Theme at STFC, UKRI.</p>
+    <p>Bryce’s PhD supervisor is Marta Betcke, and ARC supervisor is Mosè Giordano.</p>
+    <section id="interests" class="level2">
+      <h2 data-anchor-id="interests" class="anchored">Interests</h2>
+      <ul>
+        <li>Inverse Problems</li>        <li>Computational Imaging</li>        <li>HPC</li>        <li>Salsa Dancing</li>        <li>Trial Running</li>        <li>Hiking</li>      </ul>
+    </section>
+    <section id="education" class="level2">
+      <h2 data-anchor-id="education" class="anchored">Education</h2>
+      <p style="text-align:center">University of Nottingham | Nottingham, UK<br>MMath Mathematics | Sept 2018 – June 2022</p>
+      
+    </section>
+  </main></div>
 </div>
+<p></p>
 
 
 
-</section>
-
-<div class="quarto-listing quarto-listing-container-custom" id="listing-event-list">
-<h2 class="mt-0">Events</h2>
-<div class="post-container">
-
-        <div class="card border-dark" data-index="0" data-categories="TmV3cw==" data-listing-date-sort="1763942400000" data-listing-file-modified-sort="1764598809732" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71" data-listing-event_date-sort="11/24/2025">
-            <a href="../events/posts/2025_in_person_open_day.html">
-            <div class="card-body">
-                <h4 class="card-title mt-0">CCMI Open Day</h4>
-                <p class="card-text">Nov 24, 2025</p>
-                <hr class="card-divider">
-                <p class="card-text">We are organising an open day to get to know the CDT, our research and how the application process works.</p>
-            </div>
-            </a>
-        </div>
-
-        <div class="card border-dark" data-index="1" data-categories="TmV3cw==" data-listing-date-sort="1763510400000" data-listing-file-modified-sort="1764598809732" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="137" data-listing-event_date-sort="11/25/2025">
-            <a href="../events/posts/2025_seminar_11_25.html">
-            <div class="card-body">
-                <h4 class="card-title mt-0">Seminar on Scientific Computing</h4>
-                <p class="card-text">Nov 25, 2025</p>
-                <hr class="card-divider">
-                <p class="card-text">Prof Joachim Schoeberl from TU Vienna gives a seminar on scientific computing with NGSolve.</p>
-            </div>
-            </a>
-        </div>
-
-        <div class="card border-dark" data-index="2" data-categories="TmV3cw==" data-listing-date-sort="1762819200000" data-listing-file-modified-sort="1764598809732" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195" data-listing-event_date-sort="11/11/2025">
-            <a href="../events/posts/2025_seminar_11_11.html">
-            <div class="card-body">
-                <h4 class="card-title mt-0">Seminar on Low-rank approximation by column subset selection</h4>
-                <p class="card-text">Nov 11, 2025</p>
-                <hr class="card-divider">
-                <p class="card-text">Dr Alice Cortinovis from the University of Pisa is presenting new results on low-rank approximations of matrices.</p>
-            </div>
-            </a>
-        </div>
-
-        <div class="card border-dark" data-index="3" data-categories="TmV3cw==" data-listing-date-sort="1762732800000" data-listing-file-modified-sort="1764598809732" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="88" data-listing-event_date-sort="11/10/2025">
-            <a href="../events/posts/2025_virtual_open_day.html">
-            <div class="card-body">
-                <h4 class="card-title mt-0">CCMI Online Open Day</h4>
-                <p class="card-text">Nov 10, 2025</p>
-                <hr class="card-divider">
-                <p class="card-text">We are organising an online open day to get to know the CDT, our research and how the application process works.</p>
-            </div>
-            </a>
-        </div>
-
-        <div class="card border-dark" data-index="4" data-categories="TmV3cw==" data-listing-date-sort="1761609600000" data-listing-file-modified-sort="1764598809732" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="127" data-listing-event_date-sort="10/28/2025">
-            <a href="../events/posts/2025_seminar_10_28.html">
-            <div class="card-body">
-                <h4 class="card-title mt-0">Seminar on AI and Scientific Computing</h4>
-                <p class="card-text">Oct 28, 2025</p>
-                <hr class="card-divider">
-                <p class="card-text">Prof Petros Koumoutsakos from Harvard University is giving a seminar on AI and Scientific Computing.</p>
-            </div>
-            </a>
-        </div>
-
-        <div class="card border-dark" data-index="5" data-categories="TmV3cw==" data-listing-date-sort="1759708800000" data-listing-file-modified-sort="1764598809731" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59" data-listing-event_date-sort="10/06/2025">
-            <a href="../events/posts/2025_first_training_week.html">
-            <div class="card-body">
-                <h4 class="card-title mt-0">Training Week on Programming Models for Scientific Computing</h4>
-                <p class="card-text">Oct 6, 2025</p>
-                <hr class="card-divider">
-                <p class="card-text">Our first CDT training week is starting.</p>
-            </div>
-            </a>
-        </div>
-
-        <div class="card border-dark" data-index="6" data-categories="TmV3cw==" data-listing-date-sort="1759276800000" data-listing-file-modified-sort="1764598809731" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="46" data-listing-event_date-sort="10/01/2025">
-            <a href="../events/posts/2025_ccmi_opening.html">
-            <div class="card-body">
-                <h4 class="card-title mt-0">CCMI Grand Opening</h4>
-                <p class="card-text">Oct 1, 2025</p>
-                <hr class="card-divider">
-                <p class="card-text">We are celebraing the opening of the CCMI CDT.</p>
-            </div>
-            </a>
-        </div>
-
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <div class="column-page page-full mt-5 wave-background d-flex flex-column align-items-center justify-content-end">
 	<div id="contact-us" class="pt-3 d-flex flex-column align-items-center text-center">
 		<h3>Feel free to drop us a line with questions or feedback!</h3>
@@ -365,6 +231,13 @@ window.Quarto = {
 </div>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
