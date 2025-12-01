@@ -25,7 +25,7 @@ publications:
     pageend: 5
     doi: XX.XXXX/XXXXXXXXX
 education:
-  - institution: University College Lomdom
+  - institution: University College London
     location: London, UK
     degree: BA in Computer Science
     startdate: Sept 2020
