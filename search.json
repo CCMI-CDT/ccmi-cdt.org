@@ -1334,14 +1334,21 @@
     "href": "students/ben_stewart.html",
     "title": "Ben Stewart",
     "section": "",
-    "text": "Ben is a PhD student at Imperial College London in the Computational Optimisation Group, focusing on probabilistic machine learning for dynamical systems modelling with downstream applications to chemical experiment design - including small molecule synthesis and small-scale manufacturing - in collaboration with the pharmaceutical industry. He is passionate about accelerating scientific discovery through data-driven and physics-driven computational models. He holds an MSc in Chemistry from the University of York, which included a year of research in the University of Sydney’s quantum computing lab."
+    "text": "Ben is a PhD student in the Computational Optimisation Group at Imperial College London, focusing on probabilistic machine learning for dynamic systems (initially Neural ODEs) with downstream applications to chemical experiment design - including small molecule synthesis and small-scale biomanufacturing - in collaboration with Merck & Co. He is passionate about accelerating scientific discovery through data-driven and physics-driven computational models. He holds an MSc in Chemistry from the University of York, which included a year of research in the University of Sydney’s quantum computing lab."
+  },
+  {
+    "objectID": "students/ben_stewart.html#interests",
+    "href": "students/ben_stewart.html#interests",
+    "title": "Ben Stewart",
+    "section": "Interests",
+    "text": "Interests\n      \n        AI for science        Simulating nature        Quantum Computing        Economics & investing        Venture capital        Various sports"
   },
   {
     "objectID": "students/ben_stewart.html#publications",
     "href": "students/ben_stewart.html#publications",
     "title": "Ben Stewart",
     "section": "Publications",
-    "text": "Publications\n      V. C. Olaya-Agudelo, B. Stewart, et al.. Simulating open-system molecular dynamics on analog quantum computers (2025), Physical Review Research 7(2), 23215, 10.1103/PhysRevResearch.7.023215.\n      P. B. Karadakov, B. Stewart, D. L. Cooper. Magnetic Shielding Analysis of Bonding in [1.1.1]Propellane (2023), The Journal of Physical Chemistry A 127(4), 861–869, 10.1021/acs.jpca.2c06450."
+    "text": "Publications\n      V. C. Olaya-Agudelo*, B. Stewart*, et al. Simulating open-system molecular dynamics on analog quantum computers (2025), Physical Review Research 7(2), 23215, 10.1103/PhysRevResearch.7.023215.\n      P. B. Karadakov, B. Stewart, D. L. Cooper. Magnetic Shielding Analysis of Bonding in [1.1.1]Propellane (2023), The Journal of Physical Chemistry A 127(4), 861–869, 10.1021/acs.jpca.2c06450."
   },
   {
     "objectID": "students/ben_stewart.html#education",
