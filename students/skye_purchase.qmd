@@ -7,7 +7,7 @@ orcid: 0009-0009-1714-4151
 github: skyepurchase
 bluesky:
 info:
-  - "I am interested in AI safety focusing on alignment and interprettability. I am currently focusing on aligning diffusion models to physics simulations and general spatio-temporal data."
+  - "I am interested in AI safety focusing on alignment and interpretability. I am currently focusing on aligning diffusion models to physics simulations and general spatio-temporal data."
   - "Outside of academia I am a member of the Imperial Ceilidh band and run my own folk dancing session Oval English Country Dance. I love climbing, gardening, crocheting and am an avid believer in visible mending."
 interests:
   - Folk dance and music
@@ -31,7 +31,7 @@ education:
     startdate: Sept 2020
     enddate: June 2023
   - institution: University College London
-    location: Cambridge, UK
+    location: London, UK
     degree: MSc in Machine Learning
     startdate: Sept 2024
     enddate: Sept 2025
