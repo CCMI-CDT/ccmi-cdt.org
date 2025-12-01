@@ -4,7 +4,7 @@ surname: "Chanbour"
 image: https://github.com/achanbour.png
 github: achanbour
 info:
-  - "I am part of the [Firedrake](https://www.firedrakeproject.org/index.html) project. My research focusses on developping software abstractions for coupling Lagrangian particle models with finite-element PDE solvers, particularly in the context of nuclear fusion simulations. I am jointly supervised by the UK Atomic Energy Authority and Prof. David Ham at Imperial College London""
+  - "I am part of the [Firedrake](https://www.firedrakeproject.org/index.html) project. My research focusses on developping software abstractions for coupling Lagrangian particle models with finite-element PDE solvers, particularly in the context of nuclear fusion simulations. I am jointly supervised by the UK Atomic Energy Authority and Prof. David Ham at Imperial College London."
 interests:
   - Video games
   - Sports (running and going to the gym)
