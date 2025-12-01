@@ -6,12 +6,12 @@ orcid: 0000-0001-7476-9531
 github: benjaminstew
 linkedin: ben-stewart-24588721b
 info:
-  - "Ben is a PhD student at Imperial College London in the Computational Optimisation Group, focusing on probabilistic machine learning for dynamical systems modelling with downstream applications to chemical experiment design - including small molecule synthesis and small-scale manufacturing - in collaboration with the pharmaceutical industry. He is passionate about accelerating scientific discovery through data-driven and physics-driven computational models. He holds an MSc in Chemistry from the University of York, which included a year of research in the University of Sydney’s quantum computing lab." 
+  - "Ben is a PhD student in the Computational Optimisation Group at Imperial College London, focusing on probabilistic machine learning for dynamic systems (initially Neural ODEs) with downstream applications to chemical experiment design - including small molecule synthesis and small-scale biomanufacturing - in collaboration with Merck & Co. He is passionate about accelerating scientific discovery through data-driven and physics-driven computational models. He holds an MSc in Chemistry from the University of York, which included a year of research in the University of Sydney’s quantum computing lab." 
 publications:
   - authors:
     - V. C. Olaya-Agudelo
     - B. Stewart
-    - et al.
+    - et al
     title: Simulating open-system molecular dynamics on analog quantum computers
     year: 2025
     journal: Physical Review Research
