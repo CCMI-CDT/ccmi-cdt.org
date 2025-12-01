@@ -11,7 +11,7 @@ interests:
   - AI for science
   - Simulating nature 
   - Quantum Computing
-  - Economics & finance
+  - Economics & investing
   - Venture capital
   - Various sports  
 publications:
@@ -25,7 +25,8 @@ publications:
     volume: 7
     number: 2
     pagestart: 023215
-    doi: 10.1103/PhysRevResearch.7.023215 (*equal contribution)
+    doi: 10.1103/PhysRevResearch.7.023215
+    note: (*equal contribution)
   - authors:
     - P. B. Karadakov
     - B. Stewart
