@@ -1,0 +1,31 @@
+---
+name: "Oliver"
+surname: "Nash"
+image: ../static/people/students/OlliePhoto.jpg
+linkedin: https://www.linkedin.com/in/oliver-nash1/ 
+orcid: https://orcid.org/0009-0005-1167-0733
+github: https://github.com/OllieNash
+info:
+  - "Oliver's PhD focuses around inference & inverse problems for stochastic interacting particle systems. Previous research has focused on small noise limits of SDEs & PINNs."
+interests:
+  - Stochastic analysis 
+  - Applied PDE theory 
+  - Numerical analysis 
+  - Statistical inference
+  - Dynamical systems 
+publications:
+  -Coming very soon
+education:
+  - institution: PSL - Dauphiné & ENS 
+    location: Paris, France
+    degree: M2 in Theoretical and applied mathematics
+    startdate: Sept 2023
+    enddate: Sept 2024
+  - institution: Durham University 
+    location: Durham, UK
+    degree: MMath in mathematics
+    startdate: Sep 2019
+    enddate: Jul 2023
+---
+
+{{< academic-webpage >}}
