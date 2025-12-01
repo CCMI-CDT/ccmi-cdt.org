@@ -1,7 +1,7 @@
 ---
 name: "Lucas"
 surname: "Pigott"
-image: github.com/lucas-pigott.png
+image: https://github.com/lucas-pigott.png
 github: lucas-pigott
 info:
   - "Within my project, I am developing robust multi-fidelity, multi-objective Bayesian inference methods for the optimisation of image-based sensor placement in fusion validation experiments. These
