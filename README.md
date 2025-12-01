@@ -11,3 +11,7 @@ quarto preview
 ```
 
 Alternatively, you can install VS Code's Quarto plugin and use its preview function.
+
+
+## License
+Code included in the [_extensions](_extensions) folder is licensed under the license included in each folder.
