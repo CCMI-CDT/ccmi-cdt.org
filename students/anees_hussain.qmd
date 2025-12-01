@@ -3,6 +3,7 @@ name: "Anees"
 surname: "Hussain"
 image: ../static/people/students/Anees.jpg
 
+orcid: 0009-0000-2414-8569
 github: AHA-HH
 
 info:
