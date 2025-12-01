@@ -1,0 +1,40 @@
+---
+name: "Skye"
+surname: "Purchase"
+image: github.com/skyepurchase.png
+homepage: https://skye.purchasethe.uk
+orcid: 0009-0009-1714-4151
+github: skyepurchase
+bluesky:
+info:
+  - "I am interested in AI safety focusing on alignment and interprettability. I am currently focusing on aligning diffusion models to physics simulations and general spatio-temporal data."
+  - "Outside of academia I am a member of the Imperial Ceilidh band and run my own folk dancing session Oval English Country Dance. I love climbing, gardening, crocheting and am an avid believer in visible mending."
+interests:
+  - Folk dance and music
+  - Climbing
+  - Crochet and cross stitch
+  - Open source development
+  - Gardening
+publications:
+  - authors:
+    - S. Purchase
+    - Y. Zhao
+    - R. D. Mullins
+    title: Revisiting Embeddings for Graph Neural Networks
+    year: 2022
+    journal: Learning on Graphs Conference
+    doi: 10.48550/arXiv.2209.09338
+education:
+  - institution: University of Cambridge
+    location: Cambridge, UK
+    degree: BA in Computer Science
+    startdate: Sept 2020
+    enddate: June 2023
+  - institution: University College London
+    location: Cambridge, UK
+    degree: MSc in Machine Learning
+    startdate: Sept 2024
+    enddate: Sept 2025
+---
+
+{{< academic-webpage >}}
