@@ -45,6 +45,9 @@ return {
     if not isEmpty(meta["github"]) then
        content = content .. "      <a href=\"https://github.com/" .. pandoc.utils.stringify(meta["github"]) .. "\" class=\"about-link\"><i class=\"fa-brands fa-github\"></i> Github</span></a>\n"
     end
+    if not isEmpty(meta["linkedin"]) then
+       content = content .. "      <a href=\"https://www.linkedin.com/in/" .. pandoc.utils.stringify(meta["linkedin"]) .. "\" class=\"about-link\"><i class=\"fa-brands fa-linkedin\"></i> LinkedIn</span></a>\n"
+    end
     if not isEmpty(meta["bluesky"]) then
        content = content .. "      <a href=\"https://bsky.app/profile/" .. pandoc.utils.stringify(meta["bluesky"]) .. "\" class=\"about-link\"><i class=\"fa-brands fa-bluesky\"></i> Bluesky</span></a>\n"
     end
