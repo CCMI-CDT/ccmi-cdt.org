@@ -1,0 +1,24 @@
+---
+name: "Anastasia"
+surname: "Chanbour"
+image: https://github.com/achanbour.png
+github: achanbour
+info:
+  - "I am part of the [Firedrake](https://www.firedrakeproject.org/index.html) project. My research focusses on developping software abstractions for coupling Lagrangian particle models with finite-element PDE solvers, particularly in the context of nuclear fusion simulations. I am jointly supervised by the UK Atomic Energy Authority and Prof. David Ham at Imperial College London."
+interests:
+  - Video games
+  - Sports (running and going to the gym)
+education:
+  - institution: Imperial College London
+    location: London, UK
+    degree: MSc Advanced Computing
+    startdate: Sept 2024
+    enddate: Sept 2025
+  - institution: London School of Economics and Political Science
+    location: London, UK
+    degree: BSc Mathematics with Economics
+    startdate: Sept 2019
+    enddate: Sept 2022
+---
+
+{{< academic-webpage >}}
