@@ -1,7 +1,7 @@
 ---
 name: "Callum"
 surname: "Lau"
-github: https://github.com/callum-kl
+github: callum-kl
 info:
   - "PhD student in Department of Mathematics, UCL. Currently exploring applications of Rough Path theory in generative modelling."
 education:
