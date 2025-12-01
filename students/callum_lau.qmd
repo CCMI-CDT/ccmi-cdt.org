@@ -1,0 +1,20 @@
+---
+name: "Callum"
+surname: "Lau"
+github: https://github.com/callum-kl
+info:
+  - "PhD student in Department of Mathematics, UCL. Currently exploring applications of Rough Path theory in generative modelling."
+education:
+  - institution: University College London
+    location: London, UK
+    degree: MSc Computational Statistics and Machine Learning
+    startdate: Sept 2019
+    enddate: Sept 2020
+  - institution: Durham University
+    location: Durham, UK
+    degree: BSc Mathematics
+    startdate: June 2016
+    enddate: Sept 2019
+---
+
+{{< academic-webpage >}}
