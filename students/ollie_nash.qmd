@@ -3,7 +3,7 @@ name: "Oliver"
 surname: "Nash"
 image: ../static/people/students/OlliePhoto.jpg
 linkedin: oliver-nash1
-orcid: https://orcid.org/0009-0005-1167-0733
+orcid: 0009-0005-1167-0733
 github: OllieNash
 info:
   - "Oliver's PhD focuses around inference & inverse problems for stochastic interacting particle systems. Previous research has focused on small noise limits of SDEs & PINNs."
