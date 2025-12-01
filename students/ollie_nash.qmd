@@ -14,7 +14,7 @@ interests:
   - Statistical inference
   - Dynamical systems 
 publications:
-  -Coming very soon
+  - Coming very soon
 education:
   - institution: "PSL - Dauphiné & ENS"
     location: Paris, France
