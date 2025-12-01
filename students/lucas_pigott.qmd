@@ -1,0 +1,28 @@
+---
+name: "Lucas"
+surname: "Pigott"
+image: https://github.com/lucas-pigott.png
+github: lucas-pigott
+info:
+  - "Within my project, I am developing robust multi-fidelity, multi-objective Bayesian inference methods for the optimisation of image-based sensor placement in fusion validation experiments. These
+optimisations will use a multi-physics simulation as input and output an array of image-based diagnostics and their positions along with predicted measurement uncertainties."
+  - "Outside of my studies, I am a member of the Imperial College Symphony Orchestra and the university poker society."
+interests:
+  - Violin
+  - Football
+  - Volleyball
+  - Reading
+education:
+  - institution: University of Bath
+    location: Bath, UK
+    degree: BSc in Natural Sciences with Study Year Abroad
+    startdate: Sept 2021
+    enddate: June 2025
+  - institution: University of North Carolina at Greensboro
+    location: North Carolina, USA
+    degree: Study Year Abroad in Mathematics and Computer Science
+    startdate: Sept 2023
+    enddate: June 2024
+---
+
+{{< academic-webpage >}}
