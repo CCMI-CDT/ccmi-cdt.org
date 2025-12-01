@@ -1,0 +1,35 @@
+---
+name: "Shany"
+surname: "Neeman"
+image: ../static/people/students/shany_neeman.jpg
+github: shanyn8
+info:
+  - "Shany is a data scientist with extensive industry experience who has chosen to expand her expertise through computational research. Her PhD research focuses on developing neural operators for solving high-frequency problems in acoustics."
+interests:
+  - Numerical Analysis
+  - PINNS
+  - Fast Solvers
+  - Low Rank Approximations
+publications:
+  - authors:
+    - Shany Neeman
+    - Haim Avron
+    - Petros Drineas
+    title: Low-rank updates of matrix square roots
+    year: 2022
+    journal: Numerical Linear Algebra With Application
+    volume: 31
+education:
+  - institution: Technion
+    location: Haifa, Israel
+    degree: BSc in Computer Science
+    startdate: Sept 2009
+    enddate: June 2013
+  - institution: Tel Aviv University
+    location: Tel Aviv, Israel
+    degree: MSc in Applied Mathematics
+    startdate: Sept 2016
+    enddate: May 2022
+---
+
+{{< academic-webpage >}}
