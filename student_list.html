@@ -80,9 +80,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-project','listing-resources','listing-website','listing-format','listing-execute','listing-language','listing-name','listing-surname','listing-image','listing-homepage','listing-orcid','listing-github','listing-bluesky','listing-info','listing-interests','listing-publications','listing-education','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-project","listing-resources","listing-website","listing-format","listing-execute","listing-language","listing-name","listing-surname","listing-image","listing-homepage","listing-orcid","listing-github","listing-bluesky","listing-info","listing-interests","listing-publications","listing-education","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -242,6 +242,8 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-custom" id="listing-student-list">
 <ul>
+
+    <li><a href="./students/thomas_template.html">Thomas Template</a></li>
 
 </ul>
 <div class="listing-no-matching d-none">No matching items</div>
