@@ -1,0 +1,21 @@
+---
+name: "Ross"
+surname: "Ah-Weng"
+image: ../static/people/students/Ross.jpg
+github: raahweng
+info:
+  - "I'm interested in floating-point pathologies in the statistics of simulated chaotic dynamical systems, supervised by Peter Coveney."
+  - "Generally reading around computational methods in dynamical systems, ergodic theory and statistical mechanics."
+interests:
+  - Playing jazz/classical music
+  - Climbing
+  - Cooking + food in general
+education:
+  - institution: Imperial College London
+    location: London, UK
+    degree: MSci in Mathematics
+    startdate: Sept 2021
+    enddate: June 2025
+---
+
+{{< academic-webpage >}}
