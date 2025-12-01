@@ -16,7 +16,7 @@ publications:
     - D. Ghose
     - H. Jain
     - S. Ganesan
-    title: FastVPINNs: Tensor-driven acceleration of VPINNs for complex geometries
+    title: "FastVPINNs: Tensor-driven acceleration of VPINNs for complex geometries"
     year: 2025
     journal: SIAM Journal on Scientific Computing (SISC)
     volume: 47
