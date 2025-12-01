@@ -12,7 +12,7 @@ interests:
   - Computational Imaging
   - HPC
   - Salsa Dancing
-  - Trial Running
+  - Trail Running
   - Hiking
 education:
   - institution: University of Nottingham
