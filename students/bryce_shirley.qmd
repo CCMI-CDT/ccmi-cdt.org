@@ -6,7 +6,7 @@ github: https://github.com/bryceshirley
 orcid: https://orcid.org/0009-0009-3268-5837
 info:
   - "Bryce Shirley's an aligned PhD student with the CCMI CDT, working as a Research Software Engineer in the Computational Maths Theme at STFC, UKRI."
-  - "My PhD supervisors is Marta Betcke, and ARC is supervisors Mosè Giordano."
+  - "Bryce's PhD supervisor is Marta Betcke, and ARC supervisor is Mosè Giordano."
 interests:
   - Inverse Problems
   - Computational Imaging
