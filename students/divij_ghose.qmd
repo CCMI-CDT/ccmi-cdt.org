@@ -1,0 +1,66 @@
+---
+name: "Divij"
+surname: "Ghose"
+image: ../static/people/students/placeholder_puffin.jpg
+homepage: https://divijghose.github.io
+orcid: 0009-0005-6295-543X
+github: divijghose
+info:
+  - "I am working with Prof. Colin Cotter on PDE-driven Digital Twins and Uncertainty Quantification using the Firedrake platform."
+interests:
+  - Scientific Computing
+  - Uncertainty Quantification
+publications:
+  - authors:
+    - T. Anandh
+    - D. Ghose
+    - H. Jain
+    - S. Ganesan
+    title: "FastVPINNs: Tensor-driven acceleration of VPINNs for complex geometries"
+    year: 2025
+    journal: SIAM Journal on Scientific Computing (SISC)
+    volume: 47
+    number: 3
+    pagestart: C578
+    pageend: C600
+  - authors:
+    - T. Anandh
+    - D. Ghose
+    - A. Tyagi
+    - A. Gupta
+    - S. Sarkar
+    - S. Ganesan
+    title: An efficient hp-Variational PINNs framework for incompressible Navier-Stokes equations
+    year: 2025
+    journal: arXiv preprint arXiv:2409.04143
+  - authors:
+    - T. Anandh
+    - D. Ghose
+    - S. Ganesan
+    title: "FastVPINNs: An efficient tensor-based Python library for solving partial differential equations using hp-Variational Physics Informed Neural Networks"
+    year: 2024
+    journal: Journal of Open Source Software
+    volume: 9
+    number: 99
+  - authors:
+    - D. Ghose
+    - T. Anandh
+    - H. Jain
+    - P. Sunkad
+    - S. Ganesan
+    title: Improving hp-variational physics-informed neural networks for steady-state convection-dominated problems
+    year: 2025
+    journal: Computer Methods in Applied Mechanics and Engineering (CMAME)
+    volume: 438
+
+
+
+education:
+  - institution: College of Engineering Pune
+    location: Pune, India
+    degree: B.Tech (Hons.) in Mechanical Engineering
+    startdate: Sept 2015
+    enddate: June 2019
+---
+
+{{< academic-webpage >}}
