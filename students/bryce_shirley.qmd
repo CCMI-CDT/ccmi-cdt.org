@@ -1,35 +1,25 @@
 ---
-name: "Bryce Shirley"
-surname: "Template"
-image: ../static/people/students/placeholder_puffin.jpg
-homepage: https://example.com
-orcid: XXXX-XXXX-XXXX-XXXX
-github: example
-bluesky: logicbot.bsky.social
+name: "Bryce"
+surname: "Shirley"
+image: https://media.licdn.com/dms/image/v2/D4E03AQFzqUgQKp-EnA/profile-displayphoto-scale_200_200/B4EZmSAAbhKsAY-/0/1759091101009?e=1766016000&v=beta&t=pDMbQ8gCRziHgVT0fH8dMHtLNhUWELLfERgtAHprhLE
+github: https://github.com/bryceshirley
+orcid: https://orcid.org/0009-0009-3268-5837
 info:
-  - "Thomas Template is an example person who is not doing actual research. While not pretending to be real, Thomas likes to play board games and lacrosse."
-  - "This is a second paragraph of information."
+  - "Bryce Shirley's an aligned PhD student with the CCMI CDT, working as a Research Software Engineer in the Computational Maths Theme at STFC, UKRI."
+  - "My PhD supervisors is Marta Betcke, and ARC is supervisors Mosè Giordano."
 interests:
-  - Examples
-  - Templates
-publications:
-  - authors:
-    - E. Example
-    - T. Template
-    title: How to make a page on the CCMI website
-    year: 2025
-    journal: Journal of CDT websites
-    volume: 1
-    number: 1
-    pagestart: 1
-    pageend: 5
-    doi: XX.XXXX/XXXXXXXXX
+  - Inverse Problems
+  - Computational Imaging
+  - HPC
+  - Salsa Dancing
+  - Trial Running
+  - Hiking
 education:
-  - institution: University College London
-    location: London, UK
-    degree: BA in Computer Science
-    startdate: Sept 2020
-    enddate: June 2024
+  - institution: University of Nottingham
+    location: Nottingham, UK
+    degree: MMath Mathematics
+    startdate: Sept 2018
+    enddate: June 2022
 ---
 
 {{< academic-webpage >}}
