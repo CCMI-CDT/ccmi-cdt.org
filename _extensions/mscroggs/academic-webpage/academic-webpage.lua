@@ -108,6 +108,9 @@ return {
                 local doi = pandoc.utils.stringify(p["doi"])
                 content = content .. ", <a href=\"https://dx.doi.org/" .. doi .. "\">" .. doi .. "</a>"
             end
+            if not isEmpty(p["note"]) then
+                content = content .. ", " .. pandoc.utils.stringify(p["note"])
+            end
             content = content .. "."
             content = content .. "</p>\n"
         end
