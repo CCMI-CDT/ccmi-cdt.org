@@ -3,7 +3,7 @@ name: "Maciej"
 surname: "Kaczorek"
 image: "https://github.com/MKaczorek.png"
 orcid: 0000-0003-0067-7321
-github: https://github.com/MKaczorek
+github: MKaczorek
 info:
   - "Maciej Kaczorek is a current CCMI CDT PhD student. He graduated from University College London with an MSc degree in Machine Learning. Currently, Maciej is working with Martin Benning and Nicholas Lesica on Improving impaired hearing through sound reconstruction from neural activity patterns. "
   - "Outside academia he's interested in electronic music and speciality coffee."
