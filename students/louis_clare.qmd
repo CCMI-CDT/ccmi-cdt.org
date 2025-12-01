@@ -20,7 +20,7 @@ publications:
     - J. Ida
     - L. Ross
     - M. Campanelli
-    title: Using large language models for grading in education: an applied test for physics
+    title: "Using large language models for grading in education: an applied test for physics"
     year: 2025
     journal: Physics Education
     volume: 60
