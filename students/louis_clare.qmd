@@ -1,0 +1,43 @@
+---
+name: "Louis"
+surname: "Clare"
+image: ../static/people/students/LouisPhoto.jpg
+orcid: 0009-0005-5382-1798
+github: LouisRC8
+info:
+  - "Louis' research interests are in active matter, mechanobiology and mathematical biology as a whole."
+  - "He is passionate about combining theory and computation to create usable software which sheds light on the mathematics behind biological processes"
+interests:
+  - Mathematical Biology
+  - Active Matter
+  - Outreach
+publications:
+  - authors:
+    - R. Mok
+    - F. Akhtar
+    - L. Clare
+    - C. Li
+    - J. Ida
+    - L. Ross
+    - M. Campanelli
+    title: Using large language models for grading in education: an applied test for physics
+    year: 2025
+    journal: Physics Education
+    volume: 60
+    number: 3
+    doi: 10.1088/1361-6552/adb92b
+education:
+  - institution: University College London
+    location: London, UK
+    degree: BSc in Theoretical Physics
+    startdate: Sept 2021
+    enddate: June 2024
+  - institution: Imperial College London
+    location: London, UK
+    degree: MSc in Applied Mathematics
+    startdate: Oct 2024
+    enddate: September 2025
+ 
+---
+
+{{< academic-webpage >}}
