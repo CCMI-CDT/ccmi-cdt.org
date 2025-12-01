@@ -37,7 +37,7 @@ publications:
     - T. Anandh
     - D. Ghose
     - S. Ganesan
-    title: FastVPINNs: An efficient tensor-based Python library for solving partial differential equations using hp-Variational Physics Informed Neural Networks
+    title: "FastVPINNs: An efficient tensor-based Python library for solving partial differential equations using hp-Variational Physics Informed Neural Networks"
     year: 2024
     journal: Journal of Open Source Software
     volume: 9
