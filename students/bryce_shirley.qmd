@@ -1,0 +1,25 @@
+---
+name: "Bryce"
+surname: "Shirley"
+image: https://media.licdn.com/dms/image/v2/D4E03AQFzqUgQKp-EnA/profile-displayphoto-scale_200_200/B4EZmSAAbhKsAY-/0/1759091101009?e=1766016000&v=beta&t=pDMbQ8gCRziHgVT0fH8dMHtLNhUWELLfERgtAHprhLE
+github: bryceshirley
+orcid: 0009-0009-3268-5837
+info:
+  - "Bryce Shirley's an aligned PhD student with the CCMI CDT, working as a Research Software Engineer in the Computational Maths Theme at STFC, UKRI."
+  - "Bryce's PhD supervisor is Marta Betcke, and ARC supervisor is Mosè Giordano."
+interests:
+  - Inverse Problems
+  - Computational Imaging
+  - HPC
+  - Salsa Dancing
+  - Trial Running
+  - Hiking
+education:
+  - institution: University of Nottingham
+    location: Nottingham, UK
+    degree: MMath Mathematics
+    startdate: Sept 2018
+    enddate: June 2022
+---
+
+{{< academic-webpage >}}
