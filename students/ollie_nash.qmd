@@ -2,7 +2,7 @@
 name: "Oliver"
 surname: "Nash"
 image: ../static/people/students/OlliePhoto.jpg
-linkedin: https://www.linkedin.com/in/oliver-nash1/ 
+linkedin: oliver-nash1
 orcid: https://orcid.org/0009-0005-1167-0733
 github: https://github.com/OllieNash
 info:
