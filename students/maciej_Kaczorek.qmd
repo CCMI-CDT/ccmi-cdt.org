@@ -1,0 +1,85 @@
+---
+name: "Maciej"
+surname: "Kaczorek"
+image: "https://github.com/MKaczorek.png"
+orcid: 0000-0003-0067-7321
+github: https://github.com/MKaczorek
+info:
+  - "Maciej Kaczorek is a current CCMI CDT PhD student. He graduated from University College London with an MSc degree in Machine Learning. Currently, Maciej is working with Martin Benning and Nicholas Lesica on Improving impaired hearing through sound reconstruction from neural activity patterns. "
+  - "Outside academia he's interested in electronic music and speciality coffee."
+interests:
+  - Machine Learning
+  - Neuroscience
+  - Inverse Problems
+  - Audio Processing
+publications:
+  - authors:
+    - P. Arina
+    - D. Ferrari
+    - M. R. Kaczorek
+    - N. Tetlow
+    - A. Dewar
+    - R. Stephens
+    - D. Martin
+    - R. Moonesinghe
+    - M. Singer
+    - J. Whittle
+    - E. B. Mazomenos
+    title: "Assessing perioperative risks in a mixed elderly surgical population using machine learning: A multi-objective symbolic regression approach to cardiorespiratory fitness derived from cardiopulmonary exercise testing"
+    year: 2025
+    journal: PLOS Digital Health
+    volume: 4
+    number: 5
+    doi: 10.1371/journal.pdig.0000851
+  - authors:
+  - authors:
+    - P. Arina
+    - J. Whittle
+    - M. R. Kaczorek
+    - D. Ferrari
+    - N. Tetlow
+    - A. Dewar
+    - R. Stephens
+    - D. Martin
+    - S. R. Moonesinghe
+    - E. B. Mazomenos
+    - M. Singer
+    title: "Metabolic Flexibility as a Candidate Mechanism for the Development of Postoperative Morbidity"
+    year: 2025
+    journal: Anesthesia & Analgesia
+    volume: 141
+    number: 5
+    pagestart: 1078
+    pageend: 1088
+    doi: 10.1213/ANE.0000000000007494
+  - authors:
+    - P. Arina
+    - M. R. Kaczorek
+    - D. A. Hofmaenner
+    - W. Pisciotta
+    - P. Refinetti
+    - M. Singer
+    - E. B. Mazomenos
+    - J. Whittle
+    title: "Prediction of Complications and Prognostication in Perioperative Medicine: A Systematic Review and PROBAST Assessment of Machine Learning Tools"
+    year: 2024
+    journal: Anesthesiology
+    volume: 140
+    number: 1
+    pagestart: 85
+    pageend: 101
+    doi: 10.1097/ALN.0000000000004764
+education:
+  - institution: University College London
+    location: London, UK
+    degree: BEng Electronic and Electrical Engineering
+    startdate: Sept 2019
+    enddate: July 2022
+  - institution: University College London
+    location: London, UK
+    degree: MSc Data Science and Machine Learning
+    startdate: Sept 2023
+    enddate: Sept 2024
+---
+
+{{< academic-webpage >}}
