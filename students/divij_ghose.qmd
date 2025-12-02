@@ -1,7 +1,6 @@
 ---
 name: "Divij"
 surname: "Ghose"
-image: ../static/people/students/placeholder_puffin.jpg
 homepage: https://divijghose.github.io
 orcid: 0009-0005-6295-543X
 github: divijghose
