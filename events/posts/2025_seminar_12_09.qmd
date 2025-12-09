@@ -1,0 +1,18 @@
+---
+title: "Seminar on data-driven spectra in dynamical systems"
+author: "Timo Betcke"
+event_date: "12/09/2025"
+date: "12/09/2025"
+summary: "Dr Matthew Colbrook from Cambridge is talking about data science and dynamical systems."
+categories: [News]
+---
+
+**LOCATION:** ASL S502 - SALC 10 (Access through SHERFIELD BUILDING), Sherfield Building. South Kensington Campus
+
+**TIME:** 14:00-15:00, 09/12/2025
+
+**SPEAKER:** Dr Matthew Colbrook, Department of Applied Mathematics and Theoretical Physics, University of Cambridge
+
+**TITLE:** Data-Driven Spectra in Dynamical Systems
+
+**ABSTRACT:** Koopman operators recast nonlinear dynamics as infinite-dimensional linear systems, enabling spectral analysis of time-series data. Over the past decade, they’ve found widespread use in fields ranging from robot control and climate variability to neural networks, epidemiology, and neuroscience. But which spectral features can actually be reliably computed from finite data, and which cannot? We show that the answer depends critically on the choice of observable space (e.g., L2 vs RKHS) and the nature of the underlying dynamics. In particular, we construct adversarial systems where any algorithm provably fails, even with unlimited data and randomized methods. By identifying when convergence is possible, we design algorithms that succeed both in theory and in practice, overcoming the notorious problem of spurious eigenvalues that undermine prediction. Applications to climate systems—including sea ice and ocean flow—demonstrate how spectral analysis reveals coherent structures and enables state-of-the-art forecasting. This leads to a classification theory that quantifies the difficulty of data-driven problems for dynamical systems and proves the optimality of certain algorithms. I’ll conclude with a look ahead at where this field is going, and the exciting opportunities it presents.
