@@ -14,13 +14,13 @@ interests:
   - Sports
   - Coffee 
 publications:
-- authors:
-    - J. B{\"u}rge
-    - L. O{\'}Donnell
-    - B. Moseley
-    title: "Discovering and modelling dynamics on latent manifolds with neural geodesic flows"
-    year: 2025
-    journal: Differentiable Systems and Scientific Machine Learning EurIPS Workshop
+    - authors:
+        - J. Burge
+        - L. ODonnell
+        - B. Moseley
+        title: Discovering and modelling dynamics on latent manifolds with neural geodesic flows
+        year: 2025
+        journal: Differentiable Systems and Scientific Machine Learning EurIPS Workshop
 education:
   - institution: Imperial College London
     location: London, UK
