@@ -1,0 +1,37 @@
+---
+name: "Lewis"
+surname: "O'Donnell"
+image: ../static/people/students/lewis_odonnell_photo.jpg
+github: lewisodonnell
+linkedin: lewis-o-donnell-b63098155
+info:
+  - "Lewis is a PhD student in the Sustainability and Machine Learning Group at UCL supervised by Marc Deisenroth. He is focused on building a purely data driven machine learning model with the experimental data from the JET Tokamak fusion reactor. This envolves research into generative modelling, time series analysis, GNNs, transformers and physics informed approaches. His research is part-funded by UKAEA, with industry supervison from Samuel Jackson. " 
+  - "In addition to his PhD, Lewis is a keen cricketer; he currently plays for the Scotland A side and is a recipient of the UCL Elite Athletes Scholarship."
+interests:
+  - ML for Fusion
+  - Scientific Machine Learning 
+  - Generative Modelling 
+  - Sports
+  - Coffee 
+publications:
+- authors:
+    - J. B{\"u}rge
+    - L. O{\'}Donnell
+    - B. Moseley
+    title: "Discovering and modelling dynamics on latent manifolds with neural geodesic flows"
+    year: 2025
+    journal: Differentiable Systems and Scientific Machine Learning EurIPS Workshop
+education:
+  - institution: Imperial College London
+    location: London, UK
+    degree: MSc Applied Mathematics (Scientific Computing and Machine Learning)
+    startdate: 2024
+    enddate: 2025
+  - institution: Durham University
+    location: Durham, UK
+    degree: BSc Mathematics and Physics
+    startdate: 2020
+    enddate: 2023
+---
+
+{{< academic-webpage >}}
