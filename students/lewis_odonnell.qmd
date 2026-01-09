@@ -1,7 +1,7 @@
 ---
 name: "Lewis"
 surname: "O'Donnell"
-image: ../static/people/students/lewis_odonnell_photo.jpg
+image: ../static/people/students/lewis_odonnell.jpg
 github: lewisodonnell
 linkedin: lewis-o-donnell-b63098155
 info:
