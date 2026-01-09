@@ -1,8 +1,10 @@
 ```{=html}
 
 <% let count = 0; %>
+<% let date_now = new Date().toISOString().split("T")[0]; %>
 <% for (const item of items) { %>
-    <% if (Date.parse(item.event_date) > Date.now()) { %>
+<% let date_event = new Date(Date.parse(item.event_date)).toISOString().split("T")[0]; %>
+    <% if (date_event >= date_now) { %>
         <% if (count == 0) { %>
 <h2 class="mt-0"><a href="events/event_list.qmd">Upcoming Events</a></h2>
         <% } %>
