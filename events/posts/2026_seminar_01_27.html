@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Timo Betcke">
+<meta name="dcterms.date" content="2026-01-21">
 
-<title>Doctoral Training in Collaborative Computational Modelling at the Interface (CCMI) – CCMI</title>
+<title>Seminar on randomized algorithms in numerical linear algebra – CCMI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +25,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./static/assets/ccmi_rounded_colour.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-dc5e99de59e0415ab1d83184b11bd19f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../static/assets/ccmi_rounded_colour.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-dc5e99de59e0415ab1d83184b11bd19f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,141 +71,26 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-blog .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-project','listing-resources','listing-website','listing-format','listing-execute','listing-language','listing-title','listing-author','listing-date','listing-summary','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-resources","listing-website","listing-format","listing-execute","listing-language","listing-title","listing-author","listing-date","listing-summary","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-blog'] = new List('listing-blog', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-key-facts__list .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-facts',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-facts"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-key-facts__list'] = new List('listing-key-facts__list', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-upcoming-events .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-project','listing-resources','listing-website','listing-format','listing-execute','listing-language','listing-title','listing-author','listing-event_date','listing-date','listing-summary','listing-categories','listing-path','listing-outputHref','listing-date-modified','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-event_date-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-resources","listing-website","listing-format","listing-execute","listing-language","listing-title","listing-author","listing-event_date","listing-date","listing-summary","listing-categories","listing-path","listing-outputHref","listing-date-modified","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-upcoming-events'] = new List('listing-upcoming-events', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Doctoral Training in Collaborative Computational Modelling at the Interface (CCMI) – CCMI">
-<meta property="og:image" content="https://ccmi-cdt.org/static/ucl_quad.jpg">
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="Seminar on randomized algorithms in numerical linear algebra – CCMI">
+<meta property="og:description" content="EPSRC Centre for Doctoral Training in Colllaborative Computational Modelling at the Interface">
 <meta property="og:site_name" content="CCMI">
-<meta property="og:image:alt" content="Image of UCL Quad">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./static/assets/ccmi_rounded_colour.png" alt="" class="navbar-logo light-content">
-    <img src="./static/assets/ccmi_rounded_colour.png" alt="" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../static/assets/ccmi_rounded_colour.png" alt="" class="navbar-logo light-content">
+    <img src="../../static/assets/ccmi_rounded_colour.png" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">CCMI</span>
     </a>
   </div>
@@ -215,27 +101,27 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./events/event_list.html"> 
+    <a class="nav-link" href="../../events/event_list.html"> 
 <span class="menu-text">Events</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./training/training.html"> 
+    <a class="nav-link" href="../../training/training.html"> 
 <span class="menu-text">Training Programme</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./apply.html"> 
+    <a class="nav-link" href="../../apply.html"> 
 <span class="menu-text">How to apply</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog/blog_list.html"> 
+    <a class="nav-link" href="../../blog/blog_list.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./faq.html"> 
+    <a class="nav-link" href="../../faq.html"> 
 <span class="menu-text">FAQ</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -244,15 +130,15 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="./student_list.html">
+    <a class="dropdown-item" href="../../student_list.html">
  <span class="dropdown-text">Current Students</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./team.html">
+    <a class="dropdown-item" href="../../team.html">
  <span class="dropdown-text">Our Leadership Team</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./#contact-us">
+    <a class="dropdown-item" href="../../#contact-us">
  <span class="dropdown-text">Contact us</span></a>
   </li>  
     </ul>
@@ -265,192 +151,52 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content page-columns page-full column-body" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="main-title title display-7">
-		<div class="title__part-1">EPSRC Centre for Doctoral Training in</div>
-		<div>
-		<span class="title__part-3">Collaborative Computational Modelling at the Interface </span>
-		</div>
-	</h1></header>
+<main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="column-page page-full">
-	
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Seminar on randomized algorithms in numerical linear algebra</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">News</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Timo Betcke </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 21, 2026</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
 </header>
 
 
-<div id="index-wrapper" class="container-fluid px-0 page-full page-columns">
-<section id="gallery">
-<div class="gallery__inner">
-<div class="gallery__item">
-<img src="static/ucl_quad.jpg" class="d-block w-100 img-fluid" data-group="intro-gallery" alt="Image of UCL Quad">
-<div class="gallery__item__caption d-sm-block">
-<p>
-</p><p>CCMI is a collaboration between University College London and Imperial College London to offer a novel and innovative PhD training programme at the interface of computational modelling, data sciences, and research software engineering.</p>
-<p></p>
-</div>
-</div>
-<div class="gallery__item">
-<img src="static/imperial.jpg" class="d-block w-100 img-fluid" data-group="intro-gallery" alt="Image of Imperial College">
-<div class="gallery__item__caption d-sm-block">
-<p>
-</p><p>Students will join world-class research groups across UCL and Imperial, and will benefit from a bespoke training programme around research software engineering and its applications in the computational and data sciences.</p>
-<p></p>
-</div>
-</div>
-</div>
-</section>
-<section id="upcoming-events-wrapper">
-<div id="listing-upcoming-events" class="quarto-listing quarto-listing-container-custom">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-        
-<h2 class="mt-0"><a href="./events/event_list.html">Upcoming Events</a></h2>
-        
-    <div class="card border-dark">
-                        <div class="card pb-2">
-                            <div class="card-body text-center px-3">
-                                <h4 class="card-title my-0">
-                                    <a href="./events/posts/2026_seminar_01_27.html">Seminar on randomized algorithms in numerical linear algebra </a> </h4>
-                                <h5 class="card-text my-0">Jan 27, 2026</h5>
-                                    <hr class="card-divider">
-                                <div class="card-text ">Prof Stefan Guettel is discussing applications of randomized linear algebra.</div>
-                            </div>
-                        </div>
-    </div>
-        
-    
-
-    
-
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</section>
-<section id="interest" class="column-page page-full">
-<h1 class="d-flex justify-content-center display-1 fw-bolder">
-Would you like to join?
-</h1>
-<div class="d-flex flex-column justify-content-center align-items-center row-gap-4">
-<p><a href="./apply.html" type="button" class="btn btn-outline my-3" id="btn--signup"> <span class="display-6">Apply for 2026 entry into the CDT</span> </a> <!--<div class="d-flex justify-content-evenly w-75">
- <div>
-<a type="button" class="btn btn-outline-light " id="btn-outline--custom">
-Read About Our Research
-</a>
-</div>
-<div>
-<a type="button" class="btn btn-outline-light " id="btn-outline--custom">
-Read About Our Software
-</a></div>
-</div> --></p>
-</div>
-</section>
-<section id="blog-wrapper">
-<div id="listing-blog" class="quarto-listing quarto-listing-container-custom">
-<h2 class="mt-0"><a href="./blog/blog_list.html">Recent Blog Posts</a></h2>
-
-    
-    <div class="card border-dark">
-        <div class="card-body text-center px-3">
-            <h4 class="card-title mt-0">
-                <a href="./blog/posts/ccmi_the_history.html">CCMI - How we got here</a></h4>
-                <hr class="card-divider">
-            <div class="card-text ">How CCMI got from a vague idea to an existing centre.</div>
-        </div>
-    </div>
-    
-
-    
-    <div class="card border-dark">
-        <div class="card-body text-center px-3">
-            <h4 class="card-title mt-0">
-                <a href="./blog/posts/ccmi_start.html">CCMI is about to start</a></h4>
-                <hr class="card-divider">
-            <div class="card-text ">The first CCMI cohort is about to arrive.</div>
-        </div>
-    </div>
-    
-
-    
-    <div class="card border-dark">
-        <div class="card-body text-center px-3">
-            <h4 class="card-title mt-0">
-                <a href="./blog/posts/nobel_prizes.html">Nobel Prizes in Chemistry and Physics for AI research</a></h4>
-                <hr class="card-divider">
-            <div class="card-text ">The 2024 nobel prizes in Physics and Chemistry were given out to breakthrough research in AI from members of the UCL community.</div>
-        </div>
-    </div>
-    
-
-    
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</section>
-<p><br></p>
-<section id="key-facts" class="column-page page-full pt-3">
-<h1 class="key-facts__heading display-1">
-KEY FACTS
-</h1>
-<div id="listing-key-facts__list" class="quarto-listing quarto-listing-container-custom">
-
-    
-        <div class="card border-light p-2">
-        <div class="card-body p-1">
-            <p class="card-text">CCMI offers a fully funded 4 year PhD programme at either UCL or Imperial College</p>
-        </div>
-    </div>
-    
-        <div class="card border-light p-2">
-        <div class="card-body p-1">
-            <p class="card-text">We offer a bespoke cohort training programme consisting of dedicated block workshops, software weeks, summer schools, and many other activities</p>
-        </div>
-    </div>
-    
-        <div class="card border-light p-2">
-        <div class="card-body p-1">
-            <p class="card-text">The first intake starts in Sept. 2025 (call for applications to start in autumn 2024)</p>
-        </div>
-    </div>
-    
-        <div class="card border-light p-2">
-        <div class="card-body p-1">
-            <p class="card-text">We will provide research opportunities across computational mathematics, scientific algorithms, high-performance computing, research software engineering, data sciences, and applications</p>
-        </div>
-    </div>
-    
-        <div class="card border-light p-2">
-        <div class="card-body p-1">
-            <p class="card-text">We have external partners ranging from innovative SMEs to world-leading HPC labs</p>
-        </div>
-    </div>
-    
-
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-<svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1440 320" id="section-wave">
-<path fill="#d9e3f1" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,192C384,224,480,256,576,245.3C672,235,768,181,864,176C960,171,1056,213,1152,240C1248,267,1344,277,1392,282.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
-</svg>
-</section>
-</div>
-
+<p><strong>LOCATION:</strong> ACHEM C660, Imperial. South Kensington Campus</p>
+<p><strong>TIME:</strong> 14:00-15:00, 27/01/2026</p>
+<p><strong>SPEAKER:</strong> Prof Stefan Guettel, Department of Mathematics, University of Manchester</p>
+<p><strong>TITLE:</strong> Randomized algorithms in numerical linear algebra</p>
+<p><strong>ABSTRACT:</strong> Randomization is an established technique to speed up the numerical solution of very large-scale linear algebra problems that have some form of redundancy, with overdetermined least-squares problems and low-rank matrix approximation being the most prominent examples. Until recently, it has been less clear how to apply randomization to problems that do not have inherent redundancy, including linear systems of equations, matrix functions, and (non)linear eigenvalue problems. I will discuss some recent ideas to speed up computational methods for these problems. I will also report on experiences of using such randomized methods within the software ecosystem of a large industry partner.</p>
 
 
 
@@ -468,8 +214,8 @@ KEY FACTS
 		</h5>
 		<div id="logos" class="mt-4">
 			<a href="https://www.ukri.org/who-we-are/epsrc/">
-				<img src="./static/assets/ukri_logo.png" href="https://www.ukri.org/who-we-are/epsrc/" alt="UKRI logo"></a>
-			<img src="./static/assets/ccmi_square_colour_text.png" alt="CCMI logo">
+				<img src="../../static/assets/ukri_logo.png" href="https://www.ukri.org/who-we-are/epsrc/" alt="UKRI logo"></a>
+			<img src="../../static/assets/ccmi_square_colour_text.png" alt="CCMI logo">
 
 			<a href="https://www.imperial.ac.uk/">
 				<svg xmlns="http://www.w3.org/2000/svg" height="19.48" viewbox="0 0 177.3 19.48">
@@ -484,12 +230,19 @@ KEY FACTS
 				</svg>
 			</a>
 			<a href="https://www.ucl.ac.uk/mathematical-physical-sciences/news/2024/mar/ucl-receives-ps54m-boost-doctoral-training-engineering-and-physical-sciences">
-				<img src="./static/assets/UCL_logo.png" alt="UCL Logo white"></a>
+				<img src="../../static/assets/UCL_logo.png" alt="UCL Logo white"></a>
 		</div>
 	</div>
 </div>
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
