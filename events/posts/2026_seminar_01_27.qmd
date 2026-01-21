@@ -7,7 +7,7 @@ summary: "Prof Stefan Guettel is discussing applications of randomized linear al
 categories: [News]
 ---
 
-**LOCATION:** ACHEM C660, Imperial. South Kensington Campus
+**LOCATION:** CHEM C660, Imperial. South Kensington Campus
 
 **TIME:** 14:00-15:00, 27/01/2026
 
