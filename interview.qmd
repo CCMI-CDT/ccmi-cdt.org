@@ -7,7 +7,7 @@ This page collects some information for applicants who have been shortlisted to 
 
 ### Time and Location
 
-The next round of interviews takes place 12/13 February. Applicants will be sent an online invite for a Zoom interview
+The next round of interviews takes place in the week from 23 February. Applicants will be sent an online invite for a Zoom interview
 with a timeslot in those two days. All interviews are online.
 
 ### Interview panel
@@ -36,20 +36,20 @@ to know potential supervisors at open events. By the end of this phase we will a
 to accommodate those and guide you to a PhD project that is most suitable for you. Once you and a supervisor are matched for a PhD project you will need to submit a pro-forma application to either UCL or Imperial so that the universities can do a proper document check, confirm
 your fee status and create an offer for a place in the CDT. Note that a place in the CDT is guaranteed only once the offer is sent out.
 
-If you have not been shortlisted after interview you may be put on a reserve list. We will provide regular updates about reserve list status and make you aware of a final decision as soon as possible. Not all formal offers for a PhD will be taken up by students, so there is a good chance that those on the reserve list may be offered a place later.
+If you have not been shortlisted after interview we may still contact you later on if an additional studentship has become available and your profile matches the studentship.
 
-If you are neither shortlisted nor on the reserve list we are unfortunately not able to offer you a place in the CDT for this year. But you are very welcome to apply for future entry. If requested we will be very happy to try and provide feedback for your interview so that you have advice for other PhD interviews in the future.
+In any case, we will be very happy to give you interview feedback if you request it from us.
+
 
 ### Preparation Material for the Interview
 
-We will ask you to give a 5 minutes presentation about one of the following papers. We have added some topical markers about what you may want to focus on.
+We will ask you to give a 5 minutes presentation about one of the following papers. Try to focus on the key idea of your chosen paper and think how you can convey it within the given 5 minutes.
 
-- [Liberty et. al. *Randomized Algorithms for the low-rank approximation of matrices*](https://doi.org/10.1073/pnas.0709640104). This paper suggests two randomized algorithms to compute the Interpolative Decomposition of matrices. Questions to consider include: What is the Singular Value Decomposition and what is the Interpolative Decomposition (ID). Why is the ID useful? How is the ID computed by the two algorithms? How can we compute an SVD from this?
-- [Turner, *An introduction to Transformers*](https://arxiv.org/pdf/2304.10557). This very recent paper describes the mathematical ideas of transformer neural networks. You are asked to describe the basic ideas behind transformers, their precise definition and how they are used in neural networks.
-- [E, *A Proposal on Machine Learning via Dynamical
-Systems*](/static/assets/w_e.pdf). This paper discusses connections of dynamical systmems and deep learning. You should know how a dynamical system can be used to define a learning model, and be able to describe the optimal control in this context. You should also have a good intuition on how this connects to deep neural networks.
+- [Lu & Wang, *cuPDLP.jl: A GPU Implementation of Restarted Primal-Dual Hybrid Gradient for Linear Programming in Julia*. Operations Research. 2025.](https://arxiv.org/pdf/2311.12180)
+- [Croci et. al., *Stochastic Rounding: Implementation, Error Analysis, and Applications*, R Soc Open Sci. 1 March 2022; 9 (3): 211631](https://eprints.maths.manchester.ac.uk/2843/1/cfhm22.pdf)
+- [Cuturi, *Sinkhorn Distances: Lightspeed Computation of Optimal Transport*, In Proceedings of the 27th International Conference on Neural Information Processing Systems - Volume 2 (NIPS'13), Vol. 2. Curran Associates Inc., Red Hook, NY, USA, 2292–2300.](https://proceedings.neurips.cc/paper/2013/file/af21d0c97db2e27e13572cbf59eb343d-Paper.pdf)
 
-For your 5 minutes presentation please make sure that:
+Please make sure that
 
 - You stay exactly within your 5 minutes. Practice your talk beforehand and time it. The best is to have a timer visible on your mobile phone or otherwise nearby.
 - The presentation setup works, i.e. you can share your screen (especially on Mac make sure that under the Privacy Settings for Mac OS screen sharing is eanbled for Zoom.) Test your setup beforehand.
