@@ -732,7 +732,7 @@
     "href": "index.html",
     "title": "\n\t\tEPSRC Centre for Doctoral Training in\n\t\t\n\t\tCollaborative Computational Modelling at the Interface \n\t\t\n\t",
     "section": "",
-    "text": "CCMI is a collaboration between University College London and Imperial College London to offer a novel and innovative PhD training programme at the interface of computational modelling, data sciences, and research software engineering.\n\n\n\n\n\n\n\nStudents will join world-class research groups across UCL and Imperial, and will benefit from a bespoke training programme around research software engineering and its applications in the computational and data sciences.\n\n\n\n\n\n\n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\nNo matching items\n\n\n\n\nWould you like to join?\n\n\n Apply for 2026 entry into the CDT  \n\n\n\n\nRecent Blog Posts\n\n    \n    \n        \n            \n                CCMI - How we got here\n                \n            How CCMI got from a vague idea to an existing centre.\n        \n    \n    \n\n    \n    \n        \n            \n                CCMI is about to start\n                \n            The first CCMI cohort is about to arrive.\n        \n    \n    \n\n    \n    \n        \n            \n                Nobel Prizes in Chemistry and Physics for AI research\n                \n            The 2024 nobel prizes in Physics and Chemistry were given out to breakthrough research in AI from members of the UCL community.\n        \n    \n    \n\n    \nNo matching items\n\n\n\n\n\nKEY FACTS\n\n\n\n    \n        \n        \n            CCMI offers a fully funded 4 year PhD programme at either UCL or Imperial College\n        \n    \n    \n        \n        \n            We offer a bespoke cohort training programme consisting of dedicated block workshops, software weeks, summer schools, and many other activities\n        \n    \n    \n        \n        \n            The first intake starts in Sept. 2025 (call for applications to start in autumn 2024)\n        \n    \n    \n        \n        \n            We will provide research opportunities across computational mathematics, scientific algorithms, high-performance computing, research software engineering, data sciences, and applications\n        \n    \n    \n        \n        \n            We have external partners ranging from innovative SMEs to world-leading HPC labs\n        \n    \n    \n\nNo matching items"
+    "text": "CCMI is a collaboration between University College London and Imperial College London to offer a novel and innovative PhD training programme at the interface of computational modelling, data sciences, and research software engineering.\n\n\n\n\n\n\n\nStudents will join world-class research groups across UCL and Imperial, and will benefit from a bespoke training programme around research software engineering and its applications in the computational and data sciences.\n\n\n\n\n\n\n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n        \nUpcoming Events\n        \n    \n                        \n                            \n                                \n                                    Seminar on learning functions from representations  \n                                Feb 24, 2026\n                                    \n                                Prof Rima Alaifari is discussing how to recover and learn functions from observations.\n                            \n                        \n    \n        \n    \n\n    \n\n    \n\n    \n\nNo matching items\n\n\n\n\nWould you like to join?\n\n\n Apply for 2026 entry into the CDT  \n\n\n\n\nRecent Blog Posts\n\n    \n    \n        \n            \n                CCMI - How we got here\n                \n            How CCMI got from a vague idea to an existing centre.\n        \n    \n    \n\n    \n    \n        \n            \n                CCMI is about to start\n                \n            The first CCMI cohort is about to arrive.\n        \n    \n    \n\n    \n    \n        \n            \n                Nobel Prizes in Chemistry and Physics for AI research\n                \n            The 2024 nobel prizes in Physics and Chemistry were given out to breakthrough research in AI from members of the UCL community.\n        \n    \n    \n\n    \nNo matching items\n\n\n\n\n\nKEY FACTS\n\n\n\n    \n        \n        \n            CCMI offers a fully funded 4 year PhD programme at either UCL or Imperial College\n        \n    \n    \n        \n        \n            We offer a bespoke cohort training programme consisting of dedicated block workshops, software weeks, summer schools, and many other activities\n        \n    \n    \n        \n        \n            The first intake starts in Sept. 2025 (call for applications to start in autumn 2024)\n        \n    \n    \n        \n        \n            We will provide research opportunities across computational mathematics, scientific algorithms, high-performance computing, research software engineering, data sciences, and applications\n        \n    \n    \n        \n        \n            We have external partners ranging from innovative SMEs to world-leading HPC labs\n        \n    \n    \n\nNo matching items"
   },
   {
     "objectID": "training/training.html",
@@ -749,67 +749,18 @@
     "text": "The four year research thesis will lead to a PhD degree from either UCL or Imperial College.\nAs part of the interview process students choose an available research project either at UCL or at Imperial College.\nThesis topics are across the interface of computational modelling, data sciences, and research software engineering. While most of our students have supervisors from mathematics, statics, or computer science, we also have some projects in other departments (e.g. chemistry, medicine), as long as they fall into the remit of the CDT."
   },
   {
-    "objectID": "events/posts/2026_seminar_02_10.html",
-    "href": "events/posts/2026_seminar_02_10.html",
-    "title": "Seminar on transformers",
+    "objectID": "events/posts/2026_seminar_02_20.html",
+    "href": "events/posts/2026_seminar_02_20.html",
+    "title": "Seminar on learning functions from representations",
     "section": "",
-    "text": "LOCATION: Function space, UCL AI Centre, 90 High Holborn, London WC1V 6BH\nTIME: 14:00-15:00, 13/01/2026\nSPEAKER: Gabriel Peyré (École normale supérieure, Paris)\nTITLE: Transformers are Universal In-context Learners\nABSTRACT: Transformers deep networks define “in-context mappings’”, which enable them to predict new tokens based on a given set of tokens (such as a prompt in NLP applications or a set of patches for vision transformers). This work studies the ability of these architectures to handle an arbitrarily large number of context tokens. To mathematically and uniformly address the expressivity of these architectures, we consider that the mapping is conditioned on a context represented by a probability distribution of tokens (discrete for a finite number of tokens). The related notion of smoothness corresponds to continuity in terms of the Wasserstein distance between these contexts. We demonstrate that deep transformers are universal and can approximate continuous in-context mappings to arbitrary precision, uniformly over compact token domains. A key aspect of our results, compared to existing findings, is that for a fixed precision, a single transformer can operate on an arbitrary (even infinite) number of tokens. Additionally, it operates with a fixed embedding dimension of tokens (this dimension does not increase with precision) and a fixed number of heads (proportional to the dimension). The use of MLP layers between multi-head attention layers is also explicitly controlled. This is a joint work with Takashi Furuya (Shimane Univ.) and Maarten de Hoop (Rice Univ.)."
+    "text": "LOCATION: CHEM 637, Imperial. South Kensington Campus\nTIME: 14:00-15:00, 24/02/2026\nSPEAKER: Prof Rima Alaifari, Chair for Analysis and its Applications, RWTH Aachen.\nTITLE: Recovering and learning functions from representations\nABSTRACT: Recovering and learning functions from partial or indirect observations is a fundamental challenge in many applications. This talk explores two distinct but conceptually related problems: phase retrieval from Gabor and wavelet transform magnitudes, and nonparametric regression via signature transforms. Phase retrieval seeks to reconstruct a function from the magnitude of its linear transform, raising questions of uniqueness and stability. In contrast, nonparametric regression aims to estimate statistical relationships in high-dimensional time-series data using nonlinear hierarchical representations. While these problems arise in different contexts, both rely on structured signal representations—the Gabor transform and wavelets providing linear feature hierarchies, while the signature transform captures nonlinear dependencies in sequential data. I will discuss key aspects of these representations and their implications for function recovery and estimation."
   },
   {
-    "objectID": "events/posts/2025_in_person_open_day.html",
-    "href": "events/posts/2025_in_person_open_day.html",
-    "title": "CCMI Open Day",
+    "objectID": "events/posts/2025_virtual_open_day.html",
+    "href": "events/posts/2025_virtual_open_day.html",
+    "title": "CCMI Online Open Day",
     "section": "",
-    "text": "On 24 November, there will be a CCMI CDT open day, taking place from 3:30pm to 5:30pm GMT in the Ground Floor Collaboration Space at UCL Bidborough House, 38-50 Bidborough St, London, WC1H 9BT. At this event, you will have an opportunity to hear from and meet the CDT team, researchers who will be supervising some students, and the current CDT students.\nTo attend please sign up at:\neventbrite.com/e/collaborative-computational-modelling-at-the-interface-ccmi-cdt-open-day-tickets-1968015024917\nWe are looking forward to meeting you!"
-  },
-  {
-    "objectID": "events/posts/2025_seminar_11_11.html",
-    "href": "events/posts/2025_seminar_11_11.html",
-    "title": "Seminar on Low-rank approximation by column subset selection",
-    "section": "",
-    "text": "LOCATION: ROOM 660, 6th Floor, Chemistry, Imperial College South Kensington Campus\nTIME: 14:00-15:00, 11/11/2025\nSPEAKER: Dr Alice Cortinovis, Department of Computer Science, University of Pisa\nTITLE: Low-rank approximation by column subset selection\nABSTRACT: The problem of approximating a large matrix B with a matrix of lower rank is important for speeding up computations and compressing data. The best rank-k approximation of B can be obtained from a singular value decomposition of B, but this process is too costly for large-scale matrices. A practical alternative is to approximate B using only a small subset of its actual columns. This approach preserves the original meaning of the data stored in the columns, making the result both interpretable and computationally efficient. How to choose these columns to get a good low-rank approximation? In this talk, I will pick them at random! More precisely, I will choose columns by sampling from a particular probability distribution that ensures that the resulting low-rank approximation is, in expectation, almost as good as the optimal rank-k approximation of B. I will also highlight how this strategy can be adapted to a range of other low-rank approximations that are built using columns and/or rows of the matrix B."
-  },
-  {
-    "objectID": "events/posts/2026_seminar_01_27.html",
-    "href": "events/posts/2026_seminar_01_27.html",
-    "title": "Seminar on randomized algorithms in numerical linear algebra",
-    "section": "",
-    "text": "LOCATION: CHEM C660, Imperial. South Kensington Campus\nTIME: 14:00-15:00, 27/01/2026\nSPEAKER: Prof Stefan Guettel, Department of Mathematics, University of Manchester\nTITLE: Randomized algorithms in numerical linear algebra\nABSTRACT: Randomization is an established technique to speed up the numerical solution of very large-scale linear algebra problems that have some form of redundancy, with overdetermined least-squares problems and low-rank matrix approximation being the most prominent examples. Until recently, it has been less clear how to apply randomization to problems that do not have inherent redundancy, including linear systems of equations, matrix functions, and (non)linear eigenvalue problems. I will discuss some recent ideas to speed up computational methods for these problems. I will also report on experiences of using such randomized methods within the software ecosystem of a large industry partner."
-  },
-  {
-    "objectID": "events/posts/2025_seminar_12_09.html",
-    "href": "events/posts/2025_seminar_12_09.html",
-    "title": "Seminar on data-driven spectra in dynamical systems",
-    "section": "",
-    "text": "LOCATION: ASL S502 - SALC 10 (Access through SHERFIELD BUILDING), Sherfield Building. South Kensington Campus\nTIME: 14:00-15:00, 09/12/2025\nSPEAKER: Dr Matthew Colbrook, Department of Applied Mathematics and Theoretical Physics, University of Cambridge\nTITLE: Data-Driven Spectra in Dynamical Systems\nABSTRACT: Koopman operators recast nonlinear dynamics as infinite-dimensional linear systems, enabling spectral analysis of time-series data. Over the past decade, they’ve found widespread use in fields ranging from robot control and climate variability to neural networks, epidemiology, and neuroscience. But which spectral features can actually be reliably computed from finite data, and which cannot? We show that the answer depends critically on the choice of observable space (e.g., L2 vs RKHS) and the nature of the underlying dynamics. In particular, we construct adversarial systems where any algorithm provably fails, even with unlimited data and randomized methods. By identifying when convergence is possible, we design algorithms that succeed both in theory and in practice, overcoming the notorious problem of spurious eigenvalues that undermine prediction. Applications to climate systems—including sea ice and ocean flow—demonstrate how spectral analysis reveals coherent structures and enables state-of-the-art forecasting. This leads to a classification theory that quantifies the difficulty of data-driven problems for dynamical systems and proves the optimality of certain algorithms. I’ll conclude with a look ahead at where this field is going, and the exciting opportunities it presents."
-  },
-  {
-    "objectID": "events/posts/2025_first_training_week.html",
-    "href": "events/posts/2025_first_training_week.html",
-    "title": "Training Week on Programming Models for Scientific Computing",
-    "section": "",
-    "text": "On Monday 1 October our first training week is starting. Students will get to know programming models for Scientific Computing through a mixture of lectures, student led seminars and practical programming sessions. Topics parallel programming models, GPU development and software libraries for mathematical tasks. On the final day we look forward to a guest lecture by Chris Richardson from Cambridge on FEniCS."
-  },
-  {
-    "objectID": "events/posts/2025_seminar_10_28.html",
-    "href": "events/posts/2025_seminar_10_28.html",
-    "title": "Seminar on AI and Scientific Computing",
-    "section": "",
-    "text": "LOCATION: First Floor, Function Room, 90 High Holborn WC1V 6BH\nTIME: 14:00-15:00, 28/10/2025\nSPEAKER: Petros Koumoutsakos, Herbert S. Winokur, Jr. Professor of Computing in Science and Engineering, Harvard University\nTITLE: AI and Scientific Computing: Algorithmic Alloys for Forecasting and Optimization of Complex Systems\nABSTRACT: Computational science and Artificial Intelligence have been drivers and benefactors of advances in algorithms and hardware, each in different ways, and originally with different targets. The intellectual space between these two fields is home to exciting opportunities for scientific discovery and engineering innovation. I will discuss algorithmic alloys based on the fusion of data driven and equation driven methodologies for the prediction and control of complex flows. I will also present ideas of developing algorithmic alloys for fusing experiments and simulations for understanding and controlling complex systems."
-  },
-  {
-    "objectID": "events/posts/2025_seminar_11_25.html",
-    "href": "events/posts/2025_seminar_11_25.html",
-    "title": "Seminar on Scientific Computing",
-    "section": "",
-    "text": "LOCATION: First Floor, Function Room, 90 High Holborn WC1V 6BH\nTIME: 14:00-15:00, 25/11/2025\nSPEAKER: Joachim Schoeberl, Professor for Computational Mathematics in Engineering, TU Vienna\nTITLE: Scientific Computing for Solving PDEs - What’s inside NGSolve\nABSTRACT: The finite element method is a powerful technique for solving partial differential equations (PDEs). This talk introduces the open-source software Netgen/NGSolve, which leverages this method through a user-friendly Python interface—reminiscent of FEniCS’s UFL—that compiles down to efficient, parallel C++ kernels. We will demonstrate its use in solving problems in electromagnetics, fluid dynamics, and solid mechanics. The discussion will also cover NGSolve’s implementation and its extensibility, showing how researchers can contribute new modules at the high level and even define new function spaces in the core C++ code. Finally, we highlight recent work embedding boundary integral operators, accelerated by fast multipole methods, seamlessly into the form language."
-  },
-  {
-    "objectID": "events/posts/2026_seminar_01_13.html",
-    "href": "events/posts/2026_seminar_01_13.html",
-    "title": "Seminar on chaotic dynamical systems",
-    "section": "",
-    "text": "LOCATION: First Floor, Function Room, 90 High Holborn WC1V 6BH\nTIME: 14:00-15:00, 13/01/2026\nSPEAKER: Prof Peter Coveney, Director of the Centre for Computational Science (CCS) at University College London, Professor in Applied High Performance Computing at the University of Amsterdam and Professor Adjunct at Yale University School of Medicine.\nTITLE: Actionable Predictions for Chaotic Dynamical Systems: Conventional, Quantum & Analogue Approaches With & Without AI\nABSTRACT: I will discuss the use of theory, modelling & simulation as well as artificial intelligence to predict the long time behaviour of chaotic dynamical systems."
+    "text": "On 10 November, there will be a virtual open day from 2pm to 4pm GMT. At this event, you will have an opportunity to hear from and meet the CDT team, researchers who will be supervising some students, and the current CDT students.\nIf you want to take part please fill out our CDT registration form. No need to fill it out again if you have already registered your interest in the CDT.\nWe will send out online joining links to registered participants before the event.\nWe are looking forward to meeting you!"
   },
   {
     "objectID": "events/posts/2025_ccmi_opening.html",
@@ -819,11 +770,67 @@
     "text": "On Wednesday 1 October we will celebrate the Grand Opening of the CCMI CDT from 2pm onwards. We will start with a special invited colloquium by Prof Tobias Weinzierl from the University of Durham, followed by an open reception.\nIf you would like to participate please register at Eventbrite."
   },
   {
-    "objectID": "events/posts/2025_virtual_open_day.html",
-    "href": "events/posts/2025_virtual_open_day.html",
-    "title": "CCMI Online Open Day",
+    "objectID": "events/posts/2026_seminar_01_13.html",
+    "href": "events/posts/2026_seminar_01_13.html",
+    "title": "Seminar on chaotic dynamical systems",
     "section": "",
-    "text": "On 10 November, there will be a virtual open day from 2pm to 4pm GMT. At this event, you will have an opportunity to hear from and meet the CDT team, researchers who will be supervising some students, and the current CDT students.\nIf you want to take part please fill out our CDT registration form. No need to fill it out again if you have already registered your interest in the CDT.\nWe will send out online joining links to registered participants before the event.\nWe are looking forward to meeting you!"
+    "text": "LOCATION: First Floor, Function Room, 90 High Holborn WC1V 6BH\nTIME: 14:00-15:00, 13/01/2026\nSPEAKER: Prof Peter Coveney, Director of the Centre for Computational Science (CCS) at University College London, Professor in Applied High Performance Computing at the University of Amsterdam and Professor Adjunct at Yale University School of Medicine.\nTITLE: Actionable Predictions for Chaotic Dynamical Systems: Conventional, Quantum & Analogue Approaches With & Without AI\nABSTRACT: I will discuss the use of theory, modelling & simulation as well as artificial intelligence to predict the long time behaviour of chaotic dynamical systems."
+  },
+  {
+    "objectID": "events/posts/2025_seminar_11_25.html",
+    "href": "events/posts/2025_seminar_11_25.html",
+    "title": "Seminar on Scientific Computing",
+    "section": "",
+    "text": "LOCATION: First Floor, Function Room, 90 High Holborn WC1V 6BH\nTIME: 14:00-15:00, 25/11/2025\nSPEAKER: Joachim Schoeberl, Professor for Computational Mathematics in Engineering, TU Vienna\nTITLE: Scientific Computing for Solving PDEs - What’s inside NGSolve\nABSTRACT: The finite element method is a powerful technique for solving partial differential equations (PDEs). This talk introduces the open-source software Netgen/NGSolve, which leverages this method through a user-friendly Python interface—reminiscent of FEniCS’s UFL—that compiles down to efficient, parallel C++ kernels. We will demonstrate its use in solving problems in electromagnetics, fluid dynamics, and solid mechanics. The discussion will also cover NGSolve’s implementation and its extensibility, showing how researchers can contribute new modules at the high level and even define new function spaces in the core C++ code. Finally, we highlight recent work embedding boundary integral operators, accelerated by fast multipole methods, seamlessly into the form language."
+  },
+  {
+    "objectID": "events/posts/2025_seminar_10_28.html",
+    "href": "events/posts/2025_seminar_10_28.html",
+    "title": "Seminar on AI and Scientific Computing",
+    "section": "",
+    "text": "LOCATION: First Floor, Function Room, 90 High Holborn WC1V 6BH\nTIME: 14:00-15:00, 28/10/2025\nSPEAKER: Petros Koumoutsakos, Herbert S. Winokur, Jr. Professor of Computing in Science and Engineering, Harvard University\nTITLE: AI and Scientific Computing: Algorithmic Alloys for Forecasting and Optimization of Complex Systems\nABSTRACT: Computational science and Artificial Intelligence have been drivers and benefactors of advances in algorithms and hardware, each in different ways, and originally with different targets. The intellectual space between these two fields is home to exciting opportunities for scientific discovery and engineering innovation. I will discuss algorithmic alloys based on the fusion of data driven and equation driven methodologies for the prediction and control of complex flows. I will also present ideas of developing algorithmic alloys for fusing experiments and simulations for understanding and controlling complex systems."
+  },
+  {
+    "objectID": "events/posts/2025_first_training_week.html",
+    "href": "events/posts/2025_first_training_week.html",
+    "title": "Training Week on Programming Models for Scientific Computing",
+    "section": "",
+    "text": "On Monday 1 October our first training week is starting. Students will get to know programming models for Scientific Computing through a mixture of lectures, student led seminars and practical programming sessions. Topics parallel programming models, GPU development and software libraries for mathematical tasks. On the final day we look forward to a guest lecture by Chris Richardson from Cambridge on FEniCS."
+  },
+  {
+    "objectID": "events/posts/2025_seminar_12_09.html",
+    "href": "events/posts/2025_seminar_12_09.html",
+    "title": "Seminar on data-driven spectra in dynamical systems",
+    "section": "",
+    "text": "LOCATION: ASL S502 - SALC 10 (Access through SHERFIELD BUILDING), Sherfield Building. South Kensington Campus\nTIME: 14:00-15:00, 09/12/2025\nSPEAKER: Dr Matthew Colbrook, Department of Applied Mathematics and Theoretical Physics, University of Cambridge\nTITLE: Data-Driven Spectra in Dynamical Systems\nABSTRACT: Koopman operators recast nonlinear dynamics as infinite-dimensional linear systems, enabling spectral analysis of time-series data. Over the past decade, they’ve found widespread use in fields ranging from robot control and climate variability to neural networks, epidemiology, and neuroscience. But which spectral features can actually be reliably computed from finite data, and which cannot? We show that the answer depends critically on the choice of observable space (e.g., L2 vs RKHS) and the nature of the underlying dynamics. In particular, we construct adversarial systems where any algorithm provably fails, even with unlimited data and randomized methods. By identifying when convergence is possible, we design algorithms that succeed both in theory and in practice, overcoming the notorious problem of spurious eigenvalues that undermine prediction. Applications to climate systems—including sea ice and ocean flow—demonstrate how spectral analysis reveals coherent structures and enables state-of-the-art forecasting. This leads to a classification theory that quantifies the difficulty of data-driven problems for dynamical systems and proves the optimality of certain algorithms. I’ll conclude with a look ahead at where this field is going, and the exciting opportunities it presents."
+  },
+  {
+    "objectID": "events/posts/2026_seminar_01_27.html",
+    "href": "events/posts/2026_seminar_01_27.html",
+    "title": "Seminar on randomized algorithms in numerical linear algebra",
+    "section": "",
+    "text": "LOCATION: CHEM C660, Imperial. South Kensington Campus\nTIME: 14:00-15:00, 27/01/2026\nSPEAKER: Prof Stefan Guettel, Department of Mathematics, University of Manchester\nTITLE: Randomized algorithms in numerical linear algebra\nABSTRACT: Randomization is an established technique to speed up the numerical solution of very large-scale linear algebra problems that have some form of redundancy, with overdetermined least-squares problems and low-rank matrix approximation being the most prominent examples. Until recently, it has been less clear how to apply randomization to problems that do not have inherent redundancy, including linear systems of equations, matrix functions, and (non)linear eigenvalue problems. I will discuss some recent ideas to speed up computational methods for these problems. I will also report on experiences of using such randomized methods within the software ecosystem of a large industry partner."
+  },
+  {
+    "objectID": "events/posts/2025_seminar_11_11.html",
+    "href": "events/posts/2025_seminar_11_11.html",
+    "title": "Seminar on Low-rank approximation by column subset selection",
+    "section": "",
+    "text": "LOCATION: ROOM 660, 6th Floor, Chemistry, Imperial College South Kensington Campus\nTIME: 14:00-15:00, 11/11/2025\nSPEAKER: Dr Alice Cortinovis, Department of Computer Science, University of Pisa\nTITLE: Low-rank approximation by column subset selection\nABSTRACT: The problem of approximating a large matrix B with a matrix of lower rank is important for speeding up computations and compressing data. The best rank-k approximation of B can be obtained from a singular value decomposition of B, but this process is too costly for large-scale matrices. A practical alternative is to approximate B using only a small subset of its actual columns. This approach preserves the original meaning of the data stored in the columns, making the result both interpretable and computationally efficient. How to choose these columns to get a good low-rank approximation? In this talk, I will pick them at random! More precisely, I will choose columns by sampling from a particular probability distribution that ensures that the resulting low-rank approximation is, in expectation, almost as good as the optimal rank-k approximation of B. I will also highlight how this strategy can be adapted to a range of other low-rank approximations that are built using columns and/or rows of the matrix B."
+  },
+  {
+    "objectID": "events/posts/2025_in_person_open_day.html",
+    "href": "events/posts/2025_in_person_open_day.html",
+    "title": "CCMI Open Day",
+    "section": "",
+    "text": "On 24 November, there will be a CCMI CDT open day, taking place from 3:30pm to 5:30pm GMT in the Ground Floor Collaboration Space at UCL Bidborough House, 38-50 Bidborough St, London, WC1H 9BT. At this event, you will have an opportunity to hear from and meet the CDT team, researchers who will be supervising some students, and the current CDT students.\nTo attend please sign up at:\neventbrite.com/e/collaborative-computational-modelling-at-the-interface-ccmi-cdt-open-day-tickets-1968015024917\nWe are looking forward to meeting you!"
+  },
+  {
+    "objectID": "events/posts/2026_seminar_02_10.html",
+    "href": "events/posts/2026_seminar_02_10.html",
+    "title": "Seminar on transformers",
+    "section": "",
+    "text": "LOCATION: Function space, UCL AI Centre, 90 High Holborn, London WC1V 6BH\nTIME: 14:00-15:00, 13/01/2026\nSPEAKER: Gabriel Peyré (École normale supérieure, Paris)\nTITLE: Transformers are Universal In-context Learners\nABSTRACT: Transformers deep networks define “in-context mappings’”, which enable them to predict new tokens based on a given set of tokens (such as a prompt in NLP applications or a set of patches for vision transformers). This work studies the ability of these architectures to handle an arbitrarily large number of context tokens. To mathematically and uniformly address the expressivity of these architectures, we consider that the mapping is conditioned on a context represented by a probability distribution of tokens (discrete for a finite number of tokens). The related notion of smoothness corresponds to continuity in terms of the Wasserstein distance between these contexts. We demonstrate that deep transformers are universal and can approximate continuous in-context mappings to arbitrary precision, uniformly over compact token domains. A key aspect of our results, compared to existing findings, is that for a fixed precision, a single transformer can operate on an arbitrary (even infinite) number of tokens. Additionally, it operates with a fixed embedding dimension of tokens (this dimension does not increase with precision) and a fixed number of heads (proportional to the dimension). The use of MLP layers between multi-head attention layers is also explicitly controlled. This is a joint work with Takashi Furuya (Shimane Univ.) and Maarten de Hoop (Rice Univ.)."
   },
   {
     "objectID": "events/event_list.html",
