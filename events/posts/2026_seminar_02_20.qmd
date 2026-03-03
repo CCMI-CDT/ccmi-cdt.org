@@ -1,0 +1,19 @@
+---
+title: "Seminar on learning functions from representations"
+author: "Timo Betcke"
+event_date: "02/24/2026"
+date: "02/20/2026"
+summary: "Prof Rima Alaifari is discussing how to recover and learn functions from observations."
+categories: [News]
+---
+
+**LOCATION:** CHEM 637, Imperial. South Kensington Campus
+
+**TIME:** 14:00-15:00, 24/02/2026
+
+**SPEAKER:** [Prof Rima Alaifari](https://www.alaifari.com), Chair for Analysis and its Applications, RWTH Aachen.
+
+**TITLE:** Recovering and learning functions from representations
+
+**ABSTRACT:** Recovering and learning functions from partial or indirect observations is a fundamental challenge in many applications. This talk explores two distinct but conceptually related problems: phase retrieval from Gabor and wavelet transform magnitudes, and nonparametric regression via signature transforms.
+Phase retrieval seeks to reconstruct a function from the magnitude of its linear transform, raising questions of uniqueness and stability. In contrast, nonparametric regression aims to estimate statistical relationships in high-dimensional time-series data using nonlinear hierarchical representations. While these problems arise in different contexts, both rely on structured signal representations—the Gabor transform and wavelets providing linear feature hierarchies, while the signature transform captures nonlinear dependencies in sequential data. I will discuss key aspects of these representations and their implications for function recovery and estimation.
