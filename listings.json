@@ -17,12 +17,25 @@
     ]
   },
   {
-    "listing": "/blog/blog_list.html",
+    "listing": "/student_list.html",
     "items": [
-      "/blog/posts/nobel_prizes.html",
-      "/blog/posts/ccmi_the_history.html",
-      "/blog/posts/ccmi_start.html",
-      "/blog/posts/modern_hybrid_working.html"
+      "/students/ross_ah-weng.html",
+      "/students/ammar_ali.html",
+      "/students/anastasia_chanbour.html",
+      "/students/louis_clare.html",
+      "/students/divij_ghose.html",
+      "/students/anees_hussain.html",
+      "/students/maciej_Kaczorek.html",
+      "/students/miguel_lara.html",
+      "/students/callum_lau.html",
+      "/students/ollie_nash.html",
+      "/students/shany_neeman.html",
+      "/students/lewis_odonnell.html",
+      "/students/lucas_pigott.html",
+      "/students/skye_purchase.html",
+      "/students/bryce_shirley.html",
+      "/students/ben_stewart.html",
+      "/students/advaith_velavan.html"
     ]
   },
   {
@@ -47,24 +60,12 @@
     ]
   },
   {
-    "listing": "/student_list.html",
+    "listing": "/blog/blog_list.html",
     "items": [
-      "/students/ross_ah-weng.html",
-      "/students/ammar_ali.html",
-      "/students/anastasia_chanbour.html",
-      "/students/louis_clare.html",
-      "/students/divij_ghose.html",
-      "/students/anees_hussain.html",
-      "/students/maciej_Kaczorek.html",
-      "/students/miguel_lara.html",
-      "/students/callum_lau.html",
-      "/students/ollie_nash.html",
-      "/students/shany_neeman.html",
-      "/students/lewis_odonnell.html",
-      "/students/lucas_pigott.html",
-      "/students/skye_purchase.html",
-      "/students/bryce_shirley.html",
-      "/students/ben_stewart.html"
+      "/blog/posts/nobel_prizes.html",
+      "/blog/posts/ccmi_the_history.html",
+      "/blog/posts/ccmi_start.html",
+      "/blog/posts/modern_hybrid_working.html"
     ]
   },
   {
