@@ -57,7 +57,7 @@ listing:
           description: <strong>Laura Beer</strong> is <em>Co-Director for Strategic Planning and Operations</em>. She is a Senior Professional Research Investment & Strategy Manager at UCL ARC.
           image: static/people/team/beer.jpg
         - name: Dr Matthew Scroggs
-          description: <strong>Matthew Scroggs</strong> is <em>Teaching and Training lead for the CCMI CDT</em>. He is a Senior Research Software Engineer at UCL ARC.
+          description: <strong>Dr Matthew Scroggs</strong> is <em>Teaching and Training lead for the CCMI CDT</em>. He is a Senior Research Software Engineer at UCL ARC.
           image: static/people/team/scroggs.jpg
           github: mscroggs
           homepage: https://mscroggs.co.uk
