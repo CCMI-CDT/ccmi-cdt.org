@@ -63,7 +63,7 @@ listing:
           homepage: https://mscroggs.co.uk
           orcid: 0000-0002-4658-2443
         - name: Lydia Noa
-          description: <strong>Lydia Noa</strong> is <em>Imperial College Centre Manager for the CDT</em>.
+          description: <strong>Lydia Noa</strong> is <em>Imperial College Centre Manager</em> for the CDT.
           image: static/people/team/noa.jpg
 ---
 <div class="column-body-outset page-full mx-2">
