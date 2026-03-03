@@ -54,16 +54,18 @@ listing:
           homepage: https://www.imperial.ac.uk/people/team/v.shahrezaei
           orcid: 0000-0002-4013-5458
         - name: Mrs Laura Beer
-          description: <strong>Laura Beer</strong> is <em>Centre Manager for the CCMI CDT</em>. She is a Professional Research Investment & Strategy Manager at UCL ARC.
+          description: <strong>Laura Beer</strong> is <em>Co-Director for Strategic Planning and Operations</em>. She is a Senior Professional Research Investment & Strategy Manager at UCL ARC.
           image: static/people/team/beer.jpg
         - name: Dr Matthew Scroggs
-          description: <strong>Matthew Scroggs</strong> is <em>Teaching and Training lead for the CCMI CDT</em>. He is a Senior Research Software Engineer at UCL ARC.
+          description: <strong>Dr Matthew Scroggs</strong> is <em>Teaching and Training lead for the CCMI CDT</em>. He is a Senior Research Software Engineer at UCL ARC.
           image: static/people/team/scroggs.jpg
           github: mscroggs
           homepage: https://mscroggs.co.uk
           orcid: 0000-0002-4658-2443
+        - name: Lydia Noa
+          description: <strong>Lydia Noa</strong> is <em>Imperial College Centre Manager for the CDT</em>.
+          image: static/people/team/noa.jpg
 ---
-
 <div class="column-body-outset page-full mx-2">
 <div id="team">
 </div>
