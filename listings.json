@@ -2,6 +2,7 @@
   {
     "listing": "/events/event_list.html",
     "items": [
+      "/events/posts/2026_seminar_03_10.html",
       "/events/posts/2026_seminar_02_20.html",
       "/events/posts/2026_seminar_02_10.html",
       "/events/posts/2026_seminar_01_27.html",
@@ -14,6 +15,41 @@
       "/events/posts/2025_seminar_10_28.html",
       "/events/posts/2025_first_training_week.html",
       "/events/posts/2025_ccmi_opening.html"
+    ]
+  },
+  {
+    "listing": "/team.html",
+    "items": []
+  },
+  {
+    "listing": "/blog/blog_list.html",
+    "items": [
+      "/blog/posts/nobel_prizes.html",
+      "/blog/posts/ccmi_the_history.html",
+      "/blog/posts/ccmi_start.html",
+      "/blog/posts/modern_hybrid_working.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/blog/posts/ccmi_the_history.html",
+      "/blog/posts/ccmi_start.html",
+      "/blog/posts/nobel_prizes.html",
+      "/blog/posts/modern_hybrid_working.html",
+      "/events/posts/2025_ccmi_opening.html",
+      "/events/posts/2025_virtual_open_day.html",
+      "/events/posts/2025_in_person_open_day.html",
+      "/events/posts/2025_seminar_10_28.html",
+      "/events/posts/2025_seminar_11_11.html",
+      "/events/posts/2025_seminar_11_25.html",
+      "/events/posts/2026_seminar_03_10.html",
+      "/events/posts/2026_seminar_01_13.html",
+      "/events/posts/2025_seminar_12_09.html",
+      "/events/posts/2026_seminar_02_20.html",
+      "/events/posts/2026_seminar_01_27.html",
+      "/events/posts/2026_seminar_02_10.html",
+      "/events/posts/2025_first_training_week.html"
     ]
   },
   {
@@ -37,40 +73,6 @@
       "/students/ben_stewart.html",
       "/students/advaith_velavan.html"
     ]
-  },
-  {
-    "listing": "/index.html",
-    "items": [
-      "/blog/posts/ccmi_the_history.html",
-      "/blog/posts/ccmi_start.html",
-      "/blog/posts/nobel_prizes.html",
-      "/blog/posts/modern_hybrid_working.html",
-      "/events/posts/2025_ccmi_opening.html",
-      "/events/posts/2025_virtual_open_day.html",
-      "/events/posts/2025_in_person_open_day.html",
-      "/events/posts/2025_seminar_10_28.html",
-      "/events/posts/2025_seminar_11_11.html",
-      "/events/posts/2025_seminar_11_25.html",
-      "/events/posts/2026_seminar_01_13.html",
-      "/events/posts/2025_seminar_12_09.html",
-      "/events/posts/2026_seminar_02_20.html",
-      "/events/posts/2026_seminar_01_27.html",
-      "/events/posts/2026_seminar_02_10.html",
-      "/events/posts/2025_first_training_week.html"
-    ]
-  },
-  {
-    "listing": "/blog/blog_list.html",
-    "items": [
-      "/blog/posts/nobel_prizes.html",
-      "/blog/posts/ccmi_the_history.html",
-      "/blog/posts/ccmi_start.html",
-      "/blog/posts/modern_hybrid_working.html"
-    ]
-  },
-  {
-    "listing": "/team.html",
-    "items": []
   },
   {
     "listing": "/phd_projects/phd_project_list.html",
