@@ -1,0 +1,25 @@
+---
+title: "Seminar on blood flow simulations"
+author: "Timo Betcke"
+event_date: "03/10/2026"
+date: "03/06/2026"
+summary: "Prof Fernandez discusses modelling approaches for bloodflow simulations in the heart."
+categories: [News]
+---
+
+**LOCATION:** Function space, UCL AI Centre, 90 High Holborn, London WC1V 6BH
+
+**TIME:** 14:00-15:00, 10/03/2026
+
+**SPEAKER:** Miguel Fernandez (Inria)
+
+**TITLE:** Modeling and simulation of cardiac hemodynamics 
+
+**ABSTRACT:** The numerical simulation of cardiac hemodynamics—that is, blood flow within the heart chambers—offers exciting opportunities for improved device design, 
+treatment planning, and clinical decision-making. In particular, computational models provide direct access to mechanical quantities, such as local pressures 
+and wall shear stresses, which are difficult to measure non-invasively in vivo. However, the inherently multiphysics nature of cardiac function—coupling fluid dynamics, 
+structural mechanics, electrophysiology, and valve dynamics—poses significant challenges for computational modeling and scientific computing. In many practical settings, 
+reduced or simplified modeling strategies can be employed, depending on the dominant physical mechanisms underlying the phenomenon of interest.
+In this talk, we review several modeling approaches for cardiac hemodynamics and show that model simplification may entail a number of shortcomings (e.g., spurious pressure oscillations, 
+missing flow phases, etc.). We also demonstrate how efficient numerical methods can be leveraged to address these issues. The benefits and limitations of the different approaches 
+are illustrated through representative numerical examples.
