@@ -6,7 +6,7 @@ image: ../static/people/students/charlotte_pic.jpg
 github: charlotteesavage
 
 info:
-  - "I am recovering Law graduate/start up product owner/data scientist working with Prof. Kris Thielemans on improving image quantification methods in brain-focused Positron Emission Tomography (PET). "
+  - "I am recovering Law graduate/start up product owner/data scientist working on improving image quantification methods in brain-focused Positron Emission Tomography (PET), supervised by Prof. Kris Thielemans at UCL. "
   - "Outside of academia, I love theatre, running, live music, and art (except pointillism). " 
 
 education:
