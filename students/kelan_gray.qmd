@@ -1,0 +1,23 @@
+---
+name: "Kelan"
+surname: "Gray"
+image: ../static/people/students/kelan_gray.jpeg
+github: kelangray
+info:
+  - "I am a mathematics PhD student at Imperial working on Koopman operator learning for nonlinear partial differential equations, advised by Dr. Nicolas Boullé and Dr. Matthew Colbrook. "
+interests:
+  - Koopman Operators
+education:
+  - institution: University of Amsterdam
+    location: Amsterdam, Netherlands
+    degree: Msc Mathematics
+    startdate: Sept 2023
+    enddate: Jul 2025
+  - institution: University of Manchester
+    location: Manchester, UK
+    degree: Bsc in Mathematics with Computer Science
+    startdate: Sep 2020
+    enddate: Jul 2023
+---
+
+{{< academic-webpage >}}
