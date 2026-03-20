@@ -616,277 +616,67 @@
     "text": "Education\n      College of Engineering Pune | Pune, IndiaB.Tech (Hons.) in Mechanical Engineering | Sept 2015 – June 2019"
   },
   {
-    "objectID": "students/skye_purchase.html",
-    "href": "students/skye_purchase.html",
-    "title": "Skye Purchase",
+    "objectID": "students/ben_stewart.html",
+    "href": "students/ben_stewart.html",
+    "title": "Ben Stewart",
     "section": "",
-    "text": "I am interested in AI safety focusing on alignment and interpretability. I am currently focusing on aligning diffusion models to physics simulations and general spatio-temporal data.\nOutside of academia I am a member of the Imperial Ceilidh band and run my own folk dancing session Oval English Country Dance. I love climbing, gardening, crocheting and am an avid believer in visible mending."
+    "text": "Ben is a PhD student in the Computational Optimisation Group at Imperial College London, focusing on probabilistic machine learning for dynamic systems (initially Neural ODEs) with downstream applications to chemical experiment design - including small molecule synthesis and small-scale biomanufacturing - in collaboration with Merck & Co. He is passionate about accelerating scientific discovery through data-driven and physics-driven computational models. He holds an MSc in Chemistry from the University of York, which included a year of research in the University of Sydney’s quantum computing lab."
   },
   {
-    "objectID": "students/skye_purchase.html#interests",
-    "href": "students/skye_purchase.html#interests",
-    "title": "Skye Purchase",
+    "objectID": "students/ben_stewart.html#interests",
+    "href": "students/ben_stewart.html#interests",
+    "title": "Ben Stewart",
     "section": "Interests",
-    "text": "Interests\n      \n        Folk dance and music        Climbing        Crochet and cross stitch        Open source development        Gardening"
+    "text": "Interests\n      \n        AI for science        Simulating nature        Quantum Computing        Economics & investing        Venture capital        Various sports"
   },
   {
-    "objectID": "students/skye_purchase.html#publications",
-    "href": "students/skye_purchase.html#publications",
-    "title": "Skye Purchase",
+    "objectID": "students/ben_stewart.html#publications",
+    "href": "students/ben_stewart.html#publications",
+    "title": "Ben Stewart",
     "section": "Publications",
-    "text": "Publications\n      S. Purchase, Y. Zhao, R. D. Mullins. Revisiting Embeddings for Graph Neural Networks (2022), Learning on Graphs Conference, 10.48550/arXiv.2209.09338."
+    "text": "Publications\n      V. C. Olaya-Agudelo*, B. Stewart*, et al. Simulating open-system molecular dynamics on analog quantum computers (2025), Physical Review Research 7(2), 23215, 10.1103/PhysRevResearch.7.023215, (*equal contribution).\n      P. B. Karadakov, B. Stewart, D. L. Cooper. Magnetic Shielding Analysis of Bonding in [1.1.1]Propellane (2023), The Journal of Physical Chemistry A 127(4), 861–869, 10.1021/acs.jpca.2c06450."
   },
   {
-    "objectID": "students/skye_purchase.html#education",
-    "href": "students/skye_purchase.html#education",
-    "title": "Skye Purchase",
+    "objectID": "students/ben_stewart.html#education",
+    "href": "students/ben_stewart.html#education",
+    "title": "Ben Stewart",
     "section": "Education",
-    "text": "Education\n      University of Cambridge | Cambridge, UKBA in Computer Science | Sept 2020 – June 2023\n      University College London | London, UKMSc in Machine Learning | Sept 2024 – Sept 2025"
+    "text": "Education\n      University of Sydney | Sydney, NSW, AustraliaMSc Research Placement | 2022 – 2023\n      University of York | York, UKMSc (Integrated) in Chemistry | 2019 – 2023"
   },
   {
-    "objectID": "students/ollie_nash.html",
-    "href": "students/ollie_nash.html",
-    "title": "Oliver Nash",
+    "objectID": "students/ammar_ali.html",
+    "href": "students/ammar_ali.html",
+    "title": "Ammar Ali",
     "section": "",
-    "text": "Oliver’s PhD focuses around inference & inverse problems for stochastic interacting particle systems. Previous research has focused on small noise limits of SDEs & PINNs."
+    "text": "Ammar Ali is a PhD student at Imperial College London working in the OptiML PSE group. He is currently working on using multi-agent LLMs for chemical lab management assistance in collaboration with BASF."
   },
   {
-    "objectID": "students/ollie_nash.html#interests",
-    "href": "students/ollie_nash.html#interests",
-    "title": "Oliver Nash",
+    "objectID": "students/ammar_ali.html#education",
+    "href": "students/ammar_ali.html#education",
+    "title": "Ammar Ali",
+    "section": "Education",
+    "text": "Education\n      University of Manchester | Manchester, UKMEng in Chemical Engineering | Sept 2021 – June 2025"
+  },
+  {
+    "objectID": "students/bryce_shirley.html",
+    "href": "students/bryce_shirley.html",
+    "title": "Bryce Shirley",
+    "section": "",
+    "text": "Bryce Shirley’s an aligned PhD student with the CCMI CDT, working as a Research Software Engineer in the Computational Maths Theme at STFC, UKRI.\nBryce’s PhD supervisor is Marta Betcke, and ARC supervisor is Mosè Giordano."
+  },
+  {
+    "objectID": "students/bryce_shirley.html#interests",
+    "href": "students/bryce_shirley.html#interests",
+    "title": "Bryce Shirley",
     "section": "Interests",
-    "text": "Interests\n      \n        Stochastic analysis        Applied PDE theory        Numerical analysis        Statistical inference        Dynamical systems"
+    "text": "Interests\n      \n        Inverse Problems        Computational Imaging        HPC        Salsa Dancing        Trail Running        Hiking"
   },
   {
-    "objectID": "students/ollie_nash.html#education",
-    "href": "students/ollie_nash.html#education",
-    "title": "Oliver Nash",
+    "objectID": "students/bryce_shirley.html#education",
+    "href": "students/bryce_shirley.html#education",
+    "title": "Bryce Shirley",
     "section": "Education",
-    "text": "Education\n      PSL - Dauphiné & ENS | Paris, FranceM2 in Theoretical and applied mathematics | Sept 2023 – Sept 2024\n      Durham University | Durham, UKMMath in mathematics | Sep 2019 – Jul 2023"
-  },
-  {
-    "objectID": "students/miguel_lara.html",
-    "href": "students/miguel_lara.html",
-    "title": "Miguel Lara-Rangel",
-    "section": "",
-    "text": "I am a PhD student working on uncertainty-aware AI for informed decision-making, with a focus on applications in climate and finance. I have several years of experience implementing and leading applied AI projects across banking, financial risk, and pharma, including work on statistical model governance and model risk (regulation). In parallel, I like to contribute to initiatives that expand AI literacy, education, and policy capacity in emerging markets."
-  },
-  {
-    "objectID": "students/miguel_lara.html#interests",
-    "href": "students/miguel_lara.html#interests",
-    "title": "Miguel Lara-Rangel",
-    "section": "Interests",
-    "text": "Interests\n      \n        Foundational AI and learning theory        Uncertainty quantification and probabilistic machine learning        Model risk management, AI regulation and accountability        AI for climate and environmental decision-making        Quantitative finance and risk management        Philosophy and history"
-  },
-  {
-    "objectID": "students/miguel_lara.html#publications",
-    "href": "students/miguel_lara.html#publications",
-    "title": "Miguel Lara-Rangel",
-    "section": "Publications",
-    "text": "Publications\n      J. M. Lara-Rangel, et al.. Exploring Pseudo-Token Approaches in Transformer Neural Processes (2025), AABI 2025.\n      J. M. Lara-Rangel, et al.. Learning to Forget with Hypernetworks (2024), AdvML-Frontiers @ NeurIPS 2024.\n      J. M. Lara-Rangel, et al.. On the Limits of Applying Graph Transformers for Brain Connectome Classification (2025), ICBINB @ ICLR 2025."
-  },
-  {
-    "objectID": "students/miguel_lara.html#education",
-    "href": "students/miguel_lara.html#education",
-    "title": "Miguel Lara-Rangel",
-    "section": "Education",
-    "text": "Education\n      University of Cambridge | Cambridge, UKMPhil in Machine Learning and Machine Intelligence | 2023 – 2024\n      Benemérita Universidad Autónoma de Puebla | Puebla, MexicoBSc in Actuarial Science | 2016 – 2020"
-  },
-  {
-    "objectID": "students/shany_neeman.html",
-    "href": "students/shany_neeman.html",
-    "title": "Shany Neeman",
-    "section": "",
-    "text": "Shany is a data scientist with extensive industry experience who has chosen to expand her expertise through computational research. Her PhD research focuses on developing neural operators for solving high-frequency problems in acoustics."
-  },
-  {
-    "objectID": "students/shany_neeman.html#interests",
-    "href": "students/shany_neeman.html#interests",
-    "title": "Shany Neeman",
-    "section": "Interests",
-    "text": "Interests\n      \n        Numerical Analysis        PINNS        Fast Solvers        Low Rank Approximations"
-  },
-  {
-    "objectID": "students/shany_neeman.html#publications",
-    "href": "students/shany_neeman.html#publications",
-    "title": "Shany Neeman",
-    "section": "Publications",
-    "text": "Publications\n      Shany Neeman, Haim Avron, Petros Drineas. Low-rank updates of matrix square roots (2022), Numerical Linear Algebra With Application 31."
-  },
-  {
-    "objectID": "students/shany_neeman.html#education",
-    "href": "students/shany_neeman.html#education",
-    "title": "Shany Neeman",
-    "section": "Education",
-    "text": "Education\n      Technion | Haifa, IsraelBSc in Computer Science | Sept 2009 – June 2013\n      Tel Aviv University | Tel Aviv, IsraelMSc in Applied Mathematics | Sept 2016 – May 2022"
-  },
-  {
-    "objectID": "students/maciej_Kaczorek.html",
-    "href": "students/maciej_Kaczorek.html",
-    "title": "Maciej Kaczorek",
-    "section": "",
-    "text": "Maciej Kaczorek is a current CCMI CDT PhD student. He graduated from University College London with an MSc degree in Machine Learning. Currently, Maciej is working with Martin Benning and Nicholas Lesica on Improving impaired hearing through sound reconstruction from neural activity patterns.\nOutside academia he’s interested in electronic music and speciality coffee."
-  },
-  {
-    "objectID": "students/maciej_Kaczorek.html#interests",
-    "href": "students/maciej_Kaczorek.html#interests",
-    "title": "Maciej Kaczorek",
-    "section": "Interests",
-    "text": "Interests\n      \n        Machine Learning        Neuroscience        Inverse Problems        Audio Processing"
-  },
-  {
-    "objectID": "students/maciej_Kaczorek.html#publications",
-    "href": "students/maciej_Kaczorek.html#publications",
-    "title": "Maciej Kaczorek",
-    "section": "Publications",
-    "text": "Publications\n      P. Arina, D. Ferrari, M. R. Kaczorek, N. Tetlow, A. Dewar, R. Stephens, D. Martin, R. Moonesinghe, M. Singer, J. Whittle, E. B. Mazomenos. Assessing perioperative risks in a mixed elderly surgical population using machine learning: A multi-objective symbolic regression approach to cardiorespiratory fitness derived from cardiopulmonary exercise testing (2025), PLOS Digital Health 4(5), 10.1371/journal.pdig.0000851.\n      P. Arina, J. Whittle, M. R. Kaczorek, D. Ferrari, N. Tetlow, A. Dewar, R. Stephens, D. Martin, S. R. Moonesinghe, E. B. Mazomenos, M. Singer. Metabolic Flexibility as a Candidate Mechanism for the Development of Postoperative Morbidity (2025), Anesthesia & Analgesia 141(5), 1078–1088, 10.1213/ANE.0000000000007494.\n      P. Arina, M. R. Kaczorek, D. A. Hofmaenner, W. Pisciotta, P. Refinetti, M. Singer, E. B. Mazomenos, J. Whittle. Prediction of Complications and Prognostication in Perioperative Medicine: A Systematic Review and PROBAST Assessment of Machine Learning Tools (2024), Anesthesiology 140(1), 85–101, 10.1097/ALN.0000000000004764."
-  },
-  {
-    "objectID": "students/maciej_Kaczorek.html#education",
-    "href": "students/maciej_Kaczorek.html#education",
-    "title": "Maciej Kaczorek",
-    "section": "Education",
-    "text": "Education\n      University College London | London, UKBEng Electronic and Electrical Engineering | Sept 2019 – July 2022\n      University College London | London, UKMSc Data Science and Machine Learning | Sept 2023 – Sept 2024"
-  },
-  {
-    "objectID": "students/louis_clare.html",
-    "href": "students/louis_clare.html",
-    "title": "Louis Clare",
-    "section": "",
-    "text": "Louis’ research interests are in active matter, mechanobiology and mathematical biology as a whole.\nHe is passionate about combining theory and computation to create usable software which sheds light on the mathematics behind biological processes"
-  },
-  {
-    "objectID": "students/louis_clare.html#interests",
-    "href": "students/louis_clare.html#interests",
-    "title": "Louis Clare",
-    "section": "Interests",
-    "text": "Interests\n      \n        Mathematical Biology        Active Matter        Outreach"
-  },
-  {
-    "objectID": "students/louis_clare.html#publications",
-    "href": "students/louis_clare.html#publications",
-    "title": "Louis Clare",
-    "section": "Publications",
-    "text": "Publications\n      R. Mok, F. Akhtar, L. Clare, C. Li, J. Ida, L. Ross, M. Campanelli. Using large language models for grading in education: an applied test for physics (2025), Physics Education 60(3), 10.1088/1361-6552/adb92b."
-  },
-  {
-    "objectID": "students/louis_clare.html#education",
-    "href": "students/louis_clare.html#education",
-    "title": "Louis Clare",
-    "section": "Education",
-    "text": "Education\n      University College London | London, UKBSc in Theoretical Physics | Sept 2021 – June 2024\n      Imperial College London | London, UKMSc in Applied Mathematics | Oct 2024 – September 2025"
-  },
-  {
-    "objectID": "blog/blog_list.html",
-    "href": "blog/blog_list.html",
-    "title": "CCMI Blog",
-    "section": "",
-    "text": "Posts\n\n\n        \n            \n            \n                Nobel Prizes in Chemistry and Physics for AI research\n                \n                The 2024 nobel prizes in Physics and Chemistry were given out to breakthrough research in AI from members of the UCL community.\n            \n                \n        \n\n        \n            \n            \n                CCMI - How we got here\n                \n                How CCMI got from a vague idea to an existing centre.\n            \n                \n        \n\n        \n            \n            \n                CCMI is about to start\n                \n                The first CCMI cohort is about to arrive.\n            \n                \n        \n\n        \n            \n            \n                To be or not to be in the office\n                \n                A few thoughts on remote vs in-office working in a CDT.\n            \n                \n        \n\n\nNo matching items"
-  },
-  {
-    "objectID": "blog/posts/ccmi_start.html",
-    "href": "blog/posts/ccmi_start.html",
-    "title": "CCMI is about to start",
-    "section": "",
-    "text": "The first CCMI cohort is about to start. For UCL students term starts tomorrow, 22 September, while our Imperial students arrive one week later. The last year has seen a flurry of preparations, from two recruitment rounds to organising facilities, making contracts with our partners and many more.\nI would like to share the Director’s Welcome in our Student Handbook. It reminds of what CCMI stands for and what our values are.\nDear students,\nA warm welcome to those of you who are new and congratulations on making the CCMI CDT your programme of choice.\nCCMI is a unique and novel approach to Doctoral Training. The traditional view is that there are the computational and data sciences on one side, and software engineering as a professional service for these sciences on the other side. At CCMI we believe that research and software are deeply interlinked and should not be viewed as separate from each other. This is the mission of our CDT. You will receive world leading training on the interface of the computational and data science and research software engineering, enabling you to develop tools and methodologies to solve the big challenges of the 21st century.\nNot only will you be involved in cutting edge research and software, you will be part of something special, a cohort of like-minded PhD students who will be there with you for all your successes but also for the stressful moments and the days when nothing seems to work. You will make lifelong bonds in this CDT, building networks of friends and colleagues who will be there for you long after you complete your PhD.\nFinally, I would like to emphasise to you our commitment to Equality, Diversity, and Inclusion. At its core the message of EDI is very simple, treat each other with kindness, respect, and decency. In an uncertain world, where even these simple values are under attack, you have the chance to make a difference, not just through your research but by helping to build a better, more inclusive, and tolerant world.\nWith this said, all of us from the CCMI Team wish you a wonderful start and many happy memories and successes over the next four years.\nTimo Betcke"
-  },
-  {
-    "objectID": "blog/posts/nobel_prizes.html",
-    "href": "blog/posts/nobel_prizes.html",
-    "title": "Nobel Prizes in Chemistry and Physics for AI research",
-    "section": "",
-    "text": "London is the world center in AI research. This has been impressively demonstrated this year by the award of two Nobel Prizes to members of the UCL Community. Professor Geoffrey Hinton, founder of the Gatsby Computational Neuroscience Unit at UCL, was awarded the Physics Nobel Prize alongside John J Hopfield for breakthroughs in AI research.\nSir Demis Hassabis the Co-Founder and CEO of Google Deepmind, who completed his PhD at UCL and was a postdoc in the Gatsby Neuroscience Unit, was awarded the Nobel Prize in Chemistry along with John Jumper and Professor David Baker for their work on computational protein design and protein structure prediction.\nRead the UCL News Article for the full story of these remarkable researchers."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "\n\t\tEPSRC Centre for Doctoral Training in\n\t\t\n\t\tCollaborative Computational Modelling at the Interface \n\t\t\n\t",
-    "section": "",
-    "text": "CCMI is a collaboration between University College London and Imperial College London to offer a novel and innovative PhD training programme at the interface of computational modelling, data sciences, and research software engineering.\n\n\n\n\n\n\n\nStudents will join world-class research groups across UCL and Imperial, and will benefit from a bespoke training programme around research software engineering and its applications in the computational and data sciences.\n\n\n\n\n\n\n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\nNo matching items\n\n\n\n\nWould you like to join?\n\n\n Apply for 2026 entry into the CDT  \n\n\n\n\nRecent Blog Posts\n\n    \n    \n        \n            \n                CCMI - How we got here\n                \n            How CCMI got from a vague idea to an existing centre.\n        \n    \n    \n\n    \n    \n        \n            \n                CCMI is about to start\n                \n            The first CCMI cohort is about to arrive.\n        \n    \n    \n\n    \n    \n        \n            \n                Nobel Prizes in Chemistry and Physics for AI research\n                \n            The 2024 nobel prizes in Physics and Chemistry were given out to breakthrough research in AI from members of the UCL community.\n        \n    \n    \n\n    \nNo matching items\n\n\n\n\n\nKEY FACTS\n\n\n\n    \n        \n        \n            CCMI offers a fully funded 4 year PhD programme at either UCL or Imperial College\n        \n    \n    \n        \n        \n            We offer a bespoke cohort training programme consisting of dedicated block workshops, software weeks, summer schools, and many other activities\n        \n    \n    \n        \n        \n            The first intake starts in Sept. 2025 (call for applications to start in autumn 2024)\n        \n    \n    \n        \n        \n            We will provide research opportunities across computational mathematics, scientific algorithms, high-performance computing, research software engineering, data sciences, and applications\n        \n    \n    \n        \n        \n            We have external partners ranging from innovative SMEs to world-leading HPC labs\n        \n    \n    \n\nNo matching items"
-  },
-  {
-    "objectID": "student_list.html",
-    "href": "student_list.html",
-    "title": "Current CCMI Students",
-    "section": "",
-    "text": "Ross Ah-Weng\n\n    Ammar Ali\n\n    Anastasia Chanbour\n\n    Louis Clare\n\n    Divij Ghose\n\n    Anees Hussain\n\n    Maciej Kaczorek\n\n    Miguel Lara-Rangel\n\n    Callum Lau\n\n    Oliver Nash\n\n    Shany Neeman\n\n    Lewis O'Donnell\n\n    Lucas Pigott\n\n    Skye Purchase\n\n    Bryce Shirley\n\n    Ben Stewart\n\n    Advaith Velavan\n\n\nNo matching items"
-  },
-  {
-    "objectID": "blog/posts/ccmi_the_history.html",
-    "href": "blog/posts/ccmi_the_history.html",
-    "title": "CCMI - How we got here",
-    "section": "",
-    "text": "It is finally done. Our CDT has started. I’d like to explain a little bit of the history of this CDT.\nMy first attempt to bring a CDT to UCL was in 2018 on a Scientific Computing focused CDT. The proposal went all the way to the final interviews. Yet, at the end it was not funded. A typical CDT application is about a year of work. So any rejection is a major disappointment. But on the other hand it was a very good learning experience. In long post mortems I realised why we were not funded and I pledged to myself to try again.\nIn 2022 Colin Cotter from Imperial and I started talking about the next upcoming application round for Doctoral Training Centres, and we decided that we would have a much stronger case by submitting a joint UCL/Imperial proposal.\nBut what would the unique selling point of this CDT be? Both, Colin and I are passionate about research software. At UCL we also have with ARC one of the UK’s foremost centres for Research Software Engineering. This was pivotal. It would give us the credibility and resources to build a CDT proposal with world leading research software engineering at its heart.\nBefore a CDT proposal can go to council there is a lot of work. We had to go through tough internal UCL competition before we were even allowed to apply to EPSRC. Application numbers per university are limited and competition is fierce.\nAfter surviving the internal selection procedure we had to write an outline application for EPSRC. While formally this is just a short outline, partners already need to be contacted and costing be done in the outline stage. Moreover, the core idea of the CDT needs to be there and presented.\nAgain, the competition is tough in the outline stage and a lot of excellent proposals do not make it on. Finally, once we made it to the main stage the big proposal needed to be written, costings finalised, details of the training programme worked out and partner letters organised. This took several months of work.\nBut this is not the end. After receiving external referee reports, applicants are invited to an interview. One day in autumn 2023 myself, Colin, and our Co-Director Ruth Misener from Imperial were invited to come to Bristol for an in-depth interview.\nThis was it, the culmination of over a year of work. Our nerves were bare. But we managed to keep ourselves calm enough and somehow everything went well.\nFinally, in early 2024 the results were officially announced to the world. While we originally thought we would start in Autumn 2024 it turned out that we were one of a number of CDTs that were asked by EPSRC to delay start by one year.\nInitially, this seemed disappointing. After all this work we were keen to see students arriving. But it turned out a blessing in disguise. We had time to hire excellent CDT Managers (Laura Beer at UCL and Lydia Noha at Imperial). We could carefully plan the training programme and did not have to rush recruitment.\nNow it is October 2025 and it finally happened. Our students have arrived and CCMI has officially started. It was a long journey but probably the single most satisfying one in my career so far.\nSuch a journey cannot be made alone. A CDT is a huge team effort. I have already mentioned Colin, Ruth, Laura, and Lydia. But we are a much larger team behind this CDT, and I would like to take the opportunity to thank all of them for the great work to get CCMI from a vague idea to an actually existing centre.\nThanks again to Colin Cotter, Dante Kalise, Ruth Misener, Vahid Shahrezaei and Lydia Noah at Imperial and Marta Betcke, Serge Guillas, Hao Ni, Laura Beer, Matthew Scroggs and the ARC Operations Team at UCL. We have made it.\nFinally, to conclude this post I would also especially like to thank all our new students who have given us their trust to spend the next four years doing research and training with us at UCL and Imperial. Over the next few weeks we will build up homepage profiles for each one of them and introduce these remarkable researchers in separate posts."
-  },
-  {
-    "objectID": "blog/posts/modern_hybrid_working.html",
-    "href": "blog/posts/modern_hybrid_working.html",
-    "title": "To be or not to be in the office",
-    "section": "",
-    "text": "In central London universities the question of remote vs in office working is a difficult one. Before the 2020 pandemic in office working was the standard for most staff and PhD students. Then the pandemic happened and suddenly for a long time remote working became the norm.\nFrom 2022 onwards as things slowly normalised again there was at universities like at many other work places no general return to office and we now live in a hybrid work environment. This has a lot of advantages, such as better adjustments for childcare, reduction of high commuting costs (especially in London), and generally achieving a better work/life balance.\nBut how should CDTs handle in-office vs remote working? There is widespread consensus across academics that the fully remote working conditions for PhD students during the pandemic was detrimental to their professional development. They missed out on day to day research interactions over tea, did not have the same networking experience as students before them and had to deal with the loneliness of doing an individual research project cut-off from their peers.\nAt the same time, unless required through e.g. certain types of lab works, it is unreasonable to expect of PhD students that they spend every day in the office when all around them staff are working mostly hybrid. Moreover, high commuting costs in places like London mean that coming to the office is not cheap.\nA personal rule of thumb is that students should aim to spend more than half of a week physically among their peers unless there is important reasons not to (e.g. health, care responsibilities, etc.). But getting students in the office cannot come through enforcement alone. There must be real benefit of being in the office. And there the cohort based training vision of a CDT is important. From spontaneous lunches to encouraging project collaborations among students there is a lot we can do to make a CDT an attractive place to be physically present.\nThis is what we try to do at CCMI. We are only at the beginning of this journey and will make mistakes along the way. But thinking back to the pandemic and the loneliness of PhD students at the time it is a worthwile endeavour to recreate an environment in which physical interactions are the norm and not the exception."
-  },
-  {
-    "objectID": "students/advaith_velavan.html",
-    "href": "students/advaith_velavan.html",
-    "title": "Advaith Velavan",
-    "section": "",
-    "text": "I am working on building novel numerical methods to solve mean-field games in a high-dimensional setting with Dr. Dante Kalise."
-  },
-  {
-    "objectID": "students/advaith_velavan.html#interests",
-    "href": "students/advaith_velavan.html#interests",
-    "title": "Advaith Velavan",
-    "section": "Interests",
-    "text": "Interests\n      \n        Numerical analysis        ML for Differential Equations        Tennis"
-  },
-  {
-    "objectID": "students/advaith_velavan.html#education",
-    "href": "students/advaith_velavan.html#education",
-    "title": "Advaith Velavan",
-    "section": "Education",
-    "text": "Education\n      Imperial College London | London, UKMSci Mathematics | Oct 2020 – Jun 2025"
-  },
-  {
-    "objectID": "students/anees_hussain.html",
-    "href": "students/anees_hussain.html",
-    "title": "Anees Hussain",
-    "section": "",
-    "text": "UCL Mathematics PhD student under Prof. Timo Betcke and Prof. Martin Benning.\nCurrently working with Neural Operators."
-  },
-  {
-    "objectID": "students/anees_hussain.html#interests",
-    "href": "students/anees_hussain.html#interests",
-    "title": "Anees Hussain",
-    "section": "Interests",
-    "text": "Interests\n      \n        Quantitative Finance"
-  },
-  {
-    "objectID": "students/anees_hussain.html#education",
-    "href": "students/anees_hussain.html#education",
-    "title": "Anees Hussain",
-    "section": "Education",
-    "text": "Education\n      University College London | London, UKMSc Computational Finance | Sept 2023 – Aug 2024\n      Queen Mary University of London | London, UKBSc Mathematics and Statistics | Sept 2018 – Aug 2021"
-  },
-  {
-    "objectID": "students/ross_ah-weng.html",
-    "href": "students/ross_ah-weng.html",
-    "title": "Ross Ah-Weng",
-    "section": "",
-    "text": "I’m interested in floating-point pathologies in the statistics of simulated chaotic dynamical systems, supervised by Peter Coveney.\nGenerally reading around computational methods in dynamical systems, ergodic theory and statistical mechanics."
-  },
-  {
-    "objectID": "students/ross_ah-weng.html#interests",
-    "href": "students/ross_ah-weng.html#interests",
-    "title": "Ross Ah-Weng",
-    "section": "Interests",
-    "text": "Interests\n      \n        Playing jazz/classical music        Climbing        Cooking + food in general"
-  },
-  {
-    "objectID": "students/ross_ah-weng.html#education",
-    "href": "students/ross_ah-weng.html#education",
-    "title": "Ross Ah-Weng",
-    "section": "Education",
-    "text": "Education\n      Imperial College London | London, UKMSci in Mathematics | Sept 2021 – June 2025"
+    "text": "Education\n      University of Nottingham | Nottingham, UKMMath Mathematics | Sept 2018 – June 2022"
   },
   {
     "objectID": "students/lewis_odonnell.html",
@@ -917,67 +707,298 @@
     "text": "Education\n      Imperial College London | London, UKMSc Applied Mathematics (Scientific Computing and Machine Learning) | 2024 – 2025\n      Durham University | Durham, UKBSc Mathematics and Physics | 2020 – 2023"
   },
   {
-    "objectID": "students/bryce_shirley.html",
-    "href": "students/bryce_shirley.html",
-    "title": "Bryce Shirley",
+    "objectID": "students/ross_ah-weng.html",
+    "href": "students/ross_ah-weng.html",
+    "title": "Ross Ah-Weng",
     "section": "",
-    "text": "Bryce Shirley’s an aligned PhD student with the CCMI CDT, working as a Research Software Engineer in the Computational Maths Theme at STFC, UKRI.\nBryce’s PhD supervisor is Marta Betcke, and ARC supervisor is Mosè Giordano."
+    "text": "I’m interested in floating-point pathologies in the statistics of simulated chaotic dynamical systems, supervised by Peter Coveney.\nGenerally reading around computational methods in dynamical systems, ergodic theory and statistical mechanics."
   },
   {
-    "objectID": "students/bryce_shirley.html#interests",
-    "href": "students/bryce_shirley.html#interests",
-    "title": "Bryce Shirley",
+    "objectID": "students/ross_ah-weng.html#interests",
+    "href": "students/ross_ah-weng.html#interests",
+    "title": "Ross Ah-Weng",
     "section": "Interests",
-    "text": "Interests\n      \n        Inverse Problems        Computational Imaging        HPC        Salsa Dancing        Trail Running        Hiking"
+    "text": "Interests\n      \n        Playing jazz/classical music        Climbing        Cooking + food in general"
   },
   {
-    "objectID": "students/bryce_shirley.html#education",
-    "href": "students/bryce_shirley.html#education",
-    "title": "Bryce Shirley",
+    "objectID": "students/ross_ah-weng.html#education",
+    "href": "students/ross_ah-weng.html#education",
+    "title": "Ross Ah-Weng",
     "section": "Education",
-    "text": "Education\n      University of Nottingham | Nottingham, UKMMath Mathematics | Sept 2018 – June 2022"
+    "text": "Education\n      Imperial College London | London, UKMSci in Mathematics | Sept 2021 – June 2025"
   },
   {
-    "objectID": "students/ammar_ali.html",
-    "href": "students/ammar_ali.html",
-    "title": "Ammar Ali",
+    "objectID": "students/anees_hussain.html",
+    "href": "students/anees_hussain.html",
+    "title": "Anees Hussain",
     "section": "",
-    "text": "Ammar Ali is a PhD student at Imperial College London working in the OptiML PSE group. He is currently working on using multi-agent LLMs for chemical lab management assistance in collaboration with BASF."
+    "text": "UCL Mathematics PhD student under Prof. Timo Betcke and Prof. Martin Benning.\nCurrently working with Neural Operators."
   },
   {
-    "objectID": "students/ammar_ali.html#education",
-    "href": "students/ammar_ali.html#education",
-    "title": "Ammar Ali",
-    "section": "Education",
-    "text": "Education\n      University of Manchester | Manchester, UKMEng in Chemical Engineering | Sept 2021 – June 2025"
-  },
-  {
-    "objectID": "students/ben_stewart.html",
-    "href": "students/ben_stewart.html",
-    "title": "Ben Stewart",
-    "section": "",
-    "text": "Ben is a PhD student in the Computational Optimisation Group at Imperial College London, focusing on probabilistic machine learning for dynamic systems (initially Neural ODEs) with downstream applications to chemical experiment design - including small molecule synthesis and small-scale biomanufacturing - in collaboration with Merck & Co. He is passionate about accelerating scientific discovery through data-driven and physics-driven computational models. He holds an MSc in Chemistry from the University of York, which included a year of research in the University of Sydney’s quantum computing lab."
-  },
-  {
-    "objectID": "students/ben_stewart.html#interests",
-    "href": "students/ben_stewart.html#interests",
-    "title": "Ben Stewart",
+    "objectID": "students/anees_hussain.html#interests",
+    "href": "students/anees_hussain.html#interests",
+    "title": "Anees Hussain",
     "section": "Interests",
-    "text": "Interests\n      \n        AI for science        Simulating nature        Quantum Computing        Economics & investing        Venture capital        Various sports"
+    "text": "Interests\n      \n        Quantitative Finance"
   },
   {
-    "objectID": "students/ben_stewart.html#publications",
-    "href": "students/ben_stewart.html#publications",
-    "title": "Ben Stewart",
+    "objectID": "students/anees_hussain.html#education",
+    "href": "students/anees_hussain.html#education",
+    "title": "Anees Hussain",
+    "section": "Education",
+    "text": "Education\n      University College London | London, UKMSc Computational Finance | Sept 2023 – Aug 2024\n      Queen Mary University of London | London, UKBSc Mathematics and Statistics | Sept 2018 – Aug 2021"
+  },
+  {
+    "objectID": "students/advaith_velavan.html",
+    "href": "students/advaith_velavan.html",
+    "title": "Advaith Velavan",
+    "section": "",
+    "text": "I am working on building novel numerical methods to solve mean-field games in a high-dimensional setting with Dr. Dante Kalise."
+  },
+  {
+    "objectID": "students/advaith_velavan.html#interests",
+    "href": "students/advaith_velavan.html#interests",
+    "title": "Advaith Velavan",
+    "section": "Interests",
+    "text": "Interests\n      \n        Numerical analysis        ML for Differential Equations        Tennis"
+  },
+  {
+    "objectID": "students/advaith_velavan.html#education",
+    "href": "students/advaith_velavan.html#education",
+    "title": "Advaith Velavan",
+    "section": "Education",
+    "text": "Education\n      Imperial College London | London, UKMSci Mathematics | Oct 2020 – Jun 2025"
+  },
+  {
+    "objectID": "blog/posts/modern_hybrid_working.html",
+    "href": "blog/posts/modern_hybrid_working.html",
+    "title": "To be or not to be in the office",
+    "section": "",
+    "text": "In central London universities the question of remote vs in office working is a difficult one. Before the 2020 pandemic in office working was the standard for most staff and PhD students. Then the pandemic happened and suddenly for a long time remote working became the norm.\nFrom 2022 onwards as things slowly normalised again there was at universities like at many other work places no general return to office and we now live in a hybrid work environment. This has a lot of advantages, such as better adjustments for childcare, reduction of high commuting costs (especially in London), and generally achieving a better work/life balance.\nBut how should CDTs handle in-office vs remote working? There is widespread consensus across academics that the fully remote working conditions for PhD students during the pandemic was detrimental to their professional development. They missed out on day to day research interactions over tea, did not have the same networking experience as students before them and had to deal with the loneliness of doing an individual research project cut-off from their peers.\nAt the same time, unless required through e.g. certain types of lab works, it is unreasonable to expect of PhD students that they spend every day in the office when all around them staff are working mostly hybrid. Moreover, high commuting costs in places like London mean that coming to the office is not cheap.\nA personal rule of thumb is that students should aim to spend more than half of a week physically among their peers unless there is important reasons not to (e.g. health, care responsibilities, etc.). But getting students in the office cannot come through enforcement alone. There must be real benefit of being in the office. And there the cohort based training vision of a CDT is important. From spontaneous lunches to encouraging project collaborations among students there is a lot we can do to make a CDT an attractive place to be physically present.\nThis is what we try to do at CCMI. We are only at the beginning of this journey and will make mistakes along the way. But thinking back to the pandemic and the loneliness of PhD students at the time it is a worthwile endeavour to recreate an environment in which physical interactions are the norm and not the exception."
+  },
+  {
+    "objectID": "blog/posts/ccmi_the_history.html",
+    "href": "blog/posts/ccmi_the_history.html",
+    "title": "CCMI - How we got here",
+    "section": "",
+    "text": "It is finally done. Our CDT has started. I’d like to explain a little bit of the history of this CDT.\nMy first attempt to bring a CDT to UCL was in 2018 on a Scientific Computing focused CDT. The proposal went all the way to the final interviews. Yet, at the end it was not funded. A typical CDT application is about a year of work. So any rejection is a major disappointment. But on the other hand it was a very good learning experience. In long post mortems I realised why we were not funded and I pledged to myself to try again.\nIn 2022 Colin Cotter from Imperial and I started talking about the next upcoming application round for Doctoral Training Centres, and we decided that we would have a much stronger case by submitting a joint UCL/Imperial proposal.\nBut what would the unique selling point of this CDT be? Both, Colin and I are passionate about research software. At UCL we also have with ARC one of the UK’s foremost centres for Research Software Engineering. This was pivotal. It would give us the credibility and resources to build a CDT proposal with world leading research software engineering at its heart.\nBefore a CDT proposal can go to council there is a lot of work. We had to go through tough internal UCL competition before we were even allowed to apply to EPSRC. Application numbers per university are limited and competition is fierce.\nAfter surviving the internal selection procedure we had to write an outline application for EPSRC. While formally this is just a short outline, partners already need to be contacted and costing be done in the outline stage. Moreover, the core idea of the CDT needs to be there and presented.\nAgain, the competition is tough in the outline stage and a lot of excellent proposals do not make it on. Finally, once we made it to the main stage the big proposal needed to be written, costings finalised, details of the training programme worked out and partner letters organised. This took several months of work.\nBut this is not the end. After receiving external referee reports, applicants are invited to an interview. One day in autumn 2023 myself, Colin, and our Co-Director Ruth Misener from Imperial were invited to come to Bristol for an in-depth interview.\nThis was it, the culmination of over a year of work. Our nerves were bare. But we managed to keep ourselves calm enough and somehow everything went well.\nFinally, in early 2024 the results were officially announced to the world. While we originally thought we would start in Autumn 2024 it turned out that we were one of a number of CDTs that were asked by EPSRC to delay start by one year.\nInitially, this seemed disappointing. After all this work we were keen to see students arriving. But it turned out a blessing in disguise. We had time to hire excellent CDT Managers (Laura Beer at UCL and Lydia Noha at Imperial). We could carefully plan the training programme and did not have to rush recruitment.\nNow it is October 2025 and it finally happened. Our students have arrived and CCMI has officially started. It was a long journey but probably the single most satisfying one in my career so far.\nSuch a journey cannot be made alone. A CDT is a huge team effort. I have already mentioned Colin, Ruth, Laura, and Lydia. But we are a much larger team behind this CDT, and I would like to take the opportunity to thank all of them for the great work to get CCMI from a vague idea to an actually existing centre.\nThanks again to Colin Cotter, Dante Kalise, Ruth Misener, Vahid Shahrezaei and Lydia Noah at Imperial and Marta Betcke, Serge Guillas, Hao Ni, Laura Beer, Matthew Scroggs and the ARC Operations Team at UCL. We have made it.\nFinally, to conclude this post I would also especially like to thank all our new students who have given us their trust to spend the next four years doing research and training with us at UCL and Imperial. Over the next few weeks we will build up homepage profiles for each one of them and introduce these remarkable researchers in separate posts."
+  },
+  {
+    "objectID": "student_list.html",
+    "href": "student_list.html",
+    "title": "Current CCMI Students",
+    "section": "",
+    "text": "Ross Ah-Weng\n\n    Ammar Ali\n\n    Anastasia Chanbour\n\n    Louis Clare\n\n    Divij Ghose\n\n    Kelan Gray\n\n    Anees Hussain\n\n    Maciej Kaczorek\n\n    Miguel Lara-Rangel\n\n    Callum Lau\n\n    Oliver Nash\n\n    Shany Neeman\n\n    Lewis O'Donnell\n\n    Lucas Pigott\n\n    Skye Purchase\n\n    Bryce Shirley\n\n    Ben Stewart\n\n    Advaith Velavan\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\n\t\tEPSRC Centre for Doctoral Training in\n\t\t\n\t\tCollaborative Computational Modelling at the Interface \n\t\t\n\t",
+    "section": "",
+    "text": "CCMI is a collaboration between University College London and Imperial College London to offer a novel and innovative PhD training programme at the interface of computational modelling, data sciences, and research software engineering.\n\n\n\n\n\n\n\nStudents will join world-class research groups across UCL and Imperial, and will benefit from a bespoke training programme around research software engineering and its applications in the computational and data sciences.\n\n\n\n\n\n\n\n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\n    \n\nNo matching items\n\n\n\n\nWould you like to join?\n\n\n Apply for 2026 entry into the CDT  \n\n\n\n\nRecent Blog Posts\n\n    \n    \n        \n            \n                CCMI - How we got here\n                \n            How CCMI got from a vague idea to an existing centre.\n        \n    \n    \n\n    \n    \n        \n            \n                CCMI is about to start\n                \n            The first CCMI cohort is about to arrive.\n        \n    \n    \n\n    \n    \n        \n            \n                Nobel Prizes in Chemistry and Physics for AI research\n                \n            The 2024 nobel prizes in Physics and Chemistry were given out to breakthrough research in AI from members of the UCL community.\n        \n    \n    \n\n    \nNo matching items\n\n\n\n\n\nKEY FACTS\n\n\n\n    \n        \n        \n            CCMI offers a fully funded 4 year PhD programme at either UCL or Imperial College\n        \n    \n    \n        \n        \n            We offer a bespoke cohort training programme consisting of dedicated block workshops, software weeks, summer schools, and many other activities\n        \n    \n    \n        \n        \n            The first intake starts in Sept. 2025 (call for applications to start in autumn 2024)\n        \n    \n    \n        \n        \n            We will provide research opportunities across computational mathematics, scientific algorithms, high-performance computing, research software engineering, data sciences, and applications\n        \n    \n    \n        \n        \n            We have external partners ranging from innovative SMEs to world-leading HPC labs\n        \n    \n    \n\nNo matching items"
+  },
+  {
+    "objectID": "blog/posts/nobel_prizes.html",
+    "href": "blog/posts/nobel_prizes.html",
+    "title": "Nobel Prizes in Chemistry and Physics for AI research",
+    "section": "",
+    "text": "London is the world center in AI research. This has been impressively demonstrated this year by the award of two Nobel Prizes to members of the UCL Community. Professor Geoffrey Hinton, founder of the Gatsby Computational Neuroscience Unit at UCL, was awarded the Physics Nobel Prize alongside John J Hopfield for breakthroughs in AI research.\nSir Demis Hassabis the Co-Founder and CEO of Google Deepmind, who completed his PhD at UCL and was a postdoc in the Gatsby Neuroscience Unit, was awarded the Nobel Prize in Chemistry along with John Jumper and Professor David Baker for their work on computational protein design and protein structure prediction.\nRead the UCL News Article for the full story of these remarkable researchers."
+  },
+  {
+    "objectID": "blog/posts/ccmi_start.html",
+    "href": "blog/posts/ccmi_start.html",
+    "title": "CCMI is about to start",
+    "section": "",
+    "text": "The first CCMI cohort is about to start. For UCL students term starts tomorrow, 22 September, while our Imperial students arrive one week later. The last year has seen a flurry of preparations, from two recruitment rounds to organising facilities, making contracts with our partners and many more.\nI would like to share the Director’s Welcome in our Student Handbook. It reminds of what CCMI stands for and what our values are.\nDear students,\nA warm welcome to those of you who are new and congratulations on making the CCMI CDT your programme of choice.\nCCMI is a unique and novel approach to Doctoral Training. The traditional view is that there are the computational and data sciences on one side, and software engineering as a professional service for these sciences on the other side. At CCMI we believe that research and software are deeply interlinked and should not be viewed as separate from each other. This is the mission of our CDT. You will receive world leading training on the interface of the computational and data science and research software engineering, enabling you to develop tools and methodologies to solve the big challenges of the 21st century.\nNot only will you be involved in cutting edge research and software, you will be part of something special, a cohort of like-minded PhD students who will be there with you for all your successes but also for the stressful moments and the days when nothing seems to work. You will make lifelong bonds in this CDT, building networks of friends and colleagues who will be there for you long after you complete your PhD.\nFinally, I would like to emphasise to you our commitment to Equality, Diversity, and Inclusion. At its core the message of EDI is very simple, treat each other with kindness, respect, and decency. In an uncertain world, where even these simple values are under attack, you have the chance to make a difference, not just through your research but by helping to build a better, more inclusive, and tolerant world.\nWith this said, all of us from the CCMI Team wish you a wonderful start and many happy memories and successes over the next four years.\nTimo Betcke"
+  },
+  {
+    "objectID": "blog/blog_list.html",
+    "href": "blog/blog_list.html",
+    "title": "CCMI Blog",
+    "section": "",
+    "text": "Posts\n\n\n        \n            \n            \n                Nobel Prizes in Chemistry and Physics for AI research\n                \n                The 2024 nobel prizes in Physics and Chemistry were given out to breakthrough research in AI from members of the UCL community.\n            \n                \n        \n\n        \n            \n            \n                CCMI - How we got here\n                \n                How CCMI got from a vague idea to an existing centre.\n            \n                \n        \n\n        \n            \n            \n                CCMI is about to start\n                \n                The first CCMI cohort is about to arrive.\n            \n                \n        \n\n        \n            \n            \n                To be or not to be in the office\n                \n                A few thoughts on remote vs in-office working in a CDT.\n            \n                \n        \n\n\nNo matching items"
+  },
+  {
+    "objectID": "students/louis_clare.html",
+    "href": "students/louis_clare.html",
+    "title": "Louis Clare",
+    "section": "",
+    "text": "Louis’ research interests are in active matter, mechanobiology and mathematical biology as a whole.\nHe is passionate about combining theory and computation to create usable software which sheds light on the mathematics behind biological processes"
+  },
+  {
+    "objectID": "students/louis_clare.html#interests",
+    "href": "students/louis_clare.html#interests",
+    "title": "Louis Clare",
+    "section": "Interests",
+    "text": "Interests\n      \n        Mathematical Biology        Active Matter        Outreach"
+  },
+  {
+    "objectID": "students/louis_clare.html#publications",
+    "href": "students/louis_clare.html#publications",
+    "title": "Louis Clare",
     "section": "Publications",
-    "text": "Publications\n      V. C. Olaya-Agudelo*, B. Stewart*, et al. Simulating open-system molecular dynamics on analog quantum computers (2025), Physical Review Research 7(2), 23215, 10.1103/PhysRevResearch.7.023215, (*equal contribution).\n      P. B. Karadakov, B. Stewart, D. L. Cooper. Magnetic Shielding Analysis of Bonding in [1.1.1]Propellane (2023), The Journal of Physical Chemistry A 127(4), 861–869, 10.1021/acs.jpca.2c06450."
+    "text": "Publications\n      R. Mok, F. Akhtar, L. Clare, C. Li, J. Ida, L. Ross, M. Campanelli. Using large language models for grading in education: an applied test for physics (2025), Physics Education 60(3), 10.1088/1361-6552/adb92b."
   },
   {
-    "objectID": "students/ben_stewart.html#education",
-    "href": "students/ben_stewart.html#education",
-    "title": "Ben Stewart",
+    "objectID": "students/louis_clare.html#education",
+    "href": "students/louis_clare.html#education",
+    "title": "Louis Clare",
     "section": "Education",
-    "text": "Education\n      University of Sydney | Sydney, NSW, AustraliaMSc Research Placement | 2022 – 2023\n      University of York | York, UKMSc (Integrated) in Chemistry | 2019 – 2023"
+    "text": "Education\n      University College London | London, UKBSc in Theoretical Physics | Sept 2021 – June 2024\n      Imperial College London | London, UKMSc in Applied Mathematics | Oct 2024 – September 2025"
+  },
+  {
+    "objectID": "students/maciej_Kaczorek.html",
+    "href": "students/maciej_Kaczorek.html",
+    "title": "Maciej Kaczorek",
+    "section": "",
+    "text": "Maciej Kaczorek is a current CCMI CDT PhD student. He graduated from University College London with an MSc degree in Machine Learning. Currently, Maciej is working with Martin Benning and Nicholas Lesica on Improving impaired hearing through sound reconstruction from neural activity patterns.\nOutside academia he’s interested in electronic music and speciality coffee."
+  },
+  {
+    "objectID": "students/maciej_Kaczorek.html#interests",
+    "href": "students/maciej_Kaczorek.html#interests",
+    "title": "Maciej Kaczorek",
+    "section": "Interests",
+    "text": "Interests\n      \n        Machine Learning        Neuroscience        Inverse Problems        Audio Processing"
+  },
+  {
+    "objectID": "students/maciej_Kaczorek.html#publications",
+    "href": "students/maciej_Kaczorek.html#publications",
+    "title": "Maciej Kaczorek",
+    "section": "Publications",
+    "text": "Publications\n      P. Arina, D. Ferrari, M. R. Kaczorek, N. Tetlow, A. Dewar, R. Stephens, D. Martin, R. Moonesinghe, M. Singer, J. Whittle, E. B. Mazomenos. Assessing perioperative risks in a mixed elderly surgical population using machine learning: A multi-objective symbolic regression approach to cardiorespiratory fitness derived from cardiopulmonary exercise testing (2025), PLOS Digital Health 4(5), 10.1371/journal.pdig.0000851.\n      P. Arina, J. Whittle, M. R. Kaczorek, D. Ferrari, N. Tetlow, A. Dewar, R. Stephens, D. Martin, S. R. Moonesinghe, E. B. Mazomenos, M. Singer. Metabolic Flexibility as a Candidate Mechanism for the Development of Postoperative Morbidity (2025), Anesthesia & Analgesia 141(5), 1078–1088, 10.1213/ANE.0000000000007494.\n      P. Arina, M. R. Kaczorek, D. A. Hofmaenner, W. Pisciotta, P. Refinetti, M. Singer, E. B. Mazomenos, J. Whittle. Prediction of Complications and Prognostication in Perioperative Medicine: A Systematic Review and PROBAST Assessment of Machine Learning Tools (2024), Anesthesiology 140(1), 85–101, 10.1097/ALN.0000000000004764."
+  },
+  {
+    "objectID": "students/maciej_Kaczorek.html#education",
+    "href": "students/maciej_Kaczorek.html#education",
+    "title": "Maciej Kaczorek",
+    "section": "Education",
+    "text": "Education\n      University College London | London, UKBEng Electronic and Electrical Engineering | Sept 2019 – July 2022\n      University College London | London, UKMSc Data Science and Machine Learning | Sept 2023 – Sept 2024"
+  },
+  {
+    "objectID": "students/shany_neeman.html",
+    "href": "students/shany_neeman.html",
+    "title": "Shany Neeman",
+    "section": "",
+    "text": "Shany is a data scientist with extensive industry experience who has chosen to expand her expertise through computational research. Her PhD research focuses on developing neural operators for solving high-frequency problems in acoustics."
+  },
+  {
+    "objectID": "students/shany_neeman.html#interests",
+    "href": "students/shany_neeman.html#interests",
+    "title": "Shany Neeman",
+    "section": "Interests",
+    "text": "Interests\n      \n        Numerical Analysis        PINNS        Fast Solvers        Low Rank Approximations"
+  },
+  {
+    "objectID": "students/shany_neeman.html#publications",
+    "href": "students/shany_neeman.html#publications",
+    "title": "Shany Neeman",
+    "section": "Publications",
+    "text": "Publications\n      Shany Neeman, Haim Avron, Petros Drineas. Low-rank updates of matrix square roots (2022), Numerical Linear Algebra With Application 31."
+  },
+  {
+    "objectID": "students/shany_neeman.html#education",
+    "href": "students/shany_neeman.html#education",
+    "title": "Shany Neeman",
+    "section": "Education",
+    "text": "Education\n      Technion | Haifa, IsraelBSc in Computer Science | Sept 2009 – June 2013\n      Tel Aviv University | Tel Aviv, IsraelMSc in Applied Mathematics | Sept 2016 – May 2022"
+  },
+  {
+    "objectID": "students/miguel_lara.html",
+    "href": "students/miguel_lara.html",
+    "title": "Miguel Lara-Rangel",
+    "section": "",
+    "text": "I am a PhD student working on uncertainty-aware AI for informed decision-making, with a focus on applications in climate and finance. I have several years of experience implementing and leading applied AI projects across banking, financial risk, and pharma, including work on statistical model governance and model risk (regulation). In parallel, I like to contribute to initiatives that expand AI literacy, education, and policy capacity in emerging markets."
+  },
+  {
+    "objectID": "students/miguel_lara.html#interests",
+    "href": "students/miguel_lara.html#interests",
+    "title": "Miguel Lara-Rangel",
+    "section": "Interests",
+    "text": "Interests\n      \n        Foundational AI and learning theory        Uncertainty quantification and probabilistic machine learning        Model risk management, AI regulation and accountability        AI for climate and environmental decision-making        Quantitative finance and risk management        Philosophy and history"
+  },
+  {
+    "objectID": "students/miguel_lara.html#publications",
+    "href": "students/miguel_lara.html#publications",
+    "title": "Miguel Lara-Rangel",
+    "section": "Publications",
+    "text": "Publications\n      J. M. Lara-Rangel, et al.. Exploring Pseudo-Token Approaches in Transformer Neural Processes (2025), AABI 2025.\n      J. M. Lara-Rangel, et al.. Learning to Forget with Hypernetworks (2024), AdvML-Frontiers @ NeurIPS 2024.\n      J. M. Lara-Rangel, et al.. On the Limits of Applying Graph Transformers for Brain Connectome Classification (2025), ICBINB @ ICLR 2025."
+  },
+  {
+    "objectID": "students/miguel_lara.html#education",
+    "href": "students/miguel_lara.html#education",
+    "title": "Miguel Lara-Rangel",
+    "section": "Education",
+    "text": "Education\n      University of Cambridge | Cambridge, UKMPhil in Machine Learning and Machine Intelligence | 2023 – 2024\n      Benemérita Universidad Autónoma de Puebla | Puebla, MexicoBSc in Actuarial Science | 2016 – 2020"
+  },
+  {
+    "objectID": "students/ollie_nash.html",
+    "href": "students/ollie_nash.html",
+    "title": "Oliver Nash",
+    "section": "",
+    "text": "Oliver’s PhD focuses around inference & inverse problems for stochastic interacting particle systems. Previous research has focused on small noise limits of SDEs & PINNs."
+  },
+  {
+    "objectID": "students/ollie_nash.html#interests",
+    "href": "students/ollie_nash.html#interests",
+    "title": "Oliver Nash",
+    "section": "Interests",
+    "text": "Interests\n      \n        Stochastic analysis        Applied PDE theory        Numerical analysis        Statistical inference        Dynamical systems"
+  },
+  {
+    "objectID": "students/ollie_nash.html#education",
+    "href": "students/ollie_nash.html#education",
+    "title": "Oliver Nash",
+    "section": "Education",
+    "text": "Education\n      PSL - Dauphiné & ENS | Paris, FranceM2 in Theoretical and applied mathematics | Sept 2023 – Sept 2024\n      Durham University | Durham, UKMMath in mathematics | Sep 2019 – Jul 2023"
+  },
+  {
+    "objectID": "students/skye_purchase.html",
+    "href": "students/skye_purchase.html",
+    "title": "Skye Purchase",
+    "section": "",
+    "text": "I am interested in AI safety focusing on alignment and interpretability. I am currently focusing on aligning diffusion models to physics simulations and general spatio-temporal data.\nOutside of academia I am a member of the Imperial Ceilidh band and run my own folk dancing session Oval English Country Dance. I love climbing, gardening, crocheting and am an avid believer in visible mending."
+  },
+  {
+    "objectID": "students/skye_purchase.html#interests",
+    "href": "students/skye_purchase.html#interests",
+    "title": "Skye Purchase",
+    "section": "Interests",
+    "text": "Interests\n      \n        Folk dance and music        Climbing        Crochet and cross stitch        Open source development        Gardening"
+  },
+  {
+    "objectID": "students/skye_purchase.html#publications",
+    "href": "students/skye_purchase.html#publications",
+    "title": "Skye Purchase",
+    "section": "Publications",
+    "text": "Publications\n      S. Purchase, Y. Zhao, R. D. Mullins. Revisiting Embeddings for Graph Neural Networks (2022), Learning on Graphs Conference, 10.48550/arXiv.2209.09338."
+  },
+  {
+    "objectID": "students/skye_purchase.html#education",
+    "href": "students/skye_purchase.html#education",
+    "title": "Skye Purchase",
+    "section": "Education",
+    "text": "Education\n      University of Cambridge | Cambridge, UKBA in Computer Science | Sept 2020 – June 2023\n      University College London | London, UKMSc in Machine Learning | Sept 2024 – Sept 2025"
+  },
+  {
+    "objectID": "students/kelan_gray.html",
+    "href": "students/kelan_gray.html",
+    "title": "Kelan Gray",
+    "section": "",
+    "text": "I am a mathematics PhD student at Imperial working on Koopman operator learning for nonlinear partial differential equations, advised by Dr. Nicolas Boullé and Dr. Matthew Colbrook."
+  },
+  {
+    "objectID": "students/kelan_gray.html#interests",
+    "href": "students/kelan_gray.html#interests",
+    "title": "Kelan Gray",
+    "section": "Interests",
+    "text": "Interests\n      \n        Koopman Operators"
+  },
+  {
+    "objectID": "students/kelan_gray.html#education",
+    "href": "students/kelan_gray.html#education",
+    "title": "Kelan Gray",
+    "section": "Education",
+    "text": "Education\n      University of Amsterdam | Amsterdam, NetherlandsMsc Mathematics | Sept 2023 – Jul 2025\n      University of Manchester | Manchester, UKBsc in Mathematics with Computer Science | Sep 2020 – Jul 2023"
   },
   {
     "objectID": "students/callum_lau.html",
