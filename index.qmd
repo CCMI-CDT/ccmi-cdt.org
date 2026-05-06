@@ -38,13 +38,13 @@ gallery-images:
 <section id="gallery">
 <div class="gallery__inner">
 <div class="gallery__item">
-![]({{< meta gallery-images.image1.image >}}){.d-block .w-100 group="intro-gallery" fig-alt="Image of UCL Quad"}
+<img src="{{< meta gallery-images.image1.image >}}" class="d-block w-100 img-fluid" data-group="intro-gallery" alt="Image of UCL Quad">
 <div class="gallery__item__caption d-sm-block">
 <p>{{< meta gallery-images.image1.text >}}</p>
 </div>
 </div>
 <div class="gallery__item">
-![]({{< meta gallery-images.image2.image >}}){.d-block .w-100 group="intro-gallery" fig-alt="Image of Imperial College"}
+<img src="{{< meta gallery-images.image2.image >}}" class="d-block w-100 img-fluid" data-group="intro-gallery" alt="Image of Imperial College">
 <div class="gallery__item__caption d-sm-block">
 <p>{{< meta gallery-images.image2.text >}}</p>
 </div>

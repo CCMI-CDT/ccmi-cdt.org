@@ -9,7 +9,7 @@ categories: [News]
 
 **LOCATION:** Function space, UCL AI Centre, 90 High Holborn, London WC1V 6BH
 
-**TIME:** 14:00-15:00, 13/01/2026
+**TIME:** 14:00-15:00, 10/02/2026
 
 **SPEAKER:** Gabriel Peyré (École normale supérieure, Paris)
 
