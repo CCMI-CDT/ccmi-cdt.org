@@ -1,0 +1,31 @@
+---
+name: "Jordan"
+surname: "Simbananiye"
+image: ../static/people/students/jordan_simbananiye.jpg
+
+github: jsimbadev
+
+info:
+  - "I've worked as a software engineer for almost a decade, building distributed systems, Machine Learning Infrastructure, data pipelines, and research tooling. I'm currently a PhD student, working with Matthew Graham and Samuel Livingstone geometry-aware Monte Carlo methods for statistical inference. I'm a father of two, so outside of research I'm often rolling around and playing with my kids ^^"
+
+research_interests:
+  - Monte Carlo methods
+  - Stochastic Approximation
+  - Geometric Inference
+  - Dynamical Systems
+
+personal_interests:
+  - Manga + Anime
+  - Football
+  - Basketball
+
+education:
+  - institution: University of Southampton
+    location: Southampton, UK
+    degree: MPhys Physics
+    startdate: Sept 2013
+    enddate: July 2017
+
+---
+
+{{< academic-webpage >}}
