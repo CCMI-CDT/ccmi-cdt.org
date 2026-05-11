@@ -11,9 +11,9 @@ categories: [News]
 
 **TIME:** 14:00-15:00, 12/05/2026
 
-**SPEAKER:** Adrianna Gillman (Inria)
+**SPEAKER:** Adrianna Gillman (University of Colorada Boulder)
 
-**TITLE:** Modeling and simulation of cardiac hemodynamics  
+**TITLE:** An efficient and high order accurate solution technique for variable coefficient elliptic partial differential equations
 
 **ABSTRACT:** 
 For many applications in science and engineering, the ability to efficiently and accurately approximate solutions to elliptic PDEs dictates
