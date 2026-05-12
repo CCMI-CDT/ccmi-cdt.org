@@ -73,6 +73,31 @@ return {
         content = content .. "    </section>\n"
     end
 
+    if not isEmpty(meta["research_interests"]) then
+        content = content .. "    <section id=\"research_interests\" class=\"level2\">\n"
+        content = content .. "      <h2 data-anchor-id=\"research_interests\">Research Interests</h2>\n"
+        content = content .. "      <ul>\n"
+        local research_interests = meta["research_interests"]
+        for i=1, #research_interests do
+            content = content .. "        <li>" .. pandoc.utils.stringify(research_interests[i]) .. "</li>"
+        end
+        content = content .. "      </ul>\n"
+        content = content .. "    </section>\n"
+    end
+
+
+    if not isEmpty(meta["personal_interests"]) then
+        content = content .. "    <section id=\"personal_interests\" class=\"level2\">\n"
+        content = content .. "      <h2 data-anchor-id=\"personal_interests\">Personal Interests</h2>\n"
+        content = content .. "      <ul>\n"
+        local personal_interests = meta["personal_interests"]
+        for i=1, #personal_interests do
+            content = content .. "        <li>" .. pandoc.utils.stringify(personal_interests[i]) .. "</li>"
+        end
+        content = content .. "      </ul>\n"
+        content = content .. "    </section>\n"
+    end
+
     if not isEmpty(meta["publications"]) then
         content = content .. "    <section id=\"publications\" class=\"level2\">\n"
         content = content .. "      <h2 data-anchor-id=\"publications\">Publications</h2>\n"
