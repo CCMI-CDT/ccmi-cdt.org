@@ -1,0 +1,18 @@
+---
+title: "Seminar on chaotic dynamical systems"
+author: "Timo Betcke"
+event_date: "01/13/2026"
+date: "01/13/2026"
+summary: "Prof Peter Coveny from UCL will talk about conventional and AI based predictions of chaotic dynamical systems."
+categories: [News]
+---
+
+**LOCATION:** First Floor, Function Room, 90 High Holborn WC1V 6BH
+
+**TIME:** 14:00-15:00, 13/01/2026
+
+**SPEAKER:** Prof Peter Coveney, Director of the Centre for Computational Science (CCS) at University College London, Professor in Applied High Performance Computing at the University of Amsterdam and Professor Adjunct at Yale University School of Medicine.
+
+**TITLE:** Actionable Predictions for Chaotic Dynamical Systems: Conventional, Quantum & Analogue Approaches With & Without AI
+
+**ABSTRACT:** I will discuss the use of theory, modelling & simulation as well as artificial intelligence to predict the long time behaviour of chaotic dynamical systems. 

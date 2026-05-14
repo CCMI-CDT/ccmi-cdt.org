@@ -1,0 +1,32 @@
+---
+name: "Anees"
+surname: "Hussain"
+image: ../static/people/students/Anees.jpg
+
+orcid: 0009-0000-2414-8569
+github: AHA-HH
+
+info:
+  - "UCL Mathematics PhD student under Prof. Timo Betcke and Prof. Martin Benning."
+  - "Currently working with Neural Operators."
+interests:
+  - "Quantitative Finance"
+
+publications:
+
+education:
+  - institution: University College London
+    location: London, UK
+    degree: MSc Computational Finance
+    startdate: Sept 2023
+    enddate: Aug 2024
+
+  - institution: Queen Mary University of London
+    location: London, UK
+    degree: BSc Mathematics and Statistics
+    startdate: Sept 2018
+    enddate: Aug 2021
+
+---
+
+{{< academic-webpage >}}

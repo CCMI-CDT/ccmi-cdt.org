@@ -45,6 +45,9 @@ return {
     if not isEmpty(meta["github"]) then
        content = content .. "      <a href=\"https://github.com/" .. pandoc.utils.stringify(meta["github"]) .. "\" class=\"about-link\"><i class=\"fa-brands fa-github\"></i> Github</span></a>\n"
     end
+    if not isEmpty(meta["linkedin"]) then
+       content = content .. "      <a href=\"https://www.linkedin.com/in/" .. pandoc.utils.stringify(meta["linkedin"]) .. "\" class=\"about-link\"><i class=\"fa-brands fa-linkedin\"></i> LinkedIn</span></a>\n"
+    end
     if not isEmpty(meta["bluesky"]) then
        content = content .. "      <a href=\"https://bsky.app/profile/" .. pandoc.utils.stringify(meta["bluesky"]) .. "\" class=\"about-link\"><i class=\"fa-brands fa-bluesky\"></i> Bluesky</span></a>\n"
     end
@@ -65,6 +68,31 @@ return {
         local interests = meta["interests"]
         for i=1, #interests do
             content = content .. "        <li>" .. pandoc.utils.stringify(interests[i]) .. "</li>"
+        end
+        content = content .. "      </ul>\n"
+        content = content .. "    </section>\n"
+    end
+
+    if not isEmpty(meta["research_interests"]) then
+        content = content .. "    <section id=\"research_interests\" class=\"level2\">\n"
+        content = content .. "      <h2 data-anchor-id=\"research_interests\">Research Interests</h2>\n"
+        content = content .. "      <ul>\n"
+        local research_interests = meta["research_interests"]
+        for i=1, #research_interests do
+            content = content .. "        <li>" .. pandoc.utils.stringify(research_interests[i]) .. "</li>"
+        end
+        content = content .. "      </ul>\n"
+        content = content .. "    </section>\n"
+    end
+
+
+    if not isEmpty(meta["personal_interests"]) then
+        content = content .. "    <section id=\"personal_interests\" class=\"level2\">\n"
+        content = content .. "      <h2 data-anchor-id=\"personal_interests\">Personal Interests</h2>\n"
+        content = content .. "      <ul>\n"
+        local personal_interests = meta["personal_interests"]
+        for i=1, #personal_interests do
+            content = content .. "        <li>" .. pandoc.utils.stringify(personal_interests[i]) .. "</li>"
         end
         content = content .. "      </ul>\n"
         content = content .. "    </section>\n"
@@ -104,6 +132,9 @@ return {
             if not isEmpty(p["doi"]) then
                 local doi = pandoc.utils.stringify(p["doi"])
                 content = content .. ", <a href=\"https://dx.doi.org/" .. doi .. "\">" .. doi .. "</a>"
+            end
+            if not isEmpty(p["note"]) then
+                content = content .. ", " .. pandoc.utils.stringify(p["note"])
             end
             content = content .. "."
             content = content .. "</p>\n"

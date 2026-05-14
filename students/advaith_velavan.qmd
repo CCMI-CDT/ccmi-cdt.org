@@ -1,0 +1,20 @@
+---
+name: "Advaith"
+surname: "Velavan"
+image: https://github.com/avelavan.png
+github: avelavan
+info:
+  - "I am working on building novel numerical methods to solve mean-field games in a high-dimensional setting with Dr. Dante Kalise."
+interests:
+  - Numerical analysis
+  - ML for Differential Equations
+  - Tennis
+education:
+  - institution: Imperial College London
+    location: London, UK
+    degree: MSci Mathematics
+    startdate: Oct 2020
+    enddate: Jun 2025
+---
+
+{{< academic-webpage >}}

@@ -1,0 +1,18 @@
+---
+title: "Seminar on randomized algorithms in numerical linear algebra"
+author: "Timo Betcke"
+event_date: "01/27/2026"
+date: "01/21/2026"
+summary: "Prof Stefan Guettel is discussing applications of randomized linear algebra."
+categories: [News]
+---
+
+**LOCATION:** CHEM C660, Imperial. South Kensington Campus
+
+**TIME:** 14:00-15:00, 27/01/2026
+
+**SPEAKER:** Prof Stefan Guettel, Department of Mathematics, University of Manchester
+
+**TITLE:** Randomized algorithms in numerical linear algebra
+
+**ABSTRACT:** Randomization is an established technique to speed up the numerical solution of very large-scale linear algebra problems that have some form of redundancy, with overdetermined least-squares problems and low-rank matrix approximation being the most prominent examples. Until recently, it has been less clear how to apply randomization to problems that do not have inherent redundancy, including linear systems of equations, matrix functions, and (non)linear eigenvalue problems. I will discuss some recent ideas to speed up computational methods for these problems. I will also report on experiences of using such randomized methods within the software ecosystem of a large industry partner.
