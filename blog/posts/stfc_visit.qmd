@@ -1,0 +1,19 @@
+---
+title: "Visit of the CDT to STFC Rutherford Appleton Laboratory"
+author: "Timo Betcke"
+date: "06/03/2026"
+summary: "On 26 May our CDT visited the STFC Rutherford Appleton Laboratory to learn about their research in scientific computing."
+categories: [News]
+
+---
+On one of the hottest days of the year, reaching 34 degrees Celsius in London, our students met at 7:30 in the morning at London Paddington station to make the trip via Didcot Parkway to the STFC Rutherford Appleton Laboratory.
+
+The visit was organised by [Bryce Shirley](https://www.stfc.ac.uk/people/bryce-shirley), who is one of our first cohort students, and is doing a part-time PhD with us while working at STFC.
+
+For our visit we were hosted by the Scientific Computing Department at STFC. The morning was filled with overview presentations about the CDT and about the research at STFC. We then had the wonderful opportunity to tour the [Diamond Light Source][https://www.diamond.ac.uk/Home.html], the UK's national synchrotron science facility.
+
+After a refreshing lunch away from the heat we then had an afternoon filled with short presentations about concrete projects by our students and by STFC researchers. In between we got the chance for a guided tour at [ISIS][https://www.isis.stfc.ac.uk], the UK's world leading neutron and muon source.
+
+It was a wonderful day. Not only were we able to meet and interact with the researchers at STFC's scientific comnputing group, we also got to see some of the most exciting scientific facilities the UK has to offer.
+
+We are very grateful to Bryce for organising the visit and for the STFC Scientific Computing Department for hosting us and giving us such a wonderful experience.
