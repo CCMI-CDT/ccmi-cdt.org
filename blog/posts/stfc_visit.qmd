@@ -2,7 +2,7 @@
 title: "Visit of the CDT to STFC Rutherford Appleton Laboratory"
 author: "Timo Betcke"
 date: "06/03/2026"
-summary: "On 26 May our CDT visited the STFC Rutherford Appleton Laboratory to learn about their research in scientific computing. 
+summary: "On 26 May our CDT visited the STFC Rutherford Appleton Laboratory to learn about their research in scientific computing."
 categories: [News]
 
 ---
