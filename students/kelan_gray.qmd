@@ -3,10 +3,22 @@ name: "Kelan"
 surname: "Gray"
 image: ../static/people/students/kelan_gray.jpeg
 github: kelangray
+homepage: https://kelangray.github.io/
 info:
-  - "I am a mathematics PhD student at Imperial working on Koopman operator learning for nonlinear partial differential equations, advised by Dr. Nicolas Boullé and Dr. Matthew Colbrook. "
+  - "Hello! My name is Kelan. I am a PhD student in the Department of Mathematics at Imperial College London, supervised by Nicolas Boullé and Matthew Colbrook. My main research focus is the development of data-driven methods for partial differential equations, particularly through the lens of Koopman operators."
 interests:
-  - Koopman Operators
+  - Climbing
+  - Guitar
+publications:
+  - authors:
+      - K. Gray
+      - F. Brown
+      - N. Boullé
+      - M. J. Colbrook
+    title: Deep Embedded Multiplicative DMD for Algebra-Preserving Koopman Learning
+    year: 2026
+    journal: arXiv preprint
+    note: '<a href="https://arxiv.org/abs/2606.05131">arXiv:2606.05131</a>'
 education:
   - institution: University of Amsterdam
     location: Amsterdam, Netherlands
