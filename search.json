@@ -1047,14 +1047,21 @@
     "href": "students/kelan_gray.html",
     "title": "Kelan Gray",
     "section": "",
-    "text": "I am a mathematics PhD student at Imperial working on Koopman operator learning for nonlinear partial differential equations, advised by Dr. Nicolas Boullé and Dr. Matthew Colbrook."
+    "text": "Hello! My name is Kelan. I am a PhD student in the Department of Mathematics at Imperial College London, supervised by Nicolas Boullé and Matthew Colbrook. My main research focus is the development of data-driven methods for partial differential equations, particularly through the lens of Koopman operators."
   },
   {
     "objectID": "students/kelan_gray.html#interests",
     "href": "students/kelan_gray.html#interests",
     "title": "Kelan Gray",
     "section": "Interests",
-    "text": "Interests\n      \n        Koopman Operators"
+    "text": "Interests\n      \n        Climbing        Guitar"
+  },
+  {
+    "objectID": "students/kelan_gray.html#publications",
+    "href": "students/kelan_gray.html#publications",
+    "title": "Kelan Gray",
+    "section": "Publications",
+    "text": "Publications\n      K. Gray, F. Brown, N. Boullé, M. J. Colbrook. Deep Embedded Multiplicative DMD for Algebra-Preserving Koopman Learning (2026), arXiv preprint, arXiv:2606.05131."
   },
   {
     "objectID": "students/kelan_gray.html#education",
