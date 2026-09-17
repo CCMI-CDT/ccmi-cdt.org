@@ -6,13 +6,13 @@ linkedin: oliver-nash1
 orcid: 0009-0005-1167-0733
 github: OllieNash
 info:
-  - "Oliver's PhD focuses around inference & inverse problems for stochastic interacting particle systems. Previous research has focused on small noise limits of SDEs & PINNs."
+  - "Oliver's PhD focuses on inference & inverse problems for stochastic interacting particle systems. He is supervised by Professor Grigorios Pavliotis and Dr Nikolas Kantas. Previous research has focused on small noise limits of SDEs & PINNs."
+  - "He is an Imperial Sports Scholar for Fencing currently holding a top 50 British ranking."
 interests:
   - Stochastic analysis 
   - Applied PDE theory 
   - Numerical analysis 
-  - Statistical inference
-  - Dynamical systems 
+  - Statistical inference 
 education:
   - institution: "PSL - Dauphiné & ENS"
     location: Paris, France
@@ -24,6 +24,10 @@ education:
     degree: MMath in mathematics
     startdate: Sep 2019
     enddate: Jul 2023
+Publications: 
+   title: SPDEBench, An Extensive Benchmark for Learning Stochastic PDEs
+   year: 2026
+   doi: 10.48550/arXiv.2505.18511 
 ---
 
 {{< academic-webpage >}}

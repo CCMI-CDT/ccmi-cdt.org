@@ -38,13 +38,13 @@ gallery-images:
 <section id="gallery">
 <div class="gallery__inner">
 <div class="gallery__item">
-![]({{< meta gallery-images.image1.image >}}){.d-block .w-100 group="intro-gallery" fig-alt="Image of UCL Quad"}
+<img src="{{< meta gallery-images.image1.image >}}" class="d-block w-100 img-fluid" data-group="intro-gallery" alt="Image of UCL Quad">
 <div class="gallery__item__caption d-sm-block">
 <p>{{< meta gallery-images.image1.text >}}</p>
 </div>
 </div>
 <div class="gallery__item">
-![]({{< meta gallery-images.image2.image >}}){.d-block .w-100 group="intro-gallery" fig-alt="Image of Imperial College"}
+<img src="{{< meta gallery-images.image2.image >}}" class="d-block w-100 img-fluid" data-group="intro-gallery" alt="Image of Imperial College">
 <div class="gallery__item__caption d-sm-block">
 <p>{{< meta gallery-images.image2.text >}}</p>
 </div>
@@ -60,7 +60,8 @@ gallery-images:
 </section>
 
 <section id="interest" class="column-page page-full">
-<h1 class="d-flex justify-content-center display-1 fw-bolder">Would you like to join?</h1>
+<h1 class="d-flex justify-content-center display-1 fw-bolder">One UCL based studentship still available.</h1> <br>
+We have one additional studentship available for 2026 entry to work on numerical projects within the UCL Department of Mathematics. If you are interested, please apply below by 12 June 2026, 17:00 (GMT). **Please do not apply again if you have already applied earlier in this cycle.**
 <div class="d-flex flex-column justify-content-center align-items-center row-gap-4">
 <a href="./apply.html" type="button" class="btn btn-outline my-3" id="btn--signup">
 <span class="display-6">Apply for 2026 entry into the CDT</span>
