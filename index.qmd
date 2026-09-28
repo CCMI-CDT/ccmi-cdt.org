@@ -87,7 +87,7 @@ Read About Our Software
 <br>
 
 <section id="key-facts" class="column-page page-full pt-3">
-<h1 class="key-facts__heading display-1">KEY FACTS</h1>
+<h2 class="key-facts__heading display-1">KEY FACTS</h2>
 
 <div id="key-facts__list">
 </div>

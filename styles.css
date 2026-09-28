@@ -297,6 +297,7 @@ ul:not(.navbar-nav) > li {
 
     .key-facts__heading {
         color: var(--cream);
+        border-bottom: none;
         margin-inline-start: 10vw;
         font-weight: 600;
     }
@@ -381,8 +382,7 @@ ul:not(.navbar-nav) > li {
     }
 
     /* the UKRI and CCMI logos are dark-on-light, so give them a cream tile on the navy footer */
-    img[alt="UKRI logo"],
-    img[alt="CCMI logo"] {
+    .logo--tile {
         background: var(--cream);
         padding: 8px 14px;
         border-radius: 12px;
@@ -517,17 +517,17 @@ ul:not(.navbar-nav) > li {
         padding: 1.2rem 2rem 1.4rem;
         margin-inline: 1rem;
 
-        h3 {
+        .h3 {
             color: var(--navy);
         }
     }
 
     /* the funding line and logos sit on the navy front wave */
-    h5 {
+    .h5 {
         color: var(--cream);
     }
 
-    h5 a {
+    .h5 a {
         color: var(--peach);
         &:hover {
             color: var(--cream);
@@ -658,4 +658,10 @@ nav a:focus-visible,
             transform: none !important;
         }
     }
+}
+
+.card h2.card-title {
+    /* card titles that are h2 for heading order shouldn't get Quarto's h2 underline */
+    border-bottom: none;
+    padding-bottom: 0;
 }
