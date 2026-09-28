@@ -55,6 +55,17 @@ h1, h2, h3, h4, h5, h6,
     letter-spacing: -0.01em;
 }
 
+.btn,
+.btn .display-6 {
+    /* buttons use the body font, even when they contain display text */
+    font-family: var(--font-body);
+    letter-spacing: normal;
+}
+
+.btn .display-6 {
+    font-weight: 600;
+}
+
 nav {
     /* navbar at the top */
     font-size: 1rem;
