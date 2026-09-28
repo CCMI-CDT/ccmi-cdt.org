@@ -12,6 +12,7 @@
     --terracotta: #c4552b;
     --terracotta-deep: #b84e28;
     --teal: #4bbbbd;
+    --teal-deep: #2e8f91; /* teal that meets 3:1 on cream, for borders */
     --peach: #f6c9a8;
     --ink: #2b2a33;
     --warm-shadow: 0 8px 30px rgba(120, 80, 40, 0.08);
@@ -508,8 +509,20 @@ ul:not(.navbar-nav) > li {
     min-height: 60vh;
     padding-bottom: 2vh;
 
-    /* the footer text sits on the navy front wave */
-    h3,
+    /* the contact heading can land on either wave, so it gets its own cream card */
+    #contact-us {
+        background: rgba(251, 247, 240, 0.94);
+        border-radius: 16px;
+        box-shadow: var(--warm-shadow);
+        padding: 1.2rem 2rem 1.4rem;
+        margin-inline: 1rem;
+
+        h3 {
+            color: var(--navy);
+        }
+    }
+
+    /* the funding line and logos sit on the navy front wave */
     h5 {
         color: var(--cream);
     }
@@ -590,7 +603,7 @@ ul:not(.navbar-nav) > li {
     border-radius: 4px;
     color: var(--navy);
     text-decoration: none;
-    border: solid 1px var(--teal);
+    border: solid 1px var(--teal-deep);
     display: inline-block;
     margin: .1em;
 }
@@ -610,5 +623,39 @@ ul:not(.navbar-nav) > li {
     .callout-header {
         color: var(--navy);
         font-size: 1rem;
+    }
+}
+
+.quarto-category {
+    /* Quarto's grey category chips are below 4.5:1 on cream */
+    color: var(--navy) !important;
+    opacity: 1 !important;
+}
+
+a:focus-visible,
+.btn:focus-visible,
+#btn--signup:focus-visible,
+.btn--contact:focus-visible {
+    /* visible keyboard focus; the buttons' own shadows otherwise hide Bootstrap's ring */
+    outline: 3px solid var(--navy);
+    outline-offset: 3px;
+}
+
+nav a:focus-visible,
+#key-facts a:focus-visible,
+.footer__info a:focus-visible {
+    outline-color: var(--cream);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    /* drop the hover lifts; layout transforms (gallery captions, title) stay */
+    #btn--signup,
+    .post-container .card,
+    .phd-project-container .card {
+        transition: none !important;
+
+        &:hover {
+            transform: none !important;
+        }
     }
 }
