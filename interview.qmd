@@ -5,16 +5,16 @@ title: "Interview preparation"
 This page collects some information for applicants who have been shortlisted to the interview stage. 
 
 
-### Time and Location
+## Time and Location
 
 The next round of interviews takes place in the week from 23 February. Applicants will be sent an online invite for a Zoom interview
 with a timeslot in those two days. All interviews are online.
 
-### Interview panel
+## Interview panel
 
 The panel for each interview will consist of two to three academic members of staff across UCL and Imperial.
 
-### The setup of the interview
+## The setup of the interview
 
 The interview will be roughly 30-35 minutes in length and consist of three parts.
 
@@ -29,7 +29,7 @@ the software journey programme of the CDT is given below.
 that would be most suitable for you. We want to know what areas you are most interested in and why. We will ask you how a PhD helps
 your desired career path, and how your previous education has prepared you to do research on a PhD level in your desired research area.
 
-### What to expect after the interview?
+## What to expect after the interview?
 
 We are aiming to make decisions within a few days after your interview. If after the interview you are shortlisted for project selection there will be a two weeks getting to know phase, in which you can talk to supervisors, discuss projects in detail with us, and can get
 to know potential supervisors at open events. By the end of this phase we will ask you to submit your preferred PhD topics. We will aim
@@ -41,7 +41,7 @@ If you have not been shortlisted after interview we may still contact you later 
 In any case, we will be very happy to give you interview feedback if you request it from us.
 
 
-### Preparation Material for the Interview
+## Preparation Material for the Interview
 
 We will ask you to give a 5 minutes presentation about one of the following papers. Try to focus on the key idea of your chosen paper and think how you can convey it within the given 5 minutes.
 
@@ -65,11 +65,11 @@ Students will be mentored by professional research software engineers from UCL's
 
 Software projects will be actively advertised on the CDT homepage, at relevant conferences and showcased once a year at a CDT event for the broader community.
 
-### Extenuating circumstances
+## Extenuating circumstances
 
 If you have extenuating circumstances that require reasonable adjustments for the interview please let us know as soon as possible so that we can plan accordingly. If you are feeling ill on the day of the interview please also let us know straight away so we can work out alternative arrangements with you.
 
-### A word of encouragement
+## A word of encouragement
 
 All of us have gone through important interviews and all of us have been nervous and we are still getting nervous ourselves when interviewed for e.g. important grant applications or promotions. All of this is normal and does not work against you. So if you feel overwhelmed in the interview just stop for a moment and take a breather. We all understand this and it is perfectly fine.
 Should you feel too nervous in the interview we will try to give you break and continue later in the day if possible.
