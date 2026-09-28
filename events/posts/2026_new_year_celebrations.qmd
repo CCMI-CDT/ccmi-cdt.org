@@ -1,0 +1,26 @@
+---
+title: "CCMI New year celebrations"
+author: "Timo Betcke"
+event_date: "10/06/2026"
+date: "09/28/2026"
+summary: "We are celebrating the beginning of the new year. Guest speaker will be Prof Anna-Karin Tornberg from KTH Stockholm."
+categories: [News]
+---
+
+Everybody is invited to celebrate the beginning of the new year together with our new students and our guest speaker Prof Anna-Karin Tornberg.
+
+The abstract of her seminar is given below. You can find further event details and an option to sign up at [Eventbrite](https://www.eventbrite.co.uk/e/2000965939991?aff=oddtdtcreator).
+
+**LOCATION:** 90 High Holborn, London WC1V 6BH
+
+**TIME:** 14:00, Tuesday 6 October 2026
+
+**SPEAKER:** Prof Anna-Karin Tornberg (KTH Stockholm)
+
+**TITLE:** A preconditioned method of fundamental solutions (MFS) for dense Stokes suspensions
+
+**ABSTRACT:** The Stokes mobility and resistance problems for rigid particles in viscous flows appear in many natural phenomena and engineering applications. In this talk, I will present a method of fundamental solutions (MFS) that preserves several key advantages of boundary integral methods (BIMs), including spectral accuracy and a reduced number of degrees of freedom, while avoiding the need for special quadrature of singular integrals. This is achieved by placing source and collocation points on separate surfaces. For rigid particles, the flow field is represented by interior Stokeslets whose strengths are determined through a least-squares collocation procedure on the particle boundaries. With an appropriate preconditioner, the resulting formulation can be solved iteratively as a square linear system compatible with fast summation techniques such as the fast multipole method.
+
+For any numerical method, the simulation of particles in near contact remains a major challenge, since discretizations become increasingly ill-conditioned and thin lubrication gaps require prohibitively fine global resolution. To address these difficulties, we consider spherical particles and introduce a two-body preconditioning approach that enriches the MFS with contact-adapted image representations. For each nearly touching particle pair, a localized fine-scale boundary value problem is solved and compressed into a smaller number of equivalent coarse sources that are incorporated into the global solve, allowing the global discretization to remain comparatively coarse. The resulting method maintains high accuracy in close-to-touching configurations, with robust and rapid GMRES convergence.
+
+Joint work with Anna Broms, Imperial College London and Alex Barnett, The Flatiron Institute, New York.
