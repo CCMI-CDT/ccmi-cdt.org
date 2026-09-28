@@ -97,11 +97,11 @@
   {
     "listing": "/blog/blog_list.html",
     "items": [
-      "/blog/posts/nobel_prizes.html",
-      "/blog/posts/ccmi_start.html",
-      "/blog/posts/modern_hybrid_working.html",
       "/blog/posts/stfc_visit.html",
-      "/blog/posts/ccmi_the_history.html"
+      "/blog/posts/modern_hybrid_working.html",
+      "/blog/posts/ccmi_the_history.html",
+      "/blog/posts/ccmi_start.html",
+      "/blog/posts/nobel_prizes.html"
     ]
   },
   {
