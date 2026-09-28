@@ -1,0 +1,18 @@
+/*-- scss:defaults --*/
+// Warm Paper palette: logo navy and teal, with cream and terracotta for warmth.
+// Keep these in sync with the :root tokens in styles.css.
+
+$body-bg: #FBF7F0;
+$body-color: #2B2A33;
+$primary: #12406F;
+$link-color: #B84E28;
+$navbar-bg: #12406F;
+$navbar-fg: #FBF7F0;
+
+$border-radius: .75rem;
+$border-radius-lg: 1rem;
+$border-radius-sm: .5rem;
+
+$font-family-sans-serif: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+$headings-font-family: "Fraunces", Georgia, serif;
+$headings-font-weight: 550;

@@ -11,7 +11,7 @@ website:
   open-graph: true
 
   navbar:
-    background: darkblue
+    background: primary
     logo: static/assets/ccmi_rounded_colour.png
     search: true
     right:
@@ -42,11 +42,10 @@ website:
 
 format:
   html:
-    theme: default
+    theme: [default, theme.scss]
     css: styles.css
     toc: false
     smooth-scrolling: true
-    font-family: sans-serif
     include-after-body: "templates/footer.html"
 
 execute:
