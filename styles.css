@@ -289,7 +289,6 @@ ul:not(.navbar-nav) > li {
     background: linear-gradient(160deg, var(--navy) 0%, var(--navy-light) 100%);
 
     padding-top: 1vh;
-    max-width: max-content;
 
     @media only screen and (min-width: 2000px) {
         max-width: 100%;
