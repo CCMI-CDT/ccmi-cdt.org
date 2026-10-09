@@ -1,6 +1,5 @@
 ---
 title: "Seminar on AI and Scientific Computing"
-author: "Timo Betcke"
 event_date: "10/28/2025"
 date: "10/28/2025"
 summary: "Prof Petros Koumoutsakos from Harvard University is giving a seminar on AI and Scientific Computing."

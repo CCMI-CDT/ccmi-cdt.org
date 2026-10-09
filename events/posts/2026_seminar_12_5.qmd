@@ -1,6 +1,5 @@
 ---
 title: "Seminar on high order PDE solvers"
-author: "Timo Betcke"
 event_date: "05/12/2026"
 date: "05/06/2026"
 summary: "Prof Adrianna Gillman discusses fast and accurate high-order solvers for oscillatory PDEs."
