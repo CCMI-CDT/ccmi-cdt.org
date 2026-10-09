@@ -1,0 +1,12 @@
+---
+title: "CCMI Open Day"
+author: "Timo Betcke"
+event_date: "11/5/2026"
+date: "10/09/2026"
+summary: "We are organising an open day to get to know the CDT, our research and how the application process works."
+categories: [News]
+---
+
+On 5 November, there will be a CCMI CDT open day, taking place in person at UCL.
+
+More details will be added here soon.
