@@ -18,7 +18,7 @@
     --warm-shadow: 0 8px 30px rgba(120, 80, 40, 0.08);
     --warm-shadow-hover: 0 12px 34px rgba(120, 80, 40, 0.16);
     --font-heading: "Inter", sans-serif;
-    --font-heading-weight; 600;
+    --font-heading-weight: 600;
     --font-body: "Source Sans 3", sans-serif;
 }
 /* elements */
