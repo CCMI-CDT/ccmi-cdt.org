@@ -18,7 +18,7 @@
     --warm-shadow: 0 8px 30px rgba(120, 80, 40, 0.08);
     --warm-shadow-hover: 0 12px 34px rgba(120, 80, 40, 0.16);
     --font-heading: "Inter", sans-serif;
-    --font-heading-weight: 600;
+    --font-heading-weight: 700;
     --font-body: "Source Sans 3", sans-serif;
 }
 /* elements */
@@ -113,7 +113,7 @@ ul:not(.navbar-nav) > li {
 
     .main-title {
         font-size: 2.2rem;
-        font-weight: 500;
+        font-weight: var(--font-heading-weight);
         color: var(--navy);
         padding-inline: 2%;
         width: max-content;
@@ -666,4 +666,8 @@ nav a:focus-visible,
     /* card titles that are h2 for heading order shouldn't get Quarto's h2 underline */
     border-bottom: none;
     padding-bottom: 0;
+}
+
+a {
+    font-weight: inherit;
 }
