@@ -1,0 +1,11 @@
+---
+title: "CCMI Online Open Day"
+event_date: "11/11/2026"
+date: "10/09/2026"
+summary: "We are organising an online open day to get to know the CDT, our research and how the application process works."
+categories: [News]
+---
+
+On 11 November, there will be a CCMI CDT open day, taking place virtually.
+
+More details will be added here soon.

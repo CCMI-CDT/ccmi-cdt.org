@@ -1,6 +1,5 @@
 ---
 title: "Seminar on blood flow simulations"
-author: "Timo Betcke"
 event_date: "03/10/2026"
 date: "03/06/2026"
 summary: "Prof Fernandez discusses modelling approaches for bloodflow simulations in the heart."
