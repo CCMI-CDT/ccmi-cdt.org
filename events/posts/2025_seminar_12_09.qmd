@@ -1,6 +1,5 @@
 ---
 title: "Seminar on data-driven spectra in dynamical systems"
-author: "Timo Betcke"
 event_date: "12/09/2025"
 date: "12/09/2025"
 summary: "Dr Matthew Colbrook from Cambridge is talking about data science and dynamical systems."

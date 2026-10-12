@@ -1,6 +1,5 @@
 ---
 title: "Seminar on transformers"
-author: "Timo Betcke"
 event_date: "02/10/2026"
 date: "02/10/2026"
 summary: "Prof Peyré discusses new results on transformer neural networks."

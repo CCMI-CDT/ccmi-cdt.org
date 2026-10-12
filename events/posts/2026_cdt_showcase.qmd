@@ -1,6 +1,5 @@
 ---
 title: "CDT Showcase"
-author: "Timo Betcke"
 event_date: "06/10/2026"
 date: "06/03/2026"
 summary: "On 10 June 2026 we will have a showcase event to present the research of our students and to celebrate the end of our first year."

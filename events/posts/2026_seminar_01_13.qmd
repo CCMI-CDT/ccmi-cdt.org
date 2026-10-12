@@ -1,6 +1,5 @@
 ---
 title: "Seminar on chaotic dynamical systems"
-author: "Timo Betcke"
 event_date: "01/13/2026"
 date: "01/13/2026"
 summary: "Prof Peter Coveny from UCL will talk about conventional and AI based predictions of chaotic dynamical systems."

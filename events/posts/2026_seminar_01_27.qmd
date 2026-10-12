@@ -1,6 +1,5 @@
 ---
 title: "Seminar on randomized algorithms in numerical linear algebra"
-author: "Timo Betcke"
 event_date: "01/27/2026"
 date: "01/21/2026"
 summary: "Prof Stefan Guettel is discussing applications of randomized linear algebra."
