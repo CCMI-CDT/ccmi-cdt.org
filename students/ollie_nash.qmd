@@ -8,14 +8,14 @@ orcid: 0009-0005-1167-0733
 github: OllieNash
 info:
   - "Oliver's PhD focuses on inference & inverse problems for stochastic interacting particle systems. He is supervised by Professor Grigorios Pavliotis and Dr Nikolas Kantas. Previous research has focused on small noise limits of SDEs & PINNs."
-  - "He is an Imperial Sports Scholar for Fencing currently ranked 32 for Men's foil in the Uk."
+  - "He is an Imperial Sports Scholar for Fencing currently ranked 32 for Men's foil in the UK."
 interests:
   - Stochastic analysis 
   - Applied PDE theory 
   - Numerical analysis 
   - Statistical inference 
 education:
-  - institution: "PSL - Dauphiné & ENS"
+  - institution: "PSL - Dauphine & ENS"
     location: Paris, France
     degree: M2 in Theoretical and applied mathematics
     startdate: Sept 2023
@@ -26,7 +26,19 @@ education:
     startdate: Sep 2019
     enddate: Jul 2023
 publications:
-  - title: SPDEBench, An Extensive Benchmark for Learning Stochastic PDEs
+  - authors:
+    - Y. Zhu
+    - Z. Li
+    - D. Shi
+    - L. Thompson
+    - O. Nash
+    - J. M. Lara Rangel
+    - S. Li
+    - B. Chen
+    - R. Zhu
+    - Q. Meng
+    - H. Ni
+    title: "SPDEBench: An Extensive Benchmark for Learning Stochastic PDEs"
     year: 2026
     doi: 10.48550/arXiv.2505.18511
 ---
