@@ -1,6 +1,5 @@
 ---
 title: "Seminar on Low-rank approximation by column subset selection"
-author: "Timo Betcke"
 event_date: "11/11/2025"
 date: "11/11/2025"
 summary: "Dr Alice Cortinovis from the University of Pisa is presenting new results on low-rank approximations of matrices."

@@ -38,13 +38,13 @@ gallery-images:
 <section id="gallery">
 <div class="gallery__inner">
 <div class="gallery__item">
-![]({{< meta gallery-images.image1.image >}}){.d-block .w-100 group="intro-gallery" fig-alt="Image of UCL Quad"}
+<img src="{{< meta gallery-images.image1.image >}}" class="d-block w-100 img-fluid" data-group="intro-gallery" alt="Image of UCL Quad">
 <div class="gallery__item__caption d-sm-block">
 <p>{{< meta gallery-images.image1.text >}}</p>
 </div>
 </div>
 <div class="gallery__item">
-![]({{< meta gallery-images.image2.image >}}){.d-block .w-100 group="intro-gallery" fig-alt="Image of Imperial College"}
+<img src="{{< meta gallery-images.image2.image >}}" class="d-block w-100 img-fluid" data-group="intro-gallery" alt="Image of Imperial College">
 <div class="gallery__item__caption d-sm-block">
 <p>{{< meta gallery-images.image2.text >}}</p>
 </div>
@@ -60,10 +60,9 @@ gallery-images:
 </section>
 
 <section id="interest" class="column-page page-full">
-<h1 class="d-flex justify-content-center display-1 fw-bolder">Would you like to join?</h1>
 <div class="d-flex flex-column justify-content-center align-items-center row-gap-4">
-<a href="./apply.html" type="button" class="btn btn-outline my-3" id="btn--signup">
-<span class="display-6">Apply for 2026 entry into the CDT</span>
+<a href="https://forms.cloud.microsoft/e/8TZycSnFjS?origin=lprLink" type="button" class="btn btn-outline my-3" id="btn--signup">
+<span class="display-6">Sign-Up for information on 2027 entry</span>
 </a>
 <!--<div class="d-flex justify-content-evenly w-75">
  <div>
@@ -88,11 +87,11 @@ Read About Our Software
 <br>
 
 <section id="key-facts" class="column-page page-full pt-3">
-<h1 class="key-facts__heading display-1">KEY FACTS</h1>
+<h2 class="key-facts__heading display-1">KEY FACTS</h2>
 
 <div id="key-facts__list">
 </div>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="section-wave"><path fill="#d9e3f1" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,192C384,224,480,256,576,245.3C672,235,768,181,864,176C960,171,1056,213,1152,240C1248,267,1344,277,1392,282.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="section-wave"><path fill="#FBF7F0" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,192C384,224,480,256,576,245.3C672,235,768,181,864,176C960,171,1056,213,1152,240C1248,267,1344,277,1392,282.7L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 </section>
 
 </div>

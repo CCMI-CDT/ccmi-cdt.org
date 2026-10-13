@@ -1,6 +1,5 @@
 ---
 title: "Seminar on Scientific Computing"
-author: "Timo Betcke"
 event_date: "11/25/2025"
 date: "11/19/2025"
 summary: "Prof Joachim Schoeberl from TU Vienna gives a seminar on scientific computing with NGSolve."

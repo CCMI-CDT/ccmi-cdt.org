@@ -8,7 +8,7 @@ listing:
   - id: student-list
     template: templates/student-list.ejs
     contents: students
-    sort: "listing.templateParams.surname desc"
+    sort: "surname asc"
     categories: false
 ---
 

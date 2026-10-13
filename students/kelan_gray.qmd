@@ -1,0 +1,35 @@
+---
+name: "Kelan"
+surname: "Gray"
+image: ../static/people/students/kelan_gray.jpeg
+github: kelangray
+homepage: https://kelangray.github.io/
+info:
+  - "Hello! My name is Kelan. I am a PhD student in the Department of Mathematics at Imperial College London, supervised by Nicolas Boullé and Matthew Colbrook. My main research focus is the development of data-driven methods for partial differential equations, particularly through the lens of Koopman operators."
+interests:
+  - Climbing
+  - Guitar
+publications:
+  - authors:
+      - K. Gray
+      - F. Brown
+      - N. Boullé
+      - M. J. Colbrook
+    title: Deep Embedded Multiplicative DMD for Algebra-Preserving Koopman Learning
+    year: 2026
+    journal: arXiv preprint
+    note: '<a href="https://arxiv.org/abs/2606.05131">arXiv:2606.05131</a>'
+education:
+  - institution: University of Amsterdam
+    location: Amsterdam, Netherlands
+    degree: Msc Mathematics
+    startdate: Sept 2023
+    enddate: Jul 2025
+  - institution: University of Manchester
+    location: Manchester, UK
+    degree: Bsc in Mathematics with Computer Science
+    startdate: Sep 2020
+    enddate: Jul 2023
+---
+
+{{< academic-webpage >}}

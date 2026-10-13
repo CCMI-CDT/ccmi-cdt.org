@@ -1,0 +1,17 @@
+---
+name: "Ammar"
+surname: "Ali"
+image: https://github.com/aliammar0161.png
+orcid: 0009-0003-4117-5173 
+github: aliammar0161
+info:
+  - "Ammar Ali is a PhD student at Imperial College London working in the OptiML PSE group. He is currently working on using multi-agent LLMs for chemical lab management assistance in collaboration with BASF."
+education:
+  - institution: University of Manchester 
+    location: Manchester, UK
+    degree: MEng in Chemical Engineering
+    startdate: Sept 2021
+    enddate: June 2025
+---
+
+{{< academic-webpage >}}

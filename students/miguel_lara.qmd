@@ -1,0 +1,52 @@
+---
+name: "Miguel"
+surname: "Lara-Rangel"
+linkedin: jmlr
+github: joskelar
+
+info:
+  - "I am a PhD student working on uncertainty-aware AI for informed decision-making, with a focus on applications in climate and finance. I have several years of experience implementing and leading applied AI projects across banking, financial risk, and pharma, including work on statistical model governance and model risk (regulation). In parallel, I like to contribute to initiatives that expand AI literacy, education, and policy capacity in emerging markets."
+
+interests:
+  - Foundational AI and learning theory
+  - Uncertainty quantification and probabilistic machine learning
+  - Model risk management, AI regulation and accountability
+  - AI for climate and environmental decision-making
+  - Quantitative finance and risk management
+  - Philosophy and history
+
+publications:
+  - authors:
+      - J. M. Lara-Rangel
+      - et al.
+    title: "Exploring Pseudo-Token Approaches in Transformer Neural Processes"
+    year: 2025
+    journal: "AABI 2025"
+  - authors:
+      - J. M. Lara-Rangel
+      - et al.
+    title: "Learning to Forget with Hypernetworks"
+    year: 2024
+    journal: "AdvML-Frontiers @ NeurIPS 2024"
+  - authors:
+      - J. M. Lara-Rangel
+      - et al.
+    title: "On the Limits of Applying Graph Transformers for Brain Connectome Classification"
+    year: 2025
+    journal: "ICBINB @ ICLR 2025"
+
+education:
+  - institution: University of Cambridge
+    location: Cambridge, UK
+    degree: MPhil in Machine Learning and Machine Intelligence
+    startdate: 2023
+    enddate: 2024
+  - institution: Benemérita Universidad Autónoma de Puebla
+    location: Puebla, Mexico
+    degree: BSc in Actuarial Science
+    startdate: 2016
+    enddate: 2020
+
+---
+
+{{< academic-webpage >}}
