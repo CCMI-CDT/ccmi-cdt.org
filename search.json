@@ -109,7 +109,7 @@
     "href": "students/ollie_nash.html",
     "title": "Oliver Nash",
     "section": "",
-    "text": "Oliver’s PhD focuses on inference & inverse problems for stochastic interacting particle systems. He is supervised by Professor Grigorios Pavliotis and Dr Nikolas Kantas. Previous research has focused on small noise limits of SDEs & PINNs.\nHe is an Imperial Sports Scholar for Fencing currently holding a top 50 British ranking."
+    "text": "Oliver’s PhD focuses on inference & inverse problems for stochastic interacting particle systems. He is supervised by Professor Grigorios Pavliotis and Dr Nikolas Kantas. Previous research has focused on small noise limits of SDEs & PINNs.\nHe is an Imperial Sports Scholar for Fencing currently ranked 32 for Men’s foil in the UK."
   },
   {
     "objectID": "students/ollie_nash.html#interests",
@@ -119,11 +119,18 @@
     "text": "Interests\n      \n        Stochastic analysis        Applied PDE theory        Numerical analysis        Statistical inference"
   },
   {
+    "objectID": "students/ollie_nash.html#publications",
+    "href": "students/ollie_nash.html#publications",
+    "title": "Oliver Nash",
+    "section": "Publications",
+    "text": "Publications\n      Y. Zhu, Z. Li, D. Shi, L. Thompson, O. Nash, J. M. Lara Rangel, S. Li, B. Chen, R. Zhu, Q. Meng, H. Ni. SPDEBench: An Extensive Benchmark for Learning Stochastic PDEs (2026), 10.48550/arXiv.2505.18511."
+  },
+  {
     "objectID": "students/ollie_nash.html#education",
     "href": "students/ollie_nash.html#education",
     "title": "Oliver Nash",
     "section": "Education",
-    "text": "Education\n      PSL - Dauphiné & ENS | Paris, FranceM2 in Theoretical and applied mathematics | Sept 2023 – Sept 2024\n      Durham University | Durham, UKMMath in mathematics | Sep 2019 – Jul 2023"
+    "text": "Education\n      PSL - Dauphine & ENS | Paris, FranceM2 in Theoretical and applied mathematics | Sept 2023 – Sept 2024\n      Durham University | Durham, UKMMath in mathematics | Sep 2019 – Jul 2023"
   },
   {
     "objectID": "students/divij_ghose.html",
