@@ -1,0 +1,18 @@
+---
+title: "Seminar on the Planar Pompeiu and Schiffer Conjectures"
+event_date: "10/20/2026"
+date: "10/19/2026"
+summary: "George Stepaniants from Cambridge gives a seminar on a computer assisted counter example to the Planar Pompeiu and Schiffer Conjectures."
+categories: [News]
+---
+
+**LOCATION:** HXLY 144, Huxley Building, Imperial College London, London SW7 2AZ
+
+**TIME:** 14:00-15:00, Tuesday 20 October 2026
+
+**SPEAKER:** George Stepaniants (University of Cambridge)
+
+**TITLE:** A Shortcake Counterexample to the Planar Pompeiu and Schiffer Conjectures
+
+**ABSTRACT:** 
+The Pompeiu and Schiffer conjectures are longstanding problems in integral and spectral geometry with deep connections to the theory of deconvolution and overdetermined eigenvalue problems arising in scattering theory and incompressible flows. We present a computer-assisted construction of a noncircular planar domain with real-analytic boundary that provides a counterexample to both conjectures, and discuss the implications of this result.
