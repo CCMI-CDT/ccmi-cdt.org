@@ -1,8 +1,8 @@
 ---
-title: "CCMI Year 2 launch event"
+title: "CCMI Showcase"
 author: "Colin Cotter"
 date: "06/10/2026"
-summary: "Our first CCMI Showcase!"
+summary: "Our first annual CCMI Showcase!"
 categories: [News]
 
 ---
