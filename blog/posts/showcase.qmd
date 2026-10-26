@@ -1,0 +1,15 @@
+---
+title: "CCMI Showcase"
+author: "Colin Cotter"
+date: "06/10/2026"
+summary: "Our first annual CCMI Showcase!"
+categories: [News]
+
+---
+
+Today we took over the London Geological Society at Burlington
+House for the first CCMI Showcase event. Our first cohort presented
+exciting posters about their PhD research, and we had an inspiring
+talk from Ewan Kirk, Founder of Cantab Capital Partners and the former
+chair of the Isaac Newton Institute, who talked about his career and
+his joy for software and computational modelling.
