@@ -1,5 +1,5 @@
 ---
-title: Frequenty Asked Questions
+title: Frequently Asked Questions
 ---
 
 ::: {.callout-note collapse="true" .callout-note appearance="minimal"}
