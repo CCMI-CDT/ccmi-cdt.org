@@ -102,6 +102,8 @@
   {
     "listing": "/blog/blog_list.html",
     "items": [
+      "/blog/posts/year2_launch.html",
+      "/blog/posts/showcase.html",
       "/blog/posts/stfc_visit.html",
       "/blog/posts/modern_hybrid_working.html",
       "/blog/posts/ccmi_the_history.html",
@@ -113,6 +115,8 @@
     "listing": "/index.html",
     "items": [
       "/blog/posts/ccmi_the_history.html",
+      "/blog/posts/showcase.html",
+      "/blog/posts/year2_launch.html",
       "/blog/posts/ccmi_start.html",
       "/blog/posts/nobel_prizes.html",
       "/blog/posts/modern_hybrid_working.html",
