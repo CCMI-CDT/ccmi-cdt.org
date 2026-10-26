@@ -1,18 +1,15 @@
 ---
 title: "CCMI Year 2 launch event"
 author: "Colin Cotter"
-date: "10/06/2026"
-summary: "The second year of CCMI kicked off with a great seminar from Anna-Karin Tornberg."
+date: "06/10/2026"
+summary: "Our first CCMI Showcase!"
 categories: [News]
 
 ---
 
-This week we welcomed our second cohort of CCMI PhD researchers, who
-are very excited to start. We hosted [Professor Anna-Karin Tornberg
-(KTH)](https://www.kth.se/profile/akto) who gave a fantastic talk
-about new methods to solve the grand challenge problem of simulating
-large numbers of interacting bodies moving in a viscous fluid. It was
-great to hear about how concrete physical ideas can translate to
-efficient algorithms. Anna-Karin also gave some words of advice and
-encouragement to our students about AI and what it means for computational
-modelling research.
+Today we took over the London Geological Society at Burlington
+House for the first CCMI Showcase event. Our first cohort presented
+exciting posters about their PhD research, and we had an inspiring
+talk from Ewan Kirk, Founder of Cantab Capital Partners and the former
+chair of the Isaac Newton Institute, who talked about his career and
+his joy for software and computational modelling.
