@@ -6,6 +6,8 @@ summary: "We are organising an online open day to get to know the CDT, our resea
 categories: [News]
 ---
 
-On 11 November, there will be a CCMI CDT open day, taking place virtually.
+Join us online on 11 November for a chance to meet our leadership team, PhD supervisors, and our current students.
+This event will provide opportunities for you to learn about research areas and projects, ask questions about our program and application process and learn more about what life is like as a CCMI CDT student.
+Whether you're a prospective applicant or just curious about our program, this open day is the perfect opportunity to learn more about the CCMI CDT program and see if it's the right fit for you!
 
-More details will be added here soon.
+Free tickets to attend this event can be booked on [Eventbrite](https://www.eventbrite.com/e/collaborative-computational-modelling-at-the-interface-online-open-day-tickets-2003764220724).
