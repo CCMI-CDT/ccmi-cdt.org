@@ -1,0 +1,25 @@
+---
+title: "Seminar on geometric neural operators for weather prediction"
+event_date: "11/03/2026"
+date: "11/03/2026"
+summary: "Boris Bonev from NVIDIA and École Polytechnique discusses geometric neural operators for machine learning probabilistic weather prediction."
+categories: [News]
+---
+
+**LOCATION:** Function space, UCL AI Centre, 90 High Holborn, London WC1V 6BH
+
+**TIME:** 14:00-15:00, Tuesday 3 November 2026
+
+**SPEAKER:** Boris Bonev (NVIDIA Zurich, École Polytechnique Paris)
+
+**TITLE:** Geometric Neural Operators for Machine Learning Probabilistic Weather Prediction
+
+**ABSTRACT:**
+Machine learning has recently enabled fast and accurate surrogate models for numerical weather and climate prediction. However, many current architectures struggle on extreme events, introduce spurious artifacts or instabilities when they ignore the spherical geometry of the Earth, and are often tightly coupled to a particular input grid or resolution, limiting flexibility for downstream applications. These shortcomings highlight a mismatch between black‑box models and more traditional numerical methods, which encode underlying physical and geometric properties. Neural operators address part of this gap by learning solution operators of partial differential equations in a grid‑agnostic manner, yet standard Fourier Neural Operators (FNOs) break down on the sphere, where the flat‑geometry Fourier transform induces artifacts and excessive dissipation.
+
+This talk presents geometric neural operators that respect the symmetries and topology of the sphere, in the spirit of the geometric deep learning blueprint, with a particular focus on applications to the chaotic dynamics of Earth's atmosphere. The Spherical Fourier Neural Operator (SFNO) is formulated via Driscoll–Healy's convolution theorem, linking spherical harmonic transforms to group convolutions on the sphere and yielding rotationally equivariant, grid-invariant models capable of stable, year‑long autoregressive rollouts with physically plausible dynamics. Building on insights from hyperbolic PDE solvers, a principled framework is introduced for incorporating localized integral and differential operators into neural operator architectures, using provably convergent differential layers and quadrature‑based discrete–continuous convolutions on both Euclidean and spherical geometries to capture sharp fronts and local extremes. To complement convolutional approaches, a generalized attention mechanism for spherical domains is developed, allowing Transformer‑style architectures to natively process data on the two‑dimensional sphere. This discretization‑agnostic spherical attention incorporates numerical quadrature weights into a continuous spherical formulation, producing geometrically faithful attention that is approximately rotationally equivariant.
+
+The practical impact of these ideas is demonstrated with FourCastNet 3, a scalable probabilistic weather forecasting system cast as a hidden Markov model built from spherical signal‑processing primitives. FourCastNet 3 is trained on 1000+ GPUs using flexible domain-parallelism paradigms inspired from traditional HPC methods. The resulting method matches or exceeds leading conventional ensemble systems and state‑of‑the‑art diffusion models while delivering 8–60× faster forecasts, positioning it as a robust foundation for next‑generation weather and climate modeling and downscaling systems.
+
+**BIO:**
+Boris is an incoming Professor at École Polytechnique (joining November 2026) and Senior Research Scientist at NVIDIA, working at the frontier of AI4Science by uniting rigorous numerical analysis, high‑performance GPU computing, and large‑scale machine learning. He pioneered Spherical Neural Operators and the FourCastNet family of AI weather models, which enable 7,000‑member ensembles and are deployed by agencies such as NOAA, ECMWF, and MetDesk for next‑generation global forecasting. He leads research on operator learning for hyperbolic PDEs and data‑driven digital twins of the Earth system, developing principled neural operators that scale to 1,000+ GPU clusters while preserving stability and physical structure. He completed his PhD in applied mathematics at EPFL.
