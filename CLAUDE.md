@@ -32,12 +32,9 @@ Most sections are a list page with a `listing:` block + a folder of entry `.qmd`
 | `events/event_list.qmd` | `events/posts/` | `templates/event-list-page.ejs` |
 | `blog/blog_list.qmd` | `blog/posts/` | `templates/blog-list-page.ejs` |
 | `student_list.qmd` | `students/` (sorted by `surname`) | `templates/student-list.ejs` |
-| `phd_projects/phd_project_list.qmd` | `phd_projects/entries/` | `templates/phd_projects.ejs` |
 | `team.qmd` | inline YAML `contents:` list | `templates/partials/team-card.ejs` |
 
 The homepage `index.qmd` combines partials from `templates/partials/` (`title-block.html`, `blog-section.ejs`, `upcoming-events-section.ejs`, `key-facts-area.ejs`) fed by `blog/posts`, `events/posts` and `templates/key-facts.yml`.
-
-The PhD projects page is not in the navbar; it is linked from `apply.qmd`/`faq.qmd`. `phd_projects/entries/_metadata.yml` sets the author/affiliation labels ("Supervisor"/"Institution").
 
 ## Adding content
 
@@ -73,8 +70,6 @@ categories: [News]
 Seminar bodies start with bold `**LOCATION:**`, `**TIME:**`, `**SPEAKER:**` lines, followed by title/abstract/bio.
 
 **Blog post** — `blog/posts/<slug>.qmd`, starting from `blog/blogpost_template.qmd`: `title`, `author`, `date` (ISO `YYYY-MM-DD` in existing posts), `summary`, `categories`.
-
-**PhD project** — `phd_projects/entries/<Supervisor>_<topic>.qmd`: `title`, `department`, `date`, `author: {name, affiliation}`, `institution`, then a `## Project Description` body.
 
 **Team member** — add an item (`name`, `description` HTML, `image`, `homepage`, optional `github`/`orcid`) to the `contents:` list in `team.qmd`; photo in `static/people/team/`.
 
