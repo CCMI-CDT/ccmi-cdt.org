@@ -60,7 +60,7 @@ For additional information on the cost of studying in London, please visit the [
 
 No, you don’t need to contact a supervisor before applying. Unlike more traditional approaches to applying for a PhD, if you are interested in applying for the CCMI CDT, you are not required or expected to contact anyone about project supervision. 
 
-Please see the type of projects that are being carried out in our CDT currently. If you pass the interview stage, we will hold an open day for you to learn more about the project areas on offer. You will then have a chance to meet with supervisors to discuss projects. 
+If you pass the interview stage, we will hold an open day for you to learn more about the project areas on offer. You will then have a chance to meet with supervisors to discuss projects. 
 :::
 
 ::: {.callout-note collapse="true" .callout-note appearance="minimal"}
