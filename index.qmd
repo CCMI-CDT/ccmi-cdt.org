@@ -62,7 +62,7 @@ gallery-images:
 <section id="interest" class="column-page page-full">
 <div class="d-flex flex-column justify-content-center align-items-center row-gap-4">
 <a href="https://ccmi-cdt.org/apply.html" type="button" class="btn btn-outline my-3" id="btn--signup">
-<span class="display-6">Click here to apply by 7th January 2026, 16:00 UK local time.</span>
+<span class="display-6">Click here to apply by 7th January 2027, 16:00 UK local time.</span>
 </a>
 <!--<div class="d-flex justify-content-evenly w-75">
  <div>
